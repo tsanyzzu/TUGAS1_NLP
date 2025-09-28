@@ -1,7 +1,7 @@
 # PDF & DOCX → Structured Markdown / JSON Extractor
 
 **Ringkasan singkat**  
-Proyek ini mengimplementasikan pipeline ekstraksi teks dari file PDF (.pdf) dan Microsoft Word (.docx) dan mengubahnya menjadi struktur hierarki yang cocok untuk analisis NLP (format JSON dan Markdown). Implementasi ditujukan untuk tugas berkelompok (laporan/skripsi) dan mudah dijalankan di **Google Colab** atau **lokal** (CLI).
+Proyek ini mengimplementasikan pipeline ekstraksi teks dari file PDF (.pdf) dan Microsoft Word (.docx) dan mengubahnya menjadi struktur hierarki yang cocok untuk analisis NLP (format JSON dan Markdown).
 
 ---
 
@@ -32,6 +32,7 @@ pdf-docx-extractor/
 ├─ README.md
 └─ tests/
    └─ test_integration.py
+```
 
 ---
 
