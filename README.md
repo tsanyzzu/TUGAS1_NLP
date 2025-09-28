@@ -36,8 +36,7 @@ pdf-docx-extractor/
 
 ---
 
-## Instalasi (lokal)
-1. Buat virtualenv (opsional) dan aktifkan.
-2. Install dependency:
+## Instalasi
+1. Install dependency:
 ```bash
 pip install -r requirements.txt
