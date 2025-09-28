@@ -40,3 +40,12 @@ pdf-docx-extractor/
 1. Install dependency:
 ```bash
 pip install -r requirements.txt
+```
+
+### Anggota Kelompok
+
+1. Arif Athaya Harahap — 235150200111056
+2. Ariiq Tsany Zu — 235150200111049
+3. Fadhlullah Akmal — 235150207111068
+4. Muhammad Rafly Ash Shiddiqi — 235150207111062
+5. Rashky Rahmadian Jauhara — 235150201111066
