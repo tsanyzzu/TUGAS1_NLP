@@ -12,8 +12,31 @@ Proyek ini mengimplementasikan pipeline ekstraksi teks dari file PDF (.pdf) dan 
 - Ekspor hasil ke:
   - `*_structured.json` (tree JSON)
   - `*_structured.md` (Markdown yang terstruktur)
-- Dual-mode: dapat dijalankan di Google Colab (upload file) atau di lingkungan lokal lewat argumen CLI.
 
 ---
 
 ## Struktur proyek
+
+pdf-docx-extractor/
+├─ extractor/
+│ ├─ init.py
+│ ├─ pdf_extractor.py
+│ ├─ docx_extractor.py
+│ └─ hierarchy.py
+├─ utils/
+│ ├─ init.py
+│ └─ io_helpers.py
+├─ main.py # entry point - mendukung Colab & CLI
+├─ run_local.py # contoh pemakaian CLI (opsional)
+├─ requirements.txt
+├─ README.md
+└─ tests/
+└─ test_integration.py
+
+---
+
+## Instalasi (lokal)
+1. Buat virtualenv (opsional) dan aktifkan.
+2. Install dependency:
+```bash
+pip install -r requirements.txt
