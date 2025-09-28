@@ -17,6 +17,7 @@ Proyek ini mengimplementasikan pipeline ekstraksi teks dari file PDF (.pdf) dan 
 
 ## Struktur proyek
 
+```text
 pdf-docx-extractor/
 ├─ extractor/
 │  ├─ __init__.py
