@@ -19,19 +19,18 @@ Proyek ini mengimplementasikan pipeline ekstraksi teks dari file PDF (.pdf) dan 
 
 pdf-docx-extractor/
 ├─ extractor/
-│ ├─ init.py
-│ ├─ pdf_extractor.py
-│ ├─ docx_extractor.py
-│ └─ hierarchy.py
+│  ├─ __init__.py
+│  ├─ pdf_extractor.py
+│  ├─ docx_extractor.py
+│  └─ hierarchy.py
 ├─ utils/
-│ ├─ init.py
-│ └─ io_helpers.py
-├─ main.py # entry point - mendukung Colab & CLI
-├─ run_local.py # contoh pemakaian CLI (opsional)
+│  ├─ __init__.py
+│  └─ io_helpers.py
+├─ main.py
 ├─ requirements.txt
 ├─ README.md
 └─ tests/
-└─ test_integration.py
+   └─ test_integration.py
 
 ---
 
