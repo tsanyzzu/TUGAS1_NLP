@@ -37,34 +37,10 @@ def run_local(files):
             print(f"Unsupported file type: {f}")
     return results
 
-def run_colab():
-    # this function intended for Google Colab usage
-    try:
-        from google.colab import files as colab_files
-        from IPython.display import FileLink, display
-    except Exception as e:
-        raise RuntimeError("run_colab() only works in Google Colab environment") from e
-
-    uploaded = colab_files.upload()
-    results = {}
-    for fn in uploaded.keys():
-        print(f"Processing: {fn}")
-        if fn.lower().endswith('.pdf'):
-            md_path, json_path = process_pdf(fn)
-        elif fn.lower().endswith('.docx'):
-            md_path, json_path = process_docx(fn)
-        else:
-            print(f"Skipping unsupported file: {fn}")
-            continue
-        results[fn] = (md_path, json_path)
-        display(FileLink(md_path))
-        display(FileLink(json_path))
-    return results
-
-if _name_ == '_main_':
+if __name__ == "__main__":
     if len(sys.argv) > 1:
-        # CLI mode: pass file paths as arguments
         files = sys.argv[1:]
         run_local(files)
     else:
         print("No arguments provided. To run in Colab, import run_colab() and call it from a Colab cell.")
+

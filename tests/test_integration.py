@@ -10,5 +10,5 @@ def test_sample_docx():
     else:
         print("No input.pdf found; place a sample in tests/data/input.pdf to run this test.")
 
-if _name_ == '_main_':
+if __name__ == '_main_':
     test_sample_docx()
