@@ -30,6 +30,17 @@ def clean_lines(lines: List[Dict], y_tol: float = 5.0) -> List[Dict]:
         i = j
     return cleaned
 
+def join_with_spacing(chars, space_threshold=1.0):
+    text = ""
+    for i, ch in enumerate(chars):
+        if i > 0:
+            prev = chars[i-1]
+            # kalau jarak antar karakter cukup besar → tambahkan spasi
+            gap = ch["x0"] - prev["x1"]
+            if gap > space_threshold:
+                text += " "
+        text += ch["text"]
+    return text
 
 def extract_chars_to_csv(pdf_path: str):
     # otomatis bikin nama csv
@@ -60,7 +71,7 @@ def extract_chars_to_csv(pdf_path: str):
 
             line_dicts: List[Dict] = []
             for line_num, line in enumerate(lines, start=1):
-                text = "".join(ch["text"] for ch in line)
+                text = join_with_spacing(line)
                 if not text.strip():
                     continue
                 fontname = line[0]["fontname"]

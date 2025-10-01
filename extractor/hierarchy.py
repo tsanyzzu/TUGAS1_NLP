@@ -4,8 +4,7 @@ from typing import List, Tuple, Dict, Optional, Any
 from collections import defaultdict
 
 NUMBERING_PATTERN = re.compile(
-    r'^(?P<label>(?:BAB\s+(?:[IVXLC]+|\d+))|(?:\d+(?:\.\d+)*))[\.\)]?\s+(?P<title>[A-Za-z].+)$',
-    re.I
+    r'^(?P<label>(?:BAB\s+(?:[IVXLC]+|\d+))|(?:\d+(?:\.\d+)*))[\.\)]?\s+(?P<title>[A-Z][A-Za-z].+)$'
 )
 
 ROMAN_PATTERN = re.compile(
@@ -13,7 +12,7 @@ ROMAN_PATTERN = re.compile(
     re.I
 )
 
-def classify_line_heading(line: str) -> Tuple[bool, Optional[int], Optional[str]]:
+def classify_line_heading(line: str, size: float = None) -> Tuple[bool, Optional[int], Optional[str]]:
     s = line.strip()
     if not s:
         return False, None, None
@@ -30,7 +29,7 @@ def classify_line_heading(line: str) -> Tuple[bool, Optional[int], Optional[str]
 
     # matches BAB/1.1 style
     m = NUMBERING_PATTERN.match(s)
-    if m:
+    if m and size >12:
         label = m.group('label').strip()
         raw_title = m.group('title').strip() or label
         title = f"{label} {raw_title}"
@@ -52,15 +51,12 @@ def classify_line_heading(line: str) -> Tuple[bool, Optional[int], Optional[str]
         title = m3.group(1).strip()
         return True, 1, title
 
-    # ALLCAPS short
-    if s.isupper() and 1 <= len(s.split()) <= 8:
+    # ALLCAPS short, font size > 12
+    if s.isupper() and 1 <= len(s.split()) <= 8 and (size > 12):
         return True, 1, s
 
-    # Title Case short with colon
-    if re.match(r'^[A-Z][\w\s]{0,60}:?$', s) and len(s.split()) <= 6:
-        return True, 2, s.rstrip(':')
-
     return False, None, None
+
 
 # -------------------------
 # read CSV produced by your extractor
@@ -117,86 +113,68 @@ def build_font_size_map(rows: List[Dict[str, Any]]) -> Dict[float, int]:
     size_to_rank = {s: idx+1 for idx, s in enumerate(sizes)}
     return size_to_rank
 
-# -------------------------
-# builder for extractor rows
-# -------------------------
 def build_hierarchy_from_extractor(rows: List[Dict[str, Any]]) -> Dict:
-    """
-    Builds hierarchy tree from extractor output (list of row dicts).
-    Strategy:
-      - For each row, try text-pattern detection (classify_line_heading).
-      - If not detected, consult font-size mapping: bigger fonts -> likely headings.
-      - Uppercase short lines with larger fonts are treated as headings.
-      - Fallback: append to current node content.
-    Returns a root dict similar to your original build_hierarchy_from_lines.
-    """
     root = {'title': 'DOCUMENT', 'level': 0, 'content': '', 'children': []}
     stack = [root]
 
     if not rows:
         return root
 
-    size_map = build_font_size_map(rows)  # size -> rank (1 = largest)
-    # handle case where sizes are many: compress ranks to a max depth (optional)
-    # but keep as-is for now.
+    size_map = build_font_size_map(rows)
 
     for r in rows:
         raw = (r.get('text') or '').strip()
         if raw == '':
-            # blank line; treat as paragraph break
-            # do nothing (or could add newline)
             continue
 
-        # first, try text-based classifier
-        ok, level_text, title_text = classify_line_heading(raw)
+        size = float(r.get('size') or 0.0)
+
+        # --- cek pakai classifier regex rules ---
+        ok, level_text, title_text = classify_line_heading(raw, size)
         if ok:
-            level = level_text if level_text is not None else 1
-            title = title_text or raw
-            # normalize level to int >=1
-            level = max(1, int(level))
-            node = {'title': title, 'level': level, 'content': '', 'children': []}
+            level = max(1, int(level_text or 1))
+            node = {
+                'title': title_text or raw,   # normalized version
+                'raw': raw,                   # simpan teks asli
+                'level': level,
+                'content': '',
+                'children': []
+            }
             while stack and stack[-1]['level'] >= level:
                 stack.pop()
             stack[-1]['children'].append(node)
             stack.append(node)
             continue
 
-        # second, try font-size heuristic
-        size = float(r.get('size') or 0.0)
+        # --- heuristik font ---
         font_rank = size_map.get(size)
-        # If we have font_rank and it's small (i.e., 1 or 2), treat as heading
-        # Map font_rank -> level: font_rank 1 => level 1, 2 => level 2, etc.
-        # But avoid misclassifying tiny uppercase words: require some heuristics
         treat_as_heading = False
         inferred_level = None
-        if font_rank is not None:
-            # If this line's font is among the top 3 sizes on the page/doc, consider heading
-            if font_rank <= 3:
-                # if text is short, uppercase, or ends with colon, it's more likely a heading
-                if len(raw.split()) <= 8 or raw.isupper() or raw.endswith(':'):
-                    treat_as_heading = True
-                    inferred_level = font_rank
-                else:
-                    # longer lines with large fonts: still maybe heading
-                    treat_as_heading = True
-                    inferred_level = font_rank
 
-        # Additional heuristic: if the text is ALLCAPS and relatively short, promote to heading
-        if not treat_as_heading and raw.isupper() and 1 <= len(raw.split()) <= 10:
+        if font_rank is not None and font_rank <= 3:
+            treat_as_heading = True
+            inferred_level = font_rank
+
+        # kalau ALLCAPS pendek tapi font kecil → jangan jadi heading
+        if raw.isupper() and len(raw.split()) <= 10 and size > 12:
             treat_as_heading = True
             inferred_level = inferred_level or 1
 
         if treat_as_heading:
-            level = max(1, int(inferred_level or 1))
-            title = raw
-            node = {'title': title, 'level': level, 'content': '', 'children': []}
-            while stack and stack[-1]['level'] >= level:
+            node = {
+                'title': raw,
+                'raw': raw,
+                'level': max(1, inferred_level or 1),
+                'content': '',
+                'children': []
+            }
+            while stack and stack[-1]['level'] >= node['level']:
                 stack.pop()
             stack[-1]['children'].append(node)
             stack.append(node)
             continue
 
-        # otherwise append text to current node's content
+        # --- isi biasa ---
         cur = stack[-1]
         if cur['content']:
             cur['content'] += '\n' + raw
@@ -219,9 +197,9 @@ def build_hierarchy_from_csv(csv_path: str) -> Dict:
 def tree_to_markdown(tree: Dict) -> str:
     lines: List[str] = []
     def emit(node: Dict, depth: int = 0):
-        if node['title'] and node['title'] != 'DOCUMENT':
-            # depth 1 -> '#', depth 2 -> '##', etc.
-            header = '#' * depth + ' ' + node['title'] if depth > 0 else '# ' + node['title']
+        if node.get('raw') and node['title'] != 'DOCUMENT':
+            # gunakan raw (tampilan asli) untuk heading
+            header = '#' * depth + ' ' + node['raw'] if depth > 0 else '# ' + node['raw']
             lines.append(header)
         if node.get('content'):
             lines.append(node['content'].strip())
