@@ -41,33 +41,25 @@ Resume Berdasarkan Kualifikasi Lowongan Kerja”. Penulis menyadari bahwa
 dalam penyusunan skripsi tidak terwujud tanpa adanya dukungan, bimbingan,
 arahan, serta doa yang tiada hentinya dari berbagai pihak. Pada kesempatan kali
 ini penulis mengucapkan terima kasih sebesar-besarnya kepada:
-
-# Bapak Rizal Setya Perdana, S.Kom., M.Kom., Ph.D. selaku dosen pembimbing
+1. Bapak Rizal Setya Perdana, S.Kom., M.Kom., Ph.D. selaku dosen pembimbing
 satu yang telah menyetujui dan mengarahkan penulis sehingga dapat
 menyelesaikan skripsi ini.
-
-# Ibu Ir. Indriati, S.T., M.Kom. selaku dosen pembimbing dua yang telah
+2. Ibu Ir. Indriati, S.T., M.Kom. selaku dosen pembimbing dua yang telah
 menyetujui dan membimbing dalam penulisan untuk pengerjaan skripsi ini.
-
-# Bapak Bayu Priyambadha, S.Kom., M.Kom., Ph.D. selaku Ketua Program Studi
+3. Bapak Bayu Priyambadha, S.Kom., M.Kom., Ph.D. selaku Ketua Program Studi
 Teknik Informatika Fakultas Ilmu Komputer Universitas Brawijaya.
-
-# Bapak Sabriansyah Rizqika Akbar, S.T., M.Eng., Ph.D. selaku Ketua Departemen
+4. Bapak Sabriansyah Rizqika Akbar, S.T., M.Eng., Ph.D. selaku Ketua Departemen
 Teknik Informatika Fakultas Ilmu Komputer Universitas Brawijaya.
-
-# Rajiv Maulana selaku validator dalam skripsi ini, serta seluruh rekan kerja
+5. Rajiv Maulana selaku validator dalam skripsi ini, serta seluruh rekan kerja
 penulis yang telah berkontribusi dalam memperluas wawasan dan
 pengetahuan penulis selama proses penelitian.
-
-# Ayah Tripinto Laksono, S.Kom. dan Bunda Dian Laksono selaku kedua orang tua
+6. Ayah Tripinto Laksono, S.Kom. dan Bunda Dian Laksono selaku kedua orang tua
 penulis, Sangkaisar Laksono selaku adik penulis, dan seluruh keluarga penulis
 yang senantiasa memberikan dukungan, doa, dan motivasi sehingga dapat
 menyelesaikan skripsi ini.
-
-# P4OP Dinas Pendidikan Jakarta selaku penyelenggara beasiswa KJMU yang
+7. P4OP Dinas Pendidikan Jakarta selaku penyelenggara beasiswa KJMU yang
 membantu penulis dalam menyelesaikan studi sarjana.
-
-# Seluruh teman tercinta penulis hingga saat ini yang telah menjadi teman diskusi
+8. Seluruh teman tercinta penulis hingga saat ini yang telah menjadi teman diskusi
 selama proses penelitian, teman seperjuangan, serta sumber motivasi,
 terutama Salsabila Rachmayani, Kirana Alivia, Nathania Putri, Aidah Az Zahra,
 Raditya Atmaja, Roiyan Zain, Ade Arya, Nadhira Nurannisa, Saqina Salsabila,
@@ -461,24 +453,20 @@ Word2Vec.
 
 ## Rumusan Masalah
 Berikut ini merupakan rumusan masalah penelitian.
-
-# Bagaimana hasil pemeringkatan lima resume untuk setiap kualifikasi
+1. Bagaimana hasil pemeringkatan lima resume untuk setiap kualifikasi
 lowongan kerja menggunakan Improved Sqrt-Cosine Similarity dalam
 mengkalkulasikan similaritas teks?
-
-# Bagaimana korelasi antara peringkat hasil implementasi Improved Sqrt-
+2. Bagaimana korelasi antara peringkat hasil implementasi Improved Sqrt-
 Cosine Similarity dengan peringkat hasil evaluasi ahli untuk setiap
 kualifikasi lowongan kerja menggunakan Spearman Rank Correlation
 Coefficient?
 
 ## Tujuan
 Berikut ini merupakan tujuan penelitian ini.
-
-# Menganalisis hasil pemeringkatan lima resume untuk setiap kualifikasi
+1. Menganalisis hasil pemeringkatan lima resume untuk setiap kualifikasi
 lowongan kerja menggunakan Improved Sqrt-Cosine Similarity dalam
 mengkalkulasikan similaritas teks.
-
-# Menganalisis korelasi antara peringkat hasil implementasi Improved Sqrt-
+2. Menganalisis korelasi antara peringkat hasil implementasi Improved Sqrt-
 Cosine Similarity dengan peringkat hasil evaluasi ahli untuk setiap
 kualifikasi lowongan kerja menggunakan Spearman Rank Correlation
 Coefficient.
@@ -486,26 +474,21 @@ Coefficient.
 
 ## Manfaat
 Berikut merupakan manfaat yang dapat diperoleh dari penelitian ini.
-
-# Memberikan interpretasi hasil Improved Sqrt-Cosine Similarity dalam
+1. Memberikan interpretasi hasil Improved Sqrt-Cosine Similarity dalam
 menghasilkan perhitungan similaritas teks pada pemeringkatan lima
 resume untuk setiap kualifikasi lowongan kerja.
-
-# Memberikan pemaparan mengenai korelasi antara peringkat hasil
+2. Memberikan pemaparan mengenai korelasi antara peringkat hasil
 Improved Sqrt-Cosine Similarity dengan peringkat hasil evaluasi ahli
 menggunakan Spearman Rank Correlation Coefficient.
 
 ## Batasan Masalah
 Batasan masalah yang ditetapkan dalam penelitian ini sebagai berikut.
-
-# Penelitian ini terbatas pada dataset Kaggle dengan 2.484 resume.
-# Penelitian ini berfokus pada pemeringkatan lima resume berdasarkan nilai
+1. Penelitian ini terbatas pada dataset Kaggle dengan 2.484 resume.
+2. Penelitian ini berfokus pada pemeringkatan lima resume berdasarkan nilai
 similaritas tertinggi untuk setiap kualifikasi lowongan kerja.
-
-# Penelitian ini melibatkan seorang ahli di bidang rekrutmen dalam
+3. Penelitian ini melibatkan seorang ahli di bidang rekrutmen dalam
 mengevaluasi hasil pemeringkatan.
-
-# Kualifikasi lowongan kerja yang digunakan diambil dari 24 posisi di portal
+4. Kualifikasi lowongan kerja yang digunakan diambil dari 24 posisi di portal
 lowongan pekerjaan https://id.jobstreet.com/.
 
 ## Sistematika Pembahasan
@@ -577,11 +560,11 @@ Human ISC Sqrt-Cosine Cosine
 
 ## Ranking of
 ## Resumes
-# 2 (0,38) 11 (28,545) 7 (43,02)
-# 3 (0,345) 2 (32,732) 1 (48,44)
-# 1 (0,391) 9 (28,87) 4 (44,29)
-# 4 (0,344) 17 (26,749) 14 (38,5)
-# 8 (0,302) 1 (32,733) 15 (38,2)
+1 2 (0,38) 11 (28,545) 7 (43,02)
+2 3 (0,345) 2 (32,732) 1 (48,44)
+3 1 (0,391) 9 (28,87) 4 (44,29)
+4 4 (0,344) 17 (26,749) 14 (38,5)
+5 8 (0,302) 1 (32,733) 15 (38,2)
 Eksperimen kedua melibatkan 30 resume yang disandingkan dengan deskripsi
 pekerjaan untuk posisi software engineer di salah satu perusahaan teknologi
 multinasional Amerika. Pada lima urutan teratas peringkat resume, dilakukan
@@ -593,11 +576,11 @@ Human ISC Sqrt-Cosine Cosine
 
 ## Ranking of
 ## Resumes
-# 8 (0,181) 6 (21,205) 11 (18,47)
-# 1 (0,246) 4 (22,136) 1 (26,99)
-# 4 (0,199) 1 (22,744) 4 (22,25)
-# 3 (0,206) 2 (22,65) 10 (18,52)
-# 6 (0,181) 14 (18,708) 3 (24,36)
+1 8 (0,181) 6 (21,205) 11 (18,47)
+2 1 (0,246) 4 (22,136) 1 (26,99)
+3 4 (0,199) 1 (22,744) 4 (22,25)
+4 3 (0,206) 2 (22,65) 10 (18,52)
+5 6 (0,181) 14 (18,708) 3 (24,36)
 Berdasarkan hasil kedua eksperimen, hasil dari penelitian yang dilakukan oleh
 Ahmad Alsharef dkk. (2023) menunjukkan bahwa peringkat Improved Sqrt-Cosine
 (ISC) Similarity cenderung lebih mendekati peringkat yang diberikan oleh manusia.
@@ -721,22 +704,18 @@ diolah. Penting untuk melakukan pemrosesan data ini guna memastikan bahwa
 data yang digunakan adalah data yang berkualitas sehingga dapat menghasilkan
 akurasi yang akurat (Prasetya, et al., 2024). Adapun beberapa langkah selama
 proses pra-pemrosesan teks, yaitu:
-
-# Tokenization. Proses ini untuk memecahkan kalimat menjadi kata-kata
+1. Tokenization. Proses ini untuk memecahkan kalimat menjadi kata-kata
 (Sohangir & Wang, 2017). Tools seperti NLTK dan spaCy biasa digunakan
 untuk melakukan tokenisasi (Amin, et al., 2023).
-
-# Lower Casing. Proses ini mengonversi semua teks menjadi huruf kecil
+2. Lower Casing. Proses ini mengonversi semua teks menjadi huruf kecil
 (Alsharef, et al., 2023).
-
-# Stop Words. Proses ini untuk menghilangkan stop words, yaitu kata-kata
+3. Stop Words. Proses ini untuk menghilangkan stop words, yaitu kata-kata
 umum dalam dokumen yang tidak memiliki makna signifikan dan tidak
 berkontribusi dalam membedakan dokumen, sehingga dapat diabaikan
 (Sihombing, 2022). Bahasa pemrograman Python telah menyediakan
 package Regular Expression (RegEx) untuk melaksanakan penghilangan
 stop words (Amin, et al., 2023).
-
-# Lemmatization. Tidak seperti stemming yang hanya mengubah kata
+4. Lemmatization. Tidak seperti stemming yang hanya mengubah kata
 menjadi ke bentuk dasarnya, lemmatization memanfaatkan kosakata dan
 morfologis yang sesuai dengan linguistik (Daryani, et al., 2020) sesuai
 kamus bahasa yang digunakan. Untuk bahasa Inggris, dapat
@@ -744,7 +723,7 @@ memanfaatkan WordNet Lemmatizer yang tersedia melalui NLTK Python
 (Daryani, et al., 2020).
 9
 
-## TF-IDF
+### TF-IDF
 Term Frequency-Inverse Document Frequency (TF-IDF) adalah salah satu teknik
 yang digunakan untuk menghitung seberapa penting suatu kata (term) dalam
 sebuah dokumen terhadap keseluruhan kumpulan dokumen (Septiani & Isabela,
@@ -875,8 +854,7 @@ similarity yang disebut Improved Sqrt-Cosine (ISC) similarity, yang didasarkan p
 normalisasi 𝐿 (Hellinger distance) dan telah terbukti bahwa pada data berdimensi
 1
 tinggi, normalisasi 𝐿 bekerja lebih baik daripada normalisasi 𝐿 (Euclidean
-
-# 2
+1 2
 distance). Pada persamaan ISC, alih-alih menggunakan normalisasi 𝐿 , digunakan
 1
 akar kuadrat dari normalisasi 𝐿 (Sohangir & Wang, 2017). Sebagian besar
@@ -907,7 +885,7 @@ Adapun keterangan dari Persamaan 2.7:
 𝑚 = Jumlah total term dalam vektor vektor 𝑥 dan 𝑦
 13
 
-## Cosine Similarity
+### Cosine Similarity
 Tujuan dari Cosine Similarity adalah mendapatkan nilai similaritas dari setiap
 dokumen yang dibandingkan dengan mengukur kosinus sudut antara dua vektor,
 dengan fokus pada arah vektor daripada besarnya (Jawale, et al., 2024). Dalam
@@ -927,7 +905,7 @@ Keterangan dari Persamaan 2.8:
 𝑖 = Indeks term dalam suatu kalimat
 𝑚 = Jumlah total term dalam vektor vektor 𝑥 dan 𝑦
 
-## Human-Level Performance
+### Human-Level Performance
 Meskipun algoritma dapat menunjukkan kinerja yang sangat baik, perlu
 dipastikan bahwa perbandingan antara kinerja manusia dan algoritma dilakukan
 secara adil dan tepat agar hasil yang diperoleh dapat dipercaya (Cowley, et al.,
@@ -942,7 +920,7 @@ manusia menyelesaikan tugas dapat membantu dalam pengembangan algoritma
 yang lebih baik dan lebih efektif (Cowley, et al., 2022).
 14
 
-## Spearman Rank Correlation Coefficient (SRCC)
+### Spearman Rank Correlation Coefficient (SRCC)
 Spearman Rank Correlation Coefficient (SRCC) adalah versi nonparametrik dari
 koefisien Pearson Correlation yang digunakan untuk menyelidiki hubungan linear
 antara dua variabel, khususnya pada data ordinal (Temizhan, et al., 2022). SRCC
@@ -1015,35 +993,29 @@ Tujuan menganalisis data, antara lain mendapatkan perasaan terhadap data,
 menguji kualitas data, dan menguji hipotesis penelitian (Guritno, et al., 2011, p.
 183). Menurut Cholissodin & Riyandani (2016), terdapat beberapa fase pada
 gambaran umum siklus hidup analitik data, seperti:
-
-# Discovery. Fase ini meliputi proses belajar, mencari dan menyelidiki fakta-
+1. Discovery. Fase ini meliputi proses belajar, mencari dan menyelidiki fakta-
 fakta, mengidentifikasi masalah, mengembangkan konteks dan
 pemahaman, dan belajar tentang sumber data yang dibutuhkan, diikuti
 dengan perumusan hipotesis awal yang nantinya dapat diuji dengan data
 (Cholissodin & Riyandani, 2018, p. 22).
-
-# Data Preparation. Fase ini meliputi persiapan data sebelum dipakai untuk
+2. Data Preparation. Fase ini meliputi persiapan data sebelum dipakai untuk
 proses modelling dan evaluation yang dibagi menjadi dua bagian, yakni
 cleaning untuk menyeleksi beberapa fitur dan transformation untuk
 mengubah bentuk data ke dalam bentuk yang bisa diterima oleh algoritma
 (Abdusyukur, 2023).
-
-# Model Planning. Fase ini merupakan proses penentuan metode, teknik,
+3. Model Planning. Fase ini merupakan proses penentuan metode, teknik,
 dan alur kerja dengan mengeksplorasi data untuk mempelajari hubungan
 antara variabel yang selanjutnya memilih variabel kunci dan model yang
 paling cocok untuk digunakan (Cholissodin & Riyandani, 2018, p. 23).
-
-# Model Building. Pada fase ini, dataset dikembangkan untuk pengujian,
+4. Model Building. Pada fase ini, dataset dikembangkan untuk pengujian,
 pelatihan, dan tujuan produksi, serta mempertimangkan apakah dengan
 alat yanng ada akan cukup untuk menjalankan model (Cholissodin &
 Riyandani, 2018, p. 23).
-
-# Communicate Result. Pada fase ini, temuan-temuan yang didapatkan akan
+5. Communicate Result. Pada fase ini, temuan-temuan yang didapatkan akan
 didiskusikan dengan para pemangku kepentingan untuk menentukan
 apakah hasil proyek tersebut sukses atau mengalami kegagalan
 (Cholissodin & Riyandani, 2018, p. 24).
-
-# Operationalize. Fase ini merupakan yang terakhir dengan menyerahkan
+6. Operationalize. Fase ini merupakan yang terakhir dengan menyerahkan
 laporan akhir, pengarahan, kode, dan dokumen teknis (Cholissodin &
 Riyandani, 2018, p. 24).
 
@@ -1068,29 +1040,27 @@ pendukung tersebut meliputi perangkat lunak (software) dan perangkat keras
 
 ### Perangkat Lunak (Software)
 Perangkat lunak yang digunakan, antara lain:
-
-# Sistem operasi Microsoft Windows 10 Home 64-bit
-# Jupyter Notebook Versi 7.0.8
-# Bahasa pemrograman Python 3.12.4
-# Library Python Pandas Versi 2.2.3
-# Library Python BeautifulSoup4 (bs4) Versi 4.12.3
-# Library Python Gensim Versi 4.3.3
-# Library Python Numpy Versi 1.26.4
-# Library Python Scikit-learn Versi 1.6.1
-# Library Python NLTK Versi 3.9.1
-# Library Python TQDM Versi 4.67.1
-# Microsoft® Word 2016 MSO (Version 2505 Build 16.0.18827.20102)
+1. Sistem operasi Microsoft Windows 10 Home 64-bit
+2. Jupyter Notebook Versi 7.0.8
+3. Bahasa pemrograman Python 3.12.4
+4. Library Python Pandas Versi 2.2.3
+5. Library Python BeautifulSoup4 (bs4) Versi 4.12.3
+6. Library Python Gensim Versi 4.3.3
+7. Library Python Numpy Versi 1.26.4
+8. Library Python Scikit-learn Versi 1.6.1
+9. Library Python NLTK Versi 3.9.1
+10. Library Python TQDM Versi 4.67.1
+11. Microsoft® Word 2016 MSO (Version 2505 Build 16.0.18827.20102)
 32-bit
 
-## Perangkat Keras (Hardware)
+### Perangkat Keras (Hardware)
 Perangkat keras yang digunakan, antara lain:
-
-# Windows 10 Home (2009)
-# Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz, 2401 Mhz, 2 Core(s), 4
+1. Windows 10 Home (2009)
+2. Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz, 2401 Mhz, 2 Core(s), 4
 Logical Processor(s)
+3. Memori RAM 8,00 GB
+4. SSD SanDisk Z400s 2.5 7MM 256GB
 
-# Memori RAM 8,00 GB
-# SSD SanDisk Z400s 2.5 7MM 256GB
 ## Perancangan Algoritma
 Pada perancangan algoritma dijabarkan proses pengimplementasian metode
 similaritas teks untuk otomatisasi penyaringan resume berdasarkan kualifikasi
@@ -1183,29 +1153,22 @@ Work Experience bisa juga ditulis sebagai Experience. Oleh karena itu, diperluka
 tahap preprocessing penamaan section untuk menyamakan atau menyeragamkan
 nama-nama section tersebut ke dalam satu format baku. Berikut ini merupakan
 daftar section standar yang digunakan.
-
-# Summary. Bagian yang berisi ringkasan profil, tujuan karir, atau deskripsi
+1. Summary. Bagian yang berisi ringkasan profil, tujuan karir, atau deskripsi
 singkat.
-
-# Accomplishments/Awards. Bagian yang berisi pencapaian, penghargaan,
+2. Accomplishments/Awards. Bagian yang berisi pencapaian, penghargaan,
 atau prestasi yang pernah diraih.
-
-# Skills/Qualifications. Bagian yang berisi daftar keterampilan teknis maupun
+3. Skills/Qualifications. Bagian yang berisi daftar keterampilan teknis maupun
 non-teknis, serta kualifikasi lainnya.
-
-# Education. Bagian yang berisi latar belakang pendidikan formal.
-# Experience. Bagian yang berisi pengalaman kerja atau pengalaman
+4. Education. Bagian yang berisi latar belakang pendidikan formal.
+5. Experience. Bagian yang berisi pengalaman kerja atau pengalaman
 profesional lainnya.
-
-# Organization. Bagian yang berisi pengalaman dalam organisasi,
+6. Organization. Bagian yang berisi pengalaman dalam organisasi,
 kepanitiaan, atau kegiatan sosial.
-
-# Projects. Bagian yang berisi proyek-proyek yang pernah dikerjakan secara
+7. Projects. Bagian yang berisi proyek-proyek yang pernah dikerjakan secara
 individu maupun kelompok.
-
-# Certifications. Bagian yang berisi rincian sertifikasi yang diperoleh.
-# Portfolio. Bagian yang berisi riwayat karya atau tautan ke portofolio online.
-# Others. Bagian-bagian lain yang tidak termasuk dalam section di atas,
+8. Certifications. Bagian yang berisi rincian sertifikasi yang diperoleh.
+9. Portfolio. Bagian yang berisi riwayat karya atau tautan ke portofolio online.
+10. Others. Bagian-bagian lain yang tidak termasuk dalam section di atas,
 seperti referensi, hobi, atau informasi tambahan lainnya.
 Diagram alur proses preprocessing penamaan section resume tertera pada
 Gambar 4.7.
@@ -1213,7 +1176,7 @@ Gambar 4.7.
 Gambar 4.7 Diagram alur preprocessing penamaan section resume
 28
 
-## Preprocessing Kualifikasi Lowongan Kerja
+### Preprocessing Kualifikasi Lowongan Kerja
 Dilakukan preprocessing pada kolom Description yang berisi kebutuhan
 terkait suatu posisi lowongan kerja. Langkah-langkah yang dilakukan mencakup
 tokenisasi dan lematisasi agar kata-kata ditransformasikan menjadi bentuk dasar
@@ -2901,80 +2864,56 @@ Tabel 4.36 merupakan one-hot encoding untuk setiap token dalam vocabulary
 Tabel 4.36 Perhitungan manual one-hot encoding
 Term One-Hot Encoding
 demonstrated [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-# 0 0 0 0 0 0]
+0 0 0 0 0 0 0]
 ability [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-# 0 0 0 0 0 0]
+0 0 0 0 0 0 0]
 design [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-# 0 0 0 0 0 0]
+0 0 0 0 0 0 0]
 developmentally [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-# 0 0 0 0 0 0]
+0 0 0 0 0 0 0]
 appropriate [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0
-
-# 0 0 0 0 0 0]
+0 0 0 0 0 0 0]
 lesson [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0
-
-# 0 0 0 0 0 0]
+0 0 0 0 0 0 0]
 83
 Tabel 4.36 Perhitungan manual one-hot encoding (lanjutan)
 Term One-Hot Encoding
 activity [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
-
-# 0 0 0 0 0 0]
+0 0 0 0 0 0 0]
 allow [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0
-
-# 0 0 0 0 0 0]
+0 0 0 0 0 0 0]
 integration [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
-
-# 0 0 0 0 0 0]
+0 0 0 0 0 0 0]
 learning [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0
-
-# 0 0 0 0 0 0]
+0 0 0 0 0 0 0]
 style [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0
-
-# 0 0 0 0 0 0]
+0 0 0 0 0 0 0]
 highly [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0
-
-# 0 0 0 0 0 0]
+0 0 0 0 0 0 0]
 educate [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0
-
-# 0 0 0 0 0 0]
+0 0 0 0 0 0 0]
 differentiated [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0
-
-# 0 0 0 0 0 0]
+0 0 0 0 0 0 0]
 classroom [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0
-
-# 0 0 0 0 0 0]
+0 0 0 0 0 0 0]
 determined [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0
-
-# 0 0 0 0 0 0]
+0 0 0 0 0 0 0]
 maximize [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
-
-# 0 0 0 0 0 0]
+0 0 0 0 0 0 0]
 educational [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-# 0 0 0 0 0 0]
+1 0 0 0 0 0 0]
 achievement [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-# 1 0 0 0 0 0]
+0 1 0 0 0 0 0]
 student [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-# 0 1 0 0 0 0]
+0 0 1 0 0 0 0]
 trained [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-# 0 0 1 0 0 0]
+0 0 0 1 0 0 0]
 developmental [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-# 0 0 0 1 0 0]
+0 0 0 0 1 0 0]
 reading [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-# 0 0 0 0 1 0]
+0 0 0 0 0 1 0]
 assessments [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
-# 0 0 0 0 0 1]
+0 0 0 0 0 0 1]
 84
 Pada perhitungan manual ini, dilakukan penargetan pada kata “design” dan
 menggunakan hidden layer = 3. Selanjutnya adalah melakukan inisialisasi acak
@@ -3412,8 +3351,7 @@ vektor 𝑥 dan 𝑦 sebagai numerator menggunakan formula seperti pada Persamaa
 Demonstrasi perhitungan tertera mulai dari Persamaan 4.92 sampai dengan
 Persamaan 4.94.
 𝑛𝑢𝑚𝑒𝑟𝑎𝑡𝑜𝑟 = √𝑥 𝑦 +√𝑥 𝑦 +⋯+√𝑥 𝑦 +⋯+√𝑥 𝑦 (4.92)
-
-# 1 2 2 526 526 43331 43331
+1 1 2 2 526 526 43331 43331
 𝑛𝑢𝑚𝑒𝑟𝑎𝑡𝑜𝑟 = √0×0+√0×0+⋯+√0,110×0,063+⋯+√0×0 (4.93)
 𝑛𝑢𝑚𝑒𝑟𝑎𝑡𝑜𝑟 = 1,4044 (4.94)
 Hitung hasil kali dari akar penjumlahan semua elemen masing-masing vektor 𝑥
@@ -3424,11 +3362,9 @@ pada Persamaan 4.95.
 Demonstrasi perhitungan tertera mulai dari Persamaan 4.96 sampai dengan
 Persamaan 4.98.
 𝒅𝑒𝑛𝑜𝑚𝑖𝑛𝑎𝑡𝑜𝑟 = √(𝑥 +𝑥 +⋯+𝑥 +⋯+𝑥 )×
-
-# 2 526 43331
+1 2 526 43331
 √(𝑦 +𝑦 +⋯+𝑦 +⋯+𝑦 ) (4.96)
-
-# 2 526 43331
+1 2 526 43331
 𝑑𝑒𝑛𝑜𝑚𝑖𝑛𝑎𝑡𝑜𝑟 = √(0+0+⋯+0,1101+⋯+0)×
 √(0+0+⋯+0,0628+⋯+0) (4.97)
 𝑑𝑒𝑛𝑜𝑚𝑖𝑛𝑎𝑡𝑜𝑟 = 8,4315 (4.98)
@@ -3510,8 +3446,7 @@ vektor 𝑥 dan 𝑦 sebagai numerator menggunakan formula seperti pada Persamaa
 Demonstrasi perhitungan tertera mulai dari Persamaan 4.105 sampai dengan
 Persamaan 4.107.
 𝑛𝑢𝑚𝑒𝑟𝑎𝑡𝑜𝑟 = 𝑥 𝑦 +𝑥 𝑦 +⋯+𝑥 𝑦 (4.105)
-
-# 1 2 2 100 100
+1 1 2 2 100 100
 𝑛𝑢𝑚𝑒𝑟𝑎𝑡𝑜𝑟 = (0,0711×(−0,0458))+(0,1265×0,0966)+⋯+(0,1909×
 0,1157) (4.106)
 𝑛𝑢𝑚𝑒𝑟𝑎𝑡𝑜𝑟 = (−0,00323)+0,01221+⋯+0,02208 = 1,9022 (4.107)
@@ -3524,8 +3459,7 @@ seperti pada Persamaan 4.108.
 Demonstrasi perhitungan tertera mulai dari Persamaan 4.109 sampai dengan
 Persamaan 4.111.
 𝑑𝑒𝑛𝑜𝑚𝑖𝑛𝑎𝑡𝑜𝑟 = √(𝑥 2 +𝑥 2 +⋯+𝑥 2)×√(𝑦 2+𝑦 2 +⋯+𝑦 2)
-
-# 2 100 1 2 100
+1 2 100 1 2 100
 (4.109)
 𝑑𝑒𝑛𝑜𝑚𝑖𝑛𝑎𝑡𝑜𝑟 = √(0,07112 +0,12652 +⋯+0,19092)×
 √((−0,0458)2 +0,09662 +⋯+0,11572) (4.110)
@@ -3594,8 +3528,7 @@ vektor 𝑥 dan 𝑦 sebagai numerator menggunakan formula seperti pada Persamaa
 Demonstrasi perhitungan tertera mulai dari Persamaan 4.118 sampai dengan
 Persamaan 4.120.
 𝑛𝑢𝑚𝑒𝑟𝑎𝑡𝑜𝑟 = √𝑥 𝑦 +√𝑥 𝑦 +⋯+√𝑥 𝑦 (4.118)
-
-# 1 2 2 100 100
+1 1 2 2 100 100
 𝑛𝑢𝑚𝑒𝑟𝑎𝑡𝑜𝑟 = √0,0711×−0,0458+√0,1265×0,0966+⋯+
 √0,1909×0,1157 (4.119)
 𝑛𝑢𝑚𝑒𝑟𝑎𝑡𝑜𝑟 = 11,2936 (4.120)
@@ -3607,8 +3540,7 @@ pada Persamaan 4.121.
 Demonstrasi perhitungan tertera mulai dari Persamaan 4.122 sampai dengan
 Persamaan 4.124.
 𝑑𝑒𝑛𝑜𝑚𝑖𝑛𝑎𝑡𝑜𝑟 = √(𝑥 +𝑥 +⋯+𝑥 )×√(𝑦 +𝑦 +⋯+𝑦 ) (4.122)
-
-# 2 100 1 2 100
+1 2 100 1 2 100
 𝑑𝑒𝑛𝑜𝑚𝑖𝑛𝑎𝑡𝑜𝑟 = √(0,0711+0,1265+⋯+0,1909)×
 √(0,0458+0,0966+⋯+0,1157) (4.123)
 𝑑𝑒𝑛𝑜𝑚𝑖𝑛𝑎𝑡𝑜𝑟 = 11,861 (4.124)
@@ -3688,22 +3620,21 @@ Tabel 4.55 Peringkat 1-5 resume dengan skor similaritas terbesar untuk
 perhitungan manual SRCC
 
 ## Resume_ID Peringkat Peringkat Ahli
-# 1 3
-# 2 1
-# 3 4
-# 4 2
-# 5 5
+15850434 1 3
+96547039 2 1
+28772892 3 4
+22056333 4 2
+37220856 5 5
 Setelah diketahui peringkat lima resume dengan skor similaritas terbesar hasil
 implementasi metode dan peringkat dari ahli, selanjutnya adalah menghitung
 selisih peringkat dan dikuadratkan yang didemonstrasikan pada Tabel 4.56.
 Tabel 4.56 Selisih peringkat 1-5 resume perhitungan manual SRCC
 Resume_ID Peringkat Peringkat Ahli Selisih (𝒅 𝒊 ) 𝒅 𝒊 𝟐
-
-# 1 3 1−3 = −2 4
-# 2 1 2−1 = 1 1
-# 3 4 3−4 = −1 1
-# 4 2 4−2 = 2 4
-# 5 5 5−5 = 0 0
+15850434 1 3 1−3 = −2 4
+96547039 2 1 2−1 = 1 1
+28772892 3 4 3−4 = −1 1
+22056333 4 2 4−2 = 2 4
+37220856 5 5 5−5 = 0 0
 Pada Tabel 4.56, diketahui hasil kuadrat dari selisih perangkat. Jumlahkah hasil
 kuadrat tersebut untuk perhitungan SRCC sebagai numerator seperti pada
 Persamaan 4.130.
@@ -3725,10 +3656,10 @@ Persamaan 4.132 sampai dengan Persamaan 4.135.
 
 # 𝑆𝑅𝐶𝐶 = 1− (4.133)
 5(24)
+120 60
 
-# 60
 # 𝑆𝑅𝐶𝐶 = − (4.134)
-# 120
+120 120
 60
 
 # 𝑆𝑅𝐶𝐶 = = 0,5 (4.135)
@@ -3834,15 +3765,15 @@ dataset
 # from nltk.corpus import stopwords
 # from nltk import pos_tag
 24
+25 # Load dataset resume
 
-# # Load dataset resume
 # resume_df =
 pd.read_csv(r'C:\...\archive2024\Resume\Resume.csv')
 
 # resume_df
 28
+29 # Load dataset kualifikasi lowongan kerja
 
-# # Load dataset kualifikasi lowongan kerja
 # vacancy_df =
 pd.read_csv(r'C:\...\archive2024\kualifikasi_loker.csv')
 
@@ -3851,16 +3782,15 @@ pd.read_csv(r'C:\...\archive2024\kualifikasi_loker.csv')
 105
 Kode Program 5.1 Implementasi kode program import libraries dan load
 dataset (lanjutan)
+33 # Load dataset bobot section
 
-# # Load dataset bobot section
 # section_df =
 pd.read_csv(r'C:\...\archive2024\bobot_section.csv')
 
 # section_df
 Penjelasan dari Kode Program 5.1 mengenai implementasi import libraries dan
 load dataset, yaitu:
-
-# Baris 1-10 merupakan proses import library yang diperlukan untuk:
+1. Baris 1-10 merupakan proses import library yang diperlukan untuk:
 a. pandas alias pd untuk manipulasi data dan analisis data,
 b. BeautifulSoup dari library bs4 untuk ekstraksi teks dari HTML,
 
@@ -3884,8 +3814,7 @@ untuk preprocessing teks,
 # from tqdm import tqdm untuk menampilkan progress bar
 guna memantau progress dari suatu proses,
 j. import time untuk mengukur waktu eksekusi.
-
-# Baris 12-17 merupakan proses import library dari nltk (Natural Language
+2. Baris 12-17 merupakan proses import library dari nltk (Natural Language
 Toolkit) yang digunakan untuk pemrosesan teks, termasuk unduhan
 resource yang diperlukan untuk tokenisasi, lematisasi, dan Part of Speech
 (POS) tagging, seperti:
@@ -3899,8 +3828,7 @@ averaged_perceptron_tagger_eng untuk POS tagging
 yang memberi label jenis kata seperti kata benda (noun), kata kerja
 (verb), kata sifat (adjective), dan kata keterangan (adverb).
 106
-
-# Baris 19-23 merupakan import tambahan dari library nltk, yaitu:
+3. Baris 19-23 merupakan import tambahan dari library nltk, yaitu:
 a. wordnet dari nltk.corpus untuk mengakses basis data
 leksikal WordNet,
 b. WordNetLemmatizer dari nltk.stem untuk melakukan
@@ -3912,24 +3840,19 @@ d. stopwords dari nltk.corpus menyediakan daftar kata-kata
 umum yang tidak bermakna dalam analisis teks untuk dihapus,
 e. pos_tag untuk memberikan label POS tagging pada setiap kata
 dalam teks.
-
-# Baris 25-26 merupakan proses memuat dataset dari file dengan format .csv
+4. Baris 25-26 merupakan proses memuat dataset dari file dengan format .csv
 bernama Resume.csv menggunakan pandas.read_csv() yang
 berisi informasi resume kandidat dan mengubahnya menjadi DataFrame.
-
-# Baris 27 merupakan sintaksis untuk menampilkan DataFrame
+5. Baris 27 merupakan sintaksis untuk menampilkan DataFrame
 resume_df.
-
-# Baris 29-30 merupakan proses memuat dataset dari file dengan format .csv
+6. Baris 29-30 merupakan proses memuat dataset dari file dengan format .csv
 bernama kualifikasi_loker.csv menggunakan
 pandas.read_csv() dan mengubahnya menjadi DataFrame yang
 berisi informasi lowongan pekerjaan, termasuk nama posisi, nama
 perusahaan, dan deskripsi kualifikasinya.
-
-# Baris 31 merupakan sintaksis untuk menampilkan DataFrame
+7. Baris 31 merupakan sintaksis untuk menampilkan DataFrame
 vacancy_df.
-
-# Baris 33-34 merupakan proses memuat dataset dari file dengan format .csv
+8. Baris 33-34 merupakan proses memuat dataset dari file dengan format .csv
 bernama bobot_section.csv menggunakan
 pandas.read_csv() dan mengubahnya menjadi DataFrame yang
 berisi bobot pemberian ahli untuk setiap section yang ada di resume.
@@ -3943,61 +3866,60 @@ mengenai bagian (section) dan isi teks dari masing-masing section. Implementasi
 kode program ekstraksi section tertera pada Kode Program 5.2.
 Kode Program 5.2 Implementasi kode program preprocessing resume bagian
 ekstraksi section
+1 # Melihat informasi kolom dan tipe data
 
-# # Melihat informasi kolom dan tipe data
 # resume_df.info()
 3
+4 # Cek missing values
 
-# # Cek missing values
 # resume_df.isnull().sum()
 6
+7 # Menghapus kolom yang tidak digunakan
 
-# # Menghapus kolom yang tidak digunakan
 # resume_df_1 = resume_df.drop(columns=["Category"])
 9
-
-# # List untuk menyimpan hasil sementara per section dengan semua
+10 # List untuk menyimpan hasil sementara per section dengan semua
 data dari df
 
 # data = []
 12
+13 # Loop untuk memproses setiap resume
 
-# # Loop untuk memproses setiap resume
 # for index, row in resume_df.iterrows():
-# # Ambil ID dan data lainnya dari DataFrame yang ada
+15 # Ambil ID dan data lainnya dari DataFrame yang ada
+
 # resume_data = row.to_dict() # Mengambil semua data di
 baris ini
 17
+18 # Ambil resume_str langsung dari kolom 'Resume_str'
 
-# # Ambil resume_str langsung dari kolom 'Resume_str'
 # resume_str = row['Resume_str']
 20
-
-# # Menemukan semua <div> dengan class "sectiontitle" di
+21 # Menemukan semua <div> dengan class "sectiontitle" di
 'Resume_html'
 
 # soup = BeautifulSoup(row['Resume_html'], "html.parser")
 # section_divs = soup.find_all("div", class_="sectiontitle")
 24
+25 # Menyimpan teks dari setiap section
 
-# # Menyimpan teks dari setiap section
 # sections = [div.get_text(strip=True) for div in
 section_divs]
 27
+28 # Menemukan posisi setiap section dalam resume_str
 
-# # Menemukan posisi setiap section dalam resume_str
 # for i, section in enumerate(sections):
-# # Copy data resume agar setiap section mendapatkan data
+30 # Copy data resume agar setiap section mendapatkan data
 asli resume
 
 # section_data = resume_data.copy()
 32
+33 # Cari posisi awal section
 
-# # Cari posisi awal section
 # start_index = resume_str.find(section)
 35
+36 # Tentukan posisi akhir section
 
-# # Tentukan posisi akhir section
 # if i + 1 < len(sections):
 # end_index = resume_str.find(sections[i + 1],
 start_index)
@@ -4009,8 +3931,7 @@ ekstraksi section (lanjutan)
 # end_index = len(resume_str) # Jika ini adalah
 section terakhir
 41
-
-# # Ambil teks dari section tersebut dan hapus nama
+42 # Ambil teks dari section tersebut dan hapus nama
 section jika ada di awal teks
 
 # section_text =
@@ -4019,86 +3940,69 @@ resume_str[start_index:end_index].strip()
 # if section_text.startswith(section):
 # section_text = section_text[len(section):].strip()
 46
+47 # Tambahkan kolom Section dan Text
 
-# # Tambahkan kolom Section dan Text
 # section_data["Section"] = section
 # section_data["Text"] = section_text
 50
+51 # Tambahkan hasil ke expanded_data
 
-# # Tambahkan hasil ke expanded_data
 # data.append(section_data)
 53
+54 # Mengonversi list menjadi DataFrame
 
-# # Mengonversi list menjadi DataFrame
 # resume_df_1 = pd.DataFrame(data)
 Penjelasan dari Kode Program 5.2 mengenai implementasi kode program
 ekstraksi section, yaitu:
-
-# Baris 1-2 merupakan proses untuk menampilkan informasi mengenai
+1. Baris 1-2 merupakan proses untuk menampilkan informasi mengenai
 dataset resume, termasuk jumlah kolom, nama kolom, tipe data, dan
 jumlah non-null menggunakan df.info().
-
-# Baris 4-5 merupakan proses untuk memeriksa nilai yang hilang (missing
+2. Baris 4-5 merupakan proses untuk memeriksa nilai yang hilang (missing
 values) dalam dataset resume menggunakan df.isnull().sum().
-
-# Baris 7-8 merupakan proses untuk menghapus kolom Category dari
+3. Baris 7-8 merupakan proses untuk menghapus kolom Category dari
 dataset resume menggunakan df.drop(columns=["Category"])
 dan menyimpan hasilnya ke DataFrame baru sebagai resume_df_1.
-
-# Baris 10-11 merupakan proses untuk membuat list kosong bernama data
+4. Baris 10-11 merupakan proses untuk membuat list kosong bernama data
 untuk menyimpan hasil pemrosesan ekstraksi section resume.
-
-# Baris 13-14 merupakan proses untuk memulai iterasi melalui setiap baris
+5. Baris 13-14 merupakan proses untuk memulai iterasi melalui setiap baris
 dataset resume menggunakan df.iterrows().
-
-# Baris 15-16 merupakan proses untuk mengubah data baris menjadi
+6. Baris 15-16 merupakan proses untuk mengubah data baris menjadi
 dictionary menggunakan row.to_dict() dan menyimpannya ke
 variabel resume_data.
-
-# Baris 18-19 merupakan proses untuk mengambil teks resume dari kolom
+7. Baris 18-19 merupakan proses untuk mengambil teks resume dari kolom
 Resume_str menggunakan row['Resume_str'] dan
 menyimpannya ke variabel resume_str.
-
-# Baris 21-23 merupakan proses untuk mem-parsing kolom Resume_html
+8. Baris 21-23 merupakan proses untuk mem-parsing kolom Resume_html
 menggunakan BeautifulSoup(row['Resume_html'],
 "html.parser") dan menemukan semua elemen <div> dengan kelas
 sectiontitle menggunakan soup.find_all().
 109
-
-# Baris 25-26 merupakan proses untuk mengekstrak teks dari setiap elemen
+9. Baris 25-26 merupakan proses untuk mengekstrak teks dari setiap elemen
 <div> menggunakan div.get_text(strip=True) dan
 menyimpannya dalam list sections.
-
-# Baris 28-29 merupakan proses untuk memulai iterasi melalui setiap section
+10. Baris 28-29 merupakan proses untuk memulai iterasi melalui setiap section
 dalam list sections menggunakan enumerate(sections).
-
-# Baris 30-31 merupakan proses untuk membuat salinan dictionary
+11. Baris 30-31 merupakan proses untuk membuat salinan dictionary
 resume_data menggunakan resume_data.copy() dan
 menyimpannya ke variabel section_data.
-
-# Baris 33-34 merupakan proses untuk mencari posisi awal nama section
+12. Baris 33-34 merupakan proses untuk mencari posisi awal nama section
 dalam teks resume_str menggunakan
 resume_str.find(section).
-
-# Baris 36-40 merupakan proses untuk menentukan posisi akhir section
+13. Baris 36-40 merupakan proses untuk menentukan posisi akhir section
 dengan memeriksa apakah ada section berikutnya menggunakan
 resume_str.find(sections[i + 1], start_index) atau
 menggunakan panjang resume_str jika section terakhir.
-
-# Baris 42-45 merupakan proses untuk mengambil teks section dari
+14. Baris 42-45 merupakan proses untuk mengambil teks section dari
 resume_str menggunakan slicing [start_index:end_index],
 menghapus spasi berlebih dengan strip(), dan menghapus nama
 section jika ada yang terdeteksi di awal kalimat pada teks menggunakan
 section_text[len(section):].strip().
-
-# Baris 47-49 merupakan proses untuk menambahkan key Section dan
+15. Baris 47-49 merupakan proses untuk menambahkan key Section dan
 Text ke dictionary section_data dengan value nama section dan teks
 section yang telah diekstrak.
-
-# Baris 51-52 merupakan proses untuk menambahkan dictionary
+16. Baris 51-52 merupakan proses untuk menambahkan dictionary
 section_data ke list data menggunakan data.append().
-
-# Baris 54-55 merupakan proses untuk mengonversi list data menjadi
+17. Baris 54-55 merupakan proses untuk mengonversi list data menjadi
 DataFrame baru menggunakan pd.DataFrame(data) dan
 menyimpannya sebagai resume_df_1.
 110
@@ -4108,16 +4012,16 @@ Implementasi kode program preprocessing isian resume tertera pada Kode
 Program 5.3.
 Kode Program 5.3 Implementasi kode program preprocessing resume bagian
 preprocessing isian resume
+1 # Inisialisasi lemmatizer
 
-# # Inisialisasi lemmatizer
 # lemmatizer = WordNetLemmatizer()
 3
+4 # Daftar stop words
 
-# # Daftar stop words
 # stop_words = set(stopwords.words('english'))
 6
+7 # Fungsi untuk mendapatkan tipe kata untuk lemmatization
 
-# # Fungsi untuk mendapatkan tipe kata untuk lemmatization
 # def get_wordnet_pos(tag):
 # if tag.startswith('J'):
 # return wordnet.ADJ
@@ -4132,7 +4036,8 @@ preprocessing isian resume
 19
 
 # def preprocess(text):
-# # Hapus email dan nomor telepon
+21 # Hapus email dan nomor telepon
+
 # email_pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-
 Za-z]{2,}\b'
 
@@ -4144,13 +4049,12 @@ Za-z]{2,}\b'
 # text = re.sub(email_pattern, '', text)
 # text = re.sub(phone_pattern, '', text)
 27
+28 # Hapus berbagai tipe tanda minus
 
-# # Hapus berbagai tipe tanda minus
 # text = re.sub(r'[\u2010-
 \u2015\u2212\uFF0D\uFF0E\uFE63\u002D]', ' ', text)
 30
-
-# # Regex untuk menghapus bulan (termasuk singkatan) &
+31 # Regex untuk menghapus bulan (termasuk singkatan) &
 present/current
 
 # bulan_pattern =
@@ -4167,19 +4071,17 @@ cember|dec)\b"
 # text = re.sub(present_pattern, '', text,
 flags=re.IGNORECASE) # Hapus "present/current"
 37
-
-# # Regex untuk menangani berbagai format tanggal & rentang
+38 # Regex untuk menangani berbagai format tanggal & rentang
 111
 Kode Program 5.3 Implementasi kode program preprocessing resume bagian
 preprocessing isian resume (lanjutan)
 
 # date_pattern = r"""
-# \b(
-# (?:\d{1,2}/(?:\d{4}|Current)) # Format "01/2024" atau
+40 \b(
+41 (?:\d{1,2}/(?:\d{4}|Current)) # Format "01/2024" atau
 "01/ Current"
-
-# |(?:\d{4}) # Tahun "2023"
-# (?:\s?(?:-|to|－|–|—)\s?(?:\d{4}|Current|Present))? #
+42 |(?:\d{4}) # Tahun "2023"
+43 (?:\s?(?:-|to|－|–|—)\s?(?:\d{4}|Current|Present))? #
 Rentang waktu "2022 - 2023" atau "2022 － Present"
 44
 )\b
@@ -4241,82 +4143,65 @@ resume_df_1['Text'] = resume_df_1['Text'].apply(preprocess)
 resume_df_1['Text'] = resume_df_1['Text'].apply(preprocess)
 Penjelasan dari Kode Program 5.3 mengenai implementasi kode program
 ekstraksi section, yaitu:
+1. Baris 1-2 merupakan proses untuk menginisialisasi object
 
-# Baris 1-2 merupakan proses untuk menginisialisasi object
 ## WordNetLemmatizer dari NLTK menggunakan
 WordNetLemmatizer() dan menyimpannya ke variabel
 lemmatizer untuk melakukan lemmatisasi kata.
-
-# Baris 4-5 merupakan proses untuk membuat set stop words dalam Bahasa
+2. Baris 4-5 merupakan proses untuk membuat set stop words dalam Bahasa
 Inggris menggunakan stopwords.words('english') dan
 menyimpannya ke variabel stop_words.
 112
-
-# Baris 7-18 merupakan proses untuk mendefinisikan fungsi
+3. Baris 7-18 merupakan proses untuk mendefinisikan fungsi
 get_wordnet_pos yang mengonversi tag part-of-speech (POS) ke tipe
 kata WordNet seperti wordnet.ADJ, wordnet.VERB,
 wordnet.NOUN, wordnet.ADV berdasarkan awalan tag, dengan
 default wordnet.NOUN jika tidak sesuai.
-
-# Baris 20 merupakan pendefinisian fungsi preprocess yang menerima
+4. Baris 20 merupakan pendefinisian fungsi preprocess yang menerima
 parameter text untuk mengeksekusi proses preprocessing teks.
-
-# Baris 21-23 merupakan proses untuk mendefinisikan pola regex untuk
+5. Baris 21-23 merupakan proses untuk mendefinisikan pola regex untuk
 email menggunakan email_pattern dan nomor telepon menggunakan
 phone_pattern untuk dihapus dari teks.
-
-# Baris 25-26 merupakan proses untuk menghapus email dan nomor telepon
+6. Baris 25-26 merupakan proses untuk menghapus email dan nomor telepon
 dari teks menggunakan re.sub() dengan pola regex yang telah
 didefinisikan sebelumnya.
-
-# Baris 28-29 merupakan proses untuk menghapus berbagai jenis tanda
+7. Baris 28-29 merupakan proses untuk menghapus berbagai jenis tanda
 minus dari teks menggunakan re.sub() dan menggantinya dengan
 spasi.
-
-# Baris 31-33 merupakan proses untuk mendefinisikan pola regex untuk
+8. Baris 31-33 merupakan proses untuk mendefinisikan pola regex untuk
 menghapus nama bulan menggunakan bulan_pattern dan kata
 "present" atau "current" menggunakan present_pattern.
-
-# Baris 35-36 merupakan proses untuk menghapus nama bulan dan kata
+9. Baris 35-36 merupakan proses untuk menghapus nama bulan dan kata
 "present" atau "current" dari teks menggunakan re.sub() dengan pola
 regex, mengabaikan huruf besar maupun kecil dengan
 flags=re.IGNORECASE.
-
-# Baris 38-46 merupakan proses untuk mendefinisikan pola regex untuk
+10. Baris 38-46 merupakan proses untuk mendefinisikan pola regex untuk
 berbagai format tanggal menggunakan date_pattern dan
 menghapusnya dari teks menggunakan re.sub() dengan flag
 re.IGNORECASE dan re.VERBOSE.
-
-# Baris 48-49 merupakan proses untuk menghapus kata-kata placeholder
+11. Baris 48-49 merupakan proses untuk menghapus kata-kata placeholder
 seperti "Company Name", "State", dan "City" dari teks menggunakan
 re.sub() dengan flags=re.IGNORECASE.
-
-# Baris 51-52 merupakan proses untuk menghapus semua tanda baca dan
+12. Baris 51-52 merupakan proses untuk menghapus semua tanda baca dan
 karakter non-huruf.
-
-# Baris 54-55 merupakan proses untuk menghapus semua angka dari teks.
-# Baris 57-58 merupakan proses untuk mengganti spasi yang berlebihan
+13. Baris 54-55 merupakan proses untuk menghapus semua angka dari teks.
+14. Baris 57-58 merupakan proses untuk mengganti spasi yang berlebihan
 menjadi hanya satu spasi dan menggunakan strip() untuk menghapus
 spasi di awal dan akhir string.
-
-# Baris 60 merupakan proses untuk memecah teks menjadi daftar kata
+15. Baris 60 merupakan proses untuk memecah teks menjadi daftar kata
 (token) menggunakan word_tokenize() dari NLTK.
-
-# Baris 61 merupakan proses untuk memberikan part-of-speech (POS) tag
+16. Baris 61 merupakan proses untuk memberikan part-of-speech (POS) tag
 pada setiap token menggunakan pos_tag() dari NLTK.
-
-# Baris 63-68 merupakan proses untuk membuat list kosong
+17. Baris 63-68 merupakan proses untuk membuat list kosong
 lemmatized_text, mengiterasi token dan tag POS-nya, menghapus
 stop words jika token tidak ada di stop_words, mengonversi tag POS ke
 format WordNet menggunakan get_wordnet_pos(), dan melakukan
 lematisasi menggunakan lemmatizer.lemmatize().
 113
-
-# Baris 70 merupakan proses untuk menggabungkan token yang telah di-
+18. Baris 70 merupakan proses untuk menggabungkan token yang telah di-
 lematisasi menjadi satu string dengan spasi sebagai pemisah
 menggunakan ' '.join().
-
-# Baris 72-74 merupakan proses untuk menerapkan fungsi preprocess ke
+19. Baris 72-74 merupakan proses untuk menerapkan fungsi preprocess ke
 kolom Text pada DataFrame resume_df_1 menggunakan
 df['Text'].apply(preprocess). Proses ini dilakukan dua kali
 karena pada iterasi pertama ada beberapa nama bulan yang belum
@@ -4333,186 +4218,174 @@ preprocessing isian resume per section
 
 # resume_df_1["Section"] = resume_df_1["Section"].str.lower()
 2
+3 # Menampilkan nilai unik dari kolom 'Section'
 
-# # Menampilkan nilai unik dari kolom 'Section'
 # unique_sections = resume_df_1['Section'].unique()
 5
+6 # Menampilkan hasil
 
-# # Menampilkan hasil
 # print("Unique Sections in the Resume:")
 # for section in unique_sections:
 # print(section)
 10
+11 # Mapping kata kunci ke kategori yang diinginkan
 
-# # Mapping kata kunci ke kategori yang diinginkan
 # keyword_mapping = {
-# "experience": "Experience",
-# "skill": "Skills/Qualifications",
-# "award": "Accomplishments/Awards",
-# "project": "Projects",
-# "education": "Education",
-# "certification": "Certifications",
-# "portfolio": "Portfolio",
-# "organization": "Organization",
-# "volunteer": "Organization",
-# "accomplishment": "Accomplishments/Awards",
-# "achievement": "Accomplishments/Awards",
-# "summary": "Summary",
-# "overview": "Summary",
-# "course": "Education",
-# "academ": "Education",
-# "work": "Experience",
-# "profile": "Summary",
-# "strength": "Skills/Qualifications",
+13 "experience": "Experience",
+14 "skill": "Skills/Qualifications",
+15 "award": "Accomplishments/Awards",
+16 "project": "Projects",
+17 "education": "Education",
+18 "certification": "Certifications",
+19 "portfolio": "Portfolio",
+20 "organization": "Organization",
+21 "volunteer": "Organization",
+22 "accomplishment": "Accomplishments/Awards",
+23 "achievement": "Accomplishments/Awards",
+24 "summary": "Summary",
+25 "overview": "Summary",
+26 "course": "Education",
+27 "academ": "Education",
+28 "work": "Experience",
+29 "profile": "Summary",
+30 "strength": "Skills/Qualifications",
 114
 Kode Program 5.4 Implementasi kode program preprocessing resume bagian
 preprocessing isian resume per section (lanjutan)
-
-# "competencies": "Skills/Qualifications",
-# "compentencies": "Skills/Qualifications",
-# "quali": "Skills/Qualifications",
-# "honor": "Certifications",
-# "honour": "Certifications",
-# "affiliation": "Certifications",
-# "affliation": "Certifications",
-# "language": "Skills/Qualifications",
-# "community": "Organization",
-# "about": "Summary",
-# "training": "Certifications",
-# "scholarship": "Education",
-# "license": "Certifications",
-# "highlight": "Skills/Qualifications",
-# "expertise": "Skills/Qualifications",
-# "focus": "Summary",
-# "background": "Summary",
-# "interest": "Skills/Qualifications",
-# "military": "Experience",
-# "presentation": "Skills/Qualifications",
-# "objective": "Summary",
-# "reference": "Skills/Qualifications",
-# "referance": "Skills/Qualifications",
-# "proficien": "Skills/Qualifications",
-# "dissertation": "Projects",
-# "publications": "Skills/Qualifications",
-# "associat": "Skills/Qualifications",
-# "professional": "Experience",
-# "leadership": "Organization",
-# "curricular": "Organization",
-# "credential": "Skills/Qualifications",
-# "information": "Others",
-# "societ": "Organization",
-# "research": "Skills/Qualifications",
-# "employment": "Experience",
-# "adjunct": "Skills/Qualifications",
-# "personal": "Others",
-# "characteristic": "Others",
-# "goal": "Summary",
-# "apply": "Summary",
-# "role": "Experience",
-# "general": "Others",
-# "link": "Portfolio",
-# "snap shot": "Experience",
-# "tool": "Skills/Qualifications",
-# "hobb": "Others",
-# "activit": "Organization",
-# "client": "Experience",
-# "success": "Accomplishments/Awards",
-# "computer": "Skills/Qualifications",
-# "technical": "Skills/Qualifications",
-# "acumen": "Skills/Qualifications",
-# "development": "Skills/Qualifications",
-# "knowledge": "Skills/Qualifications",
-# "membership": "Skills/Qualifications",
-# "speak": "Accomplishments/Awards",
+31 "competencies": "Skills/Qualifications",
+32 "compentencies": "Skills/Qualifications",
+33 "quali": "Skills/Qualifications",
+34 "honor": "Certifications",
+35 "honour": "Certifications",
+36 "affiliation": "Certifications",
+37 "affliation": "Certifications",
+38 "language": "Skills/Qualifications",
+39 "community": "Organization",
+40 "about": "Summary",
+41 "training": "Certifications",
+42 "scholarship": "Education",
+43 "license": "Certifications",
+44 "highlight": "Skills/Qualifications",
+45 "expertise": "Skills/Qualifications",
+46 "focus": "Summary",
+47 "background": "Summary",
+48 "interest": "Skills/Qualifications",
+49 "military": "Experience",
+50 "presentation": "Skills/Qualifications",
+51 "objective": "Summary",
+52 "reference": "Skills/Qualifications",
+53 "referance": "Skills/Qualifications",
+54 "proficien": "Skills/Qualifications",
+55 "dissertation": "Projects",
+56 "publications": "Skills/Qualifications",
+57 "associat": "Skills/Qualifications",
+58 "professional": "Experience",
+59 "leadership": "Organization",
+60 "curricular": "Organization",
+61 "credential": "Skills/Qualifications",
+62 "information": "Others",
+63 "societ": "Organization",
+64 "research": "Skills/Qualifications",
+65 "employment": "Experience",
+66 "adjunct": "Skills/Qualifications",
+67 "personal": "Others",
+68 "characteristic": "Others",
+69 "goal": "Summary",
+70 "apply": "Summary",
+71 "role": "Experience",
+72 "general": "Others",
+73 "link": "Portfolio",
+74 "snap shot": "Experience",
+75 "tool": "Skills/Qualifications",
+76 "hobb": "Others",
+77 "activit": "Organization",
+78 "client": "Experience",
+79 "success": "Accomplishments/Awards",
+80 "computer": "Skills/Qualifications",
+81 "technical": "Skills/Qualifications",
+82 "acumen": "Skills/Qualifications",
+83 "development": "Skills/Qualifications",
+84 "knowledge": "Skills/Qualifications",
+85 "membership": "Skills/Qualifications",
+86 "speak": "Accomplishments/Awards",
 115
 Kode Program 5.4 Implementasi kode program preprocessing resume bagian
 preprocessing isian resume per section (lanjutan)
-
-# "participat": "Projects",
-# "vocation": "Experience",
-# "clearance": "Skills/Qualifications",
-# "attribute": "Skills/Qualifications",
-# "exhibit": "Projects",
-# }
+87 "participat": "Projects",
+88 "vocation": "Experience",
+89 "clearance": "Skills/Qualifications",
+90 "attribute": "Skills/Qualifications",
+91 "exhibit": "Projects",
+92 }
 93
+94 # Ubah nilai 'Section' berdasarkan kata kunci
 
-# # Ubah nilai 'Section' berdasarkan kata kunci
 # for keyword, category in keyword_mapping.items():
 # resume_df_1.loc[resume_df_1['Section'].str.contains(keyword,
 case=False, na=False), 'Section'] = category
 97
-
-# # Gabungkan teks dari section terkait jika ada duplikasi dalam
+98 # Gabungkan teks dari section terkait jika ada duplikasi dalam
 satu resume
 
 # resume_df_1 = resume_df_1.groupby(['ID', 'Section'],
 as_index=False).agg({
-
-# 'Text': ' '.join,
-# 'Resume_str': 'first',
-# 'Resume_html': 'first',
-# })
+100 'Text': ' '.join,
+101 'Resume_str': 'first',
+102 'Resume_html': 'first',
+103 })
 104
+105 # Daftar section yang tidak boleh diubah
 
-# # Daftar section yang tidak boleh diubah
 # allowed_sections = [
-# "Summary", "Accomplishments/Awards",
+107 "Summary", "Accomplishments/Awards",
 "Skills/Qualifications",
-
-# "Education", "Experience", "Organization", "Projects",
-# "Certifications", "Portfolio", "Others"
-# ]
+108 "Education", "Experience", "Organization", "Projects",
+109 "Certifications", "Portfolio", "Others"
+110 ]
 111
+112 # Pola regex untuk kata-kata yang harus masuk ke
 
-# # Pola regex untuk kata-kata yang harus masuk ke
 ## Summary
 # summary_pattern = r'\b(?:Summary|I
 am|I\'m|years|experience|professional)\b'
 114
-
-# # Ubah ke "Summary" jika ada salah satu kata dalam
+115 # Ubah ke "Summary" jika ada salah satu kata dalam
 summary_pattern
 
 # resume_df_1.loc[
-# (~resume_df_1["Section"].isin(allowed_sections)) &
-# (resume_df_1["Text"].str.contains(summary_pattern,
+117 (~resume_df_1["Section"].isin(allowed_sections)) &
+118 (resume_df_1["Text"].str.contains(summary_pattern,
 case=False, na=False, regex=True)),
-
-# "Section"
-# ] = "Summary"
+119 "Section"
+120 ] = "Summary"
 121
-
-# # Ubah ke "Portfolio" jika ada kata "LinkedIn" dalam
+122 # Ubah ke "Portfolio" jika ada kata "LinkedIn" dalam
 "Text"
 
 # resume_df_1.loc[
-# (~resume_df_1["Section"].isin(allowed_sections)) &
-# (resume_df_1["Text"].str.contains(r'\bLinkedIn\b',
+124 (~resume_df_1["Section"].isin(allowed_sections)) &
+125 (resume_df_1["Text"].str.contains(r'\bLinkedIn\b',
 case=False, na=False, regex=True)),
-
-# "Section"
-# ] = "Portfolio"
+126 "Section"
+127 ] = "Portfolio"
 128
 116
 Kode Program 5.4 Implementasi kode program preprocessing resume bagian
 preprocessing isian resume per section (lanjutan)
-
-# # Jika section tidak termasuk valid_sections dan kolom "Text"
+129 # Jika section tidak termasuk valid_sections dan kolom "Text"
 kosong, hapus baris tersebut
 
 # resume_df_1 =
 resume_df_1[~((~resume_df_1['Section'].isin(allowed_sections))
 & (resume_df_1['Text'].isna()))]
 131
-
-# # Jika section tidak termasuk valid_sections tetapi ada isian
+132 # Jika section tidak termasuk valid_sections tetapi ada isian
 di "Text", ubah menjadi "Others"
 
 # resume_df_1.loc[~resume_df_1['Section'].isin(allowed_sections),
 'Section'] = 'Others'
 134
-
-# # Hapus baris dengan Text yang NaN, kosong, atau hanya spasi
+135 # Hapus baris dengan Text yang NaN, kosong, atau hanya spasi
 untuk semua Section
 
 # resume_df_1 = resume_df_1[~(resume_df_1['Text'].isna() |
@@ -4524,71 +4397,56 @@ untuk semua Section
 # resume_df_1 = resume_df_1.drop(columns=["Resume_html"])
 Penjelasan dari Kode Program 5.4 mengenai implementasi kode program
 ekstraksi section, yaitu:
-
-# Baris 1 merupakan proses untuk mengubah semua nilai di kolom
+1. Baris 1 merupakan proses untuk mengubah semua nilai di kolom
 Section pada DataFrame resume_df_1 menjadi huruf kecil
 menggunakan str.lower() guna lebih mudah dalam menyeragamkan
 nama-nama section.
-
-# Baris 3-9 merupakan proses untuk mengambil nilai unik dari kolom
+2. Baris 3-9 merupakan proses untuk mengambil nilai unik dari kolom
 Section pada DataFrame resume_df_1 menggunakan unique()
 dan menyimpannya ke variabel unique_sections guna memahami
 ada apa saja nama-nama section yang digunakan seluruh resume di
 dataset.
-
-# Baris 11-92 merupakan proses untuk mendefinisikan dictionary
+3. Baris 11-92 merupakan proses untuk mendefinisikan dictionary
 keyword_mapping yang berisi pasangan key dan value, di mana key
 adalah nama section yang telah diketahui dari pemeriksaan nilai unik
 kolom Section sebelumnya, lalu value adalah nama section yang
 diinginkan untuk mengelompokkan nama-nama section resume.
-
-# Baris 94-96 merupakan proses untuk mengiterasi setiap pasangan key dan
+4. Baris 94-96 merupakan proses untuk mengiterasi setiap pasangan key dan
 value di keyword_mapping menggunakan items(), lalu mengubah
 nilai kolom Section yang mengandung kata kunci seperti di key menjadi
 value seperti keyword_mapping dan mengabaikan huruf besar maupun
 kecil.
-
-# Baris 98-103 merupakan proses untuk mengelompokkan isi DataFrame
+5. Baris 98-103 merupakan proses untuk mengelompokkan isi DataFrame
 resume_df_1 berdasarkan kolom ID dan Section menggunakan
 groupby(), lalu menggabungkan teks untuk kolom Text menggunakan
 ' '.join jika ada nilai di kolom Section yang sama.
 117
-
-# Baris 105-110 merupakan proses untuk mendefinisikan list
+6. Baris 105-110 merupakan proses untuk mendefinisikan list
 allowed_sections yang berisi daftar nama-nama section yang
 diizinkan untuk tetap ada dalam DataFrame.
-
-# Baris 112-113 merupakan proses untuk mendefinisikan pola regex
+7. Baris 112-113 merupakan proses untuk mendefinisikan pola regex
 summary_pattern yang mencakup kata-kata seperti "Summary", "I
 am", "I'm", "years", "experience", atau "professional" untuk
 mengidentifikasi teks yang relevan dengan nama section "Summary".
-
-# Baris 115-120 merupakan proses untuk mengubah nilai kolom Section
+8. Baris 115-120 merupakan proses untuk mengubah nilai kolom Section
 menjadi "Summary" jika section tidak ada di allowed_sections dan
 kolom Text mengandung kata-kata dari summary_pattern.
-
-# Baris 122-127 merupakan proses untuk mengubah nilai kolom Section
+9. Baris 122-127 merupakan proses untuk mengubah nilai kolom Section
 menjadi "Portfolio" jika section tidak ada di allowed_sections dan
 kolom Text mengandung kata "LinkedIn".
-
-# Baris 129-130 merupakan proses untuk menghapus baris dari
+10. Baris 129-130 merupakan proses untuk menghapus baris dari
 resume_df_1 jika kolom Section tidak ada di allowed_sections
 dan kolom Text kosong.
-
-# Baris 132-133 merupakan proses untuk mengubah nilai kolom Section
+11. Baris 132-133 merupakan proses untuk mengubah nilai kolom Section
 menjadi "Others" jika section tidak ada di allowed_sections tetapi
 kolom Text tidak kosong.
-
-# Baris 135-136 merupakan proses untuk menghapus baris dari
+12. Baris 135-136 merupakan proses untuk menghapus baris dari
 resume_df_1 jika kolom Text kosong atau jika hanya berisi spasi.
-
-# Baris 138 merupakan proses untuk mengubah semua nilai di kolom Text
+13. Baris 138 merupakan proses untuk mengubah semua nilai di kolom Text
 pada DataFrame resume_df_1 menjadi huruf kecil atau lower casing.
-
-# Baris 139 merupakan proses untuk menghapus kolom Resume_str dari
+14. Baris 139 merupakan proses untuk menghapus kolom Resume_str dari
 DataFrame resume_df_1 karena sudah tidak digunakan.
-
-# Baris 140 merupakan proses untuk menghapus kolom Resume_html dari
+15. Baris 140 merupakan proses untuk menghapus kolom Resume_html dari
 DataFrame resume_df_1 karena sudah tidak digunakan.
 
 ## Implementasi Kode Program Preprocessing Kualifikasi
@@ -4612,16 +4470,16 @@ string.punctuation)) # Hapus tanda baca
 118
 Kode Program 5.5 Implementasi kode program preprocessing kualifikasi
 lowongan kerja (lanjutan)
+7 # Tokenisasi
 
-# # Tokenisasi
 # tokens = word_tokenize(text)
 9
+10 # POS tagging
 
-# # POS tagging
 # tagged_tokens = pos_tag(tokens)
 12
+13 # Hapus stop words & Lemmatization
 
-# # Hapus stop words & Lemmatization
 # processed_tokens = [lemmatizer.lemmatize(word,
 get_wordnet_pos(tag))
 
@@ -4631,56 +4489,45 @@ not in stop_words]
 
 # return ' '.join(processed_tokens)
 18
-
-# # Terapkan preprocessing pada kolom "Description" di vacancy_df
+19 # Terapkan preprocessing pada kolom "Description" di vacancy_df
 vacancy_df_1 = vacancy_df.copy()
 
 # vacancy_df_1["Description"] =
 # vacancy_df["Description"].apply(preprocess_vacancy)
 Penjelasan dari Kode Program 5.5 mengenai implementasi preprocessing isian
 teks deskripsi kualifikasi lowongan kerja, yaitu:
-
-# Baris 1 merupakan proses untuk mendefinisikan fungsi
+1. Baris 1 merupakan proses untuk mendefinisikan fungsi
 preprocess_vacancy yang menerima parameter text untuk
 memproses teks deskripsi lowongan kerja.
-
-# Baris 2 merupakan proses untuk mengubah teks input menjadi huruf kecil
+2. Baris 2 merupakan proses untuk mengubah teks input menjadi huruf kecil
 menggunakan text.lower() untuk standarisasi.
-
-# Baris 3 merupakan proses untuk menghapus angka-angka dari teks.
-# Baris 4 merupakan proses untuk menghapus semua tanda baca dari teks
+3. Baris 3 merupakan proses untuk menghapus angka-angka dari teks.
+4. Baris 4 merupakan proses untuk menghapus semua tanda baca dari teks
 berdasarkan daftar punctuation dari string.punctuation.
-
-# Baris 5 merupakan proses untuk menghapus spasi berlebih dengan
+5. Baris 5 merupakan proses untuk menghapus spasi berlebih dengan
 memecah teks menjadi kata-kata menggunakan split(), lalu
 menggabungkannya kembali menggunakan ' '.join() dengan spasi
 tunggal
-
-# Baris 7-8 merupakan proses untuk memecah teks menjadi daftar kata
+6. Baris 7-8 merupakan proses untuk memecah teks menjadi daftar kata
 (token) menggunakan word_tokenize() dari NLTK dan
 menyimpannya ke variabel tokens.
-
-# Baris 10-11 merupakan proses untuk memberikan part-of-speech (POS) tag
+7. Baris 10-11 merupakan proses untuk memberikan part-of-speech (POS) tag
 pada setiap token menggunakan pos_tag() dari NLTK dan
 menyimpannya ke variabel tagged_tokens.
-
-# Baris 13-15 merupakan proses untuk membuat list processed_tokens
+8. Baris 13-15 merupakan proses untuk membuat list processed_tokens
 dengan mengiterasi tagged_tokens, menghapus kata-kata yang ada di
 stop_words, dan melakukan lematisasi pada setiap kata menggunakan
 lemmatizer.lemmatize() dengan tipe kata dari
 get_wordnet_pos(tag).
 119
-
-# Baris 17 merupakan proses untuk menggabungkan token yang telah
+9. Baris 17 merupakan proses untuk menggabungkan token yang telah
 diproses menjadi satu string dengan spasi sebagai pemisah menggunakan
 ' '.join() dan mengembalikannya sebagai hasil dari fungsi
 preprocess_vacancy.
-
-# Baris 19-20 merupakan proses untuk membuat salinan DataFrame
+10. Baris 19-20 merupakan proses untuk membuat salinan DataFrame
 vacancy_df menggunakan copy() dan menyimpannya ke variabel
 vacancy_df_1 guna menghindari modifikasi data asli.
-
-# Baris 21 merupakan proses untuk menerapkan fungsi
+11. Baris 21 merupakan proses untuk menerapkan fungsi
 preprocess_vacancy ke kolom Description pada DataFrame
 vacancy_df dan menyimpan hasilnya ke kolom Description pada
 DataFrame vacancy_df_1.
@@ -4693,46 +4540,41 @@ Description dari vacancy_df_1 menjadi vektor TF-IDF. Vektor-vektor ini
 disimpan sebagai list dalam kolom baru TFIDF_Vector pada kedua DataFrame.
 Implementasi kode program tertera pada Kode Program 5.6.
 Kode Program 5.6 Implementasi kode program representasi teks TF-IDF
+1 # Inisialisasi TF-IDF Vectorizer
 
-# # Inisialisasi TF-IDF Vectorizer
 # vectorizer = TfidfVectorizer()
 3
+4 # Fit dan transform data
 
-# # Fit dan transform data
 # tfidf_resume = vectorizer.fit_transform(resume_df_1["Text"])
 # tfidf_vacancy =
 vectorizer.transform(vacancy_df_1["Description"])
 7
+8 # Simpan vektor dalam kolom baru
 
-# # Simpan vektor dalam kolom baru
 # resume_df_1["TFIDF_Vector"] = list(tfidf_resume.toarray())
 # vacancy_df_1["TFIDF_Vector"] = list(tfidf_vacancy.toarray())
 Penjelasan dari Kode Program 5.6 mengenai implementasi representasi teks
 dengan pendekatan TF-IDF, yaitu:
-
-# Baris 1-2 merupakan proses untuk menginisialisasi objek TfidfVectorizer
+1. Baris 1-2 merupakan proses untuk menginisialisasi objek TfidfVectorizer
 dari library Scikit-learn menggunakan TfidfVectorizer() dan
 menyimpannya ke variabel vectorizer untuk mengubah teks menjadi
 vektor TF-IDF.
-
-# Baris 4-5 merupakan proses untuk mempelajari kosa kata dari kolom Text
+2. Baris 4-5 merupakan proses untuk mempelajari kosa kata dari kolom Text
 pada DataFrame resume_df_1 dan mengubahnya menjadi matriks TF-
 IDF menggunakan fit_transform(), lalu menyimpan hasilnya ke
 variabel tfidf_resume.
 120
-
-# Baris 6 merupakan proses untuk mengubah kolom Description pada
+3. Baris 6 merupakan proses untuk mengubah kolom Description pada
 DataFrame vacancy_df_1 menjadi matriks TF-IDF menggunakan
 transform() berdasarkan kosa kata yang telah dipelajari dari
 resume_df_1["Text"], lalu menyimpan hasilnya ke variabel
 tfidf_vacancy.
-
-# Baris 8-9 merupakan proses untuk mengonversi matriks TF-IDF
+4. Baris 8-9 merupakan proses untuk mengonversi matriks TF-IDF
 tfidf_resume menjadi array menggunakan toarray() dan
 menyimpan setiap vektor sebagai list dalam kolom baru TFIDF_Vector
 pada DataFrame resume_df_1.
-
-# Baris 10 merupakan proses untuk mengonversi matriks TF-IDF
+5. Baris 10 merupakan proses untuk mengonversi matriks TF-IDF
 tfidf_vacancy menjadi array menggunakan toarray() dan
 menyimpan setiap vektor sebagai list dalam kolom baru TFIDF_Vector
 pada DataFrame vacancy_df_1.
@@ -4753,8 +4595,8 @@ Kode Program 5.7 Implementasi kode program representasi teks Word2Vec
 # return word_tokenize(text.lower()) # Tokenisasi dan ubah
 ke huruf kecil
 3
+4 # Tokenisasi teks dari resume_df_1 dan vacancy_df_1
 
-# # Tokenisasi teks dari resume_df_1 dan vacancy_df_1
 # resume_texts =
 resume_df_1['Text'].dropna().apply(tokenize_text).tolist()
 
@@ -4762,12 +4604,12 @@ resume_df_1['Text'].dropna().apply(tokenize_text).tolist()
 vacancy_df_1['Description'].dropna().apply(tokenize_text).tolis
 t()
 7
+8 # Gabungkan semua teks untuk pelatihan Word2Vec
 
-# # Gabungkan semua teks untuk pelatihan Word2Vec
 # all_texts = resume_texts + vacancy_texts
 10
+11 # Latih model Word2Vec
 
-# # Latih model Word2Vec
 # word2vec_model = Word2Vec(
 # sentences=all_texts,
 # vector_size=100 #ukuran vektor kata
@@ -4775,10 +4617,10 @@ t()
 # workers=4, #jumlah thread untuk pelatihan
 # sg=1,
 # alpha=0,1
-# )
+19 )
 20
+21 # Menghitung vektor rata-rata dokumen
 
-# # Menghitung vektor rata-rata dokumen
 # def get_document_vector(text, model):
 121
 Kode Program 5.7 Implementasi kode program representasi teks Word2Vec
@@ -4792,8 +4634,8 @@ model.wv]
 # return np.zeros(model.vector_size)
 # return np.mean(word_vectors, axis=0)
 28
+29 # Penerapan ke dataset
 
-# # Penerapan ke dataset
 # resume_df_1['W2V_Vector'] = resume_df_1['Text'].apply(lambda x:
 get_document_vector(x, word2vec_model))
 
@@ -4802,51 +4644,44 @@ vacancy_df_1['Description'].apply(lambda x:
 get_document_vector(x, word2vec_model))
 Penjelasan dari Kode Program 5.7 mengenai implementasi representasi teks
 dengan pendekatan Word2Vec, yaitu:
-
-# Baris 1-2 merupakan proses untuk mendefinisikan fungsi
+1. Baris 1-2 merupakan proses untuk mendefinisikan fungsi
 tokenize_text yang mengambil text sebagai input, mengonversi ke
 huruf kecil (lower casing) dengan text.lower(), dan melakukan
 tokenisasi menggunakan word_tokenize dari library NLTK.
-
-# Baris 3-4 merupakan proses untuk menghapus nilai kosong dari kolom
+2. Baris 3-4 merupakan proses untuk menghapus nilai kosong dari kolom
 Text pada DataFrame resume_df_1 menggunakan dropna(),
 melakukan tokenisasi kata dengan word_tokenize(), dan
 mengonversi hasilnya menjadi list menggunakan tolist(), lalu
 menyimpannya ke variabel resume_texts.
+3. Baris 5-6 merupakan proses untuk menghapus nilai kosong dari kolom
 
-# Baris 5-6 merupakan proses untuk menghapus nilai kosong dari kolom
 ## Description pada DataFrame vacancy_df_1 menggunakan
 dropna(), melakukan tokenisasi kata dengan word_tokenize(),
 dan mengonversi hasilnya menjadi list menggunakan tolist(), lalu
 menyimpannya ke variabel vacancy_texts.
-
-# Baris 8-9 merupakan proses untuk menggabungkan list resume_texts
+4. Baris 8-9 merupakan proses untuk menggabungkan list resume_texts
 dan vacancy_texts menjadi satu list all_texts untuk digunakan
 dalam pelatihan model Word2Vec.
-
-# Baris 11-19 merupakan proses untuk melatih model Word2Vec
+5. Baris 11-19 merupakan proses untuk melatih model Word2Vec
 menggunakan Word2Vec() dari library Gensim dengan parameter:
 sentences=all_texts (data teks), vector_size=100 (ukuran
 vektor kata), window=5 (jarak konteks kata), workers=4 (jumlah
 thread), sg=1 (menggunakan algoritma skip-gram), dan alpha=0,1
 (learning rate), lalu menyimpan model ke variabel word2vec_model.
 122
-
-# Baris 21-27 merupakan proses untuk mendefinisikan fungsi
+6. Baris 21-27 merupakan proses untuk mendefinisikan fungsi
 get_document_vector yang menghitung vektor rata-rata dokumen
 dengan melakukan tokenisasi teks menggunakan tokenize_text(),
 mengambil vektor kata dari model.wv untuk kata yang ada di model.
 Fungsi ini mengembalikan vektor nol dengan panjang vector_size jika
 tidak ada kata yang dikenali atau mengembalikan hasil rata-rata vektor
 kata menggunakan np.mean().
-
-# Baris 30 merupakan proses untuk menerapkan fungsi
+7. Baris 30 merupakan proses untuk menerapkan fungsi
 get_document_vector ke kolom Text pada DataFrame
 resume_df_1 menggunakan apply() dengan model
 word2vec_model, lalu menyimpan vektor rata-rata dokumen ke kolom
 baru W2V_Vector.
-
-# Baris 231 merupakan proses untuk menerapkan fungsi
+8. Baris 231 merupakan proses untuk menerapkan fungsi
 get_document_vector ke kolom Description pada DataFrame
 vacancy_df_1 menggunakan apply() dengan model
 word2vec_model, lalu menyimpan vektor rata-rata dokumen ke kolom
@@ -4863,54 +4698,48 @@ menghitung pembilang (jumlah akar kuadrat perkalian elemen) dan penyebut
 # jika perhitungan tidak valid. Implementasi kode program tertera pada Kode
 Program 5.8.
 Kode Program 5.8 Implementasi kode program Improved Sqrt-Cosine Similarity
+1 # Fungsi Improved Sqrt-Cosine Similarity (ISC)
 
-# # Fungsi Improved Sqrt-Cosine Similarity (ISC)
 # def improved_sqrt_cosine_similarity(x, y):
 # if x is None or y is None or len(x) != len(y):
 # return 0
 5
+6 # Mengambil nilai absolut untuk penggunaan dengan Word2Vec
 
-# # Mengambil nilai absolut untuk penggunaan dengan Word2Vec
 # x = np.abs(x)
 # y = np.abs(y)
 9
+10 # Menghitung pembilang dan penyebut sesuai dengan rumus ISC
 
-# # Menghitung pembilang dan penyebut sesuai dengan rumus ISC
 # numerator = np.sum(np.sqrt(x * y))
 # denominator = np.sqrt(np.sum(x)) * np.sqrt(np.sum(y))
 13
+14 # Menghitung ISC
 
-# # Menghitung ISC
 # isc = numerator / denominator if denominator != 0 else 0
 # return isc
 123
 Penjelasan dari Kode Program 5.8 mengenai implementasi perhitungan
 Improved Sqrt-Cosine Similarity, yaitu:
-
-# Baris 1-2 merupakan proses untuk mendefinisikan fungsi
+1. Baris 1-2 merupakan proses untuk mendefinisikan fungsi
 improved_sqrt_cosine_similarity yang menerima dua
 parameter, yakni x dan y (vektor) untuk menghitung kemiripan
 menggunakan metrik Improved Sqrt-Cosine Similarity (ISC).
-
-# Baris 3-4 merupakan proses untuk memeriksa apakah salah satu vektor x
+2. Baris 3-4 merupakan proses untuk memeriksa apakah salah satu vektor x
 atau y adalah None atau memiliki panjang yang berbeda menggunakan
 kondisi if. Kemudian, mengembalikan nilai 0 jika kondisi tersebut true.
-
-# Baris 6-8 merupakan proses untuk mengubah semua elemen vektor x atau
+3. Baris 6-8 merupakan proses untuk mengubah semua elemen vektor x atau
 y menjadi nilai absolut menggunakan np.abs(). Absolut ini digunakan
 ketika mengimplementasi pendekatan Word2Vec dengan ISC.
-
-# Baris 10-11 merupakan proses untuk menghitung numerator (pembilang)
+4. Baris 10-11 merupakan proses untuk menghitung numerator (pembilang)
 rumus ISC dengan mengalikan elemen-elemen vektor x dan y, mengambil
 akar kuadrat dari hasil perkalian dengan np.sqrt(), dan menjumlahkan
 semua hasilnya menggunakan np.sum().
-
-# Baris 12 merupakan proses untuk menghitung denominator (penyebut)
+5. Baris 12 merupakan proses untuk menghitung denominator (penyebut)
 rumus ISC dengan menjumlahkan elemen vektor x atau y menggunakan
 np.sum(), mengambil akar kuadrat dari masing-masing jumlah dengan
 np.sqrt(), lalu mengalikan kedua akar tersebut.
-
-# Baris 14-16 merupakan proses untuk menghitung nilai ISC yang disimpan
+6. Baris 14-16 merupakan proses untuk menghitung nilai ISC yang disimpan
 pada variabel isc dengan membagi numerator dengan denominator jika
 denominator tidak nol atau mengembalikan 0 jika denominator nol untuk
 menghindari pembagian dengan nol. Kemudian, mengembalikan nilai
@@ -4932,15 +4761,15 @@ Kode Program 5.9 Implementasi kode program TF-IDF dan Improved Sqrt-
 ## Cosine Similarity
 # start_time = time.time() # Catat waktu mulai
 2
+3 # List untuk menyimpan hasil similarity setiap resume
 
-# # List untuk menyimpan hasil similarity setiap resume
 # final_results_tfidf = []
 5
 124
 Kode Program 5.9 Implementasi kode program TF-IDF dan Improved Sqrt-
 Cosine Similarity (lanjutan)
+6 # Looping untuk setiap job vacancy
 
-# # Looping untuk setiap job vacancy
 # for _, vacancy_row_tfidf in tqdm(vacancy_df_1.iterrows(),
 total=len(vacancy_df_1), desc="Processing Vacancies"):
 
@@ -4948,27 +4777,25 @@ total=len(vacancy_df_1), desc="Processing Vacancies"):
 # job_vec_tfidf = vacancy_row_tfidf["TFIDF_Vector"]
 # position_name = vacancy_row_tfidf["Position"]
 11
-
-# # Ambil bobot section sesuai kategori dan ubah ke skala
+12 # Ambil bobot section sesuai kategori dan ubah ke skala
 desimal
 
 # category_weights = (section_df[section_df["Category"] ==
 vacancy_category_tfidf]
-
-# .set_index("Section")["Bobot"]
-# .div(100)
-# .to_dict())
+14 .set_index("Section")["Bobot"]
+15 .div(100)
+16 .to_dict())
 17
+18 # Looping untuk setiap resume
 
-# # Looping untuk setiap resume
 # for resume_id in resume_df_1["ID"].unique():
 # resume_sections = resume_df_1[resume_df_1["ID"] ==
 resume_id]
 
 # similarity_scores_tfidf = {}
 22
+23 # Hitung similarity untuk setiap section
 
-# # Hitung similarity untuk setiap section
 # for _, section_row_tfidf in resume_sections.iterrows():
 # section_name_tfidf = section_row_tfidf["Section"]
 # section_vec_tfidf =
@@ -4982,15 +4809,13 @@ job_vec_tfidf)
 # similarity_scores_tfidf[section_name_tfidf] =
 sim_tfidf
 30
-
-# # Versi 1: Tanpa bobot (rata-rata similarity semua
+31 # Versi 1: Tanpa bobot (rata-rata similarity semua
 section)
 
 # sim_no_weight = sum(similarity_scores_tfidf.values()) /
 len(similarity_scores_tfidf) if similarity_scores_tfidf else 0
 33
-
-# # Versi 2: Dengan bobot (weighted sum tanpa normalisasi
+34 # Versi 2: Dengan bobot (weighted sum tanpa normalisasi
 total weight)
 
 # weighted_sum_v2 = 0
@@ -5003,35 +4828,34 @@ total weight)
 # sim_with_weight = weighted_sum_v2 / total_weight_v2 if
 total_weight_v2 > 0 else 0
 43
+44 # Simpan hasil
 
-# # Simpan hasil
 # final_results_tfidf.append((resume_id, position_name,
 sim_no_weight, sim_with_weight))
 46
+47 # Catat waktu selesai dan hitung durasi
 
-# # Catat waktu selesai dan hitung durasi
 # end_time = time.time()
 # total_time = end_time - start_time
 50
+51 # Konversi waktu ke format yang lebih mudah dibaca
 
-# # Konversi waktu ke format yang lebih mudah dibaca
 # minutes = int(total_time // 60)
 # seconds = int(total_time % 60)
 125
 Kode Program 5.9 Implementasi kode program TF-IDF dan Improved Sqrt-
 Cosine Similarity (lanjutan)
 54
+55 # Buat DataFrame hasil similarity
 
-# # Buat DataFrame hasil similarity
 # result_df_tfidf = pd.DataFrame(
 # final_results_tfidf,
 # columns=["Resume_ID", "Position", "Similarity_No_Weight",
 "Similarity_With_Weight"]
-
-# )
+59 )
 60
+61 # Tampilkan waktu total
 
-# # Tampilkan waktu total
 # print(f"Total waktu pemrosesan: {minutes} menit {seconds}
 detik")
 63
@@ -5043,7 +4867,7 @@ detik")
 result_df_tfidf.groupby('Position', group_keys=False).apply(
 
 # lambda x: x.nlargest(5, 'Similarity_No_Weight')
-# )
+68 )
 69
 
 # grouped_no_weight =
@@ -5061,7 +4885,7 @@ top5_per_position_no_weight.groupby('Position')
 result_df_tfidf.groupby('Position', group_keys=False).apply(
 
 # lambda x: x.nlargest(5, 'Similarity_With_Weight')
-# )
+79 )
 80
 
 # grouped_with_weight =
@@ -5073,32 +4897,25 @@ top5_per_position_with_weight.groupby('Position')
 Penjelasan dari Kode Program 5.9 mengenai implementasi perhitungan
 similaritas antara resume dan kualifikasi lowongan kerja dengan Improved Sqrt-
 Cosine (ISC) Similarity jika menggunakan vektor TF-IDF, yaitu:
-
-# Baris 1 merupakan proses untuk mencatat waktu mulai eksekusi
+1. Baris 1 merupakan proses untuk mencatat waktu mulai eksekusi
 menggunakan time.time() dan menyimpannya ke variabel start_time.
-
-# Baris 3-4 merupakan proses untuk membuat list kosong
+2. Baris 3-4 merupakan proses untuk membuat list kosong
 final_results_tfidf untuk menyimpan hasil perhitungan
 kemiripan (similarity) antara resume dan kualifikasi lowongan kerja.
-
-# Baris 6-7 merupakan proses untuk memulai iterasi melalui setiap baris di
+3. Baris 6-7 merupakan proses untuk memulai iterasi melalui setiap baris di
 DataFrame vacancy_df_1 menggunakan iterrows() dengan
 progress bar dari tqdm untuk menampilkan kemajuan pemrosesan.
-
-# Baris 8 merupakan pengambilan nilai kolom Category dari baris
+4. Baris 8 merupakan pengambilan nilai kolom Category dari baris
 lowongan kerja pada iterasi terkini dan menyimpannya ke variabel
 vacancy_category_tfidf.
 126
-
-# Baris 9 merupakan pengambilan vektor TF-IDF dari kolom
+5. Baris 9 merupakan pengambilan vektor TF-IDF dari kolom
 TFIDF_Vector pada baris lowongan kerja di iterasi terkini dan
 menyimpannya ke variabel job_vec_tfidf.
-
-# Baris 10 merupakan pengambilan nilai kolom Position dari baris
+6. Baris 10 merupakan pengambilan nilai kolom Position dari baris
 lowongan kerja pada iterasi terkini dan menyimpannya ke variabel
 position_name.
-
-# Baris 12-16 merupakan proses untuk memfilter DataFrame section_df
+7. Baris 12-16 merupakan proses untuk memfilter DataFrame section_df
 berdasarkan vacancy_category_tfidf, menetapkan kolom
 Section sebagai indeks, mengambil kolom Bobot, membaginya dengan
 
@@ -5107,122 +4924,99 @@ bobot dalam persentase), dan mengonversinya menjadi dictionary
 menggunakan to_dict(), lalu menyimpannya ke variabel
 category_weights sebagai persentase bobot per section untuk
 kualifikasi lowongan kerja pada iterasi terkini sesuai industrinya.
-
-# Baris 18-19 merupakan proses untuk memulai iterasi melalui setiap nilai
+8. Baris 18-19 merupakan proses untuk memulai iterasi melalui setiap nilai
 unik di kolom ID pada DataFrame resume_df_1 menggunakan
 unique().
-
-# Baris 20 merupakan proses untuk memfilter DataFrame resume_df_1
+9. Baris 20 merupakan proses untuk memfilter DataFrame resume_df_1
 untuk mendapatkan semua baris dengan kolom ID yang sesuai dengan
 iterasi resume_id terkini dan menyimpannya ke variabel
 resume_sections.
-
-# Baris 21 merupakan pembuatan dictionary kosong
+10. Baris 21 merupakan pembuatan dictionary kosong
 similarity_scores_tfidf untuk menyimpan skor kemiripan
 setiap section dalam resume.
-
-# Baris 23-24 merupakan proses untuk memulai iterasi melalui setiap baris
+11. Baris 23-24 merupakan proses untuk memulai iterasi melalui setiap baris
 di resume_sections menggunakan iterrows() untuk memproses
 setiap section dalam resume.
-
-# Baris 25 merupakan proses untuk mengambil nilai kolom Section dari
+12. Baris 25 merupakan proses untuk mengambil nilai kolom Section dari
 baris section terkini dan menyimpannya ke variabel
 section_name_tfidf.
-
-# Baris 26 merupakan proses untuk mengambil vektor TF-IDF dari kolom
+13. Baris 26 merupakan proses untuk mengambil vektor TF-IDF dari kolom
 TFIDF_Vector pada baris section saat ini dan menyimpannya ke
 variabel section_vec_tfidf.
-
-# Baris 28 merupakan proses untuk menghitung kemiripan antara vektor
+14. Baris 28 merupakan proses untuk menghitung kemiripan antara vektor
 section pada resume (section_vec_tfidf) dan vektor kualifikasi
 lowongan kerja (job_vec_tfidf) menggunakan fungsi
 improved_sqrt_cosine_similarity, lalu menyimpan hasilnya
 ke variabel sim_tfidf.
-
-# Baris 29 merupakan proses untuk menyimpan skor kemiripan
+15. Baris 29 merupakan proses untuk menyimpan skor kemiripan
 sim_tfidf ke dictionary similarity_scores_tfidf.
 127
-
-# Baris 31-32 merupakan proses untuk menguji skenario “Tanpa Bobot”
+16. Baris 31-32 merupakan proses untuk menguji skenario “Tanpa Bobot”
 dengan menghitung rata-rata kemiripan dengan menjumlahkan semua
 skor kemiripan di similarity_scores_tfidf menggunakan sum()
 dan membaginya dengan jumlah section menggunakan len(), atau
 mengembalikan 0 jika dictionary kosong, lalu menyimpan hasilnya ke
 variabel sim_no_weight.
-
-# Baris 34-42 merupakan proses untuk menguji skenario “Dengan Bobot”,
+17. Baris 34-42 merupakan proses untuk menguji skenario “Dengan Bobot”,
 dimana baris 35-36 menginisialisasi variabel weighted_sum_v2 dan
 total_weight_v2 dengan nilai 0 untuk menghitung jumlah kemiripan
 terbobot dan total bobot.
-
-# Baris 37-41 merupakan proses untuk mengiterasi setiap section di
+18. Baris 37-41 merupakan proses untuk mengiterasi setiap section di
 similarity_scores_tfidf, mengambil skor kemiripan yang
 disimpan pada variabel sim, mendapatkan bobot section dari variabel
 category_weights dengan default 0 menggunakan get(),
 mengalikan skor “Dengan Bobot” untuk menambah ke
 weighted_sum_v2, dan menambah bobot ke total_weight_v2.
-
-# Baris 42 merupakan proses untuk menghitung total similarity pada
+19. Baris 42 merupakan proses untuk menghitung total similarity pada
 skenario “Dengan Bobot” dengan membagi weighted_sum_v2 dengan
 total_weight_v2 jika total_weight_v2 lebih dari 0 atau
 mengembalikan nilai 0 jika tidak. Kemudian, menyimpan hasilnya ke
 variabel sim_with_weight.
-
-# Baris 44-45 merupakan proses untuk menambahkan data resume_id,
+20. Baris 44-45 merupakan proses untuk menambahkan data resume_id,
 position_name, sim_no_weight, dan sim_with_weight ke list
 final_results_tfidf menggunakan append().
-
-# Baris 47-49 merupakan proses untuk mencatat waktu selesai
+21. Baris 47-49 merupakan proses untuk mencatat waktu selesai
 menggunakan time.time(), menghitung durasi dengan mengurangkan
 start_time dari end_time, dan menyimpan hasilnya ke variabel
 total_time.
-
-# Baris 51-53 merupakan proses untuk mengonversi total_time ke menit
+22. Baris 51-53 merupakan proses untuk mengonversi total_time ke menit
 dan detik, lalu menyimpannya ke variabel minutes dan seconds.
-
-# Baris 55-59 merupakan proses untuk membuat DataFrame
+23. Baris 55-59 merupakan proses untuk membuat DataFrame
 result_df_tfidf dari list final_results_tfidf menggunakan
 pd.DataFrame(), dengan kolom Resume_ID, Position,
 Similarity_No_Weight, dan Similarity_With_Weight.
-
-# Baris 61-62 merupakan proses untuk mencetak total waktu pemrosesan
+24. Baris 61-62 merupakan proses untuk mencetak total waktu pemrosesan
 dalam format menit dan detik menggunakan print().
-
-# Baris 64 merupakan proses untuk mencetak judul "Similaritas Tanpa Bobot
+25. Baris 64 merupakan proses untuk mencetak judul "Similaritas Tanpa Bobot
 Section" menggunakan print().
-
-# Baris 66-68 merupakan proses untuk mengelompokkan DataFrame
+26. Baris 66-68 merupakan proses untuk mengelompokkan DataFrame
 result_df_tfidf berdasarkan kolom Position menggunakan
 groupby(), lalu memilih 5 baris dengan nilai
 Similarity_No_Weight tertinggi untuk setiap posisi menggunakan
 nlargest(), dan menyimpan hasilnya ke variabel
 top5_per_position_no_weight.
 128
-
-# Baris 70-73 merupakan proses untuk mengelompokkan
+27. Baris 70-73 merupakan proses untuk mengelompokkan
 top5_per_position_no_weight berdasarkan kolom Position,
 mengiterasi setiap kualifikasi lowongan kerja (Position), mencetak
 nama posisi, mencetak nilai kolom Resume_ID, serta mencetak nilai
 Similarity_No_Weight untuk setiap kualifikasi lowongan kerja.
-
-# Baris 75 merupakan proses untuk mencetak judul "Similaritas Dengan
+28. Baris 75 merupakan proses untuk mencetak judul "Similaritas Dengan
 Bobot Section" menggunakan print().
-
-# Baris 77-79 merupakan proses untuk mengelompokkan DataFrame
+29. Baris 77-79 merupakan proses untuk mengelompokkan DataFrame
 result_df_tfidf berdasarkan kolom Position menggunakan
 groupby(), lalu memilih 5 baris dengan nilai
 
 ## Similarity_With_Weight tertinggi untuk setiap posisi
 menggunakan nlargest(), dan menyimpan hasilnya ke variabel
 top5_per_position_with_weight.
-
-# Baris 81-84 merupakan proses untuk mengelompokkan
+30. Baris 81-84 merupakan proses untuk mengelompokkan
 top5_per_position_with_weight berdasarkan Position,
 mengiterasi setiap kualifikasi lowongan kerja (Position), mencetak
 nama posisi, mencetak kolom Resume_ID, serta
 Similarity_With_Weight untuk setiap kualifikasi lowongan kerja.
 
-## Implementasi Kode Program Word2Vec dan Cosine Similarity
+### Implementasi Kode Program Word2Vec dan Cosine Similarity
 Dalam kode program ini, dilakukan menghitung kemiripan antara resume dan
 kualifikasi lowongan kerja menggunakan metrik Cosine Similarity (CosSim) untuk
 vektor Word2Vec, dengan dua skenario, yakni “Tanpa Bobot” (hasil kemiripan
@@ -5236,12 +5030,12 @@ Kode Program 5.10 Implementasi kode program Word2Vec dan Cosine
 ## Similarity
 # start_time = time.time() # Catat waktu mulai
 2
+3 # List untuk menyimpan hasil
 
-# # List untuk menyimpan hasil
 # final_results_w2v = []
 5
+6 # Iterasi untuk setiap vacancy
 
-# # Iterasi untuk setiap vacancy
 # for vac_idx, vac_row in tqdm(vacancy_df_1.iterrows(),
 total=len(vacancy_df_1), desc="Processing Vacancies"):
 
@@ -5250,39 +5044,35 @@ total=len(vacancy_df_1), desc="Processing Vacancies"):
 # job_vec_w2v = np.array([vac_row['W2V_Vector']]) # Vektor
 vacancy dalam bentuk 2D untuk cosine_similarity
 11
-
-# # Ambil bobot section sesuai kategori dan ubah ke skala
+12 # Ambil bobot section sesuai kategori dan ubah ke skala
 desimal
 
 # category_weights = (section_df[section_df["Category"] ==
 vacancy_category]
-
-# .set_index("Section")["Bobot"]
-# .div(100)
+14 .set_index("Section")["Bobot"]
+15 .div(100)
 129
 Kode Program 5.10 Implementasi kode program Word2Vec dan Cosine
 Similarity (lanjutan)
-
-# .to_dict())
+16 .to_dict())
 17
+18 # Iterasi untuk setiap resume
 
-# # Iterasi untuk setiap resume
 # for resume_id in resume_df_1['ID'].unique():
 # resume_sections = resume_df_1[resume_df_1['ID'] ==
 resume_id]
 
 # similarity_scores = {}
 22
+23 # Hitung similarity untuk setiap section
 
-# # Hitung similarity untuk setiap section
 # for _, section_row in resume_sections.iterrows():
 # section_name = section_row['Section']
 # section_vector =
 np.array([section_row['W2V_Vector']]) # Vektor section dalam
 bentuk 2D
 27
-
-# # Hitung cosine similarity antara section dan
+28 # Hitung cosine similarity antara section dan
 vacancy
 
 # sim_score = cosine_similarity(section_vector,
@@ -5290,15 +5080,13 @@ job_vec_w2v)[0][0]
 
 # similarity_scores[section_name] = sim_score
 31
-
-# # Versi 1: Tanpa bobot (rata-rata similarity semua
+32 # Versi 1: Tanpa bobot (rata-rata similarity semua
 section)
 
 # sim_no_weight = sum(similarity_scores.values()) /
 len(similarity_scores) if similarity_scores else 0
 34
-
-# # Versi 2: Dengan bobot (weighted sum tanpa normalisasi
+35 # Versi 2: Dengan bobot (weighted sum tanpa normalisasi
 ketat)
 
 # weighted_sum_v2 = 0
@@ -5311,31 +5099,31 @@ ketat)
 # sim_with_weight = weighted_sum_v2 / total_weight_v2 if
 total_weight_v2 > 0 else 0
 44
+45 # Simpan hasil
 
-# # Simpan hasil
 # final_results_w2v.append({
-# 'Resume_ID': resume_id,
-# 'Position': position,
-# 'Similarity_No_Weight': sim_no_weight,
-# 'Similarity_With_Weight': sim_with_weight,
-# })
+47 'Resume_ID': resume_id,
+48 'Position': position,
+49 'Similarity_No_Weight': sim_no_weight,
+50 'Similarity_With_Weight': sim_with_weight,
+51 })
 52
+53 # Catat waktu selesai dan hitung durasi
 
-# # Catat waktu selesai dan hitung durasi
 # end_time = time.time()
 # total_time = end_time - start_time
 56
+57 # Konversi waktu ke format yang lebih mudah dibaca
 
-# # Konversi waktu ke format yang lebih mudah dibaca
 # minutes = int(total_time // 60)
 # seconds = int(total_time % 60)
 60
+61 # Konversi hasil ke DataFrame
 
-# # Konversi hasil ke DataFrame
 # result_df_w2v = pd.DataFrame(final_results_w2v)
 63
+64 # Tampilkan waktu total
 
-# # Tampilkan waktu total
 # print(f"Total waktu pemrosesan: {minutes} menit {seconds}
 detik")
 66
@@ -5350,7 +5138,7 @@ Similarity (lanjutan)
 group_keys=False).apply(
 
 # lambda x: x.nlargest(5, 'Similarity_No_Weight')
-# )
+71 )
 72
 
 # grouped_no_weight =
@@ -5368,7 +5156,7 @@ top5_per_position_no_weight.groupby('Position')
 result_df_w2v.groupby('Position', group_keys=False).apply(
 
 # lambda x: x.nlargest(5, 'Similarity_With_Weight')
-# )
+82 )
 83
 
 # grouped_with_weight =
@@ -5380,32 +5168,25 @@ top5_per_position_with_weight.groupby('Position')
 Penjelasan dari Kode Program 5.10 mengenai implementasi perhitungan
 similaritas antara resume dan kualifikasi lowongan kerja dengan Cosine Similarity
 (CosSim) jika menggunakan vektor Word2Vec, yaitu:
-
-# Baris 1 merupakan proses untuk mencatat waktu mulai eksekusi
+1. Baris 1 merupakan proses untuk mencatat waktu mulai eksekusi
 menggunakan time.time() dan menyimpannya ke variabel start_time.
-
-# Baris 3-4 merupakan proses untuk membuat list kosong
+2. Baris 3-4 merupakan proses untuk membuat list kosong
 final_results_w2v untuk menyimpan hasil perhitungan kemiripan
 (similarity) antara resume dan kualifikasi lowongan kerja.
-
-# Baris 6-7 merupakan proses untuk memulai iterasi melalui setiap baris di
+3. Baris 6-7 merupakan proses untuk memulai iterasi melalui setiap baris di
 DataFrame vacancy_df_1 menggunakan iterrows() dengan
 progress bar dari tqdm untuk menampilkan kemajuan pemrosesan.
-
-# Baris 8 merupakan proses untuk mengambil nilai kolom Position dari
+4. Baris 8 merupakan proses untuk mengambil nilai kolom Position dari
 baris kualifikasi lowongan kerja terkini dan menyimpannya ke variabel
 position.
-
-# Baris 9 merupakan pengambilan nilai kolom Category dari baris
+5. Baris 9 merupakan pengambilan nilai kolom Category dari baris
 lowongan kerja pada iterasi terkini dan menyimpannya ke variabel
 vacancy_category.
-
-# Baris 10 merupakan pengambilan vektor Word2Vec dari kolom
+6. Baris 10 merupakan pengambilan vektor Word2Vec dari kolom
 W2V_Vector pada baris kualifikasi lowongan kerja di iterasi terkini dan
 menyimpannya ke variabel job_vec_w2v.
 131
-
-# Baris 12-16 merupakan proses untuk memfilter DataFrame section_df
+7. Baris 12-16 merupakan proses untuk memfilter DataFrame section_df
 berdasarkan vacancy_category, menetapkan kolom Section
 sebagai indeks, mengambil kolom Bobot, membaginya dengan 100
 menggunakan div(100) untuk mengubah ke skala desimal (karena
@@ -5413,121 +5194,98 @@ bobot dalam persentase), dan mengonversinya menjadi dictionary
 menggunakan to_dict(), lalu menyimpannya ke variabel
 category_weights sebagai persentase bobot per section untuk
 kualifikasi lowongan kerja pada iterasi terkini sesuai industrinya.
-
-# Baris 18-19 merupakan proses untuk memulai iterasi melalui setiap nilai
+8. Baris 18-19 merupakan proses untuk memulai iterasi melalui setiap nilai
 unik di kolom ID pada DataFrame resume_df_1 menggunakan
 unique().
-
-# Baris 20 merupakan proses untuk memfilter DataFrame resume_df_1
+9. Baris 20 merupakan proses untuk memfilter DataFrame resume_df_1
 untuk mendapatkan semua baris dengan kolom ID yang sesuai dengan
 iterasi resume_id terkini dan menyimpannya ke variabel
 resume_sections.
-
-# Baris 21 merupakan pembuatan dictionary kosong
+10. Baris 21 merupakan pembuatan dictionary kosong
 similarity_scores untuk menyimpan skor kemiripan setiap section
 dalam resume.
-
-# Baris 23-24 merupakan proses untuk memulai iterasi melalui setiap baris
+11. Baris 23-24 merupakan proses untuk memulai iterasi melalui setiap baris
 di resume_sections menggunakan iterrows() untuk memproses
 setiap section dalam resume.
-
-# Baris 25 merupakan proses untuk mengambil nilai kolom Section dari
+12. Baris 25 merupakan proses untuk mengambil nilai kolom Section dari
 baris section terkini dan menyimpannya ke variabel section_name.
-
-# Baris 26 merupakan proses untuk mengambil vektor Word2Vec dari kolom
+13. Baris 26 merupakan proses untuk mengambil vektor Word2Vec dari kolom
 W2V_Vector pada baris section saat ini dan menyimpannya ke variabel
 section_vector.
-
-# Baris 28-29 merupakan proses untuk menghitung kemiripan antara vektor
+14. Baris 28-29 merupakan proses untuk menghitung kemiripan antara vektor
 section pada resume (section_vector) dan vektor kualifikasi
 lowongan kerja (vac_vector) menggunakan fungsi
 cosine_similarity dari library Scikit-learn, lalu menyimpan hasilnya
 ke variabel sim_score.
-
-# Baris 30 merupakan proses untuk menyimpan skor kemiripan
+15. Baris 30 merupakan proses untuk menyimpan skor kemiripan
 sim_score ke dictionary similarity_scores.
-
-# Baris 32-33 merupakan proses untuk menguji skenario “Tanpa Bobot”
+16. Baris 32-33 merupakan proses untuk menguji skenario “Tanpa Bobot”
 dengan menghitung rata-rata kemiripan dengan menjumlahkan semua
 skor kemiripan di similarity_scores menggunakan sum() dan
 membaginya dengan jumlah section menggunakan len(), atau
 mengembalikan 0 jika dictionary kosong, lalu menyimpan hasilnya ke
 variabel sim_no_weight.
-
-# Baris 35-43 merupakan proses untuk menguji skenario “Dengan Bobot”,
+17. Baris 35-43 merupakan proses untuk menguji skenario “Dengan Bobot”,
 dimana baris 36-37 menginisialisasi variabel weighted_sum_v2 dan
 total_weight_v2 dengan nilai 0 untuk menghitung jumlah kemiripan
 terbobot dan total bobot.
 132
-
-# Baris 38-42 merupakan proses untuk mengiterasi setiap section di
+18. Baris 38-42 merupakan proses untuk mengiterasi setiap section di
 similarity_scores, mengambil skor kemiripan yang disimpan pada
 variabel sim, mendapatkan bobot section dari variabel
 category_weights dengan default 0 menggunakan get(),
 mengalikan skor “Dengan Bobot” untuk menambah ke
 weighted_sum_v2, dan menambah bobot ke total_weight_v2.
-
-# Baris 43 merupakan proses untuk menghitung total similarity pada
+19. Baris 43 merupakan proses untuk menghitung total similarity pada
 skenario “Dengan Bobot” dengan membagi weighted_sum_v2 dengan
 total_weight_v2 jika total_weight_v2 lebih dari 0 atau
 mengembalikan nilai 0 jika tidak. Kemudian, menyimpan hasilnya ke
 variabel sim_with_weight.
-
-# Baris 45-46 merupakan proses untuk menambahkan data resume_id,
+20. Baris 45-46 merupakan proses untuk menambahkan data resume_id,
 position, sim_no_weight, dan sim_with_weight ke list
 final_results_w2v menggunakan append().
-
-# Baris 53-55 merupakan proses untuk mencatat waktu selesai
+21. Baris 53-55 merupakan proses untuk mencatat waktu selesai
 menggunakan time.time(), menghitung durasi dengan mengurangkan
 start_time dari end_time, dan menyimpan hasilnya ke variabel
 total_time.
-
-# Baris 57-59 merupakan proses untuk mengonversi total_time ke menit
+22. Baris 57-59 merupakan proses untuk mengonversi total_time ke menit
 dan detik, lalu menyimpannya ke variabel minutes dan seconds.
-
-# Baris 61-62 merupakan proses untuk membuat DataFrame
+23. Baris 61-62 merupakan proses untuk membuat DataFrame
 result_df_w2v dari list final_results_w2v menggunakan
 pd.DataFrame(), dengan kolom Resume_ID, Position,
 Similarity_No_Weight, dan Similarity_With_Weight.
-
-# Baris 64-65 merupakan proses untuk mencetak total waktu pemrosesan
+24. Baris 64-65 merupakan proses untuk mencetak total waktu pemrosesan
 dalam format menit dan detik menggunakan print().
-
-# Baris 67 merupakan proses untuk mencetak judul "Similaritas Tanpa Bobot
+25. Baris 67 merupakan proses untuk mencetak judul "Similaritas Tanpa Bobot
 Section" menggunakan print().
-
-# Baris 69-71 merupakan proses untuk mengelompokkan DataFrame
+26. Baris 69-71 merupakan proses untuk mengelompokkan DataFrame
 result_df_w2v berdasarkan kolom Position menggunakan
 groupby(), lalu memilih 5 baris dengan nilai
 Similarity_No_Weight tertinggi untuk setiap posisi menggunakan
 nlargest(), dan menyimpan hasilnya ke variabel
 top5_per_position_no_weight.
-
-# Baris 73-76 merupakan proses untuk mengelompokkan
+27. Baris 73-76 merupakan proses untuk mengelompokkan
 top5_per_position_no_weight berdasarkan kolom Position,
 mengiterasi setiap kualifikasi lowongan kerja (Position), mencetak
 nama posisi, mencetak nilai kolom Resume_ID, serta mencetak nilai
 Similarity_No_Weight untuk setiap kualifikasi lowongan kerja.
-
-# Baris 78 merupakan proses untuk mencetak judul "Similaritas Dengan
+28. Baris 78 merupakan proses untuk mencetak judul "Similaritas Dengan
 Bobot Section" menggunakan print().
 133
-
-# Baris 80-82 merupakan proses untuk mengelompokkan DataFrame
+29. Baris 80-82 merupakan proses untuk mengelompokkan DataFrame
 result_df_w2v berdasarkan kolom Position menggunakan
 groupby(), lalu memilih 5 baris dengan nilai
 
 ## Similarity_With_Weight tertinggi untuk setiap posisi
 menggunakan nlargest(), dan menyimpan hasilnya ke variabel
 top5_per_position_with_weight.
-
-# Baris 84-87 merupakan proses untuk mengelompokkan
+30. Baris 84-87 merupakan proses untuk mengelompokkan
 top5_per_position_with_weight berdasarkan Position,
 mengiterasi setiap kualifikasi lowongan kerja (Position), mencetak
 nama posisi, mencetak kolom Resume_ID, serta
 Similarity_With_Weight untuk setiap kualifikasi lowongan kerja.
 
-## Implementasi Kode Program Word2Vec dan Improved Sqrt-
+### Implementasi Kode Program Word2Vec dan Improved Sqrt-
 ## Cosine Similarity
 Dalam kode program ini, dilakukan kemiripan antara resume dan kualifikasi
 lowongan kerja menggunakan metrik Improved Sqrt-Cosine (ISC) Similarity untuk
@@ -5542,12 +5300,12 @@ Kode Program 5.11 Implementasi kode program Word2Vec dan Improved Sqrt-
 ## Cosine Similarity
 # start_time = time.time() # Catat waktu mulai
 2
+3 # List untuk menyimpan hasil
 
-# # List untuk menyimpan hasil
 # final_results_w2v_isc = []
 5
+6 # Iterasi untuk setiap vacancy
 
-# # Iterasi untuk setiap vacancy
 # for vac_idx, vac_row in tqdm(vacancy_df_1.iterrows(),
 total=len(vacancy_df_1), desc="Processing Vacancies"):
 
@@ -5556,27 +5314,24 @@ total=len(vacancy_df_1), desc="Processing Vacancies"):
 # job_vec_w2v = vac_row['W2V_Vector'] # Vektor vacancy dalam
 bentuk 1D
 11
-
-# # Ambil bobot section sesuai kategori dan ubah ke skala
+12 # Ambil bobot section sesuai kategori dan ubah ke skala
 desimal
 
 # category_weights = (section_df[section_df["Category"] ==
 vacancy_category]
-
-# .set_index("Section")["Bobot"]
-# .div(100)
-# .to_dict())
+14 .set_index("Section")["Bobot"]
+15 .div(100)
+16 .to_dict())
 17
+18 # Iterasi untuk setiap resume
 
-# # Iterasi untuk setiap resume
 # for resume_id in resume_df_1['ID'].unique():
 # resume_sections = resume_df_1[resume_df_1['ID'] ==
 resume_id]
 
 # similarity_scores = {}
 22
-
-# # Hitung similarity untuk setiap section
+23 # Hitung similarity untuk setiap section
 134
 Kode Program 5.11 Implementasi kode program Word2Vec dan Improved Sqrt-
 Cosine Similarity (lanjutan)
@@ -5586,8 +5341,7 @@ Cosine Similarity (lanjutan)
 # section_vector = section_row['W2V_Vector'] #
 ## Vektor section dalam bentuk 1D
 27
-
-# # Hitung improved sqrt-cosine similarity antara
+28 # Hitung improved sqrt-cosine similarity antara
 section dan vacancy
 
 # sim_score =
@@ -5595,15 +5349,13 @@ improved_sqrt_cosine_similarity(section_vector, job_vec_w2v)
 
 # similarity_scores[section_name] = sim_score
 31
-
-# # Versi 1: Tanpa bobot (rata-rata similarity semua
+32 # Versi 1: Tanpa bobot (rata-rata similarity semua
 section)
 
 # sim_no_weight = sum(similarity_scores.values()) /
 len(similarity_scores) if similarity_scores else 0
 34
-
-# # Versi 2: Dengan bobot (weighted sum tanpa normalisasi
+35 # Versi 2: Dengan bobot (weighted sum tanpa normalisasi
 ketat)
 
 # weighted_sum_v2 = 0
@@ -5616,31 +5368,31 @@ ketat)
 # sim_with_weight = weighted_sum_v2 / total_weight_v2 if
 total_weight_v2 > 0 else 0
 44
+45 # Simpan hasil
 
-# # Simpan hasil
 # final_results_w2v_isc.append({
-# 'Resume_ID': resume_id,
-# 'Position': position,
-# 'Similarity_No_Weight': sim_no_weight,
-# 'Similarity_With_Weight': sim_with_weight,
-# })
+47 'Resume_ID': resume_id,
+48 'Position': position,
+49 'Similarity_No_Weight': sim_no_weight,
+50 'Similarity_With_Weight': sim_with_weight,
+51 })
 52
+53 # Catat waktu selesai dan hitung durasi
 
-# # Catat waktu selesai dan hitung durasi
 # end_time = time.time()
 # total_time = end_time - start_time
 56
+57 # Konversi waktu ke format yang lebih mudah dibaca
 
-# # Konversi waktu ke format yang lebih mudah dibaca
 # minutes = int(total_time // 60)
 # seconds = int(total_time % 60)
 60
+61 # Konversi hasil ke DataFrame
 
-# # Konversi hasil ke DataFrame
 # result_df_w2v_isc = pd.DataFrame(final_results_w2v_isc)
 63
+64 # Tampilkan waktu total
 
-# # Tampilkan waktu total
 # print(f"Total waktu pemrosesan: {minutes} menit {seconds}
 detik")
 66
@@ -5652,7 +5404,7 @@ detik")
 result_df_w2v_isc.groupby('Position', group_keys=False).apply(
 
 # lambda x: x.nlargest(5, 'Similarity_No_Weight')
-# )
+71 )
 72
 
 # grouped_no_weight =
@@ -5674,7 +5426,7 @@ Cosine Similarity (lanjutan)
 result_df_w2v_isc.groupby('Position', group_keys=False).apply(
 
 # lambda x: x.nlargest(5, 'Similarity_With_Weight')
-# )
+82 )
 83
 
 # grouped_with_weight =
@@ -5686,31 +5438,24 @@ top5_per_position_with_weight.groupby('Position')
 Penjelasan dari Kode Program 5.11 mengenai implementasi perhitungan
 similaritas antara resume dan kualifikasi lowongan kerja dengan Improved Sqrt-
 Cosine (ISC) Similarity jika menggunakan vektor Word2Vec, yaitu:
-
-# Baris 1 merupakan proses untuk mencatat waktu mulai eksekusi
+1. Baris 1 merupakan proses untuk mencatat waktu mulai eksekusi
 menggunakan time.time() dan menyimpannya ke variabel start_time.
-
-# Baris 3-4 merupakan proses untuk membuat list kosong
+2. Baris 3-4 merupakan proses untuk membuat list kosong
 final_results_w2v_isc untuk menyimpan hasil perhitungan
 kemiripan (similarity) antara resume dan kualifikasi lowongan kerja.
-
-# Baris 6-7 merupakan proses untuk memulai iterasi melalui setiap baris di
+3. Baris 6-7 merupakan proses untuk memulai iterasi melalui setiap baris di
 DataFrame vacancy_df_1 menggunakan iterrows() dengan
 progress bar dari tqdm untuk menampilkan kemajuan pemrosesan.
-
-# Baris 8 merupakan proses untuk mengambil nilai kolom Position dari
+4. Baris 8 merupakan proses untuk mengambil nilai kolom Position dari
 baris kualifikasi lowongan kerja terkini dan menyimpannya ke variabel
 position.
-
-# Baris 9 merupakan pengambilan nilai kolom Category dari baris
+5. Baris 9 merupakan pengambilan nilai kolom Category dari baris
 lowongan kerja pada iterasi terkini dan menyimpannya ke variabel
 vacancy_category.
-
-# Baris 10 merupakan pengambilan vektor Word2Vec dari kolom
+6. Baris 10 merupakan pengambilan vektor Word2Vec dari kolom
 W2V_Vector pada baris kualifikasi lowongan kerja di iterasi terkini dan
 menyimpannya ke variabel job_vec_w2v.
-
-# Baris 12-16 merupakan proses untuk memfilter DataFrame section_df
+7. Baris 12-16 merupakan proses untuk memfilter DataFrame section_df
 berdasarkan vacancy_category, menetapkan kolom Section
 sebagai indeks, mengambil kolom Bobot, membaginya dengan 100
 menggunakan div(100) untuk mengubah ke skala desimal (karena
@@ -5719,107 +5464,85 @@ menggunakan to_dict(), lalu menyimpannya ke variabel
 category_weights sebagai persentase bobot per section untuk
 kualifikasi lowongan kerja pada iterasi terkini sesuai industrinya.
 136
-
-# Baris 18-19 merupakan proses untuk memulai iterasi melalui setiap nilai
+8. Baris 18-19 merupakan proses untuk memulai iterasi melalui setiap nilai
 unik di kolom ID pada DataFrame resume_df_1 menggunakan
 unique().
-
-# Baris 20 merupakan proses untuk memfilter DataFrame resume_df_1
+9. Baris 20 merupakan proses untuk memfilter DataFrame resume_df_1
 untuk mendapatkan semua baris dengan kolom ID yang sesuai dengan
 iterasi resume_id terkini dan menyimpannya ke variabel
 resume_sections.
-
-# Baris 21 merupakan pembuatan dictionary kosong
+10. Baris 21 merupakan pembuatan dictionary kosong
 similarity_scores untuk menyimpan skor kemiripan setiap section
 dalam resume.
-
-# Baris 23-24 merupakan proses untuk memulai iterasi melalui setiap baris
+11. Baris 23-24 merupakan proses untuk memulai iterasi melalui setiap baris
 di resume_sections menggunakan iterrows() untuk memproses
 setiap section dalam resume.
-
-# Baris 25 merupakan proses untuk mengambil nilai kolom Section dari
+12. Baris 25 merupakan proses untuk mengambil nilai kolom Section dari
 baris section terkini dan menyimpannya ke variabel section_name.
-
-# Baris 26 merupakan proses untuk mengambil vektor Word2Vec dari kolom
+13. Baris 26 merupakan proses untuk mengambil vektor Word2Vec dari kolom
 W2V_Vector pada baris section saat ini dan menyimpannya ke variabel
 section_vector.
-
-# Baris 28-29 merupakan proses untuk menghitung kemiripan antara vektor
+14. Baris 28-29 merupakan proses untuk menghitung kemiripan antara vektor
 section pada resume (section_vector) dan vektor kualifikasi
 lowongan kerja (vac_vector) menggunakan fungsi
 cosine_similarity dari library Scikit-learn, lalu menyimpan hasilnya
 ke variabel sim_score.
-
-# Baris 30 merupakan proses untuk menyimpan skor kemiripan
+15. Baris 30 merupakan proses untuk menyimpan skor kemiripan
 sim_score ke dictionary similarity_scores.
-
-# Baris 32-33 merupakan proses untuk menguji skenario “Tanpa Bobot”
+16. Baris 32-33 merupakan proses untuk menguji skenario “Tanpa Bobot”
 dengan menghitung rata-rata kemiripan dengan menjumlahkan semua
 skor kemiripan di similarity_scores menggunakan sum() dan
 membaginya dengan jumlah section menggunakan len(), atau
 mengembalikan 0 jika dictionary kosong, lalu menyimpan hasilnya ke
 variabel sim_no_weight.
-
-# Baris 35-43 merupakan proses untuk menguji skenario “Dengan Bobot”,
+17. Baris 35-43 merupakan proses untuk menguji skenario “Dengan Bobot”,
 dimana baris 36-37 menginisialisasi variabel weighted_sum_v2 dan
 total_weight_v2 dengan nilai 0 untuk menghitung jumlah kemiripan
 terbobot dan total bobot.
-
-# Baris 38-42 merupakan proses untuk mengiterasi setiap section di
+18. Baris 38-42 merupakan proses untuk mengiterasi setiap section di
 similarity_scores, mengambil skor kemiripan yang disimpan pada
 variabel sim, mendapatkan bobot section dari variabel
 category_weights dengan default 0 menggunakan get(),
 mengalikan skor “Dengan Bobot” untuk menambah ke
 weighted_sum_v2, dan menambah bobot ke total_weight_v2.
 137
-
-# Baris 43 merupakan proses untuk menghitung total similarity pada
+19. Baris 43 merupakan proses untuk menghitung total similarity pada
 skenario “Dengan Bobot” dengan membagi weighted_sum_v2 dengan
 total_weight_v2 jika total_weight_v2 lebih dari 0 atau
 mengembalikan nilai 0 jika tidak. Kemudian, menyimpan hasilnya ke
 variabel sim_with_weight.
-
-# Baris 45-46 merupakan proses untuk menambahkan data resume_id,
+20. Baris 45-46 merupakan proses untuk menambahkan data resume_id,
 position, sim_no_weight, dan sim_with_weight ke list
 final_results_w2v_isc menggunakan append().
-
-# Baris 53-55 merupakan proses untuk mencatat waktu selesai
+21. Baris 53-55 merupakan proses untuk mencatat waktu selesai
 menggunakan time.time(), menghitung durasi dengan mengurangkan
 start_time dari end_time, dan menyimpan hasilnya ke variabel
 total_time.
-
-# Baris 57-59 merupakan proses untuk mengonversi total_time ke menit
+22. Baris 57-59 merupakan proses untuk mengonversi total_time ke menit
 dan detik, lalu menyimpannya ke variabel minutes dan seconds.
-
-# Baris 61-62 merupakan proses untuk membuat DataFrame
+23. Baris 61-62 merupakan proses untuk membuat DataFrame
 result_df_w2v_isc dari list final_results_w2v_isc
 menggunakan pd.DataFrame(), dengan kolom Resume_ID,
 Position, Similarity_No_Weight, dan
 Similarity_With_Weight.
-
-# Baris 64-65 merupakan proses untuk mencetak total waktu pemrosesan
+24. Baris 64-65 merupakan proses untuk mencetak total waktu pemrosesan
 dalam format menit dan detik menggunakan print().
-
-# Baris 67 merupakan proses untuk mencetak judul "Similaritas Tanpa Bobot
+25. Baris 67 merupakan proses untuk mencetak judul "Similaritas Tanpa Bobot
 Section" menggunakan print().
-
-# Baris 69-71 merupakan proses untuk mengelompokkan DataFrame
+26. Baris 69-71 merupakan proses untuk mengelompokkan DataFrame
 result_df_w2v_isc berdasarkan kolom Position menggunakan
 groupby(), lalu memilih 5 baris dengan nilai
 Similarity_No_Weight tertinggi untuk setiap posisi menggunakan
 nlargest(), dan menyimpan hasilnya ke variabel
 top5_per_position_no_weight.
-
-# Baris 73-76 merupakan proses untuk mengelompokkan
+27. Baris 73-76 merupakan proses untuk mengelompokkan
 top5_per_position_no_weight berdasarkan kolom Position,
 mengiterasi setiap kualifikasi lowongan kerja (Position), mencetak
 nama posisi, mencetak nilai kolom Resume_ID, serta mencetak nilai
 Similarity_No_Weight untuk setiap kualifikasi lowongan kerja.
-
-# Baris 78 merupakan proses untuk mencetak judul "Similaritas Dengan
+28. Baris 78 merupakan proses untuk mencetak judul "Similaritas Dengan
 Bobot Section" menggunakan print().
-
-# Baris 80-82 merupakan proses untuk mengelompokkan DataFrame
+29. Baris 80-82 merupakan proses untuk mengelompokkan DataFrame
 result_df_w2v_isc berdasarkan kolom Position menggunakan
 groupby(), lalu memilih 5 baris dengan nilai
 
@@ -5827,8 +5550,7 @@ groupby(), lalu memilih 5 baris dengan nilai
 menggunakan nlargest(), dan menyimpan hasilnya ke variabel
 top5_per_position_with_weight.
 138
-
-# Baris 84-87 merupakan proses untuk mengelompokkan
+30. Baris 84-87 merupakan proses untuk mengelompokkan
 top5_per_position_with_weight berdasarkan Position,
 mengiterasi setiap kualifikasi lowongan kerja (Position), mencetak
 nama posisi, mencetak kolom Resume_ID, serta
@@ -5851,7 +5573,8 @@ Implementasi kode program tertera pada Kode Program 5.12.
 Kode Program 5.12 Implementasi kode program perhitungan Spearman Rank
 
 ## Correlation Coefficient
-# # Input DataFrame
+1 # Input DataFrame
+
 # result_df_bobot_tfidf =
 pd.read_csv(r'C:\Users\mit.itsupport\Downloads\archive2024\Resu
 me2-23\rank_df_bobot_tfidf.csv')
@@ -5900,8 +5623,8 @@ result_df_tanpa_bobot_w2v.drop(columns=["Link_Gdrive"])
 # result_df_tanpa_bobot_w2v_isc =
 result_df_tanpa_bobot_w2v_isc.drop(columns=["Link_Gdrive"])
 17
+18 # Korelasi Ranking SRCC
 
-# # Korelasi Ranking SRCC
 # def calculate_srcc(df):
 # df['d_i'] = df['Rank'] - df['Rank_Expert'] # Selisih
 peringkat (d_i)
@@ -5917,8 +5640,8 @@ selisih peringkat (∑ d_i^2)
 
 # n = len(df)
 27
+28 # Hitung SRCC
 
-# # Hitung SRCC
 # if n < 2 or n * (n**2 - 1) == 0: # Mengatasi pembagian
 dengan 0
 
@@ -5939,8 +5662,8 @@ SRCC berdasarkan 'Position'
 # results[position] = srcc
 # return results
 42
+43 # Implementasi Fungsi SRCC
 
-# # Implementasi Fungsi SRCC
 # srcc_bobot_tfidf =
 calculate_srcc_per_position(result_df_bobot_tfidf)
 
@@ -5960,8 +5683,8 @@ calculate_srcc_per_position(result_df_tanpa_bobot_w2v)
 # srcc_tanpa_bobot_w2v_isc =
 calculate_srcc_per_position(result_df_tanpa_bobot_w2v_isc)
 51
+52 # Merge semua df ke satu df
 
-# # Merge semua df ke satu df
 # df_bobot_tfidf = pd.DataFrame(list(srcc_bobot_tfidf.items()),
 columns=['Position', 'TFIDF_Bobot'])
 
@@ -5987,8 +5710,8 @@ columns=['Position', 'W2V_Tanpa_Bobot'])
 pd.DataFrame(list(srcc_tanpa_bobot_w2v_isc.items()),
 columns=['Position', 'W2V_ISC_Tanpa_Bobot'])
 59
+60 # Jadikan 'Position' sebagai index
 
-# # Jadikan 'Position' sebagai index
 # merged_df = df_bobot_tfidf.set_index('Position')
 # merged_df = merged_df.join(df_bobot_w2v.set_index('Position'),
 how='outer')
@@ -6009,8 +5732,8 @@ how='outer')
 merged_df.join(df_tanpa_bobot_w2v_isc.set_index('Position'),
 how='outer')
 67
+68 # Pemberian warna untuk visualisasi
 
-# # Pemberian warna untuk visualisasi
 # def color_srcc(val):
 # if pd.isna(val): # Jika ada NaN
 # return ''
@@ -6027,83 +5750,64 @@ merged_df.style.format("{:.16f}").applymap(color_srcc)
 Penjelasan dari Kode Program 5.12 mengenai implementasi kode program
 pengujian bagian perhitungan Spearman Rank Correlation Coefficient (SRCC),
 yaitu:
-
-# Baris 2 merupakan proses untuk menginput file dengan format CSV
+1. Baris 2 merupakan proses untuk menginput file dengan format CSV
 rank_df_bobot_tfidf ke dalam DataFrame result_df_bobot_tfidf
 menggunakan pd.read_csv().
-
-# Baris 3 merupakan proses untuk menginput file dengan format CSV
+2. Baris 3 merupakan proses untuk menginput file dengan format CSV
 rank_df_bobot_w2v ke dalam DataFrame result_df_bobot_w2v
 menggunakan pd.read_csv().
-
-# Baris 4 merupakan proses untuk menginput file dengan format CSV
+3. Baris 4 merupakan proses untuk menginput file dengan format CSV
 rank_df_bobot_w2v_isc ke dalam DataFrame
 result_df_bobot_w2v_isc menggunakan pd.read_csv().
 141
-
-# Baris 6 merupakan proses untuk menginput file dengan format CSV
+4. Baris 6 merupakan proses untuk menginput file dengan format CSV
 rank_df_tanpa_bobot_tfidf ke dalam DataFrame
 result_df_tanpa_bobot_tfidf menggunakan
 pd.read_csv().
-
-# Baris 7 merupakan proses untuk menginput file dengan format CSV
+5. Baris 7 merupakan proses untuk menginput file dengan format CSV
 rank_df_tanpa_bobot_w2v ke dalam DataFrame
 result_df_tanpa_bobot_w2v menggunakan pd.read_csv().
-
-# Baris 8 merupakan proses untuk menginput file dengan format CSV
+6. Baris 8 merupakan proses untuk menginput file dengan format CSV
 rank_df_tanpa_bobot_w2v_isc ke dalam DataFrame
 result_df_tanpa_bobot_w2v_isc menggunakan
 pd.read_csv().
-
-# Baris 10-16 merupakan proses untuk menghapus kolom Link_Gdrive
+7. Baris 10-16 merupakan proses untuk menghapus kolom Link_Gdrive
 dari enam DataFrame yang sudah diinput.
-
-# Baris 18-19 merupakan proses untuk mendefinisikan fungsi
+8. Baris 18-19 merupakan proses untuk mendefinisikan fungsi
 calculate_srcc yang menerima DataFrame df.
-
-# Baris 20 merupakan proses untuk menghitung selisih antara kolom Rank
+9. Baris 20 merupakan proses untuk menghitung selisih antara kolom Rank
 dan Rank_Expert yang disimpan pada kolom baru d_i.
-
-# Baris 22 merupakan proses untuk menghitung kuadrat dari kolom d_i
+10. Baris 22 merupakan proses untuk menghitung kuadrat dari kolom d_i
 yang disimpan ke kolom baru d_i_squared.
-
-# Baris 24 merupakan proses untuk menjumlahkan semua nilai di kolom
+11. Baris 24 merupakan proses untuk menjumlahkan semua nilai di kolom
 d_i_squared menggunakan sum() dan disimpan ke variabel
 sum_d_i_squared.
-
-# Baris 26 merupakan proses untuk menghitung jumlah baris di DataFrame
+12. Baris 26 merupakan proses untuk menghitung jumlah baris di DataFrame
 df menggunakan len() dan menyimpannya ke variabel n.
-
-# Baris 28-30 merupakan proses untuk memeriksa apakah n kurang dari 2
+13. Baris 28-30 merupakan proses untuk memeriksa apakah n kurang dari 2
 atau penyebut yang merupakan rumus SRCC (n * (n**2 - 1)) sama
 dengan 0 lalu mengembalikan None jika kondisi terpenuhi (true) untuk
 menghindari pembagian dengan nol.
-
-# Baris 31 merupakan proses untuk menghitung Spearman Rank Correlation
+14. Baris 31 merupakan proses untuk menghitung Spearman Rank Correlation
 Coefficient (SRCC) menggunakan persamaan 1 - (6 *
 sum_d_i_squared) / (n * (n**2 - 1)) dan disimpan ke
 variabel srcc.
-
-# Baris 33 merupakan proses untuk mengembalikan nilai srcc sebagai hasil
+15. Baris 33 merupakan proses untuk mengembalikan nilai srcc sebagai hasil
 dari fungsi calculate_srcc.
-
-# Baris 35-36 merupakan proses untuk mendefinisikan fungsi
+16. Baris 35-36 merupakan proses untuk mendefinisikan fungsi
 calculate_srcc_per_position dan pembuatan dictionary kosong
 results untuk menyimpan nilai hasil perhitungan SRCC setiap kualifikasi
 lowongan kerja.
-
-# Baris 37-40 mengelompokkan DataFrame df berdasarkan kolom
+17. Baris 37-40 mengelompokkan DataFrame df berdasarkan kolom
 Position, lalu menghitung SRCC untuk setiap kualifikasi lowongan kerja
 (Position) dengan memanggil fungsi calculate_srcc dan disimpan
 hasil-hasilnya ke dictionary results jika fungsi tersebut tidak
 mengembalikan None.
 142
-
-# Baris 41 merupakan proses untuk mengembalikan isian dictionary
+18. Baris 41 merupakan proses untuk mengembalikan isian dictionary
 results yang merupakan nilai-nilai SRCC per kualifikasi lowongan kerja
 sebagai hasil dari fungsi calculate_srcc_per_position.
-
-# Baris 43-50 merupakan proses untuk menghitung SRCC per kualifikasi
+19. Baris 43-50 merupakan proses untuk menghitung SRCC per kualifikasi
 lowongan kerja pada enam DataFrame, yaitu:
 a. Hasil SRCC result_df_bobot_tfidf disimpan ke variabel
 srcc_bobot_tfidf,
@@ -6118,8 +5822,7 @@ e. Hasil SRCC result_df_tanpa_bobot_w2v disimpan ke
 variabel srcc_tanpa_bobot_w2v,
 f. Hasil SRCC result_df_tanpa_bobot_w2v_isc disimpan ke
 variabel srcc_tanpa_bobot_w2v_isc.
-
-# Baris 52-58 merupakan proses untuk membuat DataFrame menggunakan
+20. Baris 52-58 merupakan proses untuk membuat DataFrame menggunakan
 pd.DataFrame() dari masing-masing hasil enam perhitungan SRCC per
 posisi yang disimpan menjadi:
 a. df_bobot_tfidf dari dictionary srcc_bobot_tfidf
@@ -6138,24 +5841,21 @@ W2V_Tanpa_Bobot,
 f. df_tanpa_bobot_w2v_isc dari dictionary
 srcc_tanpa_bobot_w2v_isc dengan kolom Position dan
 W2V_ISC_Tanpa_Bobot.
-
-# Baris 60-66 merupakan proses mengatur kolom Position sebagai indeks
+21. Baris 60-66 merupakan proses mengatur kolom Position sebagai indeks
 dan menggabungkan enam DataFrame untuk dijadikan satu menggunakan
 df.join() dan disimpan ke DataFrame merged_df.
-
-# Baris 68-75 merupakan proses untuk mendefinisikan fungsi color_srcc
+22. Baris 68-75 merupakan proses untuk mendefinisikan fungsi color_srcc
 yang memberikan warna pada isian nilai di DataFrame berdasarkan nilai
 SRCC, di mana jika kosong atau NaN, maka tidak diberi warna; jika lebih
 dari sama dengan 0,6, maka diberi warna hijau; dan jika kurang dari 0,6,
 maka diberi warna merah.
 143
-
-# Baris 77 merupakan proses untuk memformat DataFrame merged_df
+23. Baris 77 merupakan proses untuk memformat DataFrame merged_df
 menggunakan style.format("{:.16f}") dan menerapkan fungsi
 color_srcc untuk pemberian warna menggunakan applymap().
 Kemudian, disimpan pada DataFrame baru dengan variabel styled_df.
+24. Baris 78 merupakan proses untuk menampilkan DataFrame styled_df.
 
-# Baris 78 merupakan proses untuk menampilkan DataFrame styled_df.
 ## Implementasi Kode Program Perhitungan Relevansi dan
 ## Senioritas
 Dalam kode program ini, dilakukan perhitungan persentase relevansi dan
@@ -6173,34 +5873,34 @@ warna merah jika persentase di bawah ambang batas. Implementasi kode program
 tertera pada Kode Program 5.13.
 Kode Program 5.13 Implementasi kode program perhitungan relevansi dan
 senioritas
+1 # Menghitung persentase Relevansi dan Senioritas per posisi
 
-# # Menghitung persentase Relevansi dan Senioritas per posisi
 # def calculate_relevance_seniority_per_position(df):
 # results = {}
 # for position, group in df.groupby('Position'):
 # total_resumes = len(group)
 6
+7 # Hitung jumlah TRUE untuk Relevansi dan Senioritas
 
-# # Hitung jumlah TRUE untuk Relevansi dan Senioritas
 # relevance_count = (group['Relevance'] == True).sum()
 # seniority_count = (group['Seniority'] == True).sum()
 10
+11 # Hitung persentase
 
-# # Hitung persentase
 # relevance_percent = (relevance_count / total_resumes) *
-# 100
+13 100
 seniority_percent = (seniority_count / total_resumes) *
+14 100
+15 # Simpan hasil
 
-# 100
-# # Simpan hasil
 # results[position] = {'Relevance': relevance_percent,
 'Seniority': seniority_percent}
 17
 
 # return results
 19
+20 # Implementasi Fungsi Relevansi dan Senioritas
 
-# # Implementasi Fungsi Relevansi dan Senioritas
 # relevance_seniority_bobot_tfidf =
 calculate_relevance_seniority_per_position(result_df_bobot_tfid
 f)
@@ -6227,86 +5927,95 @@ t_w2v)
 calculate_relevance_seniority_per_position(result_df_tanpa_bobo
 t_w2v_isc)
 27
+28 # Membedakan DataFrames untuk Relevansi dan Senioritas
 
-# # Membedakan DataFrames untuk Relevansi dan Senioritas
 # df_relevance_bobot_tfidf = pd.DataFrame(
-# [(pos, val['Relevance']) for pos, val in
+30 [(pos, val['Relevance']) for pos, val in
 relevance_seniority_bobot_tfidf.items()],
 
 # columns=['Position', 'TFIDF_Bobot']
-# )
+32 )
+
 # df_relevance_bobot_w2v = pd.DataFrame(
-# [(pos, val['Relevance']) for pos, val in
+34 [(pos, val['Relevance']) for pos, val in
 relevance_seniority_bobot_w2v.items()],
 
 # columns=['Position', 'W2V_Bobot']
-# )
+36 )
+
 # df_relevance_bobot_w2v_isc = pd.DataFrame(
-# [(pos, val['Relevance']) for pos, val in
+38 [(pos, val['Relevance']) for pos, val in
 relevance_seniority_bobot_w2v_isc.items()],
 
 # columns=['Position', 'W2V_ISC_Bobot']
-# )
+40 )
+
 # df_relevance_tanpa_bobot_tfidf = pd.DataFrame(
-# [(pos, val['Relevance']) for pos, val in
+42 [(pos, val['Relevance']) for pos, val in
 relevance_seniority_tanpa_bobot_tfidf.items()],
 
 # columns=['Position', 'TFIDF_Tanpa_Bobot']
-# )
+44 )
+
 # df_relevance_tanpa_bobot_w2v = pd.DataFrame(
-# [(pos, val['Relevance']) for pos, val in
+46 [(pos, val['Relevance']) for pos, val in
 relevance_seniority_tanpa_bobot_w2v.items()],
 
 # columns=['Position', 'W2V_Tanpa_Bobot']
-# )
+48 )
+
 # df_relevance_tanpa_bobot_w2v_isc = pd.DataFrame(
-# [(pos, val['Relevance']) for pos, val in
+50 [(pos, val['Relevance']) for pos, val in
 relevance_seniority_tanpa_bobot_w2v_isc.items()],
 
 # columns=['Position', 'W2V_ISC_Tanpa_Bobot']
-# )
+52 )
 53
 
 # df_seniority_bobot_tfidf = pd.DataFrame(
-# [(pos, val['Seniority']) for pos, val in
+55 [(pos, val['Seniority']) for pos, val in
 relevance_seniority_bobot_tfidf.items()],
 
 # columns=['Position', 'TFIDF_Bobot']
-# )
+57 )
+
 # df_seniority_bobot_w2v = pd.DataFrame(
-# [(pos, val['Seniority']) for pos, val in
+59 [(pos, val['Seniority']) for pos, val in
 relevance_seniority_bobot_w2v.items()],
 
 # columns=['Position', 'W2V_Bobot']
-# )
+61 )
+
 # df_seniority_bobot_w2v_isc = pd.DataFrame(
-# [(pos, val['Seniority']) for pos, val in
+63 [(pos, val['Seniority']) for pos, val in
 relevance_seniority_bobot_w2v_isc.items()],
 
 # columns=['Position', 'W2V_ISC_Bobot']
-# )
+65 )
 145
 Kode Program 5.13 Implementasi kode program perhitungan relevansi dan
 senioritas (lanjutan)
 
 # df_seniority_tanpa_bobot_tfidf = pd.DataFrame(
-# [(pos, val['Seniority']) for pos, val in
+67 [(pos, val['Seniority']) for pos, val in
 relevance_seniority_tanpa_bobot_tfidf.items()],
 
 # columns=['Position', 'TFIDF_Tanpa_Bobot']
-# )
+69 )
+
 # df_seniority_tanpa_bobot_w2v = pd.DataFrame(
-# [(pos, val['Seniority']) for pos, val in
+71 [(pos, val['Seniority']) for pos, val in
 relevance_seniority_tanpa_bobot_w2v.items()],
 
 # columns=['Position', 'W2V_Tanpa_Bobot']
-# )
+73 )
+
 # df_seniority_tanpa_bobot_w2v_isc = pd.DataFrame(
-# [(pos, val['Seniority']) for pos, val in
+75 [(pos, val['Seniority']) for pos, val in
 relevance_seniority_tanpa_bobot_w2v_isc.items()],
 
 # columns=['Position', 'W2V_ISC_Tanpa_Bobot']
-# )
+77 )
 78
 
 # merged_relevance_df =
@@ -6356,8 +6065,8 @@ merged_seniority_df.join(df_seniority_tanpa_bobot_w2v.set_index
 merged_seniority_df.join(df_seniority_tanpa_bobot_w2v_isc.set_i
 ndex('Position'), how='outer')
 92
+93 # Pemberian warna untuk visualisasi
 
-# # Pemberian warna untuk visualisasi
 # def color_percentage(val):
 # if pd.isna(val): # Jika ada NaN
 # return ''
@@ -6385,27 +6094,22 @@ entage)
 # styled_seniority_df
 Penjelasan dari Kode Program 5.13 mengenai implementasi kode program
 pengujian bagian perhitungan relevansi dan senioritas, yaitu:
-
-# Baris 1-3 merupakan proses untuk mendefinisikan fungsi
+1. Baris 1-3 merupakan proses untuk mendefinisikan fungsi
 calculate_relevance_seniority_per_position yang
 menerima DataFrame df dan membuat dictionary kosong results
 untuk menyimpan hasil perhitungan persentase relevansi dan senioritas.
-
-# Baris 5 merupakan proses untuk mengelompokkan DataFrame df
+2. Baris 5 merupakan proses untuk mengelompokkan DataFrame df
 berdasarkan kolom Position dan memulai iterasi untuk setiap
 kualifikasi lowongan kerja (Position).
-
-# Baris 6 merupakan proses untuk menghitung jumlah resume yang ada di
+3. Baris 6 merupakan proses untuk menghitung jumlah resume yang ada di
 dalam kualifikasi lowongan kerja menggunakan len() dan
 menyimpannya ke variabel total_resumes.
-
-# Baris 8-9 merupakan proses untuk menghitung jumlah nilai True di kolom
+4. Baris 8-9 merupakan proses untuk menghitung jumlah nilai True di kolom
 Relevance menggunakan (group['Relevance'] ==
 True).sum() dan di kolom Seniority menggunakan
 (group['Seniority'] == True).sum(). Kemudian, disimpan ke
 variabel relevance_count dan seniority_count.
-
-# Baris 12-14 merupakan proses untuk menghitung persentase relevansi
+5. Baris 12-14 merupakan proses untuk menghitung persentase relevansi
 dengan membagi relevance_count dengan total_resumes dan
 mengalikan dengan 100 agar hasilnya dalam bentuk persen, lalu disimpan
 ke variabel relevance_percent. Hal yang sama dilakukan pada
@@ -6413,13 +6117,12 @@ perhitungan persentase senioritas dengan membagi
 seniority_count dengan total_resumes dan mengalikan dengan
 
 # lalu disimpan ke variabel seniority_percent.
-# Baris 15-18 merupakan proses untuk menambahkan nilai position,
+6. Baris 15-18 merupakan proses untuk menambahkan nilai position,
 relevance_percent, dan seniority_percent ke dictionary
 results. Kemudian, dikonversi menjadi DataFrame menggunakan
 pd.DataFrame().
 147
-
-# Baris 20-26 merupakan proses untuk menghitung persentase relevansi dan
+7. Baris 20-26 merupakan proses untuk menghitung persentase relevansi dan
 senioritas per kualifikasi lowongan kerja pada enam DataFrame, yaitu:
 a. Hasil perhitungan relevansi dan senioritas
 result_df_bobot_tfidf disimpan ke variabel
@@ -6440,48 +6143,39 @@ relevance_seniority_tanpa_bobot_w2v,
 f. Hasil perhitungan relevansi dan senioritas
 result_df_tanpa_bobot_w2v_isc disimpan ke variabel
 relevance_seniority_tanpa_bobot_w2v_isc.
-
-# Baris 28-52 merupakan proses untuk membuat enam DataFrame terpisah,
+8. Baris 28-52 merupakan proses untuk membuat enam DataFrame terpisah,
 yakni menyimpan masing-masing data relevansi dari setiap hasil
 perhitungan result_df dengan kolom Position, serta kolom nama
 pendekatan dan skenario yang digunakan.
-
-# Baris 54-77 merupakan proses untuk membuat enam DataFrame terpisah,
+9. Baris 54-77 merupakan proses untuk membuat enam DataFrame terpisah,
 yakni menyimpan masing-masing data senioritas dari setiap hasil
 perhitungan result_df dengan kolom Position, serta kolom nama
 pendekatan dan skenario yang digunakan.
-
-# Baris 79-84 merupakan proses mengatur kolom Position sebagai indeks
+10. Baris 79-84 merupakan proses mengatur kolom Position sebagai indeks
 dan mengabungkan enam DataFrame hasil data relevansi menggunakan
 df.join() dan disimpan ke DataFrame merged_relevance_df.
-
-# Baris 86-91 merupakan proses mengatur kolom Position sebagai indeks
+11. Baris 86-91 merupakan proses mengatur kolom Position sebagai indeks
 dan mengabungkan enam DataFrame hasil data senioritas menggunakan
 df.join() dan disimpan ke DataFrame merged_relevance_df.
-
-# Baris 93-100 merupakan proses untuk mendefinisikan fungsi
+12. Baris 93-100 merupakan proses untuk mendefinisikan fungsi
 color_percentage yang memberikan warna pada isian nilai di
 DataFrame berdasarkan persentanse relevansi atau senioritas, di mana jika
 kosong atau NaN, maka tidak diberi warna; jika lebih dari sama dengan 60
 maka diberi warna hijau; dan jika kurang dari 60 maka diberi warna merah.
-
-# Baris 102 merupakan proses untuk memformat DataFrame
+13. Baris 102 merupakan proses untuk memformat DataFrame
 relevance_df menggunakan style.format("{:.2f}%") dan
 menerapkan fungsi color_percentage untuk pemberian warna
 menggunakan applymap(). Kemudian, disimpan pada DataFrame baru
 dengan variabel styled_relevance_df.
 148
-
-# Baris 103 merupakan proses untuk memformat DataFrame
+14. Baris 103 merupakan proses untuk memformat DataFrame
 seniority_df menggunakan style.format("{:.2f}%") dan
 menerapkan fungsi color_percentage untuk pemberian warna
 menggunakan applymap(). Kemudian, disimpan hasilnya ke variabel
 styled_seniority_df.
-
-# Baris 105 merupakan proses untuk menampilkan DataFrame
+15. Baris 105 merupakan proses untuk menampilkan DataFrame
 styled_relevance_df.
-
-# Baris 107 merupakan proses untuk menampilkan DataFrame
+16. Baris 107 merupakan proses untuk menampilkan DataFrame
 styled_seniority_df.
 149
 
@@ -6873,8 +6567,7 @@ untuk perbaikan dan pengembangan penelitian selanjutnya.
 ## Kesimpulan
 Berikut merupakan kesimpulan dari penelitian ini untuk menjawab rumusan
 masalah.
-
-# Hasil pemeringkatan lima resume menggunakan Improved Sqrt-Cosine
+1. Hasil pemeringkatan lima resume menggunakan Improved Sqrt-Cosine
 (ISC) Similarity dalam mengkalkulasikan similaritas teks resume dengan
 kualifikasi lowongan kerja menunjukkan bahwa pendekatan representasi
 teks menggunakan Word2Vec lebih unggul dibandingkan dengan TF-IDF
@@ -6890,8 +6583,7 @@ bahwa pendekatan ini paling selaras dengan pandangan manusia karena
 CosSim menjaga hubungan semantik asli vektor Word2Vec tanpa distorsi
 akibat penyesuaian nilai absolut dan memungkinan penyesuaian bobot per
 section sesuai prioritas seorang ahli dalam penelitian ini.
-
-# Korelasi peringkat antara hasil pemeringkatan dari ISC dengan penilaian
+2. Korelasi peringkat antara hasil pemeringkatan dari ISC dengan penilaian
 ahli terhadap kesesuaian kualifikasi lowongan kerja menunjukkan
 keunggulan yang bervariasi berdasarkan representasi teks dan skenario, di
 mana pada skenario “Tanpa Bobot”, Word2Vec dengan ISC lebih unggul
@@ -6908,48 +6600,40 @@ section, Word2Vec dengan CosSim memiliki nilai korelasi rata-rata
 
 ## Saran
 Berikut merupakan saran dari penelitian ini untuk penelitian berikutnya.
-
-# Pemberian bobot per section berdasarkan penilaian seorang ahli dapat
+1. Pemberian bobot per section berdasarkan penilaian seorang ahli dapat
 menimbulkan bias, sehingga kurang mencerminkan variasi preferensi
 rekruter pada umumnya. Pada penelitian selanjutnya, disarankan untuk
 melibatkan lebih banyak ahli.
-
-# Meskipun implementasi Improved Sqrt-Cosine (ISC) Similarity dengan
+2. Meskipun implementasi Improved Sqrt-Cosine (ISC) Similarity dengan
 representasi teks Word2Vec unggul karena masih cukup mampu
 menangkap hubungan semantik kata kunci, tetap kurang disarankan
 karena mengaburkan hubungan semantik asli. Jika berpacu pada seberapa
 relevan isian resume dengan kualifikasi lowongan kerja, maka
 implementasi ISC dengan TF-IDF lebih disarankan untuk digunakan.
-
-# Jumlah kualifikasi lowongan kerja dengan parameter-parameter yang di
+3. Jumlah kualifikasi lowongan kerja dengan parameter-parameter yang di
 atas ambang batas rata-rata lebih sedikit dibandingkan yang di bawah
 ambang batas. Oleh karena itu, penelitian selanjutnya disarankan
 mencantumkan kata-kata teknis spesifik terkait suatu posisi pada deskripsi
 kualifikasi lowongan kerja agar deskripsi yang digunakan tidak terlalu
 umum.
-
-# Penelitian ini berfokus pada peringkat sebagai parameter utama,
+4. Penelitian ini berfokus pada peringkat sebagai parameter utama,
 parameter relevansi dan senioritas ditambahkan sebagai parameter
 pendukung. Untuk penelitian selanjutnya, disarankan menganalisa
 hubungan parameter peringkat dengan parameter relevansi dan
 senioritas.
-
-# Pemrosesan kata untuk mengelompokkan tingkat senioritas pada setiap
+5. Pemrosesan kata untuk mengelompokkan tingkat senioritas pada setiap
 resume menjadi entry level, junior level, dan management level dapat
 meningkatkan kesesuaian resume-resume dari keluaran implementasi
 metode dengan tingkat senioritas yang dibutuhkan sesuai deskripsi
 kualifikasi lowongan kerja.
-
-# Pemrosesan ekstraksi section pada penelitian ini memanfaatkan kolom
+6. Pemrosesan ekstraksi section pada penelitian ini memanfaatkan kolom
 Resume_html yang merupakan fitur asli dari dataset resume. Untuk
 penelitian selanjutnya, disarankan mengembangkan proses ekstraksi
 section tanpa memanfaatkan class dari struktur HTML.
-
-# Penyeragaman nama-nama section pada penelitian ini dilakukan secara
+7. Penyeragaman nama-nama section pada penelitian ini dilakukan secara
 manual. Untuk penelitian selanjutnya, disarankan mengembangkan proses
 penyeragaman nama-nama section secara semantik.
-
-# Penelitian ini hanya menggunakan dataset resume dan kualifikasi
+8. Penelitian ini hanya menggunakan dataset resume dan kualifikasi
 lowongan kerja dengan Bahasa Inggris. Untuk penelitian selanjutnya,
 disarankan mengembangkan dataset resume dan kualifikasi lowongan
 kerja dengan Bahasa Indonesia.
@@ -7029,8 +6713,7 @@ Modernization in Engineering Technology and Science, 06(04), pp. 1466-
 1470.
 Kementerian Ketenagakerjaan RI - Badan Perencanaan dan Pengembangan
 Ketenagakerjaan, 2021. REVIEW RENCANA TENAGA KERJA NASIONAL 2020-
-
-# [Online]
+2024. [Online]
 Tersedia di: <https://satudata.kemnaker.go.id/satudata-
 public/2022/04/files/publikasi/1649938621648_Buku%2520Review%2520R
 TKN_2020_2024.pdf>
@@ -7120,337 +6803,356 @@ C.1 Tanpa Bobot - TF-IDF dan Improved Sqrt-Cosine Similarity
 Rank Resume ID Position Similarity Rank Relevance Seniority
 
 ## Score Expert
-# 38688388 Business 0,1919605 3 TRUE FALSE
+1 38688388 Business 0,1919605 3 TRUE FALSE
+
 ## Developm 416
 ent
 
 ## Executive
-# 31638814 Business 0,1863253 2 TRUE FALSE
+2 31638814 Business 0,1863253 2 TRUE FALSE
+
 ## Developm 744
 ent
 
 ## Executive
-# 18311419 Business 0,1783844 5 TRUE FALSE
+3 18311419 Business 0,1783844 5 TRUE FALSE
+
 ## Developm 987
 ent
 
 ## Executive
-# 15535920 Business 0,1708420 1 TRUE FALSE
+4 15535920 Business 0,1708420 1 TRUE FALSE
+
 ## Developm 879
 ent
 
 ## Executive
-# 17132168 Business 0,1682773 4 TRUE FALSE
+5 17132168 Business 0,1682773 4 TRUE FALSE
+
 ## Developm 892
 ent
 
 ## Executive
-# 26932091 CLUB 0,1871587 5 TRUE TRUE
+# 1 26932091 CLUB 0,1871587 5 TRUE TRUE
 # GENERAL 776
 # MANAGE
 # R
-# 17818707 CLUB 0,1794173 2 TRUE TRUE
+# 2 17818707 CLUB 0,1794173 2 TRUE TRUE
 # GENERAL 858
 # MANAGE
 # R
-# 15535920 CLUB 0,1714170 4 TRUE TRUE
+# 3 15535920 CLUB 0,1714170 4 TRUE TRUE
 # GENERAL 333
 # MANAGE
 # R
-# 38688388 CLUB 0,1605149 3 TRUE TRUE
+# 4 38688388 CLUB 0,1605149 3 TRUE TRUE
 # GENERAL 45
 # MANAGE
 # R
 180
 
-# 25162378 CLUB 0,1561663 1 TRUE TRUE
+# 5 25162378 CLUB 0,1561663 1 TRUE TRUE
 # GENERAL 095
 # MANAGE
 # R
-# 27246366 Construct 0,2309432 2 TRUE TRUE
+1 27246366 Construct 0,2309432 2 TRUE TRUE
 ion 449
 
 ## Superviso
 r
-
-# 39027764 Construct 0,2258310 1 TRUE TRUE
+2 39027764 Construct 0,2258310 1 TRUE TRUE
 ion 516
 
 ## Superviso
 r
-
-# 12839152 Construct 0,2158709 3 TRUE TRUE
+3 12839152 Construct 0,2158709 3 TRUE TRUE
 ion 047
 
 ## Superviso
 r
-
-# 22718826 Construct 0,2089757 4 TRUE FALSE
+4 22718826 Construct 0,2089757 4 TRUE FALSE
 ion 732
 
 ## Superviso
 r
-
-# 26994282 Construct 0,1991065 5 FALSE TRUE
+5 26994282 Construct 0,1991065 5 FALSE TRUE
 ion 198
 
 ## Superviso
 r
-
-# 68781345 Creative 0,1449183 3 TRUE TRUE
+1 68781345 Creative 0,1449183 3 TRUE TRUE
 Director / 029
 
 ## Manager
-# 13964744 Creative 0,1365746 5 FALSE FALSE
+2 13964744 Creative 0,1365746 5 FALSE FALSE
 Director / 594
 
 ## Manager
-# 308648 Creative 0,1303657 1 TRUE TRUE
+3 308648 Creative 0,1303657 1 TRUE TRUE
+
 # Director / 835
 ## Manager
-# 17781039 Creative 0,1282461 4 FALSE FALSE
+4 17781039 Creative 0,1282461 4 FALSE FALSE
 Director / 853
 
 ## Manager
-# 22706174 Creative 0,1264199 2 TRUE TRUE
+5 22706174 Creative 0,1264199 2 TRUE TRUE
 Director / 202
 
 ## Manager
-# 22754014 Digital 0,1351744 4 FALSE TRUE
+1 22754014 Digital 0,1351744 4 FALSE TRUE
 and Social 084
 
 ## Media
 ## Executive
 181
-
-# 16620172 Digital 0,1303300 1 TRUE TRUE
+2 16620172 Digital 0,1303300 1 TRUE TRUE
 and Social 184
 
 ## Media
 ## Executive
-# 18905648 Digital 0,1297599 5 FALSE TRUE
+3 18905648 Digital 0,1297599 5 FALSE TRUE
 and Social
 
 ## Media
 ## Executive
-# 18927233 Digital 0,1290032 3 TRUE FALSE
+4 18927233 Digital 0,1290032 3 TRUE FALSE
 and Social 048
 
 ## Media
 ## Executive
-# 16536141 Digital 0,1178854 2 TRUE FALSE
+5 16536141 Digital 0,1178854 2 TRUE FALSE
 and Social 437
 
 ## Media
 ## Executive
-# 14937492 Digital 0,1692186 4 FALSE FALSE
+1 14937492 Digital 0,1692186 4 FALSE FALSE
+
 ## Banking 127
 ## Officer
-# 27080812 Digital 0,1653474 3 FALSE FALSE
+2 27080812 Digital 0,1653474 3 FALSE FALSE
+
 ## Banking 431
 ## Officer
-# 26932091 Digital 0,1628028 5 FALSE FALSE
+3 26932091 Digital 0,1628028 5 FALSE FALSE
+
 ## Banking 08
 ## Officer
-# 22423839 Digital 0,1595269 1 FALSE FALSE
+4 22423839 Digital 0,1595269 1 FALSE FALSE
+
 ## Banking 82
 ## Officer
-# 25038571 Digital 0,1542614 2 FALSE FALSE
+5 25038571 Digital 0,1542614 2 FALSE FALSE
+
 ## Banking 74
 ## Officer
-# 34252537 Executive 0,2393743 1 TRUE TRUE
+1 34252537 Executive 0,2393743 1 TRUE TRUE
+
 ## Chef 131
-# 29775391 Executive 0,2362169 4 TRUE TRUE
+2 29775391 Executive 0,2362169 4 TRUE TRUE
+
 ## Chef 724
-# 10653119 Executive 0,2324195 2 TRUE TRUE
+3 10653119 Executive 0,2324195 2 TRUE TRUE
+
 ## Chef 106
-# 25924968 Executive 0,2310007 5 TRUE TRUE
+4 25924968 Executive 0,2310007 5 TRUE TRUE
+
 ## Chef 976
-# 16924102 Executive 0,2229271 3 TRUE TRUE
+5 16924102 Executive 0,2229271 3 TRUE TRUE
+
 ## Chef 471
 182
+1 21338490 Finance 0,2365662 5 TRUE FALSE
 
-# 21338490 Finance 0,2365662 5 TRUE FALSE
 ## Executive 907
 /
 
 ## Accounta
 nt
+2 25846894 Finance 0,2339642 4 TRUE FALSE
 
-# 25846894 Finance 0,2339642 4 TRUE FALSE
 ## Executive 328
 /
 
 ## Accounta
 nt
+3 25862026 Finance 0,1916905 3 TRUE TRUE
 
-# 25862026 Finance 0,1916905 3 TRUE TRUE
 ## Executive 061
 /
 
 ## Accounta
 nt
+4 29999135 Finance 0,1887091 1 TRUE TRUE
 
-# 29999135 Finance 0,1887091 1 TRUE TRUE
 ## Executive 447
 /
 
 ## Accounta
 nt
+5 28969385 Finance 0,1883069 2 TRUE TRUE
 
-# 28969385 Finance 0,1883069 2 TRUE TRUE
 ## Executive 276
 /
 
 ## Accounta
 nt
-
-# 23734441 Finance 0,2471592 3 TRUE TRUE
+1 23734441 Finance 0,2471592 3 TRUE TRUE
 Officer ( 921
 Jr/Sr.)
-
-# 28298773 Finance 0,2255675 1 TRUE TRUE
+2 28298773 Finance 0,2255675 1 TRUE TRUE
 Officer ( 767
 Jr/Sr.)
-
-# 29999135 Finance 0,2112704 2 TRUE TRUE
+3 29999135 Finance 0,2112704 2 TRUE TRUE
 Officer ( 543
 Jr/Sr.)
-
-# 53640713 Finance 0,1999300 4 TRUE FALSE
+4 53640713 Finance 0,1999300 4 TRUE FALSE
 Officer ( 064
 Jr/Sr.)
-
-# 21338490 Finance 0,1984463 5 TRUE FALSE
+5 21338490 Finance 0,1984463 5 TRUE FALSE
 Officer ( 036
 Jr/Sr.)
+1 38946032 Financial 0,1817793 4 TRUE TRUE
 
-# 38946032 Financial 0,1817793 4 TRUE TRUE
 ## Consolida 037
 tion
 183
 
 ## Consultan
 t
+2 70541112 Financial 0,1811155 1 TRUE TRUE
 
-# 70541112 Financial 0,1811155 1 TRUE TRUE
 ## Consolida 551
 tion
 
 ## Consultan
 t
+3 213384 Financial 0,1745877 5 TRUE TRUE
 
-# 213384 Financial 0,1745877 5 TRUE TRUE
 # Consolida 097
 tion
 
 ## Consultan
 t
+4 29821051 Financial 0,1730965 2 TRUE TRUE
 
-# 29821051 Financial 0,1730965 2 TRUE TRUE
 ## Consolida 599
 tion
 
 ## Consultan
 t
+5 25862026 Financial 0,1725639 3 TRUE TRUE
 
-# 25862026 Financial 0,1725639 3 TRUE TRUE
 ## Consolida 591
 tion
 
 ## Consultan
 t
+1 18354623 Graphics 0,2102328 4 TRUE FALSE
 
-# 18354623 Graphics 0,2102328 4 TRUE FALSE
 ## Designer 956
-# 18460045 Graphics 0,1993908 2 TRUE TRUE
+2 18460045 Graphics 0,1993908 2 TRUE TRUE
+
 ## Designer 853
-# 20210676 Graphics 0,1793144 5 FALSE FALSE
+3 20210676 Graphics 0,1793144 5 FALSE FALSE
+
 ## Designer 558
-# 22560013 Graphics 0,1749108 1 TRUE TRUE
+4 22560013 Graphics 0,1749108 1 TRUE TRUE
+
 ## Designer 248
-# 26046064 Graphics 0,1747824 3 TRUE TRUE
+5 26046064 Graphics 0,1747824 3 TRUE TRUE
+
 ## Designer 455
-# 30862904 HR 0,2428395 1 TRUE TRUE
+# 1 30862904 HR 0,2428395 1 TRUE TRUE
 ## Specialist 272
-# 24508725 HR 0,2396608 2 TRUE TRUE
+# 2 24508725 HR 0,2396608 2 TRUE TRUE
 ## Specialist 996
-# 16877897 HR 0,2301432 5 FALSE TRUE
+# 3 16877897 HR 0,2301432 5 FALSE TRUE
 ## Specialist 719
-# 11480899 HR 0,2216053 3 FALSE TRUE
+# 4 11480899 HR 0,2216053 3 FALSE TRUE
 ## Specialist 793
-# 53701275 HR 0,2189996 4 FALSE TRUE
+# 5 53701275 HR 0,2189996 4 FALSE TRUE
 ## Specialist 296
 184
 
-# 39413067 INFORMA 0,2356860 1 TRUE TRUE
+# 1 39413067 INFORMA 0,2356860 1 TRUE TRUE
 # TION & 514
 # TECHNOL
 # OGY
 # STAFF
-# 17983957 INFORMA 0,2273222 4 FALSE FALSE
+# 2 17983957 INFORMA 0,2273222 4 FALSE FALSE
 # TION & 616
 # TECHNOL
 # OGY
 # STAFF
-# 91635250 INFORMA 0,2184461 3 TRUE FALSE
+# 3 91635250 INFORMA 0,2184461 3 TRUE FALSE
 # TION & 588
 # TECHNOL
 # OGY
 # STAFF
-# 15535920 INFORMA 0,2094339 5 FALSE FALSE
+# 4 15535920 INFORMA 0,2094339 5 FALSE FALSE
 # TION & 334
 # TECHNOL
 # OGY
 # STAFF
-# 36434348 INFORMA 0,1971253 2 TRUE FALSE
+# 5 36434348 INFORMA 0,1971253 2 TRUE FALSE
 # TION & 698
 # TECHNOL
 # OGY
 # STAFF
-# 36671891 Junior 0,1206467 3 FALSE FALSE
+1 36671891 Junior 0,1206467 3 FALSE FALSE
+
 ## Associate 025
 ## Lawyer
-# 19557384 Junior 0,1203686 4 FALSE FALSE
+2 19557384 Junior 0,1203686 4 FALSE FALSE
+
 ## Associate 863
 ## Lawyer
-# 10332998 Junior 0,1195592 1 TRUE TRUE
+3 10332998 Junior 0,1195592 1 TRUE TRUE
+
 ## Associate 716
 ## Lawyer
-# 15100547 Junior 0,1180229 2 TRUE TRUE
+4 15100547 Junior 0,1180229 2 TRUE TRUE
+
 ## Associate 251
 ## Lawyer
-# 11065180 Junior 0,1170764 5 FALSE FALSE
+5 11065180 Junior 0,1170764 5 FALSE FALSE
+
 ## Associate 78
 ## Lawyer
-# 23719943 Junior 0,1771679 2 TRUE FALSE
+1 23719943 Junior 0,1771679 2 TRUE FALSE
+
 ## Designer 315
 for
 
 ## Apparel
 185
+2 15746146 Junior 0,1627493 1 TRUE TRUE
 
-# 15746146 Junior 0,1627493 1 TRUE TRUE
 ## Designer 142
 for
 
 ## Apparel
-# 26503829 Junior 0,1479395 3 TRUE FALSE
+3 26503829 Junior 0,1479395 3 TRUE FALSE
+
 ## Designer 386
 for
 
 ## Apparel
-# 12122372 Junior 0,1410829 4 FALSE FALSE
+4 12122372 Junior 0,1410829 4 FALSE FALSE
+
 ## Designer 334
 for
 
 ## Apparel
-# 26932091 Junior 0,1367025 5 FALSE FALSE
+5 26932091 Junior 0,1367025 5 FALSE FALSE
+
 ## Designer 452
 for
 
 ## Apparel
-# 26932091 Manager 0,2015879 5 FALSE FALSE
+1 26932091 Manager 0,2015879 5 FALSE FALSE
+
 ## Aviation 825
 Safety,
 
@@ -7458,7 +7160,8 @@ Safety,
 and
 
 ## Security
-# 11169163 Manager 0,2013763 2 TRUE TRUE
+2 11169163 Manager 0,2013763 2 TRUE TRUE
+
 ## Aviation 559
 Safety,
 
@@ -7466,7 +7169,8 @@ Safety,
 and
 
 ## Security
-# 19796840 Manager 0,2010987 4 FALSE FALSE
+3 19796840 Manager 0,2010987 4 FALSE FALSE
+
 ## Aviation 541
 Safety,
 
@@ -7474,7 +7178,8 @@ Safety,
 and
 
 ## Security
-# 28186635 Manager 0,1877334 3 TRUE FALSE
+4 28186635 Manager 0,1877334 3 TRUE FALSE
+
 ## Aviation 005
 Safety,
 
@@ -7482,7 +7187,8 @@ Safety,
 and
 
 ## Security
-# 28383893 Manager 0,1862704 1 TRUE TRUE
+5 28383893 Manager 0,1862704 1 TRUE TRUE
+
 ## Aviation 602
 Safety,
 
@@ -7491,146 +7197,154 @@ Safety,
 and
 
 ## Security
-# 16356151 Medical 0,2157386 1 FALSE TRUE
+1 16356151 Medical 0,2157386 1 FALSE TRUE
+
 ## Doctor 58
-# 13565152 Medical 0,1875315 5 FALSE FALSE
+2 13565152 Medical 0,1875315 5 FALSE FALSE
+
 ## Doctor 396
-# 17818707 Medical 0,1628595 4 FALSE FALSE
+3 17818707 Medical 0,1628595 4 FALSE FALSE
+
 ## Doctor 03
-# 12544735 Medical 0,1595774 2 FALSE FALSE
+4 12544735 Medical 0,1595774 2 FALSE FALSE
+
 ## Doctor 142
-# 43994605 Medical 0,1595204 3 FALSE FALSE
+5 43994605 Medical 0,1595204 3 FALSE FALSE
+
 ## Doctor 988
-# 77828437 Productio 0,1264697 1 TRUE TRUE
+1 77828437 Productio 0,1264697 1 TRUE TRUE
 n 128
 
 ## Engineeri
 ng
-
-# 55595908 Productio 0,1201321 5 FALSE FALSE
+2 55595908 Productio 0,1201321 5 FALSE FALSE
 n 813
 
 ## Engineeri
 ng
-
-# 28803888 Productio 0,1154167 3 TRUE FALSE
+3 28803888 Productio 0,1154167 3 TRUE FALSE
 n 25
 
 ## Engineeri
 ng
-
-# 30288581 Productio 0,1118393 4 FALSE FALSE
+4 30288581 Productio 0,1118393 4 FALSE FALSE
 n 979
 
 ## Engineeri
 ng
-
-# 86828820 Productio 0,1101805 2 FALSE FALSE
+5 86828820 Productio 0,1101805 2 FALSE FALSE
 n 298
 
 ## Engineeri
 ng
+1 21297828 Public 0,1907608 3 TRUE TRUE
 
-# 21297828 Public 0,1907608 3 TRUE TRUE
 ## Relations 096
 ## Officer
-# 13129275 Public 0,1802253 5 FALSE TRUE
+2 13129275 Public 0,1802253 5 FALSE TRUE
+
 ## Relations 973
 ## Officer
-# 28290448 Public 0,1736107 2 TRUE TRUE
+3 28290448 Public 0,1736107 2 TRUE TRUE
+
 ## Relations 376
 ## Officer
 187
+4 31220062 Public 0,1732900 4 FALSE TRUE
 
-# 31220062 Public 0,1732900 4 FALSE TRUE
 ## Relations 471
 ## Officer
-# 20210676 Public 0,1725535 1 TRUE TRUE
+5 20210676 Public 0,1725535 1 TRUE TRUE
+
 ## Relations 861
 ## Officer
-# 26888302 Quality 0,1252811 2 FALSE TRUE
+1 26888302 Quality 0,1252811 2 FALSE TRUE
+
 ## Control 704
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+2 26932091 Quality 0,1239398 4 FALSE TRUE
 
-# 26932091 Quality 0,1239398 4 FALSE TRUE
 ## Control 512
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+3 20905088 Quality 0,1106055 3 FALSE FALSE
 
-# 20905088 Quality 0,1106055 3 FALSE FALSE
 ## Control 359
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+4 28020046 Quality 0,1081390 1 FALSE TRUE
 
-# 28020046 Quality 0,1081390 1 FALSE TRUE
 ## Control 286
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+5 22861181 Quality 0,1069757 5 FALSE FALSE
 
-# 22861181 Quality 0,1069757 5 FALSE FALSE
 ## Control 33
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+1 26932091 Regional 0,2134135 5 FALSE TRUE
 
-# 26932091 Regional 0,2134135 5 FALSE TRUE
 ## Sales 079
 ## Manager
-# 25038571 Regional 0,2032024 2 TRUE TRUE
+2 25038571 Regional 0,2032024 2 TRUE TRUE
+
 ## Sales 859
 ## Manager
-# 27080812 Regional 0,2029929 3 FALSE TRUE
+3 27080812 Regional 0,2029929 3 FALSE TRUE
+
 ## Sales 331
 ## Manager
 188
+4 38688388 Regional 0,1964119 4 FALSE FALSE
 
-# 38688388 Regional 0,1964119 4 FALSE FALSE
 ## Sales 402
 ## Manager
-# 17818707 Regional 0,1949221 1 TRUE TRUE
+5 17818707 Regional 0,1949221 1 TRUE TRUE
+
 ## Sales 894
 ## Manager
-# 35474904 Spare part 0,1420329 5 FALSE FALSE
+1 35474904 Spare part 0,1420329 5 FALSE FALSE
+
 ## Admin 913
-# 22861181 Spare part 0,1379583 4 FALSE FALSE
+2 22861181 Spare part 0,1379583 4 FALSE FALSE
+
 ## Admin 676
-# 19473948 Spare part 0,1371374 1 FALSE TRUE
+3 19473948 Spare part 0,1371374 1 FALSE TRUE
+
 ## Admin 364
-# 71772815 Spare part 0,1371227 2 FALSE TRUE
+4 71772815 Spare part 0,1371227 2 FALSE TRUE
+
 ## Admin 976
-# 24670867 Spare part 0,1369340 3 FALSE FALSE
+5 24670867 Spare part 0,1369340 3 FALSE FALSE
+
 ## Admin 491
-# 15850434 Teachers 0,2201057 2 TRUE TRUE
+1 15850434 Teachers 0,2201057 2 TRUE TRUE
 854
-
-# 96547039 Teachers 0,1978795 1 TRUE TRUE
+2 96547039 Teachers 0,1978795 1 TRUE TRUE
 776
-
-# 28772892 Teachers 0,1889872 3 TRUE TRUE
+3 28772892 Teachers 0,1889872 3 TRUE TRUE
 465
-
-# 58105060 Teachers 0,1869135 5 TRUE TRUE
+4 58105060 Teachers 0,1869135 5 TRUE TRUE
 69
-
-# 37220856 Teachers 0,1804859 4 FALSE TRUE
+5 37220856 Teachers 0,1804859 4 FALSE TRUE
 322
-
-# 26932091 Unmanag 0,2280308 1 TRUE TRUE
+1 26932091 Unmanag 0,2280308 1 TRUE TRUE
 ed 996
 
 ## Merchant
@@ -7640,7 +7354,7 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 68781345 Unmanag 0,2043528 5 FALSE FALSE
+2 68781345 Unmanag 0,2043528 5 FALSE FALSE
 ed 088
 
 ## Merchant
@@ -7651,8 +7365,7 @@ Associate,
 ## BPO Field
 ## Sales
 189
-
-# 17818707 Unmanag 0,1783846 4 FALSE FALSE
+3 17818707 Unmanag 0,1783846 4 FALSE FALSE
 ed 929
 
 ## Merchant
@@ -7662,7 +7375,7 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 27884470 Unmanag 0,1726401 3 FALSE FALSE
+4 27884470 Unmanag 0,1726401 3 FALSE FALSE
 ed 754
 
 ## Merchant
@@ -7672,7 +7385,7 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 38688388 Unmanag 0,1670092 2 TRUE FALSE
+5 38688388 Unmanag 0,1670092 2 TRUE FALSE
 ed 401
 
 ## Merchant
@@ -7686,336 +7399,354 @@ C.2 Tanpa Bobot - Word2Vec dan Cosine Similarity
 Rank Resume ID Position Similarity Rank Relevance Seniority
 
 ## Score Expert
-# 26932091 Business 0,8910836 4 TRUE FALSE
+1 26932091 Business 0,8910836 4 TRUE FALSE
+
 ## Developm 577
 ent
 
 ## Executive
-# 10464113 Business 0,8697264 3 TRUE FALSE
+2 10464113 Business 0,8697264 3 TRUE FALSE
+
 ## Developm 314
 ent
 
 ## Executive
-# 13352113 Business 0,8397827 5 TRUE TRUE
+3 13352113 Business 0,8397827 5 TRUE TRUE
+
 ## Developm 595
 ent
 
 ## Executive
-# 17132168 Business 0,8354100 1 TRUE TRUE
+4 17132168 Business 0,8354100 1 TRUE TRUE
+
 ## Developm 585
 ent
 
 ## Executive
 190
+5 27715131 Business 0,8342830 2 TRUE FALSE
 
-# 27715131 Business 0,8342830 2 TRUE FALSE
 ## Developm 539
 ent
 
 ## Executive
-# 26932091 CLUB 0,8795587 5 FALSE FALSE
+# 1 26932091 CLUB 0,8795587 5 FALSE FALSE
 # GENERAL 818
 # MANAGE
 # R
-# 10464113 CLUB 0,8576420 4 FALSE FALSE
+# 2 10464113 CLUB 0,8576420 4 FALSE FALSE
 # GENERAL 188
 # MANAGE
 # R
-# 13411858 CLUB 0,8569679 3 FALSE FALSE
+# 3 13411858 CLUB 0,8569679 3 FALSE FALSE
 # GENERAL 499
 # MANAGE
 # R
-# 27715131 CLUB 0,8542478 2 FALSE TRUE
+# 4 27715131 CLUB 0,8542478 2 FALSE TRUE
 # GENERAL 204
 # MANAGE
 # R
-# 12938389 CLUB 0,8491947 1 TRUE TRUE
+# 5 12938389 CLUB 0,8491947 1 TRUE TRUE
 # GENERAL 293
 # MANAGE
 # R
-# 27246366 Construct 0,8558241 1 TRUE TRUE
+1 27246366 Construct 0,8558241 1 TRUE TRUE
 ion 725
 
 ## Superviso
 r
-
-# 39027764 Construct 0,8522567 4 TRUE FALSE
+2 39027764 Construct 0,8522567 4 TRUE FALSE
 ion 153
 
 ## Superviso
 r
-
-# 26932091 Construct 0,8479026 5 FALSE FALSE
+3 26932091 Construct 0,8479026 5 FALSE FALSE
 ion 556
 
 ## Superviso
 r
-
-# 16203589 Construct 0,8425265 3 FALSE TRUE
+4 16203589 Construct 0,8425265 3 FALSE TRUE
 ion 431
 
 ## Superviso
 r
-
-# 12839152 Construct 0,8412288 2 TRUE TRUE
+5 12839152 Construct 0,8412288 2 TRUE TRUE
 ion 904
 
 ## Superviso
 r
 191
-
-# 13115648 Creative 0,8481530 3 FALSE FALSE
+1 13115648 Creative 0,8481530 3 FALSE FALSE
 Director / 845
 
 ## Manager
-# 81508860 Creative 0,8427884 1 TRUE TRUE
+2 81508860 Creative 0,8427884 1 TRUE TRUE
 Director / 43
 
 ## Manager
-# 129383 Creative 0,8389229 4 FALSE FALSE
+3 129383 Creative 0,8389229 4 FALSE FALSE
+
 # Director / 774
 ## Manager
-# 23917826 Creative 0,8372398 2 FALSE FALSE
+4 23917826 Creative 0,8372398 2 FALSE FALSE
 Director / 466
 
 ## Manager
-# 24588864 Creative 0,8319416 5 FALSE FALSE
+5 24588864 Creative 0,8319416 5 FALSE FALSE
 Director / 642
 
 ## Manager
-# 18905648 Digital 0,8833178 4 FALSE TRUE
+1 18905648 Digital 0,8833178 4 FALSE TRUE
 and Social 282
 
 ## Media
 ## Executive
-# 18354623 Digital 0,8470618 2 TRUE FALSE
+2 18354623 Digital 0,8470618 2 TRUE FALSE
 and Social 427
 
 ## Media
 ## Executive
-# 70750649 Digital 0,8403711 1 TRUE FALSE
+3 70750649 Digital 0,8403711 1 TRUE FALSE
 and Social 468
 
 ## Media
 ## Executive
-# 26932091 Digital 0,8330877 5 FALSE FALSE
+4 26932091 Digital 0,8330877 5 FALSE FALSE
 and Social 423
 
 ## Media
 ## Executive
-# 22754014 Digital 0,8241794 3 FALSE TRUE
+5 22754014 Digital 0,8241794 3 FALSE TRUE
 and Social 109
 
 ## Media
 ## Executive
-# 26932091 Digital 0,8829766 4 FALSE TRUE
+1 26932091 Digital 0,8829766 4 FALSE TRUE
+
 ## Banking 711
 ## Officer
-# 98379112 Digital 0,8419138 1 FALSE FALSE
+2 98379112 Digital 0,8419138 1 FALSE FALSE
+
 ## Banking 193
 ## Officer
 192
+3 26167298 Digital 0,8403331 3 FALSE FALSE
 
-# 26167298 Digital 0,8403331 3 FALSE FALSE
 ## Banking 637
 ## Officer
-# 18824120 Digital 0,8402394 2 FALSE TRUE
+4 18824120 Digital 0,8402394 2 FALSE TRUE
+
 ## Banking 056
 ## Officer
-# 10464113 Digital 0,8382170 5 FALSE TRUE
+5 10464113 Digital 0,8382170 5 FALSE TRUE
+
 ## Banking 916
 ## Officer
-# 35579812 Executive 0,8825965 5 TRUE TRUE
+1 35579812 Executive 0,8825965 5 TRUE TRUE
+
 ## Chef 822
-# 29775391 Executive 0,8810187 3 TRUE TRUE
+2 29775391 Executive 0,8810187 3 TRUE TRUE
+
 ## Chef 817
-# 34252537 Executive 0,8682833 4 TRUE TRUE
+3 34252537 Executive 0,8682833 4 TRUE TRUE
+
 ## Chef 076
-# 21060367 Executive 0,8642790 1 TRUE TRUE
+4 21060367 Executive 0,8642790 1 TRUE TRUE
+
 ## Chef 198
-# 25924968 Executive 0,8607410 2 TRUE TRUE
+5 25924968 Executive 0,8607410 2 TRUE TRUE
+
 ## Chef 938
-# 20393721 Finance 0,8786240 3 TRUE TRUE
+1 20393721 Finance 0,8786240 3 TRUE TRUE
+
 ## Executive 816
 /
 
 ## Accounta
 nt
+2 23636277 Finance 0,8532985 2 TRUE TRUE
 
-# 23636277 Finance 0,8532985 2 TRUE TRUE
 ## Executive 747
 /
 
 ## Accounta
 nt
+3 70541112 Finance 0,8524324 1 TRUE TRUE
 
-# 70541112 Finance 0,8524324 1 TRUE TRUE
 ## Executive 417
 /
 
 ## Accounta
 nt
+4 22861181 Finance 0,8475373 5 FALSE FALSE
 
-# 22861181 Finance 0,8475373 5 FALSE FALSE
 ## Executive 387
 /
 
 ## Accounta
 nt
+5 26695839 Finance 0,8448839 4 FALSE TRUE
 
-# 26695839 Finance 0,8448839 4 FALSE TRUE
 ## Executive 585
 /
 193
 
 ## Accounta
 nt
-
-# 20393721 Finance 0,8747340 3 TRUE FALSE
+1 20393721 Finance 0,8747340 3 TRUE FALSE
 Officer ( 639
 Jr/Sr.)
-
-# 23734441 Finance 0,8486161 1 TRUE TRUE
+2 23734441 Finance 0,8486161 1 TRUE TRUE
 Officer ( 629
 Jr/Sr.)
-
-# 27558837 Finance 0,8390957 2 TRUE TRUE
+3 27558837 Finance 0,8390957 2 TRUE TRUE
 Officer ( 117
 Jr/Sr.)
-
-# 25497147 Finance 0,8381744 4 FALSE TRUE
+4 25497147 Finance 0,8381744 4 FALSE TRUE
 Officer ( 027
 Jr/Sr.)
-
-# 53640713 Finance 0,8285536 5 FALSE TRUE
+5 53640713 Finance 0,8285536 5 FALSE TRUE
 Officer ( 528
 Jr/Sr.)
+1 70541112 Financial 0,8601319 1 TRUE TRUE
 
-# 70541112 Financial 0,8601319 1 TRUE TRUE
 ## Consolida 313
 tion
 
 ## Consultan
 t
+2 18365443 Financial 0,8497776 2 FALSE TRUE
 
-# 18365443 Financial 0,8497776 2 FALSE TRUE
 ## Consolida 538
 tion
 
 ## Consultan
 t
+3 269320 Financial 0,8467198 4 FALSE TRUE
 
-# 269320 Financial 0,8467198 4 FALSE TRUE
 # Consolida 412
 tion
 
 ## Consultan
 t
+4 26695839 Financial 0,8388730 5 FALSE FALSE
 
-# 26695839 Financial 0,8388730 5 FALSE FALSE
 ## Consolida 884
 tion
 
 ## Consultan
 t
+5 19446337 Financial 0,8272504 3 FALSE TRUE
 
-# 19446337 Financial 0,8272504 3 FALSE TRUE
 ## Consolida 449
 tion
 
 ## Consultan
 t
+1 18354623 Graphics 0,8890629 3 TRUE FALSE
 
-# 18354623 Graphics 0,8890629 3 TRUE FALSE
 ## Designer 709
 194
+2 22754014 Graphics 0,8265473 2 TRUE TRUE
 
-# 22754014 Graphics 0,8265473 2 TRUE TRUE
 ## Designer 545
-# 70750649 Graphics 0,8213165 4 FALSE FALSE
+3 70750649 Graphics 0,8213165 4 FALSE FALSE
+
 ## Designer 402
-# 37664296 Graphics 0,8205203 1 TRUE TRUE
+4 37664296 Graphics 0,8205203 1 TRUE TRUE
+
 ## Designer 891
-# 22848179 Graphics 0,8096640 5 FALSE FALSE
+5 22848179 Graphics 0,8096640 5 FALSE FALSE
+
 ## Designer 706
-# 16877897 HR 0,9091145 2 FALSE TRUE
+# 1 16877897 HR 0,9091145 2 FALSE TRUE
 ## Specialist 694
-# 26932091 HR 0,8979627 5 FALSE FALSE
+# 2 26932091 HR 0,8979627 5 FALSE FALSE
 ## Specialist 291
-# 30862904 HR 0,8975547 1 TRUE TRUE
+# 3 30862904 HR 0,8975547 1 TRUE TRUE
 ## Specialist 701
-# 29134372 HR 0,8676508 3 FALSE FALSE
+# 4 29134372 HR 0,8676508 3 FALSE FALSE
 ## Specialist 904
-# 11289482 HR 0,8629413 4 FALSE FALSE
+# 5 11289482 HR 0,8629413 4 FALSE FALSE
 ## Specialist 128
-# 26932091 INFORMA 0,8692647 5 FALSE TRUE
+# 1 26932091 INFORMA 0,8692647 5 FALSE TRUE
 # TION & 02
 # TECHNOL
 # OGY
 # STAFF
-# 28672970 INFORMA 0,8644542 3 TRUE FALSE
+# 2 28672970 INFORMA 0,8644542 3 TRUE FALSE
 # TION & 694
 # TECHNOL
 # OGY
 # STAFF
-# 10840430 INFORMA 0,8521312 2 TRUE FALSE
+# 3 10840430 INFORMA 0,8521312 2 TRUE FALSE
 # TION & 773
 # TECHNOL
 # OGY
 # STAFF
-# 11957080 INFORMA 0,8495982 1 TRUE TRUE
+# 4 11957080 INFORMA 0,8495982 1 TRUE TRUE
 # TION & 438
 # TECHNOL
 # OGY
 # STAFF
-# 15535920 INFORMA 0,8477472 4 FALSE FALSE
+# 5 15535920 INFORMA 0,8477472 4 FALSE FALSE
 # TION & 961
 # TECHNOL
 # OGY
 # STAFF
 195
+1 81508860 Junior 0,8411479 5 FALSE FALSE
 
-# 81508860 Junior 0,8411479 5 FALSE FALSE
 ## Associate 443
 ## Lawyer
-# 98379112 Junior 0,8350052 4 FALSE FALSE
+2 98379112 Junior 0,8350052 4 FALSE FALSE
+
 ## Associate 088
 ## Lawyer
-# 18297650 Junior 0,8287451 1 FALSE FALSE
+3 18297650 Junior 0,8287451 1 FALSE FALSE
+
 ## Associate 416
 ## Lawyer
-# 22485475 Junior 0,8282045 2 FALSE FALSE
+4 22485475 Junior 0,8282045 2 FALSE FALSE
+
 ## Associate 275
 ## Lawyer
-# 16877897 Junior 0,8276658 3 FALSE FALSE
+5 16877897 Junior 0,8276658 3 FALSE FALSE
+
 ## Associate 654
 ## Lawyer
-# 26932091 Junior 0,8629954 5 FALSE FALSE
+1 26932091 Junior 0,8629954 5 FALSE FALSE
+
 ## Designer 656
 for
 
 ## Apparel
-# 15154822 Junior 0,8216761 1 TRUE FALSE
+2 15154822 Junior 0,8216761 1 TRUE FALSE
+
 ## Designer 589
 for
 
 ## Apparel
-# 19195747 Junior 0,8122268 3 FALSE FALSE
+3 19195747 Junior 0,8122268 3 FALSE FALSE
+
 ## Designer 17
 for
 
 ## Apparel
-# 23719943 Junior 0,8101501 2 FALSE FALSE
+4 23719943 Junior 0,8101501 2 FALSE FALSE
+
 ## Designer 614
 for
 
 ## Apparel
-# 18354623 Junior 0,8057058 4 FALSE FALSE
+5 18354623 Junior 0,8057058 4 FALSE FALSE
+
 ## Designer 156
 for
 
 ## Apparel
-# 13195436 Manager 0,8760108 1 TRUE TRUE
+1 13195436 Manager 0,8760108 1 TRUE TRUE
+
 ## Aviation 203
 Safety,
 
@@ -8023,7 +7754,8 @@ Safety,
 and
 
 ## Security
-# 11169163 Manager 0,8636670 2 TRUE TRUE
+2 11169163 Manager 0,8636670 2 TRUE TRUE
+
 ## Aviation 262
 Safety,
 196
@@ -8032,7 +7764,8 @@ Safety,
 and
 
 ## Security
-# 12654876 Manager 0,8354426 4 FALSE TRUE
+3 12654876 Manager 0,8354426 4 FALSE TRUE
+
 ## Aviation 771
 Safety,
 
@@ -8040,7 +7773,8 @@ Safety,
 and
 
 ## Security
-# 35651876 Manager 0,8326146 3 FALSE FALSE
+4 35651876 Manager 0,8326146 3 FALSE FALSE
+
 ## Aviation 305
 Safety,
 
@@ -8048,7 +7782,8 @@ Safety,
 and
 
 ## Security
-# 26932091 Manager 0,8321723 5 FALSE FALSE
+5 26932091 Manager 0,8321723 5 FALSE FALSE
+
 ## Aviation 739
 Safety,
 
@@ -8056,87 +7791,93 @@ Safety,
 and
 
 ## Security
-# 25328428 Medical 0,8549853 2 FALSE FALSE
+1 25328428 Medical 0,8549853 2 FALSE FALSE
+
 ## Doctor 325
-# 96260484 Medical 0,8511528 1 FALSE TRUE
+2 96260484 Medical 0,8511528 1 FALSE TRUE
+
 ## Doctor 522
-# 37402097 Medical 0,8448984 5 FALSE FALSE
+3 37402097 Medical 0,8448984 5 FALSE FALSE
+
 ## Doctor 325
-# 15958967 Medical 0,8384091 3 FALSE FALSE
+4 15958967 Medical 0,8384091 3 FALSE FALSE
+
 ## Doctor 616
-# 12544735 Medical 0,8357500 4 FALSE FALSE
+5 12544735 Medical 0,8357500 4 FALSE FALSE
+
 ## Doctor 881
-# 54100393 Productio 0,7940523 5 FALSE FALSE
+1 54100393 Productio 0,7940523 5 FALSE FALSE
 n 922
 
 ## Engineeri
 ng
-
-# 30288581 Productio 0,7927010 2 FALSE FALSE
+2 30288581 Productio 0,7927010 2 FALSE FALSE
 n 179
 
 ## Engineeri
 ng
-
-# 12011623 Productio 0,7900994 1 TRUE TRUE
+3 12011623 Productio 0,7900994 1 TRUE TRUE
 n 569
 
 ## Engineeri
 ng
 197
-
-# 37751611 Productio 0,7888528 4 FALSE FALSE
+4 37751611 Productio 0,7888528 4 FALSE FALSE
 n 109
 
 ## Engineeri
 ng
-
-# 10751444 Productio 0,7884584 3 FALSE FALSE
+5 10751444 Productio 0,7884584 3 FALSE FALSE
 n 188
 
 ## Engineeri
 ng
+1 28290448 Public 0,8557876 1 TRUE TRUE
 
-# 28290448 Public 0,8557876 1 TRUE TRUE
 ## Relations 945
 ## Officer
-# 70750649 Public 0,8394137 2 TRUE FALSE
+2 70750649 Public 0,8394137 2 TRUE FALSE
+
 ## Relations 621
 ## Officer
-# 22861181 Public 0,8321976 5 FALSE FALSE
+3 22861181 Public 0,8321976 5 FALSE FALSE
+
 ## Relations 066
 ## Officer
-# 22754014 Public 0,8313117 3 TRUE TRUE
+4 22754014 Public 0,8313117 3 TRUE TRUE
+
 ## Relations 474
 ## Officer
-# 18354623 Public 0,8215153 4 TRUE FALSE
+5 18354623 Public 0,8215153 4 TRUE FALSE
+
 ## Relations 068
 ## Officer
-# 26932091 Quality 0,8515201 5 FALSE TRUE
+1 26932091 Quality 0,8515201 5 FALSE TRUE
+
 ## Control 807
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+2 35651876 Quality 0,8261224 2 FALSE FALSE
 
-# 35651876 Quality 0,8261224 2 FALSE FALSE
 ## Control 329
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+3 12011623 Quality 0,8161604 3 FALSE FALSE
 
-# 12011623 Quality 0,8161604 3 FALSE FALSE
 ## Control 106
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+4 26070334 Quality 0,8140973 1 FALSE TRUE
 
-# 26070334 Quality 0,8140973 1 FALSE TRUE
 ## Control 449
 ## Superviso
 r - Corn
@@ -8144,57 +7885,61 @@ r - Corn
 
 ## Commodi
 ty
+5 26888302 Quality 0,8107827 4 FALSE FALSE
 
-# 26888302 Quality 0,8107827 4 FALSE FALSE
 ## Control 604
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+1 26932091 Regional 0,9135585 3 FALSE TRUE
 
-# 26932091 Regional 0,9135585 3 FALSE TRUE
 ## Sales 03
 ## Manager
-# 28867567 Regional 0,8628078 1 TRUE TRUE
+2 28867567 Regional 0,8628078 1 TRUE TRUE
+
 ## Sales 401
 ## Manager
-# 12059198 Regional 0,8436546 2 FALSE TRUE
+3 12059198 Regional 0,8436546 2 FALSE TRUE
+
 ## Sales 087
 ## Manager
-# 18368613 Regional 0,8355645 4 TRUE FALSE
+4 18368613 Regional 0,8355645 4 TRUE FALSE
+
 ## Sales 984
 ## Manager
-# 23917826 Regional 0,8340500 5 FALSE TRUE
+5 23917826 Regional 0,8340500 5 FALSE TRUE
+
 ## Sales 742
 ## Manager
-# 26932091 Spare part 0,8606192 5 FALSE TRUE
+1 26932091 Spare part 0,8606192 5 FALSE TRUE
+
 ## Admin 668
-# 22861181 Spare part 0,8554830 3 FALSE FALSE
+2 22861181 Spare part 0,8554830 3 FALSE FALSE
+
 ## Admin 7
-# 16378091 Spare part 0,8486716 1 FALSE TRUE
+3 16378091 Spare part 0,8486716 1 FALSE TRUE
+
 ## Admin 747
-# 23917826 Spare part 0,8374442 4 FALSE TRUE
+4 23917826 Spare part 0,8374442 4 FALSE TRUE
+
 ## Admin 756
-# 37764298 Spare part 0,8364215 2 FALSE TRUE
+5 37764298 Spare part 0,8364215 2 FALSE TRUE
+
 ## Admin 493
-# 28772892 Teachers 0,9286252 4 TRUE TRUE
+1 28772892 Teachers 0,9286252 4 TRUE TRUE
 558
-
-# 15850434 Teachers 0,9054198 2 TRUE TRUE
+2 15850434 Teachers 0,9054198 2 TRUE TRUE
 861
-
-# 54100393 Teachers 0,9002476 5 TRUE TRUE
+3 54100393 Teachers 0,9002476 5 TRUE TRUE
 335
-
-# 37220856 Teachers 0,8955650 3 FALSE TRUE
+4 37220856 Teachers 0,8955650 3 FALSE TRUE
 21
 199
-
-# 96547039 Teachers 0,8829045 1 TRUE TRUE
+5 96547039 Teachers 0,8829045 1 TRUE TRUE
 147
-
-# 26932091 Unmanag 0,9265301 1 TRUE TRUE
+1 26932091 Unmanag 0,9265301 1 TRUE TRUE
 ed 426
 
 ## Merchant
@@ -8204,7 +7949,7 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 11289482 Unmanag 0,8595816 2 TRUE FALSE
+2 11289482 Unmanag 0,8595816 2 TRUE FALSE
 ed 135
 
 ## Merchant
@@ -8214,7 +7959,7 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 16877897 Unmanag 0,8374321 5 FALSE FALSE
+3 16877897 Unmanag 0,8374321 5 FALSE FALSE
 ed 014
 
 ## Merchant
@@ -8224,7 +7969,7 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 30862904 Unmanag 0,8252724 4 FALSE FALSE
+4 30862904 Unmanag 0,8252724 4 FALSE FALSE
 ed 558
 
 ## Merchant
@@ -8234,7 +7979,7 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 12938389 Unmanag 0,8237882 3 FALSE FALSE
+5 12938389 Unmanag 0,8237882 3 FALSE FALSE
 ed 972
 
 ## Merchant
@@ -8249,336 +7994,355 @@ C.3 Tanpa Bobot - Word2Vec dan Improved Sqrt-Cosine Similarity
 Rank Resume ID Position Similarity Rank Relevance Seniority
 
 ## Score Expert
-# 26932091 Business 0,9526863 2 TRUE FALSE
+1 26932091 Business 0,9526863 2 TRUE FALSE
+
 ## Developm 545
 ent
 
 ## Executive
-# 10464113 Business 0,9469295 5 FALSE TRUE
+2 10464113 Business 0,9469295 5 FALSE TRUE
+
 ## Developm 215
 ent
 
 ## Executive
-# 27715131 Business 0,9431682 4 TRUE FALSE
+3 27715131 Business 0,9431682 4 TRUE FALSE
+
 ## Developm 632
 ent
 
 ## Executive
-# 91467795 Business 0,9431253 1 TRUE TRUE
+4 91467795 Business 0,9431253 1 TRUE TRUE
+
 ## Developm 452
 ent
 
 ## Executive
-# 17132168 Business 0,9415056 3 TRUE TRUE
+5 17132168 Business 0,9415056 3 TRUE TRUE
+
 ## Developm 337
 ent
 
 ## Executive
-# 26932091 CLUB 0,9499713 1 TRUE TRUE
+# 1 26932091 CLUB 0,9499713 1 TRUE TRUE
 # GENERAL 215
 # MANAGE
 # R
-# 10464113 CLUB 0,9470196 5 FALSE FALSE
+# 2 10464113 CLUB 0,9470196 5 FALSE FALSE
 # GENERAL 187
 # MANAGE
 # R
-# 13411858 CLUB 0,9465261 4 FALSE TRUE
+# 3 13411858 CLUB 0,9465261 4 FALSE TRUE
 # GENERAL 069
 # MANAGE
 # R
-# 27715131 CLUB 0,9463747 3 FALSE TRUE
+# 4 27715131 CLUB 0,9463747 3 FALSE TRUE
 # GENERAL 964
 # MANAGE
 # R
-# 12938389 CLUB 0,9449584 2 FALSE TRUE
+# 5 12938389 CLUB 0,9449584 2 FALSE TRUE
 # GENERAL 126
 # MANAGE
 # R
 201
-
-# 39027764 Construct 0,9464103 4 TRUE FALSE
+1 39027764 Construct 0,9464103 4 TRUE FALSE
 ion 571
 
 ## Superviso
 r
-
-# 27246366 Construct 0,9418411 2 TRUE TRUE
+2 27246366 Construct 0,9418411 2 TRUE TRUE
 ion 329
 
 ## Superviso
 r
-
-# 12839152 Construct 0,9405705 1 TRUE TRUE
+3 12839152 Construct 0,9405705 1 TRUE TRUE
 ion 386
 
 ## Superviso
 r
-
-# 26932091 Construct 0,9388270 5 FALSE TRUE
+4 26932091 Construct 0,9388270 5 FALSE TRUE
 ion 484
 
 ## Superviso
 r
-
-# 10176013 Construct 0,9355313 3 TRUE TRUE
+5 10176013 Construct 0,9355313 3 TRUE TRUE
 ion 332
 
 ## Superviso
 r
-
-# 22861181 Creative 0,9488284 2 FALSE TRUE
+1 22861181 Creative 0,9488284 2 FALSE TRUE
 Director / 06
 
 ## Manager
-# 13115648 Creative 0,9476442 5 FALSE FALSE
+2 13115648 Creative 0,9476442 5 FALSE FALSE
 Director / 985
 
 ## Manager
-# 815088 Creative 0,9465295 1 TRUE TRUE
+3 815088 Creative 0,9465295 1 TRUE TRUE
+
 # Director / 591
 ## Manager
-# 16899268 Creative 0,9464348 3 FALSE TRUE
+4 16899268 Creative 0,9464348 3 FALSE TRUE
 Director / 445
 
 ## Manager
-# 26932091 Creative 0,9457878 4 FALSE TRUE
+5 26932091 Creative 0,9457878 4 FALSE TRUE
 Director / 553
 
 ## Manager
-# 18905648 Digital 0,9541787 1 TRUE TRUE
+1 18905648 Digital 0,9541787 1 TRUE TRUE
 and Social 533
 
 ## Media
 ## Executive
-# 70750649 Digital 0,9476443 3 TRUE FALSE
+2 70750649 Digital 0,9476443 3 TRUE FALSE
 and Social 214
 
 ## Media
 ## Executive
 202
-
-# 18354623 Digital 0,9467136 2 TRUE FALSE
+3 18354623 Digital 0,9467136 2 TRUE FALSE
 and Social 247
 
 ## Media
 ## Executive
-# 34712719 Digital 0,9436558 5 FALSE TRUE
+4 34712719 Digital 0,9436558 5 FALSE TRUE
 and Social 5
 
 ## Media
 ## Executive
-# 14304010 Digital 0,9412760 4 TRUE TRUE
+5 14304010 Digital 0,9412760 4 TRUE TRUE
 and Social 663
 
 ## Media
 ## Executive
-# 26932091 Digital 0,9548594 4 FALSE FALSE
+1 26932091 Digital 0,9548594 4 FALSE FALSE
+
 ## Banking 827
 ## Officer
-# 18905648 Digital 0,9489372 2 FALSE FALSE
+2 18905648 Digital 0,9489372 2 FALSE FALSE
+
 ## Banking 807
 ## Officer
-# 13352113 Digital 0,9462483 3 FALSE TRUE
+3 13352113 Digital 0,9462483 3 FALSE TRUE
+
 ## Banking 878
 ## Officer
-# 10464113 Digital 0,9460302 5 FALSE TRUE
+4 10464113 Digital 0,9460302 5 FALSE TRUE
+
 ## Banking 848
 ## Officer
-# 15423153 Digital 0,9442921 1 FALSE TRUE
+5 15423153 Digital 0,9442921 1 FALSE TRUE
+
 ## Banking 952
 ## Officer
-# 35579812 Executive 0,9570838 5 FALSE TRUE
+1 35579812 Executive 0,9570838 5 FALSE TRUE
+
 ## Chef 092
-# 29775391 Executive 0,9524580 2 TRUE TRUE
+2 29775391 Executive 0,9524580 2 TRUE TRUE
+
 ## Chef 434
-# 10276858 Executive 0,9479883 4 TRUE FALSE
+3 10276858 Executive 0,9479883 4 TRUE FALSE
+
 ## Chef 343
-# 16924102 Executive 0,9479701 3 TRUE TRUE
+4 16924102 Executive 0,9479701 3 TRUE TRUE
+
 ## Chef 332
-# 65373280 Executive 0,9462183 1 TRUE TRUE
+5 65373280 Executive 0,9462183 1 TRUE TRUE
+
 ## Chef 423
-# 20393721 Finance 0,9511945 3 FALSE TRUE
+1 20393721 Finance 0,9511945 3 FALSE TRUE
+
 ## Executive 992
 /
 
 ## Accounta
 nt
 203
+2 70541112 Finance 0,9456473 1 TRUE TRUE
 
-# 70541112 Finance 0,9456473 1 TRUE TRUE
 ## Executive 07
 /
 
 ## Accounta
 nt
+3 25846894 Finance 0,9446961 2 TRUE TRUE
 
-# 25846894 Finance 0,9446961 2 TRUE TRUE
 ## Executive 732
 /
 
 ## Accounta
 nt
+4 19446337 Finance 0,9443189 4 FALSE TRUE
 
-# 19446337 Finance 0,9443189 4 FALSE TRUE
 ## Executive 041
 /
 
 ## Accounta
 nt
+5 25497147 Finance 0,9438716 5 FALSE TRUE
 
-# 25497147 Finance 0,9438716 5 FALSE TRUE
 ## Executive 017
 /
 
 ## Accounta
 nt
-
-# 20393721 Finance 0,9600386 3 FALSE TRUE
+1 20393721 Finance 0,9600386 3 FALSE TRUE
 Officer ( 8
 Jr/Sr.)
-
-# 23734441 Finance 0,9522399 2 TRUE TRUE
+2 23734441 Finance 0,9522399 2 TRUE TRUE
 Officer ( 562
 Jr/Sr.)
-
-# 25497147 Finance 0,9517891 4 FALSE TRUE
+3 25497147 Finance 0,9517891 4 FALSE TRUE
 Officer ( 475
 Jr/Sr.)
-
-# 53640713 Finance 0,9508016 5 FALSE TRUE
+4 53640713 Finance 0,9508016 5 FALSE TRUE
 Officer ( 156
 Jr/Sr.)
-
-# 34816637 Finance 0,9463608 1 TRUE TRUE
+5 34816637 Finance 0,9463608 1 TRUE TRUE
 Officer ( 681
 Jr/Sr.)
+1 70541112 Financial 0,9417991 2 TRUE TRUE
 
-# 70541112 Financial 0,9417991 2 TRUE TRUE
 ## Consolida 803
 tion
 
 ## Consultan
 t
+2 27330027 Financial 0,9386546 4 FALSE FALSE
 
-# 27330027 Financial 0,9386546 4 FALSE FALSE
 ## Consolida 765
 tion
 204
 
 ## Consultan
 t
+3 153632 Financial 0,9359328 3 TRUE TRUE
 
-# 153632 Financial 0,9359328 3 TRUE TRUE
 # Consolida 764
 tion
 
 ## Consultan
 t
+4 19446337 Financial 0,9342442 1 TRUE TRUE
 
-# 19446337 Financial 0,9342442 1 TRUE TRUE
 ## Consolida 62
 tion
 
 ## Consultan
 t
+5 18365443 Financial 0,9331100 5 FALSE TRUE
 
-# 18365443 Financial 0,9331100 5 FALSE TRUE
 ## Consolida 827
 tion
 
 ## Consultan
 t
+1 18354623 Graphics 0,9568201 1 TRUE FALSE
 
-# 18354623 Graphics 0,9568201 1 TRUE FALSE
 ## Designer 853
-# 70750649 Graphics 0,9531553 4 TRUE FALSE
+2 70750649 Graphics 0,9531553 4 TRUE FALSE
+
 ## Designer 81
-# 22754014 Graphics 0,9445030 2 TRUE FALSE
+3 22754014 Graphics 0,9445030 2 TRUE FALSE
+
 ## Designer 836
-# 28679359 Graphics 0,9435436 5 TRUE FALSE
+4 28679359 Graphics 0,9435436 5 TRUE FALSE
+
 ## Designer 506
-# 14304010 Graphics 0,9426000 3 TRUE FALSE
+5 14304010 Graphics 0,9426000 3 TRUE FALSE
+
 ## Designer 143
-# 16877897 HR 0,9579303 1 TRUE FALSE
+# 1 16877897 HR 0,9579303 1 TRUE FALSE
 ## Specialist 028
-# 30862904 HR 0,9561192 2 TRUE FALSE
+# 2 30862904 HR 0,9561192 2 TRUE FALSE
 ## Specialist 703
-# 26932091 HR 0,9515269 5 FALSE FALSE
+# 3 26932091 HR 0,9515269 5 FALSE FALSE
 ## Specialist 99
-# 22861181 HR 0,9453664 3 FALSE FALSE
+# 4 22861181 HR 0,9453664 3 FALSE FALSE
 ## Specialist 87
-# 11289482 HR 0,9444434 4 FALSE FALSE
+# 5 11289482 HR 0,9444434 4 FALSE FALSE
 ## Specialist 517
-# 10840430 INFORMA 0,9484859 2 TRUE FALSE
+# 1 10840430 INFORMA 0,9484859 2 TRUE FALSE
 # TION & 45
 # TECHNOL
 # OGY
 # STAFF
 205
 
-# 11676151 INFORMA 0,9474958 1 TRUE TRUE
+# 2 11676151 INFORMA 0,9474958 1 TRUE TRUE
 # TION & 077
 # TECHNOL
 # OGY
 # STAFF
-# 26932091 INFORMA 0,9460883 5 FALSE FALSE
+# 3 26932091 INFORMA 0,9460883 5 FALSE FALSE
 # TION & 964
 # TECHNOL
 # OGY
 # STAFF
-# 28672970 INFORMA 0,9457937 3 TRUE FALSE
+# 4 28672970 INFORMA 0,9457937 3 TRUE FALSE
 # TION & 874
 # TECHNOL
 # OGY
 # STAFF
-# 17963031 INFORMA 0,9457588 4 FALSE FALSE
+# 5 17963031 INFORMA 0,9457588 4 FALSE FALSE
 # TION & 681
 # TECHNOL
 # OGY
 # STAFF
-# 64589506 Junior 0,9402469 1 FALSE FALSE
+1 64589506 Junior 0,9402469 1 FALSE FALSE
+
 ## Associate 427
 ## Lawyer
-# 26932091 Junior 0,9400253 2 FALSE FALSE
+2 26932091 Junior 0,9400253 2 FALSE FALSE
+
 ## Associate 197
 ## Lawyer
-# 22861181 Junior 0,9393440 3 FALSE FALSE
+3 22861181 Junior 0,9393440 3 FALSE FALSE
+
 ## Associate 608
 ## Lawyer
-# 16877897 Junior 0,9382883 4 FALSE FALSE
+4 16877897 Junior 0,9382883 4 FALSE FALSE
+
 ## Associate 659
 ## Lawyer
-# 19557384 Junior 0,9380632 5 FALSE FALSE
+5 19557384 Junior 0,9380632 5 FALSE FALSE
+
 ## Associate 209
 ## Lawyer
-# 23719943 Junior 0,9404868 2 FALSE FALSE
+1 23719943 Junior 0,9404868 2 FALSE FALSE
+
 ## Designer 792
 for
 
 ## Apparel
-# 26932091 Junior 0,9394543 5 FALSE FALSE
+2 26932091 Junior 0,9394543 5 FALSE FALSE
+
 ## Designer 595
 for
 
 ## Apparel
 206
+3 23917826 Junior 0,9328362 4 FALSE FALSE
 
-# 23917826 Junior 0,9328362 4 FALSE FALSE
 ## Designer 478
 for
 
 ## Apparel
-# 15154822 Junior 0,9310774 1 TRUE FALSE
+4 15154822 Junior 0,9310774 1 TRUE FALSE
+
 ## Designer 192
 for
 
 ## Apparel
-# 70750649 Junior 0,9298330 3 FALSE FALSE
+5 70750649 Junior 0,9298330 3 FALSE FALSE
+
 ## Designer 345
 for
 
 ## Apparel
-# 13195436 Manager 0,9486718 1 TRUE TRUE
+1 13195436 Manager 0,9486718 1 TRUE TRUE
+
 ## Aviation 093
 Safety,
 
@@ -8586,7 +8350,8 @@ Safety,
 and
 
 ## Security
-# 11169163 Manager 0,9479157 3 TRUE TRUE
+2 11169163 Manager 0,9479157 3 TRUE TRUE
+
 ## Aviation 24
 Safety,
 
@@ -8594,7 +8359,8 @@ Safety,
 and
 
 ## Security
-# 12654876 Manager 0,9438178 4 FALSE FALSE
+3 12654876 Manager 0,9438178 4 FALSE FALSE
+
 ## Aviation 526
 Safety,
 
@@ -8602,7 +8368,8 @@ Safety,
 and
 
 ## Security
-# 35651876 Manager 0,9438160 5 FALSE FALSE
+4 35651876 Manager 0,9438160 5 FALSE FALSE
+
 ## Aviation 536
 Safety,
 
@@ -8610,7 +8377,8 @@ Safety,
 and
 
 ## Security
-# 17483843 Manager 0,9411606 2 TRUE TRUE
+5 17483843 Manager 0,9411606 2 TRUE TRUE
+
 ## Aviation 041
 Safety,
 
@@ -8618,148 +8386,155 @@ Safety,
 and
 
 ## Security
-# 96260484 Medical 0,9365936 1 FALSE TRUE
+1 96260484 Medical 0,9365936 1 FALSE TRUE
+
 ## Doctor 609
 207
+2 37402097 Medical 0,9359483 3 FALSE TRUE
 
-# 37402097 Medical 0,9359483 3 FALSE TRUE
 ## Doctor 901
-# 25328428 Medical 0,9357925 5 FALSE TRUE
+3 25328428 Medical 0,9357925 5 FALSE TRUE
+
 ## Doctor 524
-# 15499825 Medical 0,9343298 4 FALSE TRUE
+4 15499825 Medical 0,9343298 4 FALSE TRUE
+
 ## Doctor 543
-# 14667957 Medical 0,9322447 2 FALSE TRUE
+5 14667957 Medical 0,9322447 2 FALSE TRUE
+
 ## Doctor 061
-# 13087952 Productio 0,9391430 2 FALSE TRUE
+1 13087952 Productio 0,9391430 2 FALSE TRUE
 n 121
 
 ## Engineeri
 ng
-
-# 10504237 Productio 0,9358566 4 FALSE TRUE
+2 10504237 Productio 0,9358566 4 FALSE TRUE
 n 737
 
 ## Engineeri
 ng
-
-# 11890896 Productio 0,9355367 1 TRUE FALSE
+3 11890896 Productio 0,9355367 1 TRUE FALSE
 n 658
 
 ## Engineeri
 ng
-
-# 22861181 Productio 0,9352205 3 FALSE TRUE
+4 22861181 Productio 0,9352205 3 FALSE TRUE
 n 072
 
 ## Engineeri
 ng
-
-# 11522068 Productio 0,9340292 5 FALSE TRUE
+5 11522068 Productio 0,9340292 5 FALSE TRUE
 n 108
 
 ## Engineeri
 ng
+1 28290448 Public 0,9476316 1 TRUE TRUE
 
-# 28290448 Public 0,9476316 1 TRUE TRUE
 ## Relations 491
 ## Officer
-# 70750649 Public 0,9467867 2 TRUE FALSE
+2 70750649 Public 0,9467867 2 TRUE FALSE
+
 ## Relations 469
 ## Officer
-# 22861181 Public 0,9404439 4 FALSE FALSE
+3 22861181 Public 0,9404439 4 FALSE FALSE
+
 ## Relations 705
 ## Officer
-# 13115648 Public 0,9393615 5 FALSE FALSE
+4 13115648 Public 0,9393615 5 FALSE FALSE
+
 ## Relations 415
 ## Officer
-# 22732234 Public 0,9386659 3 TRUE TRUE
+5 22732234 Public 0,9386659 3 TRUE TRUE
+
 ## Relations 303
 ## Officer
 208
+1 26888302 Quality 0,9380053 2 FALSE FALSE
 
-# 26888302 Quality 0,9380053 2 FALSE FALSE
 ## Control 431
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+2 22861181 Quality 0,9358159 4 FALSE TRUE
 
-# 22861181 Quality 0,9358159 4 FALSE TRUE
 ## Control 329
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+3 20905088 Quality 0,9323824 1 FALSE TRUE
 
-# 20905088 Quality 0,9323824 1 FALSE TRUE
 ## Control 831
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+4 21629057 Quality 0,9320897 3 FALSE FALSE
 
-# 21629057 Quality 0,9320897 3 FALSE FALSE
 ## Control 127
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+5 26932091 Quality 0,9292874 5 FALSE TRUE
 
-# 26932091 Quality 0,9292874 5 FALSE TRUE
 ## Control 126
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+1 26932091 Regional 0,9526580 3 TRUE TRUE
 
-# 26932091 Regional 0,9526580 3 TRUE TRUE
 ## Sales 458
 ## Manager
-# 28867567 Regional 0,9380075 4 TRUE TRUE
+2 28867567 Regional 0,9380075 4 TRUE TRUE
+
 ## Sales 485
 ## Manager
-# 29306433 Regional 0,9375366 5 TRUE FALSE
+3 29306433 Regional 0,9375366 5 TRUE FALSE
+
 ## Sales 445
 ## Manager
-# 27715131 Regional 0,9370184 1 TRUE TRUE
+4 27715131 Regional 0,9370184 1 TRUE TRUE
+
 ## Sales 881
 ## Manager
-# 28051330 Regional 0,9363337 2 TRUE TRUE
+5 28051330 Regional 0,9363337 2 TRUE TRUE
+
 ## Sales 906
 ## Manager
 209
+1 22861181 Spare part 0,9482737 1 FALSE FALSE
 
-# 22861181 Spare part 0,9482737 1 FALSE FALSE
 ## Admin 396
-# 23917826 Spare part 0,9471226 3 FALSE TRUE
+2 23917826 Spare part 0,9471226 3 FALSE TRUE
+
 ## Admin 141
-# 26932091 Spare part 0,9467146 2 FALSE FALSE
+3 26932091 Spare part 0,9467146 2 FALSE FALSE
+
 ## Admin 582
-# 16378091 Spare part 0,9466934 4 FALSE TRUE
+4 16378091 Spare part 0,9466934 4 FALSE TRUE
+
 ## Admin 216
-# 10464113 Spare part 0,9449295 5 FALSE TRUE
+5 10464113 Spare part 0,9449295 5 FALSE TRUE
+
 ## Admin 182
-# 28772892 Teachers 0,9642666 5 TRUE TRUE
+1 28772892 Teachers 0,9642666 5 TRUE TRUE
 724
-
-# 15850434 Teachers 0,9575843 2 TRUE TRUE
+2 15850434 Teachers 0,9575843 2 TRUE TRUE
 692
-
-# 58105060 Teachers 0,9521600 4 TRUE FALSE
+3 58105060 Teachers 0,9521600 4 TRUE FALSE
 9
-
-# 37220856 Teachers 0,9496124 3 TRUE FALSE
+4 37220856 Teachers 0,9496124 3 TRUE FALSE
 554
-
-# 48547319 Teachers 0,9471607 1 TRUE FALSE
+5 48547319 Teachers 0,9471607 1 TRUE FALSE
 207
-
-# 26932091 Unmanag 0,9621574 1 TRUE TRUE
+1 26932091 Unmanag 0,9621574 1 TRUE TRUE
 ed 749
 
 ## Merchant
@@ -8769,7 +8544,7 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 11289482 Unmanag 0,9439541 3 TRUE TRUE
+2 11289482 Unmanag 0,9439541 3 TRUE TRUE
 ed 207
 
 ## Merchant
@@ -8779,7 +8554,7 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 30862904 Unmanag 0,9380125 4 FALSE FALSE
+3 30862904 Unmanag 0,9380125 4 FALSE FALSE
 ed 051
 
 ## Merchant
@@ -8790,7 +8565,7 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 13964744 Unmanag 0,9332395 2 FALSE FALSE
+4 13964744 Unmanag 0,9332395 2 FALSE FALSE
 ed 557
 
 ## Merchant
@@ -8800,7 +8575,7 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 24727739 Unmanag 0,9331051 5 FALSE FALSE
+5 24727739 Unmanag 0,9331051 5 FALSE FALSE
 ed 675
 
 ## Merchant
@@ -9279,337 +9054,356 @@ C.5 Dengan Bobot - Word2Vec dan Cosine Similarity
 Rank Resume ID Position Similarity Rank Relevance Seniority
 
 ## Score Expert
-# 26932091 Business 0,9016295 3 TRUE FALSE
+1 26932091 Business 0,9016295 3 TRUE FALSE
+
 ## Developm 473
 ent
 
 ## Executive
-# 10464113 Business 0,8664782 2 TRUE TRUE
+2 10464113 Business 0,8664782 2 TRUE TRUE
+
 ## Developm 882
 ent
 
 ## Executive
 220
+3 14790629 Business 0,8652020 4 TRUE TRUE
 
-# 14790629 Business 0,8652020 4 TRUE TRUE
 ## Developm 196
 ent
 
 ## Executive
-# 27715131 Business 0,8478853 1 TRUE FALSE
+4 27715131 Business 0,8478853 1 TRUE FALSE
+
 ## Developm 941
 ent
 
 ## Executive
-# 16276121 Business 0,8414156 5 FALSE TRUE
+5 16276121 Business 0,8414156 5 FALSE TRUE
+
 ## Developm 304
 ent
 
 ## Executive
-# 13411858 CLUB 0,8781417 1 TRUE TRUE
+# 1 13411858 CLUB 0,8781417 1 TRUE TRUE
 # GENERAL 949
 # MANAGE
 # R
-# 26932091 CLUB 0,8773720 5 FALSE FALSE
+# 2 26932091 CLUB 0,8773720 5 FALSE FALSE
 # GENERAL 443
 # MANAGE
 # R
-# 10464113 CLUB 0,8592673 4 FALSE TRUE
+# 3 10464113 CLUB 0,8592673 4 FALSE TRUE
 # GENERAL 114
 # MANAGE
 # R
-# 27715131 CLUB 0,8545579 2 TRUE TRUE
+# 4 27715131 CLUB 0,8545579 2 TRUE TRUE
 # GENERAL 91
 # MANAGE
 # R
-# 34033933 CLUB 0,8522922 3 FALSE FALSE
+# 5 34033933 CLUB 0,8522922 3 FALSE FALSE
 # GENERAL 794
 # MANAGE
 # R
-# 26932091 Construct 0,8621428 5 FALSE FALSE
+1 26932091 Construct 0,8621428 5 FALSE FALSE
 ion 311
 
 ## Superviso
 r
-
-# 12839152 Construct 0,8265170 2 TRUE TRUE
+2 12839152 Construct 0,8265170 2 TRUE TRUE
 ion 306
 
 ## Superviso
 r
-
-# 24589765 Construct 0,8242714 3 FALSE FALSE
+3 24589765 Construct 0,8242714 3 FALSE FALSE
 ion 703
 
 ## Superviso
 r
 221
-
-# 27246366 Construct 0,8220116 1 TRUE TRUE
+4 27246366 Construct 0,8220116 1 TRUE TRUE
 ion 446
 
 ## Superviso
 r
-
-# 39027764 Construct 0,8205659 4 TRUE FALSE
+5 39027764 Construct 0,8205659 4 TRUE FALSE
 ion 688
 
 ## Superviso
 r
-
-# 34033933 Creative 0,8544749 2 FALSE FALSE
+1 34033933 Creative 0,8544749 2 FALSE FALSE
 Director / 737
 
 ## Manager
-# 23917826 Creative 0,8538641 3 FALSE FALSE
+2 23917826 Creative 0,8538641 3 FALSE FALSE
 Director / 334
 
 ## Manager
-# 295257 Creative 0,8505293 5 FALSE FALSE
+3 295257 Creative 0,8505293 5 FALSE FALSE
+
 # Director / 826
 ## Manager
-# 28471099 Creative 0,8454253 1 FALSE TRUE
+4 28471099 Creative 0,8454253 1 FALSE TRUE
 Director / 674
 
 ## Manager
-# 13115648 Creative 0,8417996 4 FALSE TRUE
+5 13115648 Creative 0,8417996 4 FALSE TRUE
 Director / 705
 
 ## Manager
-# 18905648 Digital 0,8844326 5 FALSE TRUE
+1 18905648 Digital 0,8844326 5 FALSE TRUE
 and Social 053
 
 ## Media
 ## Executive
-# 16276121 Digital 0,8792089 4 FALSE TRUE
+2 16276121 Digital 0,8792089 4 FALSE TRUE
 and Social 298
 
 ## Media
 ## Executive
-# 18354623 Digital 0,8678290 2 TRUE FALSE
+3 18354623 Digital 0,8678290 2 TRUE FALSE
 and Social 546
 
 ## Media
 ## Executive
-# 22754014 Digital 0,8591275 3 FALSE TRUE
+4 22754014 Digital 0,8591275 3 FALSE TRUE
 and Social 096
 
 ## Media
 ## Executive
-# 70750649 Digital 0,8561320 1 TRUE FALSE
+5 70750649 Digital 0,8561320 1 TRUE FALSE
 and Social 066
 
 ## Media
 ## Executive
 222
+1 26932091 Digital 0,8992728 4 FALSE TRUE
 
-# 26932091 Digital 0,8992728 4 FALSE TRUE
 ## Banking 761
 ## Officer
-# 29406313 Digital 0,8862656 2 FALSE FALSE
+2 29406313 Digital 0,8862656 2 FALSE FALSE
+
 ## Banking 554
 ## Officer
-# 11289482 Digital 0,8644934 3 TRUE FALSE
+3 11289482 Digital 0,8644934 3 TRUE FALSE
+
 ## Banking 257
 ## Officer
-# 16276121 Digital 0,8610806 1 TRUE TRUE
+4 16276121 Digital 0,8610806 1 TRUE TRUE
+
 ## Banking 125
 ## Officer
-# 10464113 Digital 0,8505692 5 FALSE TRUE
+5 10464113 Digital 0,8505692 5 FALSE TRUE
+
 ## Banking 522
 ## Officer
-# 35579812 Executive 0,8859671 5 TRUE TRUE
+1 35579812 Executive 0,8859671 5 TRUE TRUE
+
 ## Chef 312
-# 21060367 Executive 0,8854268 4 TRUE TRUE
+2 21060367 Executive 0,8854268 4 TRUE TRUE
+
 ## Chef 859
-# 20321582 Executive 0,8789194 2 TRUE TRUE
+3 20321582 Executive 0,8789194 2 TRUE TRUE
+
 ## Chef 787
-# 29775391 Executive 0,8756774 1 TRUE TRUE
+4 29775391 Executive 0,8756774 1 TRUE TRUE
+
 ## Chef 834
-# 34252537 Executive 0,8704000 3 TRUE TRUE
+5 34252537 Executive 0,8704000 3 TRUE TRUE
+
 ## Chef 922
-# 20393721 Finance 0,8825229 3 TRUE TRUE
+1 20393721 Finance 0,8825229 3 TRUE TRUE
+
 ## Executive 636
 /
 
 ## Accounta
 nt
+2 23636277 Finance 0,8781847 2 TRUE TRUE
 
-# 23636277 Finance 0,8781847 2 TRUE TRUE
 ## Executive 954
 /
 
 ## Accounta
 nt
+3 70541112 Finance 0,8773093 1 TRUE TRUE
 
-# 70541112 Finance 0,8773093 1 TRUE TRUE
 ## Executive 777
 /
 
 ## Accounta
 nt
+4 28522529 Finance 0,8708689 4 TRUE FALSE
 
-# 28522529 Finance 0,8708689 4 TRUE FALSE
 ## Executive 809
 /
 223
 
 ## Accounta
 nt
+5 11289482 Finance 0,8649438 5 FALSE FALSE
 
-# 11289482 Finance 0,8649438 5 FALSE FALSE
 ## Executive 109
 /
 
 ## Accounta
 nt
-
-# 34198885 Finance 0,8998344 1 TRUE TRUE
+1 34198885 Finance 0,8998344 1 TRUE TRUE
 Officer ( 839
 Jr/Sr.)
-
-# 70541112 Finance 0,8726109 3 TRUE TRUE
+2 70541112 Finance 0,8726109 3 TRUE TRUE
 Officer ( 783
 Jr/Sr.)
-
-# 28522529 Finance 0,8644792 4 TRUE FALSE
+3 28522529 Finance 0,8644792 4 TRUE FALSE
 Officer ( 199
 Jr/Sr.)
-
-# 20393721 Finance 0,8589066 2 TRUE TRUE
+4 20393721 Finance 0,8589066 2 TRUE TRUE
 Officer ( 515
 Jr/Sr.)
-
-# 25497147 Finance 0,8502537 5 FALSE TRUE
+5 25497147 Finance 0,8502537 5 FALSE TRUE
 Officer ( 529
 Jr/Sr.)
+1 70541112 Financial 0,8643537 1 TRUE TRUE
 
-# 70541112 Financial 0,8643537 1 TRUE TRUE
 ## Consolida 442
 tion
 
 ## Consultan
 t
+2 18365443 Financial 0,8542422 2 FALSE TRUE
 
-# 18365443 Financial 0,8542422 2 FALSE TRUE
 ## Consolida 007
 tion
 
 ## Consultan
 t
+3 269320 Financial 0,8518766 3 FALSE TRUE
 
-# 269320 Financial 0,8518766 3 FALSE TRUE
 # Consolida 099
 tion
 
 ## Consultan
 t
+4 26695839 Financial 0,8398145 4 FALSE FALSE
 
-# 26695839 Financial 0,8398145 4 FALSE FALSE
 ## Consolida 871
 tion
 
 ## Consultan
 t
+5 16877897 Financial 0,8222200 5 FALSE TRUE
 
-# 16877897 Financial 0,8222200 5 FALSE TRUE
 ## Consolida 423
 224
 tion
 
 ## Consultan
 t
+1 18460045 Graphics 0,8983531 1 TRUE TRUE
 
-# 18460045 Graphics 0,8983531 1 TRUE TRUE
 ## Designer 892
-# 18354623 Graphics 0,8972359 2 TRUE TRUE
+2 18354623 Graphics 0,8972359 2 TRUE TRUE
+
 ## Designer 945
-# 33893326 Graphics 0,8583144 3 TRUE TRUE
+3 33893326 Graphics 0,8583144 3 TRUE TRUE
+
 ## Designer 695
-# 22754014 Graphics 0,8526434 5 FALSE FALSE
+4 22754014 Graphics 0,8526434 5 FALSE FALSE
+
 ## Designer 749
-# 16276121 Graphics 0,8444623 4 TRUE FALSE
+5 16276121 Graphics 0,8444623 4 TRUE FALSE
+
 ## Designer 484
-# 30862904 HR 0,9084293 1 TRUE TRUE
+# 1 30862904 HR 0,9084293 1 TRUE TRUE
 ## Specialist 384
-# 16877897 HR 0,9057623 2 FALSE TRUE
+# 2 16877897 HR 0,9057623 2 FALSE TRUE
 ## Specialist 595
-# 26932091 HR 0,9027255 5 FALSE FALSE
+# 3 26932091 HR 0,9027255 5 FALSE FALSE
 ## Specialist 476
-# 29134372 HR 0,8710555 3 FALSE TRUE
+# 4 29134372 HR 0,8710555 3 FALSE TRUE
 ## Specialist 988
-# 11289482 HR 0,8705781 4 FALSE FALSE
+# 5 11289482 HR 0,8705781 4 FALSE FALSE
 ## Specialist 315
-# 26932091 INFORMA 0,8806972 5 FALSE FALSE
+# 1 26932091 INFORMA 0,8806972 5 FALSE FALSE
 # TION & 802
 # TECHNOL
 # OGY
 # STAFF
-# 28471099 INFORMA 0,8790658 3 TRUE FALSE
+# 2 28471099 INFORMA 0,8790658 3 TRUE FALSE
 # TION & 832
 # TECHNOL
 # OGY
 # STAFF
-# 10839851 INFORMA 0,8555776 1 TRUE TRUE
+# 3 10839851 INFORMA 0,8555776 1 TRUE TRUE
 # TION & 477
 # TECHNOL
 # OGY
 # STAFF
-# 28672970 INFORMA 0,8508172 4 TRUE FALSE
+# 4 28672970 INFORMA 0,8508172 4 TRUE FALSE
 # TION & 572
 # TECHNOL
 225
 
 # OGY
 # STAFF
-# 26341987 INFORMA 0,8465297 2 TRUE FALSE
+# 5 26341987 INFORMA 0,8465297 2 TRUE FALSE
 # TION & 371
 # TECHNOL
 # OGY
 # STAFF
-# 26330995 Junior 0,8434696 3 FALSE FALSE
+1 26330995 Junior 0,8434696 3 FALSE FALSE
+
 ## Associate 848
 ## Lawyer
-# 24589765 Junior 0,8409152 2 FALSE FALSE
+2 24589765 Junior 0,8409152 2 FALSE FALSE
+
 ## Associate 248
 ## Lawyer
-# 11289482 Junior 0,8380842 4 FALSE FALSE
+3 11289482 Junior 0,8380842 4 FALSE FALSE
+
 ## Associate 897
 ## Lawyer
-# 28871170 Junior 0,8340103 1 TRUE FALSE
+4 28871170 Junior 0,8340103 1 TRUE FALSE
+
 ## Associate 447
 ## Lawyer
-# 81508860 Junior 0,8320689 5 FALSE FALSE
+5 81508860 Junior 0,8320689 5 FALSE FALSE
+
 ## Associate 852
 ## Lawyer
-# 26932091 Junior 0,8670108 3 FALSE FALSE
+1 26932091 Junior 0,8670108 3 FALSE FALSE
+
 ## Designer 12
 for
 
 ## Apparel
-# 28471099 Junior 0,8221067 2 FALSE FALSE
+2 28471099 Junior 0,8221067 2 FALSE FALSE
+
 ## Designer 895
 for
 
 ## Apparel
-# 19195747 Junior 0,8096644 1 FALSE FALSE
+3 19195747 Junior 0,8096644 1 FALSE FALSE
+
 ## Designer 228
 for
 
 ## Apparel
-# 27715131 Junior 0,8087251 4 FALSE FALSE
+4 27715131 Junior 0,8087251 4 FALSE FALSE
+
 ## Designer 828
 for
 
 ## Apparel
-# 76196367 Junior 0,8084914 5 FALSE FALSE
+5 76196367 Junior 0,8084914 5 FALSE FALSE
+
 ## Designer 625
 for
 
 ## Apparel
 226
+1 13195436 Manager 0,8608590 1 TRUE TRUE
 
-# 13195436 Manager 0,8608590 1 TRUE TRUE
 ## Aviation 662
 Safety,
 
@@ -9617,7 +9411,8 @@ Safety,
 and
 
 ## Security
-# 24589765 Manager 0,8604515 2 FALSE TRUE
+2 24589765 Manager 0,8604515 2 FALSE TRUE
+
 ## Aviation 94
 Safety,
 
@@ -9625,7 +9420,8 @@ Safety,
 and
 
 ## Security
-# 28186635 Manager 0,8446557 3 FALSE FALSE
+3 28186635 Manager 0,8446557 3 FALSE FALSE
+
 ## Aviation 224
 Safety,
 
@@ -9633,7 +9429,8 @@ Safety,
 and
 
 ## Security
-# 26932091 Manager 0,8428457 5 FALSE FALSE
+4 26932091 Manager 0,8428457 5 FALSE FALSE
+
 ## Aviation 081
 Safety,
 
@@ -9641,7 +9438,8 @@ Safety,
 and
 
 ## Security
-# 16877897 Manager 0,8410134 4 FALSE FALSE
+5 16877897 Manager 0,8410134 4 FALSE FALSE
+
 ## Aviation 763
 Safety,
 
@@ -9649,71 +9447,77 @@ Safety,
 and
 
 ## Security
-# 15958967 Medical 0,8506042 3 FALSE FALSE
+1 15958967 Medical 0,8506042 3 FALSE FALSE
+
 ## Doctor 004
-# 14667957 Medical 0,8470290 1 FALSE FALSE
+2 14667957 Medical 0,8470290 1 FALSE FALSE
+
 ## Doctor 78
-# 28745844 Medical 0,8464838 4 FALSE FALSE
+3 28745844 Medical 0,8464838 4 FALSE FALSE
+
 ## Doctor 862
-# 24588864 Medical 0,8438134 5 FALSE FALSE
+4 24588864 Medical 0,8438134 5 FALSE FALSE
+
 ## Doctor 193
-# 96260484 Medical 0,8381138 2 FALSE TRUE
+5 96260484 Medical 0,8381138 2 FALSE TRUE
+
 ## Doctor 295
-# 54100393 Productio 0,8348578 5 FALSE FALSE
+1 54100393 Productio 0,8348578 5 FALSE FALSE
 n 215
 
 ## Engineeri
 ng
 227
-
-# 24544244 Productio 0,8070656 3 FALSE FALSE
+2 24544244 Productio 0,8070656 3 FALSE FALSE
 n 359
 
 ## Engineeri
 ng
-
-# 30288581 Productio 0,8064919 2 FALSE FALSE
+3 30288581 Productio 0,8064919 2 FALSE FALSE
 n 114
 
 ## Engineeri
 ng
-
-# 37751611 Productio 0,8005253 4 FALSE FALSE
+4 37751611 Productio 0,8005253 4 FALSE FALSE
 n 474
 
 ## Engineeri
 ng
-
-# 17312146 Productio 0,7976875 1 TRUE FALSE
+5 17312146 Productio 0,7976875 1 TRUE FALSE
 n 544
 
 ## Engineeri
 ng
+1 28290448 Public 0,8546104 1 TRUE TRUE
 
-# 28290448 Public 0,8546104 1 TRUE TRUE
 ## Relations 868
 ## Officer
-# 22754014 Public 0,8373224 3 TRUE TRUE
+2 22754014 Public 0,8373224 3 TRUE TRUE
+
 ## Relations 586
 ## Officer
-# 16276121 Public 0,8306562 4 FALSE TRUE
+3 16276121 Public 0,8306562 4 FALSE TRUE
+
 ## Relations 04
 ## Officer
-# 70750649 Public 0,8303484 2 TRUE FALSE
+4 70750649 Public 0,8303484 2 TRUE FALSE
+
 ## Relations 569
 ## Officer
-# 22861181 Public 0,8297583 5 FALSE FALSE
+5 22861181 Public 0,8297583 5 FALSE FALSE
+
 ## Relations 163
 ## Officer
-# 26932091 Quality 0,8705424 4 FALSE TRUE
+1 26932091 Quality 0,8705424 4 FALSE TRUE
+
 ## Control 666
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+2 35651876 Quality 0,8361086 2 FALSE FALSE
 
-# 35651876 Quality 0,8361086 2 FALSE FALSE
 ## Control 76
 ## Superviso
 r - Corn
@@ -9721,74 +9525,77 @@ r - Corn
 ## Commodi
 ty
 228
+3 26070334 Quality 0,8279247 1 FALSE TRUE
 
-# 26070334 Quality 0,8279247 1 FALSE TRUE
 ## Control 06
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+4 21060367 Quality 0,8256160 5 FALSE FALSE
 
-# 21060367 Quality 0,8256160 5 FALSE FALSE
 ## Control 915
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+5 12011623 Quality 0,8178911 3 FALSE FALSE
 
-# 12011623 Quality 0,8178911 3 FALSE FALSE
 ## Control 124
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+1 26932091 Regional 0,9204637 3 FALSE TRUE
 
-# 26932091 Regional 0,9204637 3 FALSE TRUE
 ## Sales 706
 ## Manager
-# 28867567 Regional 0,8558917 2 TRUE TRUE
+2 28867567 Regional 0,8558917 2 TRUE TRUE
+
 ## Sales
 ## Manager
-# 18368613 Regional 0,8488336 4 TRUE FALSE
+3 18368613 Regional 0,8488336 4 TRUE FALSE
+
 ## Sales 618
 ## Manager
-# 27715131 Regional 0,8465175 1 FALSE TRUE
+4 27715131 Regional 0,8465175 1 FALSE TRUE
+
 ## Sales 219
 ## Manager
-# 14790629 Regional 0,8421503 5 FALSE FALSE
+5 14790629 Regional 0,8421503 5 FALSE FALSE
+
 ## Sales 535
 ## Manager
-# 26932091 Spare part 0,8987249 5 FALSE TRUE
+1 26932091 Spare part 0,8987249 5 FALSE TRUE
+
 ## Admin 136
-# 16378091 Spare part 0,8544802 1 FALSE TRUE
+2 16378091 Spare part 0,8544802 1 FALSE TRUE
+
 ## Admin 836
-# 14790629 Spare part 0,8472287 4 FALSE FALSE
+3 14790629 Spare part 0,8472287 4 FALSE FALSE
+
 ## Admin 589
-# 23917826 Spare part 0,8446965 3 FALSE TRUE
+4 23917826 Spare part 0,8446965 3 FALSE TRUE
+
 ## Admin 705
-# 37764298 Spare part 0,8442025 2 FALSE TRUE
+5 37764298 Spare part 0,8442025 2 FALSE TRUE
+
 ## Admin 726
 229
-
-# 28772892 Teachers 0,9297527 4 TRUE TRUE
+1 28772892 Teachers 0,9297527 4 TRUE TRUE
 121
-
-# 15850434 Teachers 0,9152821 2 TRUE TRUE
+2 15850434 Teachers 0,9152821 2 TRUE TRUE
 211
-
-# 54100393 Teachers 0,9012950 5 TRUE TRUE
+3 54100393 Teachers 0,9012950 5 TRUE TRUE
 182
-
-# 37220856 Teachers 0,8875992 3 FALSE TRUE
+4 37220856 Teachers 0,8875992 3 FALSE TRUE
 112
-
-# 20399718 Teachers 0,8841772 1 TRUE TRUE
+5 20399718 Teachers 0,8841772 1 TRUE TRUE
 63
-
-# 26932091 Unmanag 0,9252712 1 TRUE TRUE
+1 26932091 Unmanag 0,9252712 1 TRUE TRUE
 ed 045
 
 ## Merchant
@@ -9798,7 +9605,7 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 11289482 Unmanag 0,8667385 3 TRUE FALSE
+2 11289482 Unmanag 0,8667385 3 TRUE FALSE
 ed 379
 
 ## Merchant
@@ -9808,7 +9615,7 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 24589765 Unmanag 0,8507761 4 FALSE FALSE
+3 24589765 Unmanag 0,8507761 4 FALSE FALSE
 ed 608
 
 ## Merchant
@@ -9818,7 +9625,7 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 29406313 Unmanag 0,8341917 2 TRUE FALSE
+4 29406313 Unmanag 0,8341917 2 TRUE FALSE
 ed 147
 
 ## Merchant
@@ -9828,7 +9635,7 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 16877897 Unmanag 0,8320381 5 FALSE FALSE
+5 16877897 Unmanag 0,8320381 5 FALSE FALSE
 ed 194
 
 ## Merchant
@@ -9844,333 +9651,353 @@ C.6 Dengan Bobot - Word2Vec dan Improved Sqrt-Cosine Similarity
 Rank Resume ID Position Similarity Rank Relevance Seniority
 
 ## Score Expert
-# 26932091 Business 0,9539668 2 TRUE FALSE
+1 26932091 Business 0,9539668 2 TRUE FALSE
+
 ## Developm 445
 ent
 
 ## Executive
-# 14790629 Business 0,9506780 4 TRUE FALSE
+2 14790629 Business 0,9506780 4 TRUE FALSE
+
 ## Developm 856
 ent
 
 ## Executive
-# 91467795 Business 0,9475252 1 TRUE TRUE
+3 91467795 Business 0,9475252 1 TRUE TRUE
+
 ## Developm 332
 ent
 
 ## Executive
-# 10464113 Business 0,9466634 5 FALSE TRUE
+4 10464113 Business 0,9466634 5 FALSE TRUE
+
 ## Developm 695
 ent
 
 ## Executive
-# 27715131 0,9436823 3 TRUE TRUE
+# 5 27715131 0,9436823 3 TRUE TRUE
 33
 
-# 13411858 CLUB 0,9527268 4 FALSE TRUE
+# 1 13411858 CLUB 0,9527268 4 FALSE TRUE
 # GENERAL 773
 # MANAGE
 # R
-# 28471099 CLUB 0,9490812 2 TRUE TRUE
+# 2 28471099 CLUB 0,9490812 2 TRUE TRUE
 # GENERAL 742
 # MANAGE
 # R
-# 26932091 CLUB 0,9488134 1 TRUE TRUE
+# 3 26932091 CLUB 0,9488134 1 TRUE TRUE
 # GENERAL 43
 # MANAGE
 # R
-# 10464113 CLUB 0,9477072 5 FALSE FALSE
+# 4 10464113 CLUB 0,9477072 5 FALSE FALSE
 # GENERAL 07
 231
 
 # MANAGE
 # R
-# 24727739 CLUB 0,9474657 3 FALSE FALSE
+# 5 24727739 CLUB 0,9474657 3 FALSE FALSE
 # GENERAL 096
 # MANAGE
 # R
-# 26932091 Construct 0,9412927 5 FALSE TRUE
+1 26932091 Construct 0,9412927 5 FALSE TRUE
 ion 301
 
 ## Superviso
 r
-
-# 39027764 Construct 0,9390667 3 TRUE FALSE
+2 39027764 Construct 0,9390667 3 TRUE FALSE
 ion 24
 
 ## Superviso
 r
-
-# 12839152 Construct 0,9371928 1 TRUE TRUE
+3 12839152 Construct 0,9371928 1 TRUE TRUE
 ion 374
 
 ## Superviso
 r
-
-# 21060367 Construct 0,9352513 4 FALSE FALSE
+4 21060367 Construct 0,9352513 4 FALSE FALSE
 ion 378
 
 ## Superviso
 r
-
-# 27246366 Construct 0,9326540 2 TRUE TRUE
+5 27246366 Construct 0,9326540 2 TRUE TRUE
 ion 113
 
 ## Superviso
 r
-
-# 28471099 Creative 0,9530115 4 FALSE TRUE
+1 28471099 Creative 0,9530115 4 FALSE TRUE
 Director / 037
 
 ## Manager
-# 17781039 Creative 0,9483212 5 FALSE FALSE
+2 17781039 Creative 0,9483212 5 FALSE FALSE
 Director / 768
 
 ## Manager
-# 139647 Creative 0,9477864 2 FALSE TRUE
+3 139647 Creative 0,9477864 2 FALSE TRUE
+
 # Director / 338
 ## Manager
-# 24589765 Creative 0,9477007 3 FALSE TRUE
+4 24589765 Creative 0,9477007 3 FALSE TRUE
 Director / 135
 
 ## Manager
-# 81508860 Creative 0,9471895 1 TRUE TRUE
+5 81508860 Creative 0,9471895 1 TRUE TRUE
 Director / 609
 
 ## Manager
-# 18905648 Digital 0,9553223 2 TRUE TRUE
+1 18905648 Digital 0,9553223 2 TRUE TRUE
 and Social 582
 232
 
 ## Media
 ## Executive
-# 18354623 Digital 0,9542773 3 TRUE TRUE
+2 18354623 Digital 0,9542773 3 TRUE TRUE
 and Social 245
 
 ## Media
 ## Executive
-# 16276121 Digital 0,9541360 1 FALSE FALSE
+3 16276121 Digital 0,9541360 1 FALSE FALSE
 and Social 868
 
 ## Media
 ## Executive
-# 34712719 Digital 0,9525442 5 FALSE TRUE
+4 34712719 Digital 0,9525442 5 FALSE TRUE
 and Social 674
 
 ## Media
 ## Executive
-# 70750649 Digital 0,9519086 4 TRUE FALSE
+5 70750649 Digital 0,9519086 4 TRUE FALSE
 and Social 079
 
 ## Media
 ## Executive
-# 26932091 Digital 0,9611610 5 FALSE FALSE
+1 26932091 Digital 0,9611610 5 FALSE FALSE
+
 ## Banking 445
 ## Officer
-# 16276121 Digital 0,9536183 1 FALSE TRUE
+2 16276121 Digital 0,9536183 1 FALSE TRUE
+
 ## Banking 744
 ## Officer
-# 29406313 Digital 0,9528114 3 FALSE TRUE
+3 29406313 Digital 0,9528114 3 FALSE TRUE
+
 ## Banking 795
 ## Officer
-# 14790629 Digital 0,9514819 4 FALSE TRUE
+4 14790629 Digital 0,9514819 4 FALSE TRUE
+
 ## Banking 96
 ## Officer
-# 28471099 Digital 0,9496212 2 FALSE FALSE
+5 28471099 Digital 0,9496212 2 FALSE FALSE
+
 ## Banking 248
 ## Officer
-# 35579812 Executive 0,9591079 5 FALSE TRUE
+1 35579812 Executive 0,9591079 5 FALSE TRUE
+
 ## Chef 737
-# 29775391 Executive 0,9519746 1 TRUE TRUE
+2 29775391 Executive 0,9519746 1 TRUE TRUE
+
 ## Chef 137
-# 21060367 Executive 0,9517975 4 FALSE TRUE
+3 21060367 Executive 0,9517975 4 FALSE TRUE
+
 ## Chef 364
-# 16924102 Executive 0,9497517 2 TRUE TRUE
+4 16924102 Executive 0,9497517 2 TRUE TRUE
+
 ## Chef 649
 233
+5 10276858 Executive 0,9491744 3 TRUE FALSE
 
-# 10276858 Executive 0,9491744 3 TRUE FALSE
 ## Chef 926
-# 23636277 Finance 0,9531494 3 TRUE TRUE
+1 23636277 Finance 0,9531494 3 TRUE TRUE
+
 ## Executive 892
 /
 
 ## Accounta
 nt
+2 20393721 Finance 0,9519314 4 FALSE TRUE
 
-# 20393721 Finance 0,9519314 4 FALSE TRUE
 ## Executive 231
 /
 
 ## Accounta
 nt
+3 70541112 Finance 0,9514578 1 TRUE TRUE
 
-# 70541112 Finance 0,9514578 1 TRUE TRUE
 ## Executive 621
 /
 
 ## Accounta
 nt
+4 24670867 Finance 0,9505766 2 TRUE TRUE
 
-# 24670867 Finance 0,9505766 2 TRUE TRUE
 ## Executive 607
 /
 
 ## Accounta
 nt
+5 24953921 Finance 0,9484162 5 FALSE FALSE
 
-# 24953921 Finance 0,9484162 5 FALSE FALSE
 ## Executive 525
 /
 
 ## Accounta
 nt
-
-# 34198885 Finance 0,9618073 1 TRUE TRUE
+1 34198885 Finance 0,9618073 1 TRUE TRUE
 Officer ( 275
 Jr/Sr.)
-
-# 25497147 Finance 0,9601359 3 FALSE TRUE
+2 25497147 Finance 0,9601359 3 FALSE TRUE
 Officer ( 54
 Jr/Sr.)
-
-# 20393721 Finance 0,9587329 2 FALSE TRUE
+3 20393721 Finance 0,9587329 2 FALSE TRUE
 Officer ( 409
 Jr/Sr.)
-
-# 53640713 Finance 0,9536418 4 FALSE TRUE
+4 53640713 Finance 0,9536418 4 FALSE TRUE
 Officer ( 681
 Jr/Sr.)
-
-# 28522529 Finance 0,9535884 5 FALSE FALSE
+5 28522529 Finance 0,9535884 5 FALSE FALSE
 Officer ( 272
 Jr/Sr.)
+1 70541112 Financial 0,9419954 1 TRUE TRUE
 
-# 70541112 Financial 0,9419954 1 TRUE TRUE
 ## Consolida 621
 234
 tion
 
 ## Consultan
 t
+2 27330027 Financial 0,9392107 3 FALSE FALSE
 
-# 27330027 Financial 0,9392107 3 FALSE FALSE
 ## Consolida 855
 tion
 
 ## Consultan
 t
+3 139647 Financial 0,9359215 4 FALSE TRUE
 
-# 139647 Financial 0,9359215 4 FALSE TRUE
 # Consolida 062
 tion
 
 ## Consultan
 t
+4 18365443 Financial 0,9342627 5 FALSE TRUE
 
-# 18365443 Financial 0,9342627 5 FALSE TRUE
 ## Consolida 198
 tion
 
 ## Consultan
 t
+5 15363277 Financial 0,9341559 2 FALSE TRUE
 
-# 15363277 Financial 0,9341559 2 FALSE TRUE
 ## Consolida 481
 tion
 
 ## Consultan
 t
+1 18354623 Graphics 0,9600432 2 TRUE FALSE
 
-# 18354623 Graphics 0,9600432 2 TRUE FALSE
 ## Designer 242
-# 18460045 Graphics 0,9534482 1 TRUE TRUE
+2 18460045 Graphics 0,9534482 1 TRUE TRUE
+
 ## Designer 538
-# 16276121 Graphics 0,9531318 5 TRUE FALSE
+3 16276121 Graphics 0,9531318 5 TRUE FALSE
+
 ## Designer 897
-# 70750649 Graphics 0,9528303 4 TRUE FALSE
+4 70750649 Graphics 0,9528303 4 TRUE FALSE
+
 ## Designer 428
-# 22754014 Graphics 0,9518864 3 TRUE FALSE
+5 22754014 Graphics 0,9518864 3 TRUE FALSE
+
 ## Designer 807
-# 30862904 HR 0,9600555 3 TRUE FALSE
+# 1 30862904 HR 0,9600555 3 TRUE FALSE
 ## Specialist 505
-# 16877897 HR 0,9569724 2 TRUE FALSE
+# 2 16877897 HR 0,9569724 2 TRUE FALSE
 ## Specialist 647
-# 26932091 HR 0,9502614 5 FALSE FALSE
+# 3 26932091 HR 0,9502614 5 FALSE FALSE
 ## Specialist 406
-# 24508725 HR 0,9461360 1 TRUE TRUE
+# 4 24508725 HR 0,9461360 1 TRUE TRUE
 ## Specialist 144
 235
 
-# 11289482 HR 0,9453240 4 FALSE FALSE
+# 5 11289482 HR 0,9453240 4 FALSE FALSE
 ## Specialist 462
-# 28471099 INFORMA 0,9529981 3 FALSE FALSE
+# 1 28471099 INFORMA 0,9529981 3 FALSE FALSE
 # TION & 197
 # TECHNOL
 # OGY
 # STAFF
-# 16911115 INFORMA 0,9469800 2 FALSE TRUE
+# 2 16911115 INFORMA 0,9469800 2 FALSE TRUE
 # TION & 961
 # TECHNOL
 # OGY
 # STAFF
-# 26932091 INFORMA 0,9466821 5 FALSE FALSE
+# 3 26932091 INFORMA 0,9466821 5 FALSE FALSE
 # TION & 773
 # TECHNOL
 # OGY
 # STAFF
-# 10839851 INFORMA 0,9461330 1 TRUE TRUE
+# 4 10839851 INFORMA 0,9461330 1 TRUE TRUE
 # TION & 73
 # TECHNOL
 # OGY
 # STAFF
-# 10549585 INFORMA 0,9442940 4 FALSE FALSE
+# 5 10549585 INFORMA 0,9442940 4 FALSE FALSE
 # TION & 569
 # TECHNOL
 # OGY
 # STAFF
-# 24589765 Junior 0,9489688 5 FALSE FALSE
+1 24589765 Junior 0,9489688 5 FALSE FALSE
+
 ## Associate 544
 ## Lawyer
-# 26330995 Junior 0,9456341 2 FALSE FALSE
+2 26330995 Junior 0,9456341 2 FALSE FALSE
+
 ## Associate 09
 ## Lawyer
-# 27375577 Junior 0,9414918 4 FALSE FALSE
+3 27375577 Junior 0,9414918 4 FALSE FALSE
+
 ## Associate 355
 ## Lawyer
-# 28471099 Junior 0,9398351 3 FALSE FALSE
+4 28471099 Junior 0,9398351 3 FALSE FALSE
+
 ## Associate 781
 ## Lawyer
-# 11289482 Junior 0,9392279 1 FALSE FALSE
+5 11289482 Junior 0,9392279 1 FALSE FALSE
+
 ## Associate 01
 ## Lawyer
-# 26932091 Junior 0,9411121 2 FALSE FALSE
+1 26932091 Junior 0,9411121 2 FALSE FALSE
+
 ## Designer 762
 236
 for
 
 ## Apparel
-# 23917826 Junior 0,9351794 4 FALSE FALSE
+2 23917826 Junior 0,9351794 4 FALSE FALSE
+
 ## Designer 4
 for
 
 ## Apparel
-# 28745844 Junior 0,9344192 5 FALSE FALSE
+3 28745844 Junior 0,9344192 5 FALSE FALSE
+
 ## Designer 132
 for
 
 ## Apparel
-# 20553895 Junior 0,9317723 3 FALSE FALSE
+4 20553895 Junior 0,9317723 3 FALSE FALSE
+
 ## Designer 528
 for
 
 ## Apparel
-# 70750649 Junior 0,9313974 1 FALSE FALSE
+5 70750649 Junior 0,9313974 1 FALSE FALSE
+
 ## Designer 978
 for
 
 ## Apparel
-# 21060367 Manager 0,9459566 5 FALSE FALSE
+1 21060367 Manager 0,9459566 5 FALSE FALSE
+
 ## Aviation 999
 Safety,
 
@@ -10178,7 +10005,8 @@ Safety,
 and
 
 ## Security
-# 13195436 Manager 0,9425360 1 TRUE TRUE
+2 13195436 Manager 0,9425360 1 TRUE TRUE
+
 ## Aviation 008
 Safety,
 
@@ -10186,7 +10014,8 @@ Safety,
 and
 
 ## Security
-# 12333703 Manager 0,9420496 3 FALSE FALSE
+3 12333703 Manager 0,9420496 3 FALSE FALSE
+
 ## Aviation 615
 Safety,
 
@@ -10194,7 +10023,8 @@ Safety,
 and
 
 ## Security
-# 29167286 Manager 0,9400526 2 TRUE TRUE
+4 29167286 Manager 0,9400526 2 TRUE TRUE
+
 ## Aviation 723
 Safety,
 
@@ -10202,7 +10032,8 @@ Safety,
 and
 
 ## Security
-# 35651876 Manager 0,9394215 4 FALSE FALSE
+5 35651876 Manager 0,9394215 4 FALSE FALSE
+
 ## Aviation 969
 Safety,
 237
@@ -10211,146 +10042,154 @@ Safety,
 and
 
 ## Security
-# 14667957 Medical 0,9379945 2 FALSE TRUE
+1 14667957 Medical 0,9379945 2 FALSE TRUE
+
 ## Doctor 709
-# 28745844 Medical 0,9371113 5 FALSE TRUE
+2 28745844 Medical 0,9371113 5 FALSE TRUE
+
 ## Doctor 42
-# 15958967 Medical 0,9345641 1 FALSE TRUE
+3 15958967 Medical 0,9345641 1 FALSE TRUE
+
 ## Doctor 05
-# 24588864 Medical 0,9319105 4 FALSE TRUE
+4 24588864 Medical 0,9319105 4 FALSE TRUE
+
 ## Doctor 3
-# 96260484 Medical 0,9310241 3 FALSE TRUE
+5 96260484 Medical 0,9310241 3 FALSE TRUE
+
 ## Doctor 31
-# 54100393 Productio 0,9440333 4 FALSE TRUE
+1 54100393 Productio 0,9440333 4 FALSE TRUE
 n 022
 
 ## Engineeri
 ng
-
-# 22861181 Productio 0,9393731 3 FALSE TRUE
+2 22861181 Productio 0,9393731 3 FALSE TRUE
 n 832
 
 ## Engineeri
 ng
-
-# 11890896 Productio 0,9386830 1 TRUE FALSE
+3 11890896 Productio 0,9386830 1 TRUE FALSE
 n 222
 
 ## Engineeri
 ng
-
-# 15850434 Productio 0,9380816 3 FALSE TRUE
+4 15850434 Productio 0,9380816 3 FALSE TRUE
 n 317
 
 ## Engineeri
 ng
-
-# 11522068 Productio 0,9367380 5 FALSE TRUE
+5 11522068 Productio 0,9367380 5 FALSE TRUE
 n 258
 
 ## Engineeri
 ng
+1 28290448 Public 0,9475246 1 TRUE TRUE
 
-# 28290448 Public 0,9475246 1 TRUE TRUE
 ## Relations 991
 ## Officer
-# 70750649 Public 0,9442786 2 TRUE FALSE
+2 70750649 Public 0,9442786 2 TRUE FALSE
+
 ## Relations 542
 ## Officer
-# 13115648 Public 0,9423968 5 FALSE FALSE
+3 13115648 Public 0,9423968 5 FALSE FALSE
+
 ## Relations 156
 ## Officer
 238
+4 27000192 Public 0,9418473 3 TRUE FALSE
 
-# 27000192 Public 0,9418473 3 TRUE FALSE
 ## Relations 849
 ## Officer
-# 22732234 Public 0,9413068 4 TRUE TRUE
+5 22732234 Public 0,9413068 4 TRUE TRUE
+
 ## Relations 995
 ## Officer
-# 26888302 Quality 0,9397145 3 FALSE FALSE
+1 26888302 Quality 0,9397145 3 FALSE FALSE
+
 ## Control 7
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+2 28628090 Quality 0,9374573 1 FALSE FALSE
 
-# 28628090 Quality 0,9374573 1 FALSE FALSE
 ## Control 193
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+3 22861181 Quality 0,9352906 4 FALSE TRUE
 
-# 22861181 Quality 0,9352906 4 FALSE TRUE
 ## Control 635
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+4 20905088 Quality 0,9336073 2 FALSE TRUE
 
-# 20905088 Quality 0,9336073 2 FALSE TRUE
 ## Control 888
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+5 21060367 Quality 0,9334563 5 FALSE FALSE
 
-# 21060367 Quality 0,9334563 5 FALSE FALSE
 ## Control 762
 ## Superviso
 r - Corn
 
 ## Commodi
 ty
+1 26932091 Regional 0,9537964 3 TRUE TRUE
 
-# 26932091 Regional 0,9537964 3 TRUE TRUE
 ## Sales 128
 ## Manager
-# 27715131 Regional 0,9388897 1 TRUE TRUE
+2 27715131 Regional 0,9388897 1 TRUE TRUE
+
 ## Sales 552
 ## Manager
-# 14790629 Regional 0,9382742 4 FALSE FALSE
+3 14790629 Regional 0,9382742 4 FALSE FALSE
+
 ## Sales 131
 ## Manager
 239
+4 23917826 Regional 0,9381668 5 FALSE TRUE
 
-# 23917826 Regional 0,9381668 5 FALSE TRUE
 ## Sales 276
 ## Manager
-# 14070138 Regional 0,9381297 2 TRUE TRUE
+5 14070138 Regional 0,9381297 2 TRUE TRUE
+
 ## Sales 179
 ## Manager
-# 14790629 Spare part 0,9541040 5 FALSE FALSE
+1 14790629 Spare part 0,9541040 5 FALSE FALSE
+
 ## Admin 064
-# 26932091 Spare part 0,9529997 2 FALSE FALSE
+2 26932091 Spare part 0,9529997 2 FALSE FALSE
+
 ## Admin 728
-# 16378091 Spare part 0,9487359 3 FALSE TRUE
+3 16378091 Spare part 0,9487359 3 FALSE TRUE
+
 ## Admin 951
-# 28745844 Spare part 0,9476989 1 TRUE TRUE
+4 28745844 Spare part 0,9476989 1 TRUE TRUE
+
 ## Admin 518
-# 23917826 Spare part 0,9474161 4 FALSE TRUE
+5 23917826 Spare part 0,9474161 4 FALSE TRUE
+
 ## Admin 594
-# 28772892 Teachers 0,9650821 5 TRUE TRUE
+1 28772892 Teachers 0,9650821 5 TRUE TRUE
 12
-
-# 15850434 Teachers 0,9614404 2 TRUE TRUE
+2 15850434 Teachers 0,9614404 2 TRUE TRUE
 383
-
-# 58105060 Teachers 0,9525103 4 TRUE FALSE
+3 58105060 Teachers 0,9525103 4 TRUE FALSE
 733
-
-# 20399718 Teachers 0,9482750 1 TRUE TRUE
+4 20399718 Teachers 0,9482750 1 TRUE TRUE
 764
-
-# 46055835 Teachers 0,9476272 3 FALSE FALSE
+5 46055835 Teachers 0,9476272 3 FALSE FALSE
 471
-
-# 26932091 Unmanag 0,9595202 1 TRUE TRUE
+1 26932091 Unmanag 0,9595202 1 TRUE TRUE
 ed 941
 
 ## Merchant
@@ -10360,7 +10199,7 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 29406313 Unmanag 0,9428494 2 TRUE TRUE
+2 29406313 Unmanag 0,9428494 2 TRUE TRUE
 ed 614
 
 ## Merchant
@@ -10371,8 +10210,7 @@ Associate,
 ## BPO Field
 ## Sales
 240
-
-# 11289482 Unmanag 0,9400499 4 TRUE TRUE
+3 11289482 Unmanag 0,9400499 4 TRUE TRUE
 ed 924
 
 ## Merchant
@@ -10382,7 +10220,7 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 30862904 Unmanag 0,9388757 5 FALSE FALSE
+4 30862904 Unmanag 0,9388757 5 FALSE FALSE
 ed 821
 
 ## Merchant
@@ -10392,7 +10230,7 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 24589765 Unmanag 0,9388679 3 TRUE TRUE
+5 24589765 Unmanag 0,9388679 3 TRUE TRUE
 ed 936
 
 ## Merchant

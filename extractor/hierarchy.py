@@ -4,12 +4,12 @@ from typing import List, Tuple, Dict, Optional
 import re
 
 NUMBERING_PATTERN = re.compile(
-    r'^(?P<label>(?:BAB\s+[IVXLC]+)|(?:\d+(?:\.\d+)*))[\.\)]?\s+(?P<title>.+)$',
+    r'^(?P<label>(?:BAB\s+(?:[IVXLC]+|\d+))|(?:\d+(?:\.\d+)*))[\.\)]?\s+(?P<title>[A-Za-z].+)$',
     re.I
 )
 
 ROMAN_PATTERN = re.compile(
-    r'^(?P<label>[IVXLC]+)\.\s+(?P<title>.+)$',
+    r'^(?P<label>[IVXLC]+)[\.\)]?\s+(?P<title>[A-Za-z].+)$',
     re.I
 )
 
@@ -29,6 +29,15 @@ def classify_line_heading(line: str) -> Tuple[bool, Optional[int], Optional[str]
     s = line.strip()
     if not s:
         return False, None, None
+
+    m_bab = re.match(r'^(BAB)\s+(?P<num>(?:[IVXLC]+|\d+))\b(?:[\.\)]\s*)?(?P<rest>.*)$', s, re.I)
+    if m_bab:
+        title = s
+        return True, 1, title
+
+    if re.match(r'^\d+\.\s', s):
+        return False, None, None
+
     m = NUMBERING_PATTERN.match(s)
     if m:
         label = m.group('label').strip()
@@ -38,14 +47,18 @@ def classify_line_heading(line: str) -> Tuple[bool, Optional[int], Optional[str]
         else:
             level = label.count('.') + 1 if '.' in label else 1
         return True, level, title
+
     m2 = ROMAN_PATTERN.match(s)
     if m2:
         title = m2.group('title').strip() or m2.group('label')
         return True, 1, title
+
     if s.isupper() and 1 <= len(s.split()) <= 8:
         return True, 1, s
+
     if re.match(r'^[A-Z][\w\s]{0,60}:?$', s) and len(s.split()) <= 6:
         return True, 2, s.rstrip(':')
+
     return False, None, None
 
 def build_hierarchy_from_lines(lines: Optional[List[str]], docx_paragraphs=None) -> Dict:
