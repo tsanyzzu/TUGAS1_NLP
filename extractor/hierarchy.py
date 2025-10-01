@@ -41,7 +41,8 @@ def classify_line_heading(line: str) -> Tuple[bool, Optional[int], Optional[str]
     m = NUMBERING_PATTERN.match(s)
     if m:
         label = m.group('label').strip()
-        title = m.group('title').strip() or label
+        raw_title = m.group('title').strip() or label
+        title = f"{label} {raw_title}"
         if label.upper().startswith('BAB') or re.match(r'^[IVXLC]+$', label.strip(), re.I):
             level = 1
         else:
@@ -62,10 +63,6 @@ def classify_line_heading(line: str) -> Tuple[bool, Optional[int], Optional[str]
     return False, None, None
 
 def build_hierarchy_from_lines(lines: Optional[List[str]], docx_paragraphs=None) -> Dict:
-    """
-    Build tree node = {'title':..., 'level':n, 'content':'', 'children':[]}.
-    Jika docx_paragraphs disediakan, gunakan style-based heading.
-    """
     root = {'title': 'DOCUMENT', 'level': 0, 'content': '', 'children': []}
     stack = [root]
     if docx_paragraphs is not None:
