@@ -2,24 +2,25 @@ import sys
 from pathlib import Path
 
 # imports from modules
-from extractor.pdf_extractor import extract_text_from_pdf
+from extractor.pdf_extractor import extract_chars_to_csv
 from extractor.docx_extractor import extract_paragraphs_from_docx
-from extractor.hierarchy import lines_from_text, build_hierarchy_from_lines, tree_to_markdown
+from extractor.hierarchy import read_lines_from_csv, build_hierarchy_from_extractor, tree_to_markdown
 from utils.io_helpers import save_outputs
 
 
 def process_pdf(path: str):
-    text, pages = extract_text_from_pdf(path)
-    lines = lines_from_text(text)
-    tree = build_hierarchy_from_lines(lines, docx_paragraphs=None)
+    csv_path = extract_chars_to_csv(path)
+    lines = read_lines_from_csv(csv_path)
+    tree = build_hierarchy_from_extractor(lines)
     md = tree_to_markdown(tree)
     base = Path(path).stem
     return save_outputs(base, md, tree)
 
 
+
 def process_docx(path: str):
     full, paragraphs = extract_paragraphs_from_docx(path)
-    tree = build_hierarchy_from_lines(None, docx_paragraphs=paragraphs)
+    tree = build_hierarchy_from_extractor(None, docx_paragraphs=paragraphs)
     md = tree_to_markdown(tree)
     base = Path(path).stem
     return save_outputs(base, md, tree)
