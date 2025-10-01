@@ -1,11 +1,18 @@
 import re
 from typing import List, Tuple, Dict, Optional
 
+import re
+
 NUMBERING_PATTERN = re.compile(
-    r'^(?P<label>(?:BAB\s+[IVXLC]+)|(?:\d+(?:\.\d+)*))(?:[.)\-\s]+)?(?P<title>.*)$',
+    r'^(?P<label>(?:BAB\s+[IVXLC]+)|(?:\d+(?:\.\d+)*))[\.\)]?\s+(?P<title>.+)$',
     re.I
 )
-ROMAN_PATTERN = re.compile(r'^(?P<label>[IVXLC]+)[\.\)\-\s]+(?P<title>.*)$', re.I)
+
+ROMAN_PATTERN = re.compile(
+    r'^(?P<label>[IVXLC]+)\.\s+(?P<title>.+)$',
+    re.I
+)
+
 
 def lines_from_text(text: str) -> List[str]:
     raw_lines = text.splitlines()

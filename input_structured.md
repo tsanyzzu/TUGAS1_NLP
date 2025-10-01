@@ -13,7 +13,8 @@ memperoleh gelar Sarjana Komputer
 # FAKULTAS ILMU KOMPUTER
 # UNIVERSITAS BRAWIJAYA
 # MALANG
-# 2025
+2025
+
 # PERNYATAAN ORISINALITAS
 Saya menyatakan dengan sebenar-benarnya bahwa sepanjang pengetahuan
 saya, di dalam naskah skripsi ini tidak terdapat karya ilmiah yang pernah diajukan
@@ -210,7 +211,8 @@ Lowongan Kerja .................................................................
 
 ## Implementasi Kode Program Representasi Teks TF-IDF ............. 120
 ## Implementasi Kode Program Representasi Teks Word2Vec
-# 121
+121
+
 ## Implementasi Kode Program Perhitungan Similaritas ................ 123
 ### Implementasi Kode Program Improved Sqrt-Cosine
 Similarity............................................................................................. 123
@@ -389,12 +391,12 @@ LAMPIRAN B BOBOT PER SECTION BERDASARKAN INDUSTRI ............................ 1
 
 # LAMPIRAN C HASIL PEMERINGKATAN LIMA RESUME PER KUALIFIKASI
 # LOWONGAN KERJA ............................................................................................. 180
-# 1 Tanpa Bobot - TF-IDF dan Improved Sqrt-Cosine Similarity............... 180
-# 2 Tanpa Bobot - Word2Vec dan Cosine Similarity ................................ 190
-# 3 Tanpa Bobot - Word2Vec dan Improved Sqrt-Cosine Similarity ........ 201
-# 4 Dengan Bobot - TF-IDF dan Improved Sqrt-Cosine Similarity ............ 211
-# 5 Dengan Bobot - Word2Vec dan Cosine Similarity ............................. 220
-# 6 Dengan Bobot - Word2Vec dan Improved Sqrt-Cosine Similarity
+C.1 Tanpa Bobot - TF-IDF dan Improved Sqrt-Cosine Similarity............... 180
+C.2 Tanpa Bobot - Word2Vec dan Cosine Similarity ................................ 190
+C.3 Tanpa Bobot - Word2Vec dan Improved Sqrt-Cosine Similarity ........ 201
+C.4 Dengan Bobot - TF-IDF dan Improved Sqrt-Cosine Similarity ............ 211
+C.5 Dengan Bobot - Word2Vec dan Cosine Similarity ............................. 220
+C.6 Dengan Bobot - Word2Vec dan Improved Sqrt-Cosine Similarity
 ................................................................................................................. 231
 
 # LAMPIRAN D GRAFIK GARIS TIGA PARAMETER SETIAP KUALIFIKASI
@@ -426,8 +428,7 @@ Tabel 1.1 Tingkat pengangguran 7 negara ASEAN World Economic Outlook
 Tabel 1.1 menunjukkan data yang diambil dari World Economic Outlook pada
 April 2024 oleh International Monetary Fund, di antara 7 negara ASEAN yang
 datanya tercantum, Indonesia memiliki tingkat pengangguran tertinggi di angka
-
-# ,2. Pengangguran bisa disebabkan oleh beberapa fenomena dan salah satunya
+5,2. Pengangguran bisa disebabkan oleh beberapa fenomena dan salah satunya
 adalah ketidaksesuaian antara karakteristik pencari kerja dengan tawaran kerja
 atau bisa disebut dengan pengangguran struktural (Kementerian Ketenagakerjaan
 RI - Badan Perencanaan dan Pengembangan Ketenagakerjaan, 2021). Sumber
@@ -436,8 +437,7 @@ individu untuk memaksimalkan kemampuan kerja mereka sendiri disebut dengan
 human capital. Nilai-nilai ini berkontribusi pada pendapatan yang lebih tinggi,
 kepuasan hidup, dan kohesi sosial, sehingga juga menjadi salah satu penentu
 pertumbuhan ekonomi negara (Wujarso, 2022).
-
-# 1
+1
 Proses mencari dan melamar pekerjaan identik dengan penggunaan
 curriculum vitae (CV) atau beberapa orang menyebutnya resume. Tahapan awal
 perekrutan adalah proses screening CV yang selanjutnya diikuti dengan proses
@@ -482,8 +482,8 @@ mengkalkulasikan similaritas teks.
 Cosine Similarity dengan peringkat hasil evaluasi ahli untuk setiap
 kualifikasi lowongan kerja menggunakan Spearman Rank Correlation
 Coefficient.
+2
 
-# 2
 ## Manfaat
 Berikut merupakan manfaat yang dapat diperoleh dari penelitian ini.
 
@@ -519,7 +519,7 @@ masalah, tujuan, manfaat, batasan masalah, serta sistematika pembahasan dari
 penelitian ini.
 
 # BAB 2 LANDASAN KEPUSTAKAAN
-# andasan kepustakaan berisi kajian pustaka dan dasar teori. Penelitian-
+Bab landasan kepustakaan berisi kajian pustaka dan dasar teori. Penelitian-
 penelitian sebelumnya yang berhubungan dengan kalkulasi similaritas teks pada
 resume dijelaskan pada kajian pustaka. Sedangkan, penjelasan teori, konsep, dan
 metode yang digunakan dijelaskan pada dasar teori.
@@ -533,10 +533,10 @@ metode analisis data, peralatan pendukung, dan perancangan algoritma.
 Bab perancangan menjelaskan tentang perancangan algoritma dari metode-
 metode serta flow diagram dari setiap algoritma yang digunakan pada penelitian
 ini. Selain itu, bab ini juga merincikan perhitungan manual.
+3
 
-# 3
 # BAB 5 IMPLEMENTASI
-# mplementasi berisi implementasi dari metode kalkulasi similaritas teks
+Bab implementasi berisi implementasi dari metode kalkulasi similaritas teks
 pada resume pelamar dengan kualifikasi instansi yang digunakan pada penelitian
 ini, seperti metode perhitungan similaritas Improved Sqrt-Cosine (ISC) dan Cosine
 Similarity (CosSim), serta metode representasi teks TF-IDF dan Word2Vec.
@@ -551,10 +551,10 @@ memaparkan rangkuman dari hasil penelitian untuk menjawab semua rumusan
 masalah yang dijabarkan pada latar belakang. Sedangkan, bagian saran
 memaparkan masukan-masukan untuk penelitian selanjutnya agar penelitian ini
 dapat diperbaiki dan dikembangkan.
+4
 
-# 4
 # BAB 2 LANDASAN KEPUSTAKAAN
-# andasan kepustakaan berisi kajian pustaka dan dasar teori. Penelitian-
+Bab landasan kepustakaan berisi kajian pustaka dan dasar teori. Penelitian-
 penelitian sebelumnya yang berhubungan dengan kalkulasi similaritas teks pada
 resume dijelaskan pada kajian pustaka. Sedangkan, penjelasan teori, konsep, dan
 metode yang digunakan dijelaskan pada dasar teori.
@@ -587,8 +587,7 @@ pekerjaan untuk posisi software engineer di salah satu perusahaan teknologi
 multinasional Amerika. Pada lima urutan teratas peringkat resume, dilakukan
 perbandingan antara peringkat yang diberikan oleh manusia dan pengukuran
 otomatis, yang hasilnya tertera pada Tabel 2.2.
-
-# 5
+5
 Tabel 2.2 Hasil eksperimen kedua penelitian oleh Ahmad Alsharef dkk.
 Human ISC Sqrt-Cosine Cosine
 
@@ -626,8 +625,7 @@ kandidat ke-2 menduduki peringkat pertama (0,680), diikuti resume kandidat ke-
 
 # di peringkat kedua (0,651), resume kandidat ke-3 di peringkat ketiga (0,498), dan
 resume kandidat ke-1 di peringkat terakhir (0,490).
-
-# 6
+6
 Topik skripsi yang diambil memiliki beberapa kesamaan dengan penelitian
 sebelumnya. Pertama, penelitian ini mengimplementasikan perhitungan
 similaritas Improved Sqrt-Cosine (ISC), seperti pada penelitian pertama. Kedua,
@@ -658,8 +656,7 @@ pengalaman kerja sebelumnya, serta minat pribadi seseorang dan dikirimkan
 kepada instansi ketika melamar pekerjaan. Di Amerika Serikat, CV umumnya
 digunakan saat melamar pekerjaan di bidang akademis, sedangkan resume
 digunakan untuk pekerjaan lainnya (Cambridge University Press & Assessment,
-
-# 2024
+2024).
 Perekrut hanya meluangkan kurang dari 30 detik untuk meninjau resume,
 sehingga penting bagi pelamar untuk secara cepat dan jelas menunjukkan
 bagaimana pelatihan dan pengalaman mereka dapat memberi nilai tambah bagi
@@ -667,8 +664,7 @@ perusahaan, serta memaparkan keterampilan secara tepat untuk memenuhi
 kebutuhan perusahaan dengan format resume yang jelas, menarik, dan
 disesuaikan dengan konvensi yang berlaku di setiap posisi atau sektor yang
 dilamar (Stanford Career Education, 2018).
-
-# 7
+7
 Stanford Career Education (2024) juga memberikan panduan dalam langkah-
 langkah membuat resume, dikatakan bahwa resume yang efektif adalah ringkasan
 singkat yang menyoroti pengalaman dan keterampilan yang langsung terkait
@@ -689,7 +685,7 @@ dilakukan jika memungkinkan, atau jika hasil tidak diketahui, penting untuk
 menyertakan tujuan dari tugas, proyek, atau tujuan tersebut, yang menjelaskan
 alasan pelaksanaan (Stanford Career Education, 2024).
 
-## Similaritas Teks
+### Similaritas Teks
 Mengingat tujuan perekrut adalah mencari pelamar yang memiliki sekumpulan
 keterampilan yang dibutuhkan oleh instansi untuk melaksanakan pekerjaan
 tertentu, maka digunakan metode untuk menghitung similaritas antara kualifikasi
@@ -704,8 +700,7 @@ satu teks dengan teks lainnya yang terbagi menjadi empat kelompok utama, yaitu
 String-based, Corpus-based, Knowledge-based, dan Hybrid (Prasetya, et al., 2018).
 Gambar 2.1 Pengelompokan text similarity measure
 Sumber: Prasetya et al. (2018)
-
-# 8
+8
 Seperti pada apa yang sudah diilustrasikan pada Gambar 2.1, String-based
 adalah metode pengukuran tertua, paling sederhana, tetapi paling populer dan
 beroperasi pada urutan string dan susunan karakter (Prasetya, et al., 2018).
@@ -713,14 +708,13 @@ Corpus-based menggunakan pendekatan semantik yang mana menentukan
 kesamaan antara dua konsep berdasarkan informasi yang diekstraksi dari korpus
 yang besar (Prasetya, et al., 2018). Knowledge-based menggunakan hubungan
 semantik untuk mengidentifikasi tingkat kesamaan kata-kata (Prasetya, et al.,
-
-# Selain tiga kelompok yang telah dijelaskan sebelumnya, terdapat
+2018). Selain tiga kelompok yang telah dijelaskan sebelumnya, terdapat
 perhitungan similaritas secara Hybrid dengan tujuan untuk menggabungkan
 metode yang telah disebutkan sebelumnya, termasuk String-based, Corpus-based,
 dan Knowledge-based guna mencapai metrik yang lebih baik dengan mengadopsi
 keunggulan masing-masing metode (Prasetya, et al., 2018).
 
-## Pra-pemrosesan Teks
+### Pra-pemrosesan Teks
 Sebelum menerapkan metode similaritas teks, diperlukan proses pra-
 pemrosesan teks terlebih dahulu untuk menyiapkan dataset resume yang akan
 diolah. Penting untuk melakukan pemrosesan data ini guna memastikan bahwa
@@ -748,14 +742,13 @@ morfologis yang sesuai dengan linguistik (Daryani, et al., 2020) sesuai
 kamus bahasa yang digunakan. Untuk bahasa Inggris, dapat
 memanfaatkan WordNet Lemmatizer yang tersedia melalui NLTK Python
 (Daryani, et al., 2020).
+9
 
-# 9
 ## TF-IDF
 Term Frequency-Inverse Document Frequency (TF-IDF) adalah salah satu teknik
 yang digunakan untuk menghitung seberapa penting suatu kata (term) dalam
 sebuah dokumen terhadap keseluruhan kumpulan dokumen (Septiani & Isabela,
-
-# TF-IDF didapatkan dari hasil perkalian antara Term Frequency (TF) dan
+2022). TF-IDF didapatkan dari hasil perkalian antara Term Frequency (TF) dan
 Inverse Document Frequency (IDF) (Ramadhan, et al., 2023).
 
 # 𝑇𝐹 −𝐼𝐷𝐹 = 𝑇𝐹 ×𝐼𝐷𝐹 (2.1)
@@ -794,13 +787,11 @@ Keterangan dari Persamaan 2.3:
 (𝑡)
 𝑁 = Jumlah total dokumen
 𝑑𝑓 = Banyaknya dokumen yang mengandung term
-
-# 10
+10
 Dalam dokumentasi Scikit-learn, TF default tidak dinormalisasi dengan
 membagi total term. Normalisasi baru dilakukan setelah mendapatkan hasil
 perkalian TF dengan IDF menggunakan 𝐿 normalization, sehingga TF didapatkan
-
-# 2
+2
 dari jumlah kemunculan (frekuensi) term terhadap suatu dokumen seperti pada
 Persamaan 2.4
 𝑇𝐹 = 𝑓 (2.4)
@@ -817,11 +808,11 @@ seolah-olah ada dokumen tambahan yang mengandung setiap term dalam koleksi
 tepat satu kali sehingga mencegah pembagian oleh nol. Rumusnya menjadi seperti
 pada Persamaan 2.5
 
-# +𝑁
+# 1+𝑁
 𝐼𝐷𝐹 = log( )+1 (2.5)
 (𝑡)
+1+𝑑𝑓
 
-# +𝑑𝑓
 ## Keterangan
 𝐼𝐷𝐹 = Nilai inverse document frequency untuk term ke-𝑡
 (𝑡)
@@ -829,8 +820,7 @@ pada Persamaan 2.5
 𝑑𝑓 = Banyaknya dokumen yang mengandung term
 Setelah mengalikan TF dan IDF, perhitungan TF-IDF dalam dokumentasi Scikit-
 learn dinormalisasikan dengan 𝐿 normalization atau Euclidean norm, formula dari
-
-# 2
+2
 normalisasi ini dapat tertera pada Persamaan 2.6
 𝑣 𝑣
 𝑣 = = (2.6)
@@ -841,10 +831,10 @@ normalisasi ini dapat tertera pada Persamaan 2.6
 𝑛𝑜𝑟𝑚
 𝑣 = Vektor asli sebelum dinormalisasikan
 ‖𝑣‖ = Akar kuadrat dari jumlah kuadrat semua elemen vektor 𝑣
+2
+11
 
-# 2
-# 11
-## Word2Vec
+### Word2Vec
 Word2Vec adalah metode yang digunakan untuk menghasilkan word
 embedding dengan memanfaatkan neural networks sederhana yang dilatih untuk
 memahami konteks linguistik kata. Pendekatan ini menggunakan continuously
@@ -864,8 +854,7 @@ word) sebagai input untuk mempelajari dan memprediksi kata-kata dalam konteks
 sebagai target. Proses ini mempelajari distribusi probabilitas kata-kata dalam
 sebuah kalimat berdasarkan jarak antara kata input dan kata-kata konteks
 (windows) (Ayuningtyas & Tantyoko, 2024).
-
-# 12
+12
 Dalam teknik Skip-gram, proses training dan inference dilakukan secara
 terpisah. Selama proses training, skip-gram mempelajari konteks dari kata-kata
 yang muncul di sekitar kata target dalam window tertentu. Sebagai contoh, jika
@@ -880,28 +869,24 @@ menetapkan jarak maksimum antara kata saat ini dan kata yang diprediksi dalam
 sebuah kalimat, alpha untuk menginisialisasi learning rate, dan epochs untuk
 menetapkan iterasi yang secara default bernilai lima.
 
-## Improved Sqrt-Cosine Similarity
+### Improved Sqrt-Cosine Similarity
 Sohangir dan Wang (2017) memperkenalkan sebuah teknik pengukuran
 similarity yang disebut Improved Sqrt-Cosine (ISC) similarity, yang didasarkan pada
 normalisasi 𝐿 (Hellinger distance) dan telah terbukti bahwa pada data berdimensi
-
-# 1
+1
 tinggi, normalisasi 𝐿 bekerja lebih baik daripada normalisasi 𝐿 (Euclidean
 
 # 2
 distance). Pada persamaan ISC, alih-alih menggunakan normalisasi 𝐿 , digunakan
-
-# 1
+1
 akar kuadrat dari normalisasi 𝐿 (Sohangir & Wang, 2017). Sebagian besar
-
-# 1
+1
 menganggap Cosine Similarity sebagai 'state of the art' dalam pengukuran
 similarity (Sohangir & Wang, 2017). Melalui eksperimen yang mendalam, diamati
 bahwa meskipun ISC mirip dengan Cosine Similarity dalam hal implementasi, ISC
 menunjukkan kinerja yang lebih baik saat dibandingkan dengan metode
 pengukuran kesamaan lainnya pada data berdimensi tinggi (Sohangir & Wang,
-
-# 2017
+2017).
 𝐼𝑆𝐶(𝑥,𝑦) =
 ∑𝑚
 𝑖=1
@@ -920,8 +905,8 @@ Adapun keterangan dari Persamaan 2.7:
 𝑖
 𝑖 = Indeks term dalam suatu kalimat
 𝑚 = Jumlah total term dalam vektor vektor 𝑥 dan 𝑦
+13
 
-# 13
 ## Cosine Similarity
 Tujuan dari Cosine Similarity adalah mendapatkan nilai similaritas dari setiap
 dokumen yang dibandingkan dengan mengukur kosinus sudut antara dua vektor,
@@ -946,8 +931,7 @@ Keterangan dari Persamaan 2.8:
 Meskipun algoritma dapat menunjukkan kinerja yang sangat baik, perlu
 dipastikan bahwa perbandingan antara kinerja manusia dan algoritma dilakukan
 secara adil dan tepat agar hasil yang diperoleh dapat dipercaya (Cowley, et al.,
-
-# Memahami bagaimana manusia menyelesaikan tugas tertentu dapat
+2022). Memahami bagaimana manusia menyelesaikan tugas tertentu dapat
 memberikan informasi yang berguna bagi penelitian di bidang machine learning
 dan artificial intelligence (Cowley, et al., 2022). Penting untuk mempertimbangkan
 apakah suatu sistem harus mencapai kinerja setara dengan manusia untuk
@@ -956,8 +940,8 @@ yang mirip dengan manusia, sehingga dapat menunjukkan pola keberhasilan dan
 kesalahan yang serupa (Cowley, et al., 2022). Dengan demikian, mengetahui cara
 manusia menyelesaikan tugas dapat membantu dalam pengembangan algoritma
 yang lebih baik dan lebih efektif (Cowley, et al., 2022).
+14
 
-# 14
 ## Spearman Rank Correlation Coefficient (SRCC)
 Spearman Rank Correlation Coefficient (SRCC) adalah versi nonparametrik dari
 koefisien Pearson Correlation yang digunakan untuk menyelidiki hubungan linear
@@ -970,8 +954,7 @@ variabel lainnya (Temizhan, et al., 2022). Meskipun nonparametrik, asumsi pentin
 untuk menggunakan SRCC adalah data harus setidaknya bersifat ordinal dan harus
 ada hubungan monoton antara skor pada satu variabel dengan variabel lainnya
 (Temizhan, et al., 2022).
-
-# ∑𝑑
+6∑𝑑
 𝑆𝑅𝐶𝐶 = 1− 𝑖 (2.9)
 𝑛(𝑛2−1)
 Adapun keterangan dari Persamaan 2.9:
@@ -979,8 +962,7 @@ Adapun keterangan dari Persamaan 2.9:
 𝑖 𝑖 𝑖
 𝑛 = Jumlah total pasangan data yang digunakan dalam perhitungan
 Rentang nilai koefisien korelasi berkisar dari -1 hingga 1 (Hermanto & Harliana,
-
-# Nilai 1 menunjukkan korelasi positif sempurna, nilai -1 menunjukkan
+2024). Nilai 1 menunjukkan korelasi positif sempurna, nilai -1 menunjukkan
 korelasi negatif sempurna, dan nilai 0 menandakan tidak ada korelasi (Hermanto
 & Harliana, 2024). Interpretasi koefisien korelasi pada buku oleh Robert
 Kurniawan (2016), koefisien korelasi berkisar antara 0,00 hingga 1,00 (Hermanto
@@ -988,8 +970,8 @@ Kurniawan (2016), koefisien korelasi berkisar antara 0,00 hingga 1,00 (Hermanto
 hingga 0,39 menunjukkan korelasi lemah; 0,40 hingga 0,59 menunjukkan korelasi
 sedang; 0,60 hingga 0,79 menunjukkan korelasi kuat; dan 0,80 hingga 1,00
 menunjukkan korelasi sangat kuat (Hermanto & Harliana, 2024).
+15
 
-# 15
 # BAB 3 METODOLOGI
 Terdapat beberapa bagian di bab metodologi penelitian, seperti tipe
 penelitian, strategi penelitian, lokasi penelitian, metode pengumpulan data,
@@ -1026,13 +1008,12 @@ seperti HR, Desainer, Teknologi Informasi, Guru, dan kategori lainnya. Dataset
 tersebut mencakup format resume dalam bentuk string (teks) dan setiap resume
 diidentifikasi dengan ID unik. Informasi yang terdapat dalam dataset meliputi teks
 resume, data HTML hasil web scraping, dan kategori pekerjaan (Bhawal, 2021).
+16
 
-# 16
 ## Metode Analisis Data
 Tujuan menganalisis data, antara lain mendapatkan perasaan terhadap data,
 menguji kualitas data, dan menguji hipotesis penelitian (Guritno, et al., 2011, p.
-
-# Menurut Cholissodin & Riyandani (2016), terdapat beberapa fase pada
+183). Menurut Cholissodin & Riyandani (2016), terdapat beberapa fase pada
 gambaran umum siklus hidup analitik data, seperti:
 
 # Discovery. Fase ini meliputi proses belajar, mencari dan menyelidiki fakta-
@@ -1077,8 +1058,8 @@ accounting, finance, human resources, dan legal. Evaluasi ini dilakukan untuk
 setiap posisi lowongan kerja dari total 24 kualifikasi lowongan kerja dan hasilnya
 dianalisis menggunakan tiga parameter penilaian, yakni korelasi sebagai
 parameter utama, serta relevansi dan senioritas sebagai parameter tambahan.
+17
 
-# 17
 ## Peralatan Pendukung
 Dalam melakukan penelitian ini dari awal hingga akhir, diperlukan beberapa
 peralatan pendukung untuk membantu kelancaran jalannya penelitian. Peralatan
@@ -1099,7 +1080,8 @@ Perangkat lunak yang digunakan, antara lain:
 # Library Python NLTK Versi 3.9.1
 # Library Python TQDM Versi 4.67.1
 # Microsoft® Word 2016 MSO (Version 2505 Build 16.0.18827.20102)
-# bit
+32-bit
+
 ## Perangkat Keras (Hardware)
 Perangkat keras yang digunakan, antara lain:
 
@@ -1120,12 +1102,11 @@ antara vektor resume dengan vektor dari kualifikasi lowongan kerja. Setelah skor
 similaritas didapatkan, resume pun diurutkan mulai dari yang paling besar
 berdasarkan skor similaritasnya dan diberikan peringkat agar dapat dilakukan
 pengujian.
-
-# 18
+18
 Gambar 3.1 Struktur proses implementasi pemeringkatan similaritas resume
 dan kualifikasi lowongan kerja
+19
 
-# 19
 # BAB 4 PERANCANGAN
 Bab perancangan menjelaskan tentang perancangan algoritma dari metode-
 metode serta flow diagram dari setiap algoritma yang digunakan pada penelitian
@@ -1168,21 +1149,17 @@ setiap resume diketahui, isian dari setiap bagian diambil dari kolom
 Resume_str. Hasilnya adalah DataFrame resume_df_1 yang memiliki kolom
 ID, Resume_str, Resume_hml, Section, dan Text. Diagram alur proses
 ekstraksi section tertera pada Gambar 4.1 hingga Gambar 4.4.
-
-# 20
+20
 Gambar 4.1 Diagram alur ekstraksi section
-
-# 21
+21
 Gambar 4.2 Diagram alur ekstraksi section
-
-# 22
+22
 Gambar 4.3 Diagram alur ekstraksi section
-
-# 23
+23
 Gambar 4.4 Diagram alur ekstraksi section
+24
 
-# 24
-## Preprocessing Isian Resume
+### Preprocessing Isian Resume
 Setelah langkah ekstraksi section dilakukan dan menghasilkan DataFrame
 resume_df_1, selanjutnya adalah langkah preprocessing untuk kolom Text
 yang merupakan isian dari setiap section pada setiap resume. Langkah-langkah
@@ -1194,12 +1171,11 @@ dilakukan lematisasi dan penghapusan stopword agar kata-kata ditransformasikan
 menjadi bentuk dasar sesuai dengan kamus. Diagram alur proses preprocessing
 isian resume tertera pada Gambar 4.5 hingga Gambar 4.6.
 Gambar 4.5 Diagram alur preprocessing isian resume
-
-# 25
+25
 Gambar 4.6 Diagram alur preprocessing isian resume
+26
 
-# 26
-## Preprocessing Penamaan Section
+### Preprocessing Penamaan Section
 Setiap resume umumnya memiliki struktur informasi yang serupa, seperti
 bagian Education, Work Experience, Skills, dan Summary. Namun, penamaan atau
 label dari setiap bagian tersebut dapat sangat bervariasi antar resume, misalnya
@@ -1233,11 +1209,10 @@ individu maupun kelompok.
 seperti referensi, hobi, atau informasi tambahan lainnya.
 Diagram alur proses preprocessing penamaan section resume tertera pada
 Gambar 4.7.
-
-# 27
+27
 Gambar 4.7 Diagram alur preprocessing penamaan section resume
+28
 
-# 28
 ## Preprocessing Kualifikasi Lowongan Kerja
 Dilakukan preprocessing pada kolom Description yang berisi kebutuhan
 terkait suatu posisi lowongan kerja. Langkah-langkah yang dilakukan mencakup
@@ -1245,54 +1220,48 @@ tokenisasi dan lematisasi agar kata-kata ditransformasikan menjadi bentuk dasar
 sesuai dengan kamus. Diagram alur proses preprocessing isian kualifikasi
 lowongan kerja tertera pada Gambar 4.8.
 Gambar 4.8 Diagram alur preprocessing isian kualifikasi lowongan kerja
+29
 
-# 29
 ## Perhitungan Representasi Teks
 ### TF-IDF
 Pengimplementasian TF-IDF menggunakan library Scikit-learn. Meskipun
 proses implementasi menggunakan library, diagram alur yang menjelaskan detail
 perhitungan TF-IDF tertera pada Gambar 4.9 hingga Gambar 4.11.
 Gambar 4.9 Diagram alur TF-IDF
-
-# 30
+30
 Gambar 4.10 Diagram alur TF-IDF
-
-# 31
+31
 Gambar 4.11 Diagram alur TF-IDF
+32
 
-# 32
-## Word2Vec
+### Word2Vec
 Pengimplementasian Word2Vec menggunakan library Gensim. Meskipun
 proses implementasi menggunakan library, diagram alur yang menjelaskan detail
 perhitungan Word2Vec tertera pada Gambar 4.12 hingga Gambar 4.14.
 Gambar 4.12 Diagram alur Word2Vec
-
-# 33
+33
 Gambar 4.13 Diagram alur Word2Vec
-
-# 34
+34
 Gambar 4.14 Diagram alur Word2Vec
+35
 
-# 35
 ## Perhitungan Similaritas
 ### Improved Sqrt-Cosine Similarity
 Proses perhitungan Improved Sqrt-Cosine (ISC) Similarity digunakan untuk
 mengukur seberapa mirip antara resume dengan kualifikasi lowongan kerja.
 Pertama, fungsi ini memeriksa apakah kedua vektor ada. Jika tidak, hasilnya adalah
-
-# , Selanjutnya, dihitung skor similaritas dengan menjumlahkan akar dari hasil kali
+0, Selanjutnya, dihitung skor similaritas dengan menjumlahkan akar dari hasil kali
 elemen yang bersesuaian dalam kedua vektor sebagai pembilang. Hasil tersebut
 dibagi dengan hasil kali akar dari total nilai di masing-masing vektor sebagai
 penyebut. Terakhir, fungsi ini mengembalikan hasil pembagian yang merupakan
 skor kemiripan kedua vektor tersebut. Diagram alur proses perhitungan similaritas
 ISC tertera pada Gambar 4.15 hingga 4.16.
 Gambar 4.15 Diagram alur Improved Sqrt-Cosine Similarity
-
-# 36
+36
 Gambar 4.16 Diagram alur Improved Sqrt-Cosine Similarity
+37
 
-# 37
-## Cosine Similarity
+### Cosine Similarity
 Meskipun dalam implementasi program digunakan library Scikit-learn untuk
 menghitung nilai Cosine Similarity (CosSim) antara resume dan kualifikasi
 lowongan kerja, proses perhitungan di balik fungsi tersebut tetap dijelaskan
@@ -1305,11 +1274,10 @@ pada masing-masing vektor (penyebut atau denominator). Skor akhir similaritas
 diperoleh dari pembagian antara pembilang dan penyebut. Diagram alur proses
 perhitungan CosSim tertera pada Gambar 4.17 hingga 4.18.
 Gambar 4.17 Diagram alur Cosine Similarity
-
-# 38
+38
 Gambar 4.18 Diagram alur Cosine Similarity
+39
 
-# 39
 ## Perhitungan Korelasi
 Pada proses perhitungan korelasi, Spearman Rank Correlation Coefficient
 (SRCC) digunakan untuk mengukur seberapa sesuai antara dua peringkat, yaitu
@@ -1325,11 +1293,10 @@ SRCC untuk mendapatkan nilai korelasi yang menunjukkan sejauh mana hasil
 implementasi metode sesuai dengan penilaian ahli. Diagram alur proses
 perhitungan SRCC tertera pada Gambar 4.19 hingga 4.20.
 Gambar 4.19 Diagram alur Spearman Rank Correlation Coefficient
-
-# 40
+40
 Gambar 4.20 Diagram alur Spearman Rank Correlation Coefficient
+41
 
-# 41
 ## Perhitungan Relevansi dan Senioritas
 Pada proses perhitungan relevansi dan senioritas, digunakan persentase untuk
 mengukur seberapa sesuai antara resume-resume yang dihasilkan implementasi
@@ -1342,14 +1309,12 @@ yang bernilai TRUE pada kolom Seniority. Kemudian, hitung persentase
 masing-masing relevansi dan senioritas dengan mengalikan 100 pada hasil
 pembagian antara jumlah resume bernilai TRUE dan jumlah total resume. Diagram
 alur proses perhitungan relevansi dan senioritas tertera pada Gambar 4.21 hingga
-
-## 4.22
+4.22.
 Gambar 4.21 Diagram alur relevansi dan senioritas
-
-# 42
+42
 Gambar 4.22 Diagram alur relevansi dan senioritas
+43
 
-# 43
 ## Perhitungan Manual
 ### Data Uji
 Data uji resume yang digunakan untuk perhitungan manualisasi merupakan
@@ -1393,15 +1358,13 @@ id="SECTNAME_SUMM537133602
 "> Objective</div> </div> <div
 class="paragraph firstparagraph"
 id="PARAGRAPH_537133602_1_3
-
-# "...
-# 44
+50680754"...
+44
 Data uji kualifikasi lowongan kerja yang digunakan untuk perhitungan
 manualisasi merupakan salah satu kualifikasi lowongan kerja yang diambil dari
 dataset kualifikasi lowongan kerja dengan kolom Position, Company, dan
 Description. Rincian isi data uji kualifikasi lowongan kerja tertera pada Tabel
-
-## 4.2
+4.2
 Tabel 4.2 Data uji kualifikasi lowongan kerja untuk perhitungan manual
 
 ## Position Company Description
@@ -1445,8 +1408,7 @@ developmentally appropriate lessons and
 activities allowing integration of all
 learning styles. Highly educated in
 differentiated classrooms...
-
-# 45
+45
 Tabel 4.3 Hasil perhitungan manual ekstraksi section (lanjutan)
 
 ## Section Text
@@ -1496,8 +1458,7 @@ evaluation using Developmental Reading
 
 ## Assessments and consultation with staff
 members of referred students...
-
-# 46
+46
 Tabel 4.4 Hasil perhitungan manual preprocessing resume bagian menghapus
 email (lanjutan)
 
@@ -1548,8 +1509,9 @@ and Sociology Coursework in
 Intercultural and Group Communication...
 
 ## Nicole Harrison Peters
-# 47
-## Menghapus Berbagai Tipe Tanda Minus (－, –, —)
+47
+
+### Menghapus Berbagai Tipe Tanda Minus (－, –, —)
 Data uji resume yang sudah melalui preprocessing menghapus nomor telepon,
 dilanjutkan menghapus berbagai tipe tanda minus yang kemungkinan digunakan
 dalam penulisan informasi seperti lokasi, tanggal, atau rentang waktu. Hasil dari
@@ -1598,8 +1560,7 @@ nama bulan
 Objective To gain the position as the resource room
 teacher at Howell Township Public
 Schools.
-
-# 48
+48
 Tabel 4.7 Hasil perhitungan manual preprocessing resume bagian menghapus
 nama bulan (lanjutan)
 
@@ -1645,8 +1606,7 @@ developmentally appropriate lessons and
 activities allowing integration of all
 learning styles. Highly educated in
 differentiated classrooms...
-
-# 49
+49
 Tabel 4.8 Hasil perhitungan manual preprocessing resume bagian menghapus
 kata “Present” dan “Current” (lanjutan)
 
@@ -1673,8 +1633,7 @@ Communication...
 Data uji resume yang sudah melalui preprocessing menghapus kata atau istilah
 seperti “Present” dan “Current”, dilanjutkan dengan penghapusan format-format
 tanggal dan rentang waktu. Hasil dari proses penghapusan ini tertera pada Tabel
-
-## 4.9
+4.9.
 Tabel 4.9 Hasil perhitungan manual preprocessing resume bagian menghapus
 tanggal
 
@@ -1687,8 +1646,7 @@ developmentally appropriate lessons and
 activities allowing integration of all
 learning styles. Highly educated in
 differentiated classrooms...
-
-# 50
+50
 Tabel 4.9 Hasil perhitungan manual preprocessing resume bagian menghapus
 tanggal (lanjutan)
 
@@ -1727,8 +1685,7 @@ developmentally appropriate lessons and
 activities allowing integration of all
 learning styles. Highly educated in
 differentiated classrooms...
-
-# 51
+51
 Tabel 4.10 Hasil perhitungan manual preprocessing resume bagian menghapus
 placeholder (lanjutan)
 
@@ -1777,8 +1734,7 @@ using Developmental Reading
 
 ## Assessments and consultation with staff
 members of referred students...
-
-# 52
+52
 Tabel 4.11 Hasil perhitungan manual preprocessing resume bagian menghapus
 tanda baca (lanjutan)
 
@@ -1825,8 +1781,9 @@ and Sociology Coursework in
 Intercultural and Group Communication...
 
 ## Nicole Harrison Peters
-# 53
-## Menghapus Spasi Kosong Berlebih
+53
+
+### Menghapus Spasi Kosong Berlebih
 Data uji resume yang sudah melalui preprocessing menghapus angka,
 dilanjutkan menghapus spasi kosong berlebih yang biasanya muncul akibat
 penghapusan karakter. Hasil dari proses penghapusan ini tertera pada Tabel 4.13.
@@ -1871,7 +1828,7 @@ dan menghapus stop words
 ## Section Text
 ## Objective gain position resource room teacher
 ## Howell Township Public Schools
-# 54
+54
 Tabel 4.14 Hasil perhitungan manual preprocessing resume bagian lematisasi
 dan menghapus stop words (lanjutan)
 
@@ -1918,8 +1875,7 @@ substantial academic difficulty evaluation
 use Developmental Reading Assessments
 consultation staff member referred
 student...
-
-# 55
+55
 Tabel 4.15 Hasil perhitungan manual penyetaraan nama section bagian
 mengonversi nama section menjadi huruf kecil (lower casing) (lanjutan)
 
@@ -1936,8 +1892,7 @@ Data uji resume yang sudah melalui preprocessing lower casing nama-nama
 section, dilanjutkan dengan pencarian nama-nama section yang unik untuk
 mengidentifikasi variasi nama section yang terdapat dalam seluruh dataset
 resume. Hasil dari proses pencarian nama-nama section ini tertera pada Tabel
-
-## 4.16
+4.16.
 Tabel 4.16 Hasil perhitungan manual penyetaraan nama section bagian
 mengonversi nama section menjadi huruf kecil (lower casing)
 Nama-Nama Section Unik
@@ -1959,8 +1914,7 @@ seperti “Summary”, “Accomplishments/Awards”, "Skills/Qualifications",
 "Education", "Experience", "Organization", "Projects", "Certifications", "Portfolio",
 "Others". Hasil dari proses penyetaraan nama-nama section ini untuk data uji
 resume tertera pada Tabel 4.17.
-
-# 56
+56
 Tabel 4.17 hasil perhitungan manual penyetaraan nama section bagian
 menyeragamkan pengelompokan section berdasarkan pemetaan
 
@@ -2001,8 +1955,7 @@ dalam section “Others”. Selain itu, seluruh baris yang isian kolom Text-nya
 kosong, hanya berisi spasi atau bernilai null juga dihapus untuk menjaga kualitas
 data. Hasil dari proses klasifikasi, penghapusan, dan pengelompokan section ini
 untuk data uji resume tertera pada Tabel 4.18.
-
-# 57
+57
 Tabel 4.18 Hasil perhitungan manual penyetaraan nama section bagian
 klasifikasi, penghapusan, dan pengelompokan section tidak valid
 
@@ -2052,10 +2005,10 @@ demonstrated ability design
 developmentally appropriate lesson
 activity allow integration learning style
 highly educate differentiated classroom...
+58
 
-# 58
-## Perhitungan Manual Preprocessing Kualifikasi Lowongan Kerja
-### Mengonversi Isi Kualifikasi Lowongan Kerja Menjadi Huruf
+### Perhitungan Manual Preprocessing Kualifikasi Lowongan Kerja
+#### Mengonversi Isi Kualifikasi Lowongan Kerja Menjadi Huruf
 Kecil (Lower Casing)
 Pada proses preprocessing kualifikasi lowongan kerja, dilakukan
 pengonversian isi kolom Description menjadi huruf kecil untuk menyamakan
@@ -2091,9 +2044,9 @@ ability to lead and
 inspire a team of
 creatives and event
 professionals...
+59
 
-# 59
-## Menghapus Tanda Baca
+### Menghapus Tanda Baca
 Setelah proses penghapusan angka, dilakukan penghapusan tanda baca. Hasil
 dari proses ini untuk data uji kualifikasi lowongan kerja tertera pada Tabel 4.22.
 Tabel 4.22 Hasil perhitungan manual preprocessing kualifikasi lowongan kerja
@@ -2127,9 +2080,9 @@ to lead and inspire
 a team of creatives
 and event
 professionals...
+60
 
-# 60
-## Lematisasi dan Menghapus Stop Words
+### Lematisasi dan Menghapus Stop Words
 Setelah proses penghapusan spasi kosong berlebih, dilakukan penghapusan
 stop words dari Bahasa Inggris. Hasil dari proses ini untuk data uji kualifikasi
 lowongan kerja tertera pada Tabel 4.24.
@@ -2171,8 +2124,7 @@ learn, nilai TF merupakan jumlah kemunculan term pada setiap dokumen seperti
 pada Persamaan 4.1.
 𝑇𝐹 = 𝑓 (4.1)
 (𝑡,𝑑) 𝑡,𝑑
-
-# 61
+61
 Jumlah kemunculan (frekuensi) term setiap dokumen untuk data uji resume
 tertera pada Tabel 4.26.
 Tabel 4.26 Perhitungan manual frekuensi term setiap resume
@@ -2204,8 +2156,7 @@ assessments 1 0 0
 digital 0 2 0
 production 0 3 0
 manager 0 1 1
-
-# 62
+62
 Tabel 4.26 Perhitungan manual frekuensi term setiap resume (lanjutan)
 Term f di Dokumen 1 f di Dokumen 2 f di Dokumen 3
 responsible 0 1 0
@@ -2235,8 +2186,7 @@ process 0 0 1
 suggest 0 0 1
 best 0 0 1
 practice 0 0 1
-
-# 63
+63
 Tabel 4.26 Perhitungan manual frekuensi term setiap resume (lanjutan)
 Term f di Dokumen 1 f di Dokumen 2 f di Dokumen 3
 effective 0 0 1
@@ -2274,8 +2224,7 @@ classroom 1 0 0
 determined 1 0 0
 maximize 1 0 0
 educational 1 0 0
-
-# 64
+64
 Tabel 4.27 Perhitungan manual TF korpus resume (lanjutan)
 Term TF di Dokumen 1 TF di Dokumen 2 TF di Dokumen 3
 achievement 1 0 0
@@ -2309,8 +2258,7 @@ global 0 0 1
 stake 0 0 1
 holder 0 0 1
 recruited 0 0 1
-
-# 65
+65
 Tabel 4.27 Perhitungan manual TF korpus resume (lanjutan)
 Term TF di Dokumen 1 TF di Dokumen 2 TF di Dokumen 3
 analysts 0 0 1
@@ -2326,16 +2274,15 @@ dari menghitung jumlah dokumen yang memiliki suatu term, rumusnya tertera
 pada Persamaan 4.5, mulai dari Persamaan 4.6 merupakan contoh perhitungan
 IDF untuk term “demonstrated”.
 
-# +𝑁
+# 1+𝑁
 𝐼𝐷𝐹 = log( )+1 (4.5)
 (𝑡)
-
-# +𝑑𝑓
-# +3
+1+𝑑𝑓
+1+3
 𝐼𝐷𝐹 = log( )+1 = log(2)+1 (4.6)
 (𝑑𝑒𝑚𝑜𝑛𝑠𝑡𝑟𝑎𝑡𝑒𝑑)
+1+1
 
-# +1
 # 𝐼𝐷𝐹 = 0,6931471806+1 = 1.693147181 (4.7)
 (𝑑𝑒𝑚𝑜𝑛𝑠𝑡𝑟𝑎𝑡𝑒𝑑)
 Hasil IDF untuk semua term di korpus resume tertera pada Tabel 4.28.
@@ -2354,8 +2301,7 @@ integration 1 1,693147181
 learning 1 1,693147181
 style 1 1,693147181
 highly 1 1,693147181
-
-# 66
+66
 Tabel 4.28 Perhitungan manual IDF korpus resume (lanjutan)
 
 ## Term DF IDF
@@ -2390,8 +2336,7 @@ deadline 1 1,693147181
 acted 1 1,693147181
 liaison 1 1,693147181
 senior 1 1,693147181
-
-# 67
+67
 Tabel 4.28 Perhitungan manual IDF korpus resume (lanjutan)
 
 ## Term DF IDF
@@ -2433,8 +2378,7 @@ design 1,287682072 1,287682072 0
 developmentally 1,693147181 0 0
 appropriate 1,693147181 0 0
 lesson 1,693147181 0 0
-
-# 68
+68
 Tabel 4.29 Perhitungan manual TF-IDF korpus resume (lanjutan)
 Term TF-IDF Dokumen 1 TF-IDF Dokumen 2 TF-IDF Dokumen 3
 activity 1,693147181 0 0
@@ -2468,8 +2412,7 @@ delivering 0 1,693147181 0
 high 0 1,693147181 0
 quality 0 1,693147181 0
 meet 0 1,693147181 0
-
-# 69
+69
 Tabel 4.29 Perhitungan manual TF-IDF korpus resume (lanjutan)
 Term TF-IDF Dokumen 1 TF-IDF Dokumen 2 TF-IDF Dokumen 3
 client 0 1,693147181 0
@@ -2491,45 +2434,36 @@ best 0 0 1,693147181
 practice 0 0 1,693147181
 effective 0 0 1,693147181
 method 0 0 1,693147181
-
-# 70
+70
 Secara bawaan, TfidfTransformer dari library Scikit-learn
 mengimplementasikan L (Euclidean distance) norm pada hasil perhitungan TF-
-
-# 2
+2
 IDF. Perhitungan normalisasi tertera pada Persamaan 4.12 dan contoh
 perhitungannya untuk term “demonstrated” tertera mulai dari Persamaan 4.13
 𝑣 𝑣
 𝑣 = = (4.12)
 𝑛𝑜𝑟𝑚 ‖𝑣‖ 2 √𝑣1 2+𝑣2 2+⋯+𝑣𝑛 2
-
-# ,693147181
+1,693147181
 𝑣 = (4.13)
 𝑛𝑜𝑟𝑚(𝑑𝑒𝑚𝑜𝑛𝑠𝑡𝑟𝑎𝑡𝑒𝑑,𝑑1) √(1,693147181)2+(1,693147181)2+⋯+(0)2
-
-# ,693147181
+1,693147181
 𝑣 = = 0,2059410105 (4.14)
 𝑛𝑜𝑟𝑚(𝑑𝑒𝑚𝑜𝑛𝑠𝑡𝑟𝑎𝑡𝑒𝑑,𝑑1)
-
-# ,221515356
-# 0
+8,221515356
+0
 𝑣 = (4.15)
 𝑛𝑜𝑟𝑚(𝑑𝑒𝑚𝑜𝑛𝑠𝑡𝑟𝑎𝑡𝑒𝑑,𝑑2) √(0)2+(0)2+⋯+(0)2
-
-# 0
+0
 𝑣 = = 0 (4.16)
 𝑛𝑜𝑟𝑚(𝑑𝑒𝑚𝑜𝑛𝑠𝑡𝑟𝑎𝑡𝑒𝑑,𝑑2)
-
-# ,823360017
-# 0
+8,823360017
+0
 𝑣 = (4.17)
 𝑛𝑜𝑟𝑚(𝑑𝑒𝑚𝑜𝑛𝑠𝑡𝑟𝑎𝑡𝑒𝑑,𝑑3) √(0)2+(0)2+⋯+(1,693147181)2
-
-# 0
+0
 𝑣 = = 0 (4.18)
 𝑛𝑜𝑟𝑚(𝑑𝑒𝑚𝑜𝑛𝑠𝑡𝑟𝑎𝑡𝑒𝑑,𝑑3)
-
-# ,893916385
+6,893916385
 Hasil akhir TF-IDF setelah normalisasi tertera pada tabel 4.30.
 Tabel 4.30 Perhitungan manual TF-IDF korpus resume setelah normalisasi
 Term TF-IDF Dokumen 1 TF-IDF Dokumen 2 TF-IDF Dokumen 3
@@ -2550,8 +2484,7 @@ differentiated 0,2059410105 0 0
 classroom 0,2059410105 0 0
 determined 0,2059410105 0 0
 maximize 0,2059410105 0 0
-
-# 71
+71
 Tabel 4.30 Perhitungan manual TF-IDF korpus resume setelah normalisasi
 (lanjutan)
 Term TF-IDF Dokumen 1 TF-IDF Dokumen 2 TF-IDF Dokumen 3
@@ -2585,8 +2518,7 @@ business 0 0 0,245600191
 various 0 0 0,245600191
 global 0 0 0,245600191
 stake 0 0 0,245600191
-
-# 72
+72
 Tabel 4.30 Perhitungan manual TF-IDF korpus resume setelah normalisasi
 (lanjutan)
 Term TF-IDF Dokumen 1 TF-IDF Dokumen 2 TF-IDF Dokumen 3
@@ -2622,8 +2554,7 @@ Term TF di Dokumen 4 TF di Dokumen 5 TF di Dokumen 6
 demonstrated 0 0 0
 ability 1 0 0
 design 1 2 0
-
-# 73
+73
 Tabel 4.32 Perhitungan manual TF korpus kualifikasi lowongan kerja (lanjutan)
 Term TF di Dokumen 4 TF di Dokumen 5 TF di Dokumen 6
 developmentally 0 0 0
@@ -2654,8 +2585,7 @@ responsible 0 0 0
 aspect 0 0 0
 premium 0 0 0
 printing 0 0 0
-
-# 74
+74
 Tabel 4.32 Perhitungan manual TF korpus kualifikasi lowongan kerja (lanjutan)
 Term TF di Dokumen 4 TF di Dokumen 5 TF di Dokumen 6
 graphic 0 1 0
@@ -2683,28 +2613,25 @@ best 0 0 0
 practice 0 0 0
 effective 0 0 0
 method 0 0 0
-
-# 75
+75
 Nilai Inverse Document Frequency (IDF) bisa didapatkan dengan menghitung
 document frequency (DF) terlebih dahulu. Kemudian, dihitung dengan formula
 seperti pada Persamaan 4.19. Mulai dari Persamaan 4.20 mendemonstrasikan
 perhitungan IDF untuk term “design”.
 
-# +𝑁
+# 1+𝑁
 𝐼𝐷𝐹 = log( )+1 (4.19)
 (𝑡)
-
-# +𝑑𝑓
-# +3 4
+1+𝑑𝑓
+1+3 4
 𝐼𝐷𝐹 = log( )+1 = log( )+1 (4.20)
 (𝑑𝑒𝑠𝑖𝑔𝑛)
+1+2 3
 
-# +2 3
 # 𝐼𝐷𝐹 = 0,2876820725+1 = 1,287682072 (4.21)
 (𝑑𝑒𝑠𝑖𝑔𝑛)
 Hasil perhitungan IDF korpus kualifikasi lowongan kerja tertera pada Tabel
-
-## 4.33
+4.33.
 Tabel 4.33 Perhitungan manual IDF korpus kualifikasi lowongan kerja
 
 ## Term DF IDF
@@ -2730,8 +2657,7 @@ achievement 0 2,386294361
 student 1 1,693147181
 trained 0 2,386294361
 developmental 0 2,386294361
-
-# 76
+76
 Tabel 4.33 Perhitungan manual IDF korpus kualifikasi lowongan kerja (lanjutan)
 
 ## Term DF IDF
@@ -2766,8 +2692,7 @@ analysts 0 2,386294361
 process 0 2,386294361
 suggest 0 2,386294361
 best 0 2,386294361
-
-# 77
+77
 Tabel 4.33 Perhitungan manual IDF korpus kualifikasi lowongan kerja (lanjutan)
 
 ## Term DF IDF
@@ -2810,8 +2735,7 @@ educate 0 0 0
 differentiated 0 0 0
 classroom 0 0 0
 determined 0 0 0
-
-# 78
+78
 Tabel 4.34 Perhitungan manual TF-IDF korpus kualifikasi lowongan kerja
 (lanjutan)
 Term TF-IDF Dokumen 4 TF-IDF Dokumen 5 TF-IDF Dokumen 6
@@ -2845,8 +2769,7 @@ senior 0 0 0
 business 0 0 0
 various 0 0 0
 global 0 0 0
-
-# 79
+79
 Tabel 4.34 Perhitungan manual TF-IDF korpus kualifikasi lowongan kerja
 (lanjutan)
 Term TF-IDF Dokumen 4 TF-IDF Dokumen 5 TF-IDF Dokumen 6
@@ -2866,34 +2789,27 @@ merupakan demonstrasi perhitungan normalisasi TF-IDF untuk term “design”
 𝑣 𝑣
 𝑣 = = (4.26)
 𝑛𝑜𝑟𝑚 ‖𝑣‖ 2 √𝑣1 2+𝑣2 2+⋯+𝑣𝑛 2
-
-# ,287682072
+1,287682072
 𝑣 = (4.27)
 𝑛𝑜𝑟𝑚(𝑑𝑒𝑠𝑖𝑔𝑛,𝑑4) √(0)2+(1,693147181)2+⋯+(0)2
-
-# ,287682072
+1,287682072
 𝑣 = = 0,473629601 (4.28)
 𝑛𝑜𝑟𝑚(𝑑𝑒𝑠𝑖𝑔𝑛,𝑑4)
-
-# ,718753367
-# ,575364145
+2,718753367
+2,575364145
 𝑣 = (4.29)
 𝑛𝑜𝑟𝑚(𝑑𝑒𝑠𝑖𝑔𝑛,𝑑5) √(0)2+(0)2+⋯+(0)2
-
-# ,575364145
+2,575364145
 𝑣 = = 0,8355915419 (4.30)
 𝑛𝑜𝑟𝑚(𝑑𝑒𝑠𝑖𝑔𝑛,𝑑5)
-
-# ,082084985
-# 0
+3,082084985
+0
 𝑣 = (4.31)
 𝑛𝑜𝑟𝑚(𝑑𝑒𝑠𝑖𝑔𝑛,𝑑6) √(0)2+(0)2+⋯+(0)2
-
-# 0
+0
 𝑣 = = 0 (4.32)
 𝑛𝑜𝑟𝑚(𝑑𝑒𝑠𝑖𝑔𝑛,𝑑6)
-
-# ,386294361
+3,386294361
 Hasil perhitungan manual TF-IDF korpus kualifikasi lowongan kerja setelah
 normalisasi tertera pada Tabel 4.35.
 Tabel 4.35 Perhitungan manual TF-IDF korpus kualifikasi lowongan kerja
@@ -2902,8 +2818,7 @@ Term TF-IDF Dokumen 4 TF-IDF Dokumen 5 TF-IDF Dokumen 6
 demonstrated 0 0 0
 ability 0,6227660078 0 0
 design 0,473629601 0,8355915419 0
-
-# 80
+80
 Tabel 4.35 Perhitungan manual TF-IDF korpus kualifikasi lowongan kerja
 setelah normalisasi (lanjutan)
 Term TF-IDF Dokumen 4 TF-IDF Dokumen 5 TF-IDF Dokumen 6
@@ -2937,8 +2852,7 @@ premium 0 0 0
 printing 0 0 0
 graphic 0 0,549351231 0
 company 0 0 0
-
-# 81
+81
 Tabel 4.35 Perhitungan manual TF-IDF korpus kualifikasi lowongan kerja
 setelah normalisasi (lanjutan)
 Term TF-IDF Dokumen 4 TF-IDF Dokumen 5 TF-IDF Dokumen 6
@@ -2965,8 +2879,8 @@ best 0 0 0
 practice 0 0 0
 effective 0 0 0
 method 0 0 0
+82
 
-# 82
 ## Perhitungan Manual Word2Vec
 Tujuan dari Skip-gram adalah memprediksi konteks (output) disekitar kata
 target (input). Untuk demonstrasi perhitungan manual Word2Vec menggunakan
@@ -3004,7 +2918,7 @@ appropriate [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0
 lesson [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0
 
 # 0 0 0 0 0 0]
-# 83
+83
 Tabel 4.36 Perhitungan manual one-hot encoding (lanjutan)
 Term One-Hot Encoding
 activity [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
@@ -3061,7 +2975,7 @@ reading [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 assessments [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 # 0 0 0 0 0 1]
-# 84
+84
 Pada perhitungan manual ini, dilakukan penargetan pada kata “design” dan
 menggunakan hidden layer = 3. Selanjutnya adalah melakukan inisialisasi acak
 bobot input layer ke tiga hidden layer yang tertera pada Tabel 4.37.
@@ -3092,8 +3006,7 @@ trained -0,3 0,2 -0,8
 developmental 0,2 -0,3 -0,5
 reading -0,8 0,2 -0,3
 assessments -0,5 -0,3 0,2
-
-# 85
+85
 Setelah menginisialisasi acak bobot input ke hidden layer, dapat
 menginisialisasi acak bobot juga untuk hidden layer ke output layer yang tertera
 pada Tabel 4.38 sampai dengan Tabel 4.41.
@@ -3125,15 +3038,14 @@ ent ental nts
 # H1 -0,1 0,3 -0,2 -0,4 -0,1 0,3
 # H2 0,3 -0,2 0,3 -0,1 0,3 0
 # H3 -0,2 -0,1 -0,1 0,3 0 -0,6
-# 86
+86
 Telah didapatkan bobot untuk hidden layer ke output layer pada Tabel 4.38
 sampai dengan Tabel 4.41. Perhitungan dilanjutkan ke feedforward dengan
 mengalikan one-hot vector dari kata target “design” dengan matriks bobot input-
 hidden seperti pada Persamaan 4.33 sampai dengan Persamaan 4.39.
 −0,3
-
-# ,2
-# ,8
+0,2
+0,8
 𝐻1 = [0 0 1 … 0 0]× (4.33)
 ⋮
 −0,8
@@ -3145,8 +3057,7 @@ hidden seperti pada Persamaan 4.33 sampai dengan Persamaan 4.39.
 −0,6
 𝐻2 = [0 0 1 … 0 0]× (4.35)
 ⋮
-
-# ,2
+0,2
 [−0,3]
 
 # 𝐻2 = 0 (−0,8)+0 (−0,5)+1(−0,6)+⋯+0(0,2)+0(−0,3) = −0,6 (4.36)
@@ -3165,20 +3076,16 @@ Kalikan ℎ dengan bobot hidden-output untuk menghitung skor prediksi
 𝑑𝑒𝑠𝑖𝑔𝑛
 kata target dengan konteksnya tertera pada Persamaan 4.40 sampai dengan
 Persamaan 4.41.
-
-# ,3 −0,2 −0,2 ⋯ 0,3
+0,3 −0,2 −0,2 ⋯ 0,3
 𝑢 = [0,8 −0,6 −0,2] × [−0,4 −0,3 0,3 ⋯ 0 ] (4.40)
-
-# ,1
+1,1
 −0,1 −0,8 0,2 ⋯ −0,6
 𝑢 = 0,8 (0,3)+(−0,6) (−0,4)+(−0,2)(−0,1) = 0,5 (4.41)
-
-# ,1
+1,1
 Matriks hasil berbentuk 1×24 yang tertera pada Persamaan 4.42.
 𝑧 = [0,5 0,18 0,1 −0,22 … −0,32 −0,26 0,36] (4.42)
 𝑑𝑒𝑠𝑖𝑔𝑛
-
-# 87
+87
 Setelah didapatkan skor prediksi, lakukan normalisasi dengan Softmax dengan
 rumus seperti Persamaan 4.43.
 𝑒𝑥𝑝(𝑘)
@@ -3189,12 +3096,10 @@ Jumlahkan semua nilai eksponensial untuk denominator seperti Persamaan
 
 ## sampai dengan 4.45.
 𝑒𝑥𝑝(0,5)+𝑒𝑥𝑝(0,18)+⋯+𝑒𝑥𝑝(−0,26)+𝑒𝑥𝑝(0,36) = 24.5489614 (4.44)
-
-# ,648721271
+1,648721271
 𝑢 = = 0,06716053035 (4.45)
-
-# ,1
-# ,54896145
+1,1
+24,54896145
 Matriks Softmax untuk kata target “design” berbentuk 1×24 tertera pada
 Persamaan 4.46.
 𝑦̂ = [0,0671605 0,04876856 … 0,0314087 0,0583866] (4.46)
@@ -3222,31 +3127,26 @@ pada Persamaan 4.52 sampai dengan Persamaan 4.53.
 𝑑𝑒𝑣𝑒𝑙𝑜𝑝𝑚𝑒𝑛𝑡
 𝑒 = [0,0672 0,0488 … 0,0314 0,0584] (4.53)
 𝑑𝑒𝑣𝑒𝑙𝑜𝑝𝑚𝑒𝑛𝑡
-
-# 88
+88
 Perhitungan error rata-rata dari kedua konteks tertera pada Persamaan 4.54
 sampai dengan Persamaan 4.56.
 𝑒 +𝑒
 𝑒 = 𝑎𝑏𝑖𝑙𝑖𝑡𝑦 𝑑𝑒𝑣𝑒𝑙𝑜𝑝𝑚𝑒𝑛𝑡 (4.54)
 𝑐𝑜𝑛𝑡𝑒𝑥𝑡
-
-# 2
-# ,06716053035+0,06716053035
+2
+0,06716053035+0,06716053035
 𝑒 = = 0,06716053035 (4.55)
 𝑐𝑜𝑛𝑡𝑒𝑥𝑡1,1
-
-# 2
+2
 −0,9512314456+0,04876855444
 𝑒 = = −0,4512314456 (4.56)
 𝑐𝑜𝑛𝑡𝑒𝑥𝑡1,2
-
-# 2
+2
 Matriks error konteks tertera pada Persamaan 4.57.
 𝑑𝑧 = [0,06716053 −0,4512314 … 0,03140873 0,05838656] (4.57)
 Setelah mendapatkan hasil perhitungan error, dilanjutkan dengan perhitungan
 gradien dari output layer ke hidden layer dengan rumus seperti pada Persamaan
-
-## 4.58
+4.58.
 𝑑𝐿𝑜𝑠𝑠 = 𝑑𝑈 = ℎ𝑇.𝑑𝑧(𝑁×𝑉) (4.58)
 𝑑𝑈
 Diketahui matriks ℎ dan dilakukan transpose pada Persamaan 4.59
@@ -3254,35 +3154,27 @@ Diketahui matriks ℎ dan dilakukan transpose pada Persamaan 4.59
 sampai dengan 4.60.
 ℎ = [0,8 −0,6 −0,2] (4.59)
 𝑑𝑒𝑠𝑖𝑔𝑛
-
-# ,8
+0,8
 ℎ𝑇 = [−0,6] (4.60)
 𝑑𝑒𝑠𝑖𝑔𝑛
 −0,2
 Maka, perhitungan 𝑑𝑈 tertera pada Persamaan 4.61.
-
-# ,8
+0,8
 𝑑𝑈 = [−0,6]×[0,0672 −0,4512 … 0,0314 0,0584] (4.61)
 −0,2
 𝑑𝑈 = 0,8×0,067160530 = 0,05372842428 (4.62)
-
-# ,1
+1,1
 𝑑𝑈 = 0,6×0,067160530 = −0,04029631821 (4.63)
-
-# ,1
+2,1
 𝑑𝑈 = 0,8×−0,45123144 = −0,3609851564 (4.64)
-
-# ,2
+1,2
 𝑑𝑈 = 0,6×−0,45123144 = 0,2707388673 (4.65)
-
-# ,2
+2,2
 Matriks 𝑑𝑈 berbentuk 3×24 tertera pada Persamaan 4.66.
-
-# ,05372842428 −0,3609851564 … 0,04670924812
+0,05372842428 −0,3609851564 … 0,04670924812
 𝑑𝑈 = [−0,04029631821 0,2707388673 … −0,03503193609] (4.66)
 −0,01343210607 0,09024628911 … −0,01167731203
-
-# 89
+89
 Setelah mendapatkan hasil perhitungan gradien dari output layer ke hidden
 layer, dilanjutkan menghitung gradien dari hidden layer ke input layer dengan
 rumus seperti pada Persamaan 4.67.ex
@@ -3292,41 +3184,34 @@ Diketahui matriks hidden layer 1, 2, dan 3 dilakukan transpose pada Persamaan
 
 ## sampai dengan 4.73.
 ℎ = [0,3 −0,2 −0,2 … 0,3] (4.68)
-
-# 1
-# ,2
+1
+0,2
 −0,2
 ℎ𝑇 = −0,2 (4.69)
-
-# 1
+1
 ⋮
 [ 0,3 ]
 ℎ = [−0,4 −0,3 −0,6 … 0] (4.70)
-
-# 2
+2
 −0,4
 −0,3
 ℎ𝑇 = −0,6 (4.71)
-
-# 2
+2
 ⋮
 [ 0 ]
 ℎ = [−0,1 −0,8 −0,5 … −0,6] (4.72)
-
-# 3
+3
 −0,1
 −0,8
 ℎ𝑇 = −0,5 (4.73)
-
-# 3
+3
 ⋮
 [−0,6]
 𝑑𝐿𝑜𝑠𝑠
 Maka, perhitungan tertera pada Persamaan 4.74 sampai dengan
 𝑑ℎ
 Persamaan 4.76.
-
-# ,2
+0,2
 −0,2
 𝑑𝐿𝑜𝑠𝑠
 = [0,0672 −0,4512 … 0,0314 0,0584]× −0,2 (4.74)
@@ -3339,8 +3224,7 @@ Persamaan 4.76.
 𝑑𝐿𝑜𝑠𝑠
 = 0,1147162368 (4.76)
 𝑑ℎ1
-
-# 90
+90
 𝑑𝐿𝑜𝑠𝑠 𝑑𝐿𝑜𝑠𝑠
 Hitung dengan persamaan yang sama untuk dan . Maka hasil
 𝑑ℎ2 𝑑ℎ3
@@ -3360,11 +3244,13 @@ hidden layer ke input layer dilakukan seperti pada Persamaan 4.80 sampai dengan
 Persamaan 4.82.
 
 # 𝑊 = 0,8−(0,1×0,1147162368) = 0,7885283763 (4.80)
-# ,1
+1,1
+
 # 𝑊 = (−0,6)−(0,1×−0,06109851674) = −0,5938901483 (4.81)
-# ,2
+1,2
+
 # 𝑊 = (−0,2)−(0,1×0,2272906395) = −0,222729064 (4.82)
-# ,3
+1,3
 Hasil pembaharuan bobot pada kata “design” tertera pada Tabel 4.42.
 Tabel 4.42 Pembaharuan bobot input layer-hidden layer
 
@@ -3384,8 +3270,7 @@ highly 0,2 -0,3 -0,8
 educate -0,3 0,2 -0,6
 differentiated -0,8 -0,3 0,2
 classroom -0,6 0,2 -0,3
-
-# 91
+91
 Tabel 4.42 Pembaharuan bobot input layer-hidden layer (lanjutan)
 
 ## Term H1 H2 H3
@@ -3403,8 +3288,7 @@ hidden layer ke input layer dilakukan seperti pada Persamaan Persamaan 4.83
 sampai dengan Persamaan 4.90.
 𝑊 = 𝑊 −(0,1×𝑑𝑈) (4.83)
 𝑡+1 𝑡
-
-# ,3 … 0,3 0,0537 … 0,0467
+0,3 … 0,3 0,0537 … 0,0467
 𝑊 = [−0,4 … 0 ]−(0,1×[−0,0403 … −0,0350]) (4.84)
 𝑡+1
 −0,1 … −0,6 −0,0134 … −0,0117
@@ -3435,7 +3319,7 @@ ated entally te
 # H1 0,294627 -0,16390 -0,20360 0,037385 -0,20319 -0,10319
 # H2 -0,39597 -0,32707 -0,5973 0,271961 -0,09760 -0,19760
 # H3 -0,09866 -0,80902 0,500900 0,190654 -0,39920 0,300799
-# 92
+92
 Tabel 4.44 Pembaharuan bobot input layer-output layer
 Neuron activity allow integratio learning style highly
 n
@@ -3457,7 +3341,8 @@ ent ental nts
 # H1 -0,10262 0,295235 -0,20237 -0,40237 -0,10251 0,295329
 # H2 0,301961 -0,19643 0,301775 -0,09823 0,301885 0,003503
 # H3 -0,19935 -0,09881 -0,09941 0,300592 0,000628 -0,59883
-# 93
+93
+
 ## Perhitungan Manual Similaritas
 Perhitungan manual similaritas dilakukan menggunakan vektor TF-IDF dan
 Word2Vec dari resume dengan ID 15265464 dan section Experience. Sedangkan
@@ -3506,25 +3391,22 @@ testing maintained positive collaboration
 communication parent weekly newsletter
 weekly student progress update email
 conference attended service staff...
+94
 
-# 94
-## Perhitungan Manual TF-IDF Dengan Improved Sqrt-Cosine
+### Perhitungan Manual TF-IDF Dengan Improved Sqrt-Cosine
 ## Similarity
 Untuk metode representasi teks menggunakan TF-IDF, langkah pertama
 adalah mengambil nilai vektor 𝑥 (resume) dan vektor 𝑦 (kualifikasi lowongan kerja)
 dari hasil TF-IDF. Vektor resume dan kualifikasi lowongan kerja tertera pada Tabel
-
-## 4.48
+4.48.
 Tabel 4.48 Vektor TF-IDF perhitungan manual Improved Sqrt-Cosine Similarity
 
 ## Resume Kualifikasi Lowongan Kerja
 [0 ... 0 ... 0,03772064 ... 0 ... 0 ... [0 ... 0 ... 0,06593613 ... 0 ... 0 ...
-
-# ,07763420 ... 0 ... 0 ... 0,11012862 ... 0] 0,06276407 ... 0 ... 0 ... 0,09679995 ... 0]
+0,07763420 ... 0 ... 0 ... 0,11012862 ... 0] 0,06276407 ... 0 ... 0 ... 0,09679995 ... 0]
 Hitung penjumlahan dari akar perkalian elemen-elemen yang sesuai antara
 vektor 𝑥 dan 𝑦 sebagai numerator menggunakan formula seperti pada Persamaan
-
-## 4.91
+4.91.
 𝑛𝑢𝑚𝑒𝑟𝑎𝑡𝑜𝑟 = ∑𝑚 √𝑥 𝑦 (4.91)
 𝑖=1 𝑖 𝑖
 Demonstrasi perhitungan tertera mulai dari Persamaan 4.92 sampai dengan
@@ -3550,8 +3432,7 @@ Persamaan 4.98.
 𝑑𝑒𝑛𝑜𝑚𝑖𝑛𝑎𝑡𝑜𝑟 = √(0+0+⋯+0,1101+⋯+0)×
 √(0+0+⋯+0,0628+⋯+0) (4.97)
 𝑑𝑒𝑛𝑜𝑚𝑖𝑛𝑎𝑡𝑜𝑟 = 8,4315 (4.98)
-
-# 95
+95
 Skor similaritas Improved Sqrt-Cosine didapatkan dengan membagi numerator
 dengan denominator seperti formula pada Persamaan 4.99.
 𝑛𝑢𝑚𝑒𝑟𝑎𝑡𝑜𝑟
@@ -3560,10 +3441,10 @@ dengan denominator seperti formula pada Persamaan 4.99.
 𝑑𝑒𝑛𝑜𝑚𝑖𝑛𝑎𝑡𝑜𝑟
 Hasil pembagian antara numerator dengan denominator yang sudah
 didapatkan tertera pada Persamaan 4.100.
+1,4044
 
-# ,4044
 # 𝐼𝑆𝐶 = = 0,1666 (4.100)
-# ,4315
+8,4315
 Hasil similaritas antara keseluruhan section resume ID 15265464 dengan
 kualifikasi lowongan kerja posisi Teachers tertera pada Tabel 4.49.
 Tabel 4.49 Hasil skor similaritas resume ID 15265464 perhitungan manual
@@ -3577,11 +3458,9 @@ Pengujian pada penelitian ini menggunakan dua skenario, yakni “Tanpa Bobot”
 dan “Dengan Bobot”. Pada skenario “Tanpa Bobot”, skor similaritas untuk masing-
 masing section di resume ID 15265464 langsung dijumlah dan dirata-ratakan
 seperti pada Persamaan 4.101.
-
-# ,1365+0,1666+0,1460
+0,1365+0,1666+0,1460
 𝑆𝑖𝑚𝑖𝑙𝑎𝑟𝑖𝑡𝑦 = = 0,1497 (4.101)
-
-# 3
+3
 Pada skenario “Dengan Bobot”, skor similaritas untuk masing-masing section
 di resume ID 15265464 dikalikan dengan persentase bobot yang diberikan oleh
 ahli, lalu ditotal dan dibagi dengan jumlah persentase section yang digunakan pada
@@ -3596,7 +3475,7 @@ TEACHER Skills/Qualifications 20
 
 ## TEACHER Education 20
 ## TEACHER Experience 20
-# 96
+96
 Tabel 4.50 Bobot section kategori industri "TEACHER" (lanjutan)
 Industry Section Bobot (%)
 
@@ -3609,12 +3488,11 @@ pada Persamaan 4.102 sampai dengan Persamaan 4.103.
 (0,1365×0,2)+(0,1666×0,2)+(0,1460×0,05)
 𝑆𝑖𝑚𝑖𝑙𝑎𝑟𝑖𝑡𝑦 = (4.102)
 (0,2+0,2+0,05)
-
-# ,0273+0,03332+0,0073
+0,0273+0,03332+0,0073
 𝑆𝑖𝑚𝑖𝑙𝑎𝑟𝑖𝑡𝑦 = = 0,1509 (4.103)
+0,45
 
-# ,45
-## Perhitungan Manual Word2Vec Dengan Cosine Similarity
+### Perhitungan Manual Word2Vec Dengan Cosine Similarity
 Untuk metode representasi teks menggunakan Word2Vec, langkah pertama
 adalah mengambil nilai rata-rata dokumen untuk keseluruhan vektor 𝑥 (resume)
 dan keseluruhan vektor 𝑦 (kualifikasi lowongan kerja) dari hasil Word2Vec. Vektor
@@ -3626,8 +3504,7 @@ Tabel 4.51 Vektor Word2Vec perhitungan manual Cosine Similarity
 -0,1145207 -0,08985851 ... 0,19086754] -0,18032219 -0,11506447 ... 0,11572151]
 Hitung penjumlahan dari perkalian elemen-elemen yang bersesuaian antara
 vektor 𝑥 dan 𝑦 sebagai numerator menggunakan formula seperti pada Persamaan
-
-## 4.104
+4.104.
 𝑛𝑢𝑚𝑒𝑟𝑎𝑡𝑜𝑟 = ∑𝑚 𝑥 𝑦 (4.104)
 𝑖=1 𝑖 𝑖
 Demonstrasi perhitungan tertera mulai dari Persamaan 4.105 sampai dengan
@@ -3636,11 +3513,9 @@ Persamaan 4.107.
 
 # 1 2 2 100 100
 𝑛𝑢𝑚𝑒𝑟𝑎𝑡𝑜𝑟 = (0,0711×(−0,0458))+(0,1265×0,0966)+⋯+(0,1909×
-
-# ,1157) (4.106)
+0,1157) (4.106)
 𝑛𝑢𝑚𝑒𝑟𝑎𝑡𝑜𝑟 = (−0,00323)+0,01221+⋯+0,02208 = 1,9022 (4.107)
-
-# 97
+97
 Hitung hasil kali dari akar semua elemen masing-masing vektor 𝑥 (resume) dan
 vektor 𝑦 (kualifikasi) yang dikuadratkan sebagai denominator dengan formula
 seperti pada Persamaan 4.108.
@@ -3662,11 +3537,9 @@ denominator seperti formula pada Persamaan 4.112.
 𝑑𝑒𝑛𝑜𝑚𝑖𝑛𝑎𝑡𝑜𝑟
 Hasil pembagian antara numerator dengan denominator yang sudah
 didapatkan tertera pada Persamaan 4.113.
-
-# ,9022
+1,9022
 𝐶𝑜𝑠𝑆𝑖𝑚 = = 0,8779 (4.113)
-
-# ,1667
+2,1667
 Hasil similaritas antara keseluruhan section resume ID 15265464 dengan
 kualifikasi lowongan kerja posisi Teachers tertera pada Tabel 4.52.
 Tabel 4.52 Hasil skor similaritas resume ID 15265464 perhitungan manual
@@ -3676,17 +3549,14 @@ Tabel 4.52 Hasil skor similaritas resume ID 15265464 perhitungan manual
 Education 0,7303
 Experience 0,8779
 Summary 0,9277
-
-# 98
+98
 Pengujian pada penelitian ini menggunakan dua skenario, yakni “Tanpa Bobot”
 dan “Dengan Bobot”. Pada skenario “Tanpa Bobot”, skor similaritas untuk resume
 ID 15265464 bisa langsung dijumlah dan dirata-ratakan seperti pada Persamaan
-
-## 4.114
-# ,7303+0,8779+0,9277
+4.114.
+0,7303+0,8779+0,9277
 𝑆𝑖𝑚𝑖𝑙𝑎𝑟𝑖𝑡𝑦 = = 0,8453 (4.114)
-
-# 3
+3
 Pada skenario “Dengan Bobot”, skor similaritas untuk masing-masing section
 di resume ID 15265464 dikalikan dengan persentase bobot yang diberikan oleh
 ahli. Pada kategori industri “TEACHER”, diketahui rincian bobot untuk setiap
@@ -3696,12 +3566,11 @@ pada Persamaan 4.115 sampai dengan Persamaan 4.116.
 (0,7303×0,2)+(0,8779×0,2)+(0,9277×0,05)
 𝑆𝑖𝑚𝑖𝑙𝑎𝑟𝑖𝑡𝑦 = (4.115)
 (0,2+0,2+0,05)
-
-# ,14606+0,17558+0,046385
+0,14606+0,17558+0,046385
 𝑆𝑖𝑚𝑖𝑙𝑎𝑟𝑖𝑡𝑦 = = 0,8178 (4.116)
+0,45
 
-# ,45
-## Perhitungan Manual Word2Vec Dengan Improved Sqrt-
+### Perhitungan Manual Word2Vec Dengan Improved Sqrt-
 ## Cosine Similarity
 Pada perhitungan manual sebelumnya sudah dirincikan nilai rata-rata
 dokumen untuk keseluruhan vektor 𝑥 (resume) dan keseluruhan vektor 𝑦
@@ -3715,16 +3584,13 @@ Tabel 4.53 Vektor Word2Vec perhitungan manual Improved Sqrt-Cosine
 ## Similarity
 ## Resume Kualifikasi
 [0,071130395 0,12649915 0,1145207 [0,04582439 0,0966028 0,18032219
-
-# ,08985851 ... 0,19086754] 0,11506447 ... 0,11572151]
+0,08985851 ... 0,19086754] 0,11506447 ... 0,11572151]
 Hitung penjumlahan dari akar perkalian elemen-elemen yang sesuai antara
 vektor 𝑥 dan 𝑦 sebagai numerator menggunakan formula seperti pada Persamaan
-
-## 4.117
+4.117.
 𝑛𝑢𝑚𝑒𝑟𝑎𝑡𝑜𝑟 = ∑𝑚 √𝑥 𝑦 (4.117)
 𝑖=1 𝑖 𝑖
-
-# 99
+99
 Demonstrasi perhitungan tertera mulai dari Persamaan 4.118 sampai dengan
 Persamaan 4.120.
 𝑛𝑢𝑚𝑒𝑟𝑎𝑡𝑜𝑟 = √𝑥 𝑦 +√𝑥 𝑦 +⋯+√𝑥 𝑦 (4.118)
@@ -3754,10 +3620,10 @@ dengan denominator seperti formula pada Persamaan 4.125.
 𝑑𝑒𝑛𝑜𝑚𝑖𝑛𝑎𝑡𝑜𝑟
 Hasil pembagian antara numerator dengan denominator yang sudah
 didapatkan tertera pada Persamaan 4.126.
+11,2936
 
-# ,2936
 # 𝐼𝑆𝐶 = = 0,9521 (4.126)
-# ,861
+11,861
 Hasil similaritas antara keseluruhan section resume ID 15265464 dengan
 kualifikasi lowongan kerja posisi Teachers tertera pada Tabel 4.54.
 Tabel 4.54 Hasil skor similaritas resume ID 15265464 perhitungan manual
@@ -3765,8 +3631,7 @@ Improved Sqrt-Cosine Similarity
 
 ## Section Skor Similaritas
 Education 0,9065
-
-# 100
+100
 Tabel 4.54 Hasil skor similaritas resume ID 15265464 perhitungan manual
 Improved Sqrt-Cosine Similarity
 
@@ -3776,12 +3641,10 @@ Summary 0,9657
 Pengujian pada penelitian ini menggunakan dua skenario, yakni “Tanpa Bobot”
 dan “Dengan Bobot”. Pada skenario “Tanpa Bobot”, skor similaritas untuk resume
 ID 15265464 bisa langsung dijumlah dan dirata-ratakan seperti pada Persamaan
-
-## 4.127
-# ,9065+0,9521+0,9657
+4.127.
+0,9065+0,9521+0,9657
 𝑆𝑖𝑚𝑖𝑙𝑎𝑟𝑖𝑡𝑦 = = 0,9414 (4.127)
-
-# 3
+3
 Pada skenario “Dengan Bobot”, skor similaritas untuk masing-masing section
 di resume ID 15265464 dikalikan dengan persentase bobot yang diberikan oleh
 ahli. Pada kategori industri “TEACHER”, diketahui rincian bobot untuk setiap
@@ -3791,12 +3654,11 @@ pada Persamaan 4.128 sampai dengan Persamaan 4.129.
 (0,9065×0,2)+(0,9521×0,2)+(0,9657×0,05)
 𝑆𝑖𝑚𝑖𝑙𝑎𝑟𝑖𝑡𝑦 = (4.128)
 (0,2+0,2+0,05)
-
-# ,1813+0,19042+0,048285
+0,1813+0,19042+0,048285
 𝑆𝑖𝑚𝑖𝑙𝑎𝑟𝑖𝑡𝑦 = = 0,93334 (4.129)
+0,45
 
-# ,45
-## Skenario Pengujian
+### Skenario Pengujian
 Pengujian akan dilakukan dengan human-level performance, dihitung
 parameter setiap parameter penilaiannya, mulai dari korelasi peringkat dengan
 Spearman Rank Correlation Coefficient (SRCC), persentase relevansi, dan
@@ -3812,8 +3674,7 @@ mengevaluasi lima resume tersebut untuk memastikan relevansi dengan
 kualifikasi lowongan kerja yang tertera pada deskripsi lowongan kerja serta
 kesesuaian tingkat senioritas atau level posisi dengan deskripsi kualifikasi
 lowongan kerja.
-
-# 101
+101
 Korelasi antara peringkat yang dihasilkan oleh implementasi metode dan
 peringkat dari ahli menunjukkan sejauh mana implementasi metode dapat meniru
 penilaian manusia. Semakin tinggi nilai korelasi (mendekati 1), semakin baik
@@ -3848,29 +3709,30 @@ kuadrat tersebut untuk perhitungan SRCC sebagai numerator seperti pada
 Persamaan 4.130.
 ∑𝑑 2 = 4+1+1+4+0 = 10 (4.130)
 𝑖
-
-# 102
+102
 Gunakan rumus SRCC seperti Persamaan 4.131 untuk menghitung korelasi
 antara peringkat hasil implementasi dengan peringkat ahli.
-
-# ∑𝑑
+6∑𝑑
 𝑆𝑅𝐶𝐶 = 1− 𝑖 (4.131)
 𝑛(𝑛2−1)
 Demonstrasi perhitungan untuk peringkat lima resume dijabarkan mulai dari
 Persamaan 4.132 sampai dengan Persamaan 4.135.
+6×10
 
-# ×10
 # 𝑆𝑅𝐶𝐶 = 1− (4.132)
-# (52−1)
-# 60
+5(52−1)
+60
+
 # 𝑆𝑅𝐶𝐶 = 1− (4.133)
-# (24)
+5(24)
+
 # 60
 # 𝑆𝑅𝐶𝐶 = − (4.134)
 # 120
-# 60
+60
+
 # 𝑆𝑅𝐶𝐶 = = 0,5 (4.135)
-# 120
+120
 Hasil evaluasi relevansi dari ahli dihitung dalam bentuk persentase. Semakin
 besar persentase maka semakin baik suatu metode menghasilkan lima resume
 yang relevan dengan deskripsi lowongan kerja. Sama halnya dengan hasil evaluasi
@@ -3890,7 +3752,7 @@ ahli terbesar untuk perhitungan manual
 # TRUE TRUE
 # TRUE TRUE
 # FALSE TRUE
-# 103
+103
 Untuk masing-masing parameter (relevansi dan senioritas), hitung pembagian
 antara jumlah nilai “TRUE” dengan jumlah total resume, lalu kalikan 100% seperti
 pada Persamaan 4.136 untuk relevansi dan 4.137 untuk senioritas.
@@ -3919,23 +3781,20 @@ pada Persamaan 4.136 untuk relevansi dan 4.137 untuk senioritas.
 𝑁 = Total jumlah resume
 Demonstrasi perhitungan untuk relevansi lima resume tertera pada
 Persamaan 4.138.
-
-# 4
+4
 𝑃 = ( )×100% = 0,8×100% = 80% (4.138)
 𝑅𝑒𝑙𝑒𝑣𝑎𝑛𝑐𝑒
-
-# 5
+5
 Demonstrasi perhitungan untuk senioritas lima resume tertera pada
 Persamaan 4.139.
-
-# 5
+5
 𝑃 = ( )×100% = 1×100% = 100% (4.139)
 𝑆𝑒𝑛𝑖𝑜𝑟𝑖𝑡𝑦
+5
+104
 
-# 5
-# 104
 # BAB 5 IMPLEMENTASI
-# mplementasi berisi implementasi dari metode kalkulasi similaritas teks
+Bab implementasi berisi implementasi dari metode kalkulasi similaritas teks
 pada resume pelamar dengan kualifikasi instansi yang digunakan pada penelitian
 ini, seperti metode perhitungan similaritas Improved Sqrt-Cosine (ISC) dan Cosine
 Similarity (CosSim), serta metode representasi teks TF-IDF dan Word2Vec.
@@ -3959,33 +3818,37 @@ dataset
 # import string
 # from tqdm import tqdm
 # import time
-# 11
+11
+
 # import nltk
 # nltk.download('wordnet')
 # nltk.download('omw-1.4')
 # nltk.download('punkt')
 # nltk.download('averaged_perceptron_tagger')
 # nltk.download('averaged_perceptron_tagger_eng')
-# 18
+18
+
 # from nltk.corpus import wordnet
 # from nltk.stem import WordNetLemmatizer
 # from nltk.tokenize import word_tokenize
 # from nltk.corpus import stopwords
 # from nltk import pos_tag
-# 24
+24
+
 # # Load dataset resume
 # resume_df =
 pd.read_csv(r'C:\...\archive2024\Resume\Resume.csv')
 
 # resume_df
-# 28
+28
+
 # # Load dataset kualifikasi lowongan kerja
 # vacancy_df =
 pd.read_csv(r'C:\...\archive2024\kualifikasi_loker.csv')
 
 # vacancy_df
-# 32
-# 105
+32
+105
 Kode Program 5.1 Implementasi kode program import libraries dan load
 dataset (lanjutan)
 
@@ -4035,8 +3898,8 @@ d. averaged_perceptron_tagger dan
 averaged_perceptron_tagger_eng untuk POS tagging
 yang memberi label jenis kata seperti kata benda (noun), kata kerja
 (verb), kata sifat (adjective), dan kata keterangan (adverb).
+106
 
-# 106
 # Baris 19-23 merupakan import tambahan dari library nltk, yaitu:
 a. wordnet dari nltk.corpus untuk mengakses basis data
 leksikal WordNet,
@@ -4070,8 +3933,8 @@ vacancy_df.
 bernama bobot_section.csv menggunakan
 pandas.read_csv() dan mengubahnya menjadi DataFrame yang
 berisi bobot pemberian ahli untuk setiap section yang ada di resume.
+107
 
-# 107
 ## Implementasi Kode Program Preprocessing Resume
 Dalam kode program ini, dilakukan untuk melakukan pra-pemrosesan dataset
 Resume. Diawali dengan mengekstrak setiap section dari resume yang berformat
@@ -4083,63 +3946,70 @@ ekstraksi section
 
 # # Melihat informasi kolom dan tipe data
 # resume_df.info()
-# 3
+3
+
 # # Cek missing values
 # resume_df.isnull().sum()
-# 6
+6
+
 # # Menghapus kolom yang tidak digunakan
 # resume_df_1 = resume_df.drop(columns=["Category"])
-# 9
+9
+
 # # List untuk menyimpan hasil sementara per section dengan semua
 data dari df
 
 # data = []
-# 12
+12
+
 # # Loop untuk memproses setiap resume
 # for index, row in resume_df.iterrows():
 # # Ambil ID dan data lainnya dari DataFrame yang ada
 # resume_data = row.to_dict() # Mengambil semua data di
 baris ini
+17
 
-# 17
 # # Ambil resume_str langsung dari kolom 'Resume_str'
 # resume_str = row['Resume_str']
-# 20
+20
+
 # # Menemukan semua <div> dengan class "sectiontitle" di
 'Resume_html'
 
 # soup = BeautifulSoup(row['Resume_html'], "html.parser")
 # section_divs = soup.find_all("div", class_="sectiontitle")
-# 24
+24
+
 # # Menyimpan teks dari setiap section
 # sections = [div.get_text(strip=True) for div in
 section_divs]
+27
 
-# 27
 # # Menemukan posisi setiap section dalam resume_str
 # for i, section in enumerate(sections):
 # # Copy data resume agar setiap section mendapatkan data
 asli resume
 
 # section_data = resume_data.copy()
-# 32
+32
+
 # # Cari posisi awal section
 # start_index = resume_str.find(section)
-# 35
+35
+
 # # Tentukan posisi akhir section
 # if i + 1 < len(sections):
 # end_index = resume_str.find(sections[i + 1],
 start_index)
-
-# 108
+108
 Kode Program 5.2 Implementasi kode program preprocessing resume bagian
 ekstraksi section (lanjutan)
 
 # else:
 # end_index = len(resume_str) # Jika ini adalah
 section terakhir
+41
 
-# 41
 # # Ambil teks dari section tersebut dan hapus nama
 section jika ada di awal teks
 
@@ -4148,14 +4018,17 @@ resume_str[start_index:end_index].strip()
 
 # if section_text.startswith(section):
 # section_text = section_text[len(section):].strip()
-# 46
+46
+
 # # Tambahkan kolom Section dan Text
 # section_data["Section"] = section
 # section_data["Text"] = section_text
-# 50
+50
+
 # # Tambahkan hasil ke expanded_data
 # data.append(section_data)
-# 53
+53
+
 # # Mengonversi list menjadi DataFrame
 # resume_df_1 = pd.DataFrame(data)
 Penjelasan dari Kode Program 5.2 mengenai implementasi kode program
@@ -4190,8 +4063,8 @@ menyimpannya ke variabel resume_str.
 menggunakan BeautifulSoup(row['Resume_html'],
 "html.parser") dan menemukan semua elemen <div> dengan kelas
 sectiontitle menggunakan soup.find_all().
+109
 
-# 109
 # Baris 25-26 merupakan proses untuk mengekstrak teks dari setiap elemen
 <div> menggunakan div.get_text(strip=True) dan
 menyimpannya dalam list sections.
@@ -4228,8 +4101,7 @@ section_data ke list data menggunakan data.append().
 # Baris 54-55 merupakan proses untuk mengonversi list data menjadi
 DataFrame baru menggunakan pd.DataFrame(data) dan
 menyimpannya sebagai resume_df_1.
-
-# 110
+110
 Selanjutnya, isian resume dilakukan langkah-langkah pra-pemrosesan teks
 seperti yang sudah dijelaskan pada diagram alur di bab Perancangan.
 Implementasi kode program preprocessing isian resume tertera pada Kode
@@ -4239,10 +4111,12 @@ preprocessing isian resume
 
 # # Inisialisasi lemmatizer
 # lemmatizer = WordNetLemmatizer()
-# 3
+3
+
 # # Daftar stop words
 # stop_words = set(stopwords.words('english'))
-# 6
+6
+
 # # Fungsi untuk mendapatkan tipe kata untuk lemmatization
 # def get_wordnet_pos(tag):
 # if tag.startswith('J'):
@@ -4255,7 +4129,8 @@ preprocessing isian resume
 # return wordnet.ADV
 # else:
 # return wordnet.NOUN
-# 19
+19
+
 # def preprocess(text):
 # # Hapus email dan nomor telepon
 # email_pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-
@@ -4264,16 +4139,17 @@ Za-z]{2,}\b'
 # phone_pattern = r'\b(?:\+?\d{1,3}[-
 .\s]?)?(?:\(?\d{2,4}\)?[-.\s]?)?\d{2,4}[-.\s]?\d{2,4}[-
 .\s]?\d{2,4}\b'
+24
 
-# 24
 # text = re.sub(email_pattern, '', text)
 # text = re.sub(phone_pattern, '', text)
-# 27
+27
+
 # # Hapus berbagai tipe tanda minus
 # text = re.sub(r'[\u2010-
 \u2015\u2212\uFF0D\uFF0E\uFE63\u002D]', ' ', text)
+30
 
-# 30
 # # Regex untuk menghapus bulan (termasuk singkatan) &
 present/current
 
@@ -4283,16 +4159,17 @@ n|july|jul|august|aug|september|sep|october|oct|november|nov|de
 cember|dec)\b"
 
 # present_pattern = r"\b(?:present|current)\b"
-# 34
+34
+
 # text = re.sub(bulan_pattern, '', text, flags=re.IGNORECASE)
 # Hapus bulan dan singkatan
 
 # text = re.sub(present_pattern, '', text,
 flags=re.IGNORECASE) # Hapus "present/current"
+37
 
-# 37
 # # Regex untuk menangani berbagai format tanggal & rentang
-# 111
+111
 Kode Program 5.3 Implementasi kode program preprocessing resume bagian
 preprocessing isian resume (lanjutan)
 
@@ -4304,86 +4181,63 @@ preprocessing isian resume (lanjutan)
 # |(?:\d{4}) # Tahun "2023"
 # (?:\s?(?:-|to|－|–|—)\s?(?:\d{4}|Current|Present))? #
 Rentang waktu "2022 - 2023" atau "2022 － Present"
-
-# 44
+44
 )\b
-
-# 45
+45
 """
-
-# 46
+46
 text = re.sub(date_pattern, '', text, flags=re.IGNORECASE |
 re.VERBOSE)
-
-# 47
-# 48
+47
+48
 # Hapus placeholder seperti "Company Name" dan "State"
-
-# 49
+49
 text = re.sub(r'\b(?:Company Name|State|City)\b', '', text,
 flags=re.IGNORECASE)
-
-# 50
-# 51
+50
+51
 # Hapus tanda baca
-
-# 52
+52
 text = re.sub(r'[^a-zA-Z\s]', '', text)
-
-# 53
-# 54
+53
+54
 # Hapus angka
-
-# 55
+55
 text = re.sub(r'\d+', '', text)
-
-# 56
-# 57
+56
+57
 # Hapus spasi berlebihan setelah penghapusan
-
-# 58
+58
 text = re.sub(r'\s+', ' ', text).strip()
-
-# 59
-# 60
+59
+60
 tokens = word_tokenize(text)
-
-# 61
+61
 tokens_pos = pos_tag(tokens)
-
-# 62
-# 63
+62
+63
 # Lemmatization dan hapus stop words
-
-# 64
+64
 lemmatized_text = []
-
-# 65
+65
 for token, pos in tokens_pos:
-
-# 66
+66
 if token.lower() not in stop_words: # Menghapus stop
 words
-
-# 67
+67
 wordnet_pos = get_wordnet_pos(pos) or wordnet.NOUN
-
-# 68
+68
 lemmatized_text.append(lemmatizer.lemmatize(token,
 pos=wordnet_pos))
-
-# 69
-# 70
+69
+70
 return ' '.join(lemmatized_text)
-
-# 71
-# 72
+71
+72
 # Implementasikan preprocessing ke dataset
-
-# 73
+73
 resume_df_1['Text'] = resume_df_1['Text'].apply(preprocess)
-
-# 74
+74
 resume_df_1['Text'] = resume_df_1['Text'].apply(preprocess)
 Penjelasan dari Kode Program 5.3 mengenai implementasi kode program
 ekstraksi section, yaitu:
@@ -4396,8 +4250,8 @@ lemmatizer untuk melakukan lemmatisasi kata.
 # Baris 4-5 merupakan proses untuk membuat set stop words dalam Bahasa
 Inggris menggunakan stopwords.words('english') dan
 menyimpannya ke variabel stop_words.
+112
 
-# 112
 # Baris 7-18 merupakan proses untuk mendefinisikan fungsi
 get_wordnet_pos yang mengonversi tag part-of-speech (POS) ke tipe
 kata WordNet seperti wordnet.ADJ, wordnet.VERB,
@@ -4456,8 +4310,8 @@ lemmatized_text, mengiterasi token dan tag POS-nya, menghapus
 stop words jika token tidak ada di stop_words, mengonversi tag POS ke
 format WordNet menggunakan get_wordnet_pos(), dan melakukan
 lematisasi menggunakan lemmatizer.lemmatize().
+113
 
-# 113
 # Baris 70 merupakan proses untuk menggabungkan token yang telah di-
 lematisasi menjadi satu string dengan spasi sebagai pemisah
 menggunakan ' '.join().
@@ -4478,15 +4332,18 @@ Kode Program 5.4 Implementasi kode program preprocessing resume bagian
 preprocessing isian resume per section
 
 # resume_df_1["Section"] = resume_df_1["Section"].str.lower()
-# 2
+2
+
 # # Menampilkan nilai unik dari kolom 'Section'
 # unique_sections = resume_df_1['Section'].unique()
-# 5
+5
+
 # # Menampilkan hasil
 # print("Unique Sections in the Resume:")
 # for section in unique_sections:
 # print(section)
-# 10
+10
+
 # # Mapping kata kunci ke kategori yang diinginkan
 # keyword_mapping = {
 # "experience": "Experience",
@@ -4507,7 +4364,7 @@ preprocessing isian resume per section
 # "work": "Experience",
 # "profile": "Summary",
 # "strength": "Skills/Qualifications",
-# 114
+114
 Kode Program 5.4 Implementasi kode program preprocessing resume bagian
 preprocessing isian resume per section (lanjutan)
 
@@ -4567,7 +4424,7 @@ preprocessing isian resume per section (lanjutan)
 # "knowledge": "Skills/Qualifications",
 # "membership": "Skills/Qualifications",
 # "speak": "Accomplishments/Awards",
-# 115
+115
 Kode Program 5.4 Implementasi kode program preprocessing resume bagian
 preprocessing isian resume per section (lanjutan)
 
@@ -4577,13 +4434,14 @@ preprocessing isian resume per section (lanjutan)
 # "attribute": "Skills/Qualifications",
 # "exhibit": "Projects",
 # }
-# 93
+93
+
 # # Ubah nilai 'Section' berdasarkan kata kunci
 # for keyword, category in keyword_mapping.items():
 # resume_df_1.loc[resume_df_1['Section'].str.contains(keyword,
 case=False, na=False), 'Section'] = category
+97
 
-# 97
 # # Gabungkan teks dari section terkait jika ada duplikasi dalam
 satu resume
 
@@ -4594,7 +4452,8 @@ as_index=False).agg({
 # 'Resume_str': 'first',
 # 'Resume_html': 'first',
 # })
-# 104
+104
+
 # # Daftar section yang tidak boleh diubah
 # allowed_sections = [
 # "Summary", "Accomplishments/Awards",
@@ -4603,13 +4462,14 @@ as_index=False).agg({
 # "Education", "Experience", "Organization", "Projects",
 # "Certifications", "Portfolio", "Others"
 # ]
-# 111
+111
+
 # # Pola regex untuk kata-kata yang harus masuk ke
 ## Summary
 # summary_pattern = r'\b(?:Summary|I
 am|I\'m|years|experience|professional)\b'
+114
 
-# 114
 # # Ubah ke "Summary" jika ada salah satu kata dalam
 summary_pattern
 
@@ -4620,7 +4480,8 @@ case=False, na=False, regex=True)),
 
 # "Section"
 # ] = "Summary"
-# 121
+121
+
 # # Ubah ke "Portfolio" jika ada kata "LinkedIn" dalam
 "Text"
 
@@ -4631,8 +4492,8 @@ case=False, na=False, regex=True)),
 
 # "Section"
 # ] = "Portfolio"
-# 128
-# 116
+128
+116
 Kode Program 5.4 Implementasi kode program preprocessing resume bagian
 preprocessing isian resume per section (lanjutan)
 
@@ -4642,22 +4503,22 @@ kosong, hapus baris tersebut
 # resume_df_1 =
 resume_df_1[~((~resume_df_1['Section'].isin(allowed_sections))
 & (resume_df_1['Text'].isna()))]
+131
 
-# 131
 # # Jika section tidak termasuk valid_sections tetapi ada isian
 di "Text", ubah menjadi "Others"
 
 # resume_df_1.loc[~resume_df_1['Section'].isin(allowed_sections),
 'Section'] = 'Others'
+134
 
-# 134
 # # Hapus baris dengan Text yang NaN, kosong, atau hanya spasi
 untuk semua Section
 
 # resume_df_1 = resume_df_1[~(resume_df_1['Text'].isna() |
 (resume_df_1['Text'].str.strip() == ''))]
+137
 
-# 137
 # resume_df_1["Text"] = resume_df_1["Text"].str.lower()
 # resume_df_1 = resume_df_1.drop(columns=["Resume_str"])
 # resume_df_1 = resume_df_1.drop(columns=["Resume_html"])
@@ -4691,8 +4552,8 @@ kecil.
 resume_df_1 berdasarkan kolom ID dan Section menggunakan
 groupby(), lalu menggabungkan teks untuk kolom Text menggunakan
 ' '.join jika ada nilai di kolom Section yang sama.
+117
 
-# 117
 # Baris 105-110 merupakan proses untuk mendefinisikan list
 allowed_sections yang berisi daftar nama-nama section yang
 diizinkan untuk tetap ada dalam DataFrame.
@@ -4747,27 +4608,30 @@ lowongan kerja
 string.punctuation)) # Hapus tanda baca
 
 # text = ' '.join(text.split()) # Hapus spasi berlebih
-# 6
-# 118
+6
+118
 Kode Program 5.5 Implementasi kode program preprocessing kualifikasi
 lowongan kerja (lanjutan)
 
 # # Tokenisasi
 # tokens = word_tokenize(text)
-# 9
+9
+
 # # POS tagging
 # tagged_tokens = pos_tag(tokens)
-# 12
+12
+
 # # Hapus stop words & Lemmatization
 # processed_tokens = [lemmatizer.lemmatize(word,
 get_wordnet_pos(tag))
 
 # for word, tag in tagged_tokens if word
 not in stop_words]
+16
 
-# 16
 # return ' '.join(processed_tokens)
-# 18
+18
+
 # # Terapkan preprocessing pada kolom "Description" di vacancy_df
 vacancy_df_1 = vacancy_df.copy()
 
@@ -4805,8 +4669,8 @@ dengan mengiterasi tagged_tokens, menghapus kata-kata yang ada di
 stop_words, dan melakukan lematisasi pada setiap kata menggunakan
 lemmatizer.lemmatize() dengan tipe kata dari
 get_wordnet_pos(tag).
+119
 
-# 119
 # Baris 17 merupakan proses untuk menggabungkan token yang telah
 diproses menjadi satu string dengan spasi sebagai pemisah menggunakan
 ' '.join() dan mengembalikannya sebagai hasil dari fungsi
@@ -4832,13 +4696,14 @@ Kode Program 5.6 Implementasi kode program representasi teks TF-IDF
 
 # # Inisialisasi TF-IDF Vectorizer
 # vectorizer = TfidfVectorizer()
-# 3
+3
+
 # # Fit dan transform data
 # tfidf_resume = vectorizer.fit_transform(resume_df_1["Text"])
 # tfidf_vacancy =
 vectorizer.transform(vacancy_df_1["Description"])
+7
 
-# 7
 # # Simpan vektor dalam kolom baru
 # resume_df_1["TFIDF_Vector"] = list(tfidf_resume.toarray())
 # vacancy_df_1["TFIDF_Vector"] = list(tfidf_vacancy.toarray())
@@ -4854,8 +4719,8 @@ vektor TF-IDF.
 pada DataFrame resume_df_1 dan mengubahnya menjadi matriks TF-
 IDF menggunakan fit_transform(), lalu menyimpan hasilnya ke
 variabel tfidf_resume.
+120
 
-# 120
 # Baris 6 merupakan proses untuk mengubah kolom Description pada
 DataFrame vacancy_df_1 menjadi matriks TF-IDF menggunakan
 transform() berdasarkan kosa kata yang telah dipelajari dari
@@ -4887,8 +4752,8 @@ Kode Program 5.7 Implementasi kode program representasi teks Word2Vec
 # def tokenize_text(text):
 # return word_tokenize(text.lower()) # Tokenisasi dan ubah
 ke huruf kecil
+3
 
-# 3
 # # Tokenisasi teks dari resume_df_1 dan vacancy_df_1
 # resume_texts =
 resume_df_1['Text'].dropna().apply(tokenize_text).tolist()
@@ -4896,11 +4761,12 @@ resume_df_1['Text'].dropna().apply(tokenize_text).tolist()
 # vacancy_texts =
 vacancy_df_1['Description'].dropna().apply(tokenize_text).tolis
 t()
+7
 
-# 7
 # # Gabungkan semua teks untuk pelatihan Word2Vec
 # all_texts = resume_texts + vacancy_texts
-# 10
+10
+
 # # Latih model Word2Vec
 # word2vec_model = Word2Vec(
 # sentences=all_texts,
@@ -4909,11 +4775,12 @@ t()
 # workers=4, #jumlah thread untuk pelatihan
 # sg=1,
 # alpha=0,1
-# 19
-# 20
+# )
+20
+
 # # Menghitung vektor rata-rata dokumen
 # def get_document_vector(text, model):
-# 121
+121
 Kode Program 5.7 Implementasi kode program representasi teks Word2Vec
 (lanjutan)
 
@@ -4924,7 +4791,8 @@ model.wv]
 # if not word_vectors: # Jika tidak ada kata yang dikenali
 # return np.zeros(model.vector_size)
 # return np.mean(word_vectors, axis=0)
-# 28
+28
+
 # # Penerapan ke dataset
 # resume_df_1['W2V_Vector'] = resume_df_1['Text'].apply(lambda x:
 get_document_vector(x, word2vec_model))
@@ -4962,8 +4830,8 @@ sentences=all_texts (data teks), vector_size=100 (ukuran
 vektor kata), window=5 (jarak konteks kata), workers=4 (jumlah
 thread), sg=1 (menggunakan algoritma skip-gram), dan alpha=0,1
 (learning rate), lalu menyimpan model ke variabel word2vec_model.
+122
 
-# 122
 # Baris 21-27 merupakan proses untuk mendefinisikan fungsi
 get_document_vector yang menghitung vektor rata-rata dokumen
 dengan melakukan tokenisasi teks menggunakan tokenize_text(),
@@ -5000,19 +4868,22 @@ Kode Program 5.8 Implementasi kode program Improved Sqrt-Cosine Similarity
 # def improved_sqrt_cosine_similarity(x, y):
 # if x is None or y is None or len(x) != len(y):
 # return 0
-# 5
+5
+
 # # Mengambil nilai absolut untuk penggunaan dengan Word2Vec
 # x = np.abs(x)
 # y = np.abs(y)
-# 9
+9
+
 # # Menghitung pembilang dan penyebut sesuai dengan rumus ISC
 # numerator = np.sum(np.sqrt(x * y))
 # denominator = np.sqrt(np.sum(x)) * np.sqrt(np.sum(y))
-# 13
+13
+
 # # Menghitung ISC
 # isc = numerator / denominator if denominator != 0 else 0
 # return isc
-# 123
+123
 Penjelasan dari Kode Program 5.8 mengenai implementasi perhitungan
 Improved Sqrt-Cosine Similarity, yaitu:
 
@@ -5060,11 +4931,12 @@ Kode Program 5.9 Implementasi kode program TF-IDF dan Improved Sqrt-
 
 ## Cosine Similarity
 # start_time = time.time() # Catat waktu mulai
-# 2
+2
+
 # # List untuk menyimpan hasil similarity setiap resume
 # final_results_tfidf = []
-# 5
-# 124
+5
+124
 Kode Program 5.9 Implementasi kode program TF-IDF dan Improved Sqrt-
 Cosine Similarity (lanjutan)
 
@@ -5075,46 +4947,49 @@ total=len(vacancy_df_1), desc="Processing Vacancies"):
 # vacancy_category_tfidf = vacancy_row_tfidf["Category"]
 # job_vec_tfidf = vacancy_row_tfidf["TFIDF_Vector"]
 # position_name = vacancy_row_tfidf["Position"]
-# 11
+11
+
 # # Ambil bobot section sesuai kategori dan ubah ke skala
 desimal
 
 # category_weights = (section_df[section_df["Category"] ==
 vacancy_category_tfidf]
 
-# set_index("Section")["Bobot"]
-# div(100)
-# to_dict())
-# 17
+# .set_index("Section")["Bobot"]
+# .div(100)
+# .to_dict())
+17
+
 # # Looping untuk setiap resume
 # for resume_id in resume_df_1["ID"].unique():
 # resume_sections = resume_df_1[resume_df_1["ID"] ==
 resume_id]
 
 # similarity_scores_tfidf = {}
-# 22
+22
+
 # # Hitung similarity untuk setiap section
 # for _, section_row_tfidf in resume_sections.iterrows():
 # section_name_tfidf = section_row_tfidf["Section"]
 # section_vec_tfidf =
 section_row_tfidf["TFIDF_Vector"]
+27
 
-# 27
 # sim_tfidf =
 improved_sqrt_cosine_similarity(section_vec_tfidf,
 job_vec_tfidf)
 
 # similarity_scores_tfidf[section_name_tfidf] =
 sim_tfidf
+30
 
-# 30
 # # Versi 1: Tanpa bobot (rata-rata similarity semua
 section)
 
 # sim_no_weight = sum(similarity_scores_tfidf.values()) /
 len(similarity_scores_tfidf) if similarity_scores_tfidf else 0
+33
 
-# 33
 # # Versi 2: Dengan bobot (weighted sum tanpa normalisasi
 total weight)
 
@@ -5127,61 +5002,68 @@ total weight)
 # total_weight_v2 += weight
 # sim_with_weight = weighted_sum_v2 / total_weight_v2 if
 total_weight_v2 > 0 else 0
+43
 
-# 43
 # # Simpan hasil
 # final_results_tfidf.append((resume_id, position_name,
 sim_no_weight, sim_with_weight))
+46
 
-# 46
 # # Catat waktu selesai dan hitung durasi
 # end_time = time.time()
 # total_time = end_time - start_time
-# 50
+50
+
 # # Konversi waktu ke format yang lebih mudah dibaca
 # minutes = int(total_time // 60)
 # seconds = int(total_time % 60)
-# 125
+125
 Kode Program 5.9 Implementasi kode program TF-IDF dan Improved Sqrt-
 Cosine Similarity (lanjutan)
+54
 
-# 54
 # # Buat DataFrame hasil similarity
 # result_df_tfidf = pd.DataFrame(
 # final_results_tfidf,
 # columns=["Resume_ID", "Position", "Similarity_No_Weight",
 "Similarity_With_Weight"]
 
-# 59
-# 60
+# )
+60
+
 # # Tampilkan waktu total
 # print(f"Total waktu pemrosesan: {minutes} menit {seconds}
 detik")
+63
 
-# 63
 # print("Similaritas Tanpa Bobot Section")
-# 65
+65
+
 # top5_per_position_no_weight =
 result_df_tfidf.groupby('Position', group_keys=False).apply(
 
 # lambda x: x.nlargest(5, 'Similarity_No_Weight')
-# 68
-# 69
+# )
+69
+
 # grouped_no_weight =
 top5_per_position_no_weight.groupby('Position')
 
 # for position, group in grouped_no_weight:
 # print(f"\nPosition: {position}")
 # print(group[['Resume_ID', 'Similarity_No_Weight']])
-# 74
+74
+
 # print("Similaritas Dengan Bobot Section")
-# 76
+76
+
 # top5_per_position_with_weight =
 result_df_tfidf.groupby('Position', group_keys=False).apply(
 
 # lambda x: x.nlargest(5, 'Similarity_With_Weight')
-# 79
-# 80
+# )
+80
+
 # grouped_with_weight =
 top5_per_position_with_weight.groupby('Position')
 
@@ -5206,8 +5088,8 @@ progress bar dari tqdm untuk menampilkan kemajuan pemrosesan.
 # Baris 8 merupakan pengambilan nilai kolom Category dari baris
 lowongan kerja pada iterasi terkini dan menyimpannya ke variabel
 vacancy_category_tfidf.
+126
 
-# 126
 # Baris 9 merupakan pengambilan vektor TF-IDF dari kolom
 TFIDF_Vector pada baris lowongan kerja di iterasi terkini dan
 menyimpannya ke variabel job_vec_tfidf.
@@ -5259,8 +5141,8 @@ ke variabel sim_tfidf.
 
 # Baris 29 merupakan proses untuk menyimpan skor kemiripan
 sim_tfidf ke dictionary similarity_scores_tfidf.
+127
 
-# 127
 # Baris 31-32 merupakan proses untuk menguji skenario “Tanpa Bobot”
 dengan menghitung rata-rata kemiripan dengan menjumlahkan semua
 skor kemiripan di similarity_scores_tfidf menggunakan sum()
@@ -5315,8 +5197,8 @@ groupby(), lalu memilih 5 baris dengan nilai
 Similarity_No_Weight tertinggi untuk setiap posisi menggunakan
 nlargest(), dan menyimpan hasilnya ke variabel
 top5_per_position_no_weight.
+128
 
-# 128
 # Baris 70-73 merupakan proses untuk mengelompokkan
 top5_per_position_no_weight berdasarkan kolom Position,
 mengiterasi setiap kualifikasi lowongan kerja (Position), mencetak
@@ -5353,10 +5235,12 @@ Kode Program 5.10 Implementasi kode program Word2Vec dan Cosine
 
 ## Similarity
 # start_time = time.time() # Catat waktu mulai
-# 2
+2
+
 # # List untuk menyimpan hasil
 # final_results_w2v = []
-# 5
+5
+
 # # Iterasi untuk setiap vacancy
 # for vac_idx, vac_row in tqdm(vacancy_df_1.iterrows(),
 total=len(vacancy_df_1), desc="Processing Vacancies"):
@@ -5365,37 +5249,39 @@ total=len(vacancy_df_1), desc="Processing Vacancies"):
 # vacancy_category = vac_row['Category']
 # job_vec_w2v = np.array([vac_row['W2V_Vector']]) # Vektor
 vacancy dalam bentuk 2D untuk cosine_similarity
+11
 
-# 11
 # # Ambil bobot section sesuai kategori dan ubah ke skala
 desimal
 
 # category_weights = (section_df[section_df["Category"] ==
 vacancy_category]
 
-# set_index("Section")["Bobot"]
-# div(100)
-# 129
+# .set_index("Section")["Bobot"]
+# .div(100)
+129
 Kode Program 5.10 Implementasi kode program Word2Vec dan Cosine
 Similarity (lanjutan)
 
-# to_dict())
-# 17
+# .to_dict())
+17
+
 # # Iterasi untuk setiap resume
 # for resume_id in resume_df_1['ID'].unique():
 # resume_sections = resume_df_1[resume_df_1['ID'] ==
 resume_id]
 
 # similarity_scores = {}
-# 22
+22
+
 # # Hitung similarity untuk setiap section
 # for _, section_row in resume_sections.iterrows():
 # section_name = section_row['Section']
 # section_vector =
 np.array([section_row['W2V_Vector']]) # Vektor section dalam
 bentuk 2D
+27
 
-# 27
 # # Hitung cosine similarity antara section dan
 vacancy
 
@@ -5403,14 +5289,15 @@ vacancy
 job_vec_w2v)[0][0]
 
 # similarity_scores[section_name] = sim_score
-# 31
+31
+
 # # Versi 1: Tanpa bobot (rata-rata similarity semua
 section)
 
 # sim_no_weight = sum(similarity_scores.values()) /
 len(similarity_scores) if similarity_scores else 0
+34
 
-# 34
 # # Versi 2: Dengan bobot (weighted sum tanpa normalisasi
 ketat)
 
@@ -5423,8 +5310,8 @@ ketat)
 # total_weight_v2 += weight
 # sim_with_weight = weighted_sum_v2 / total_weight_v2 if
 total_weight_v2 > 0 else 0
+44
 
-# 44
 # # Simpan hasil
 # final_results_w2v.append({
 # 'Resume_ID': resume_id,
@@ -5432,50 +5319,58 @@ total_weight_v2 > 0 else 0
 # 'Similarity_No_Weight': sim_no_weight,
 # 'Similarity_With_Weight': sim_with_weight,
 # })
-# 52
+52
+
 # # Catat waktu selesai dan hitung durasi
 # end_time = time.time()
 # total_time = end_time - start_time
-# 56
+56
+
 # # Konversi waktu ke format yang lebih mudah dibaca
 # minutes = int(total_time // 60)
 # seconds = int(total_time % 60)
-# 60
+60
+
 # # Konversi hasil ke DataFrame
 # result_df_w2v = pd.DataFrame(final_results_w2v)
-# 63
+63
+
 # # Tampilkan waktu total
 # print(f"Total waktu pemrosesan: {minutes} menit {seconds}
 detik")
-
-# 66
-# 130
+66
+130
 Kode Program 5.10 Implementasi kode program Word2Vec dan Cosine
 Similarity (lanjutan)
 
 # print("Similaritas Tanpa Bobot Section")
-# 68
+68
+
 # top5_per_position_no_weight = result_df_w2v.groupby('Position',
 group_keys=False).apply(
 
 # lambda x: x.nlargest(5, 'Similarity_No_Weight')
-# 71
-# 72
+# )
+72
+
 # grouped_no_weight =
 top5_per_position_no_weight.groupby('Position')
 
 # for position, group in grouped_no_weight:
 # print(f"\nPosition: {position}")
 # print(group[['Resume_ID', 'Similarity_No_Weight']])
-# 77
+77
+
 # print("Similaritas Dengan Bobot Section")
-# 79
+79
+
 # top5_per_position_with_weight =
 result_df_w2v.groupby('Position', group_keys=False).apply(
 
 # lambda x: x.nlargest(5, 'Similarity_With_Weight')
-# 82
-# 83
+# )
+83
+
 # grouped_with_weight =
 top5_per_position_with_weight.groupby('Position')
 
@@ -5508,8 +5403,8 @@ vacancy_category.
 # Baris 10 merupakan pengambilan vektor Word2Vec dari kolom
 W2V_Vector pada baris kualifikasi lowongan kerja di iterasi terkini dan
 menyimpannya ke variabel job_vec_w2v.
+131
 
-# 131
 # Baris 12-16 merupakan proses untuk memfilter DataFrame section_df
 berdasarkan vacancy_category, menetapkan kolom Section
 sebagai indeks, mengambil kolom Bobot, membaginya dengan 100
@@ -5563,8 +5458,8 @@ variabel sim_no_weight.
 dimana baris 36-37 menginisialisasi variabel weighted_sum_v2 dan
 total_weight_v2 dengan nilai 0 untuk menghitung jumlah kemiripan
 terbobot dan total bobot.
+132
 
-# 132
 # Baris 38-42 merupakan proses untuk mengiterasi setiap section di
 similarity_scores, mengambil skor kemiripan yang disimpan pada
 variabel sim, mendapatkan bobot section dari variabel
@@ -5616,8 +5511,8 @@ Similarity_No_Weight untuk setiap kualifikasi lowongan kerja.
 
 # Baris 78 merupakan proses untuk mencetak judul "Similaritas Dengan
 Bobot Section" menggunakan print().
+133
 
-# 133
 # Baris 80-82 merupakan proses untuk mengelompokkan DataFrame
 result_df_w2v berdasarkan kolom Position menggunakan
 groupby(), lalu memilih 5 baris dengan nilai
@@ -5646,10 +5541,12 @@ Kode Program 5.11 Implementasi kode program Word2Vec dan Improved Sqrt-
 
 ## Cosine Similarity
 # start_time = time.time() # Catat waktu mulai
-# 2
+2
+
 # # List untuk menyimpan hasil
 # final_results_w2v_isc = []
-# 5
+5
+
 # # Iterasi untuk setiap vacancy
 # for vac_idx, vac_row in tqdm(vacancy_df_1.iterrows(),
 total=len(vacancy_df_1), desc="Processing Vacancies"):
@@ -5658,27 +5555,29 @@ total=len(vacancy_df_1), desc="Processing Vacancies"):
 # vacancy_category = vac_row['Category']
 # job_vec_w2v = vac_row['W2V_Vector'] # Vektor vacancy dalam
 bentuk 1D
+11
 
-# 11
 # # Ambil bobot section sesuai kategori dan ubah ke skala
 desimal
 
 # category_weights = (section_df[section_df["Category"] ==
 vacancy_category]
 
-# set_index("Section")["Bobot"]
-# div(100)
-# to_dict())
-# 17
+# .set_index("Section")["Bobot"]
+# .div(100)
+# .to_dict())
+17
+
 # # Iterasi untuk setiap resume
 # for resume_id in resume_df_1['ID'].unique():
 # resume_sections = resume_df_1[resume_df_1['ID'] ==
 resume_id]
 
 # similarity_scores = {}
-# 22
+22
+
 # # Hitung similarity untuk setiap section
-# 134
+134
 Kode Program 5.11 Implementasi kode program Word2Vec dan Improved Sqrt-
 Cosine Similarity (lanjutan)
 
@@ -5686,7 +5585,8 @@ Cosine Similarity (lanjutan)
 # section_name = section_row['Section']
 # section_vector = section_row['W2V_Vector'] #
 ## Vektor section dalam bentuk 1D
-# 27
+27
+
 # # Hitung improved sqrt-cosine similarity antara
 section dan vacancy
 
@@ -5694,14 +5594,15 @@ section dan vacancy
 improved_sqrt_cosine_similarity(section_vector, job_vec_w2v)
 
 # similarity_scores[section_name] = sim_score
-# 31
+31
+
 # # Versi 1: Tanpa bobot (rata-rata similarity semua
 section)
 
 # sim_no_weight = sum(similarity_scores.values()) /
 len(similarity_scores) if similarity_scores else 0
+34
 
-# 34
 # # Versi 2: Dengan bobot (weighted sum tanpa normalisasi
 ketat)
 
@@ -5714,8 +5615,8 @@ ketat)
 # total_weight_v2 += weight
 # sim_with_weight = weighted_sum_v2 / total_weight_v2 if
 total_weight_v2 > 0 else 0
+44
 
-# 44
 # # Simpan hasil
 # final_results_w2v_isc.append({
 # 'Resume_ID': resume_id,
@@ -5723,50 +5624,59 @@ total_weight_v2 > 0 else 0
 # 'Similarity_No_Weight': sim_no_weight,
 # 'Similarity_With_Weight': sim_with_weight,
 # })
-# 52
+52
+
 # # Catat waktu selesai dan hitung durasi
 # end_time = time.time()
 # total_time = end_time - start_time
-# 56
+56
+
 # # Konversi waktu ke format yang lebih mudah dibaca
 # minutes = int(total_time // 60)
 # seconds = int(total_time % 60)
-# 60
+60
+
 # # Konversi hasil ke DataFrame
 # result_df_w2v_isc = pd.DataFrame(final_results_w2v_isc)
-# 63
+63
+
 # # Tampilkan waktu total
 # print(f"Total waktu pemrosesan: {minutes} menit {seconds}
 detik")
+66
 
-# 66
 # print("Similaritas Tanpa Bobot Section")
-# 68
+68
+
 # top5_per_position_no_weight =
 result_df_w2v_isc.groupby('Position', group_keys=False).apply(
 
 # lambda x: x.nlargest(5, 'Similarity_No_Weight')
-# 71
-# 72
+# )
+72
+
 # grouped_no_weight =
 top5_per_position_no_weight.groupby('Position')
 
 # for position, group in grouped_no_weight:
-# 135
+135
 Kode Program 5.11 Implementasi kode program Word2Vec dan Improved Sqrt-
 Cosine Similarity (lanjutan)
 
 # print(f"\nPosition: {position}")
 # print(group[['Resume_ID', 'Similarity_No_Weight']])
-# 77
+77
+
 # print("Similaritas Dengan Bobot Section")
-# 79
+79
+
 # top5_per_position_with_weight =
 result_df_w2v_isc.groupby('Position', group_keys=False).apply(
 
 # lambda x: x.nlargest(5, 'Similarity_With_Weight')
-# 82
-# 83
+# )
+83
+
 # grouped_with_weight =
 top5_per_position_with_weight.groupby('Position')
 
@@ -5808,8 +5718,8 @@ bobot dalam persentase), dan mengonversinya menjadi dictionary
 menggunakan to_dict(), lalu menyimpannya ke variabel
 category_weights sebagai persentase bobot per section untuk
 kualifikasi lowongan kerja pada iterasi terkini sesuai industrinya.
+136
 
-# 136
 # Baris 18-19 merupakan proses untuk memulai iterasi melalui setiap nilai
 unik di kolom ID pada DataFrame resume_df_1 menggunakan
 unique().
@@ -5861,8 +5771,8 @@ variabel sim, mendapatkan bobot section dari variabel
 category_weights dengan default 0 menggunakan get(),
 mengalikan skor “Dengan Bobot” untuk menambah ke
 weighted_sum_v2, dan menambah bobot ke total_weight_v2.
+137
 
-# 137
 # Baris 43 merupakan proses untuk menghitung total similarity pada
 skenario “Dengan Bobot” dengan membagi weighted_sum_v2 dengan
 total_weight_v2 jika total_weight_v2 lebih dari 0 atau
@@ -5916,8 +5826,8 @@ groupby(), lalu memilih 5 baris dengan nilai
 ## Similarity_With_Weight tertinggi untuk setiap posisi
 menggunakan nlargest(), dan menyimpan hasilnya ke variabel
 top5_per_position_with_weight.
+138
 
-# 138
 # Baris 84-87 merupakan proses untuk mengelompokkan
 top5_per_position_with_weight berdasarkan Position,
 mengiterasi setiap kualifikasi lowongan kerja (Position), mencetak
@@ -5953,8 +5863,8 @@ me2-23\rank_df_bobot_w2v.csv')
 # result_df_bobot_w2v_isc =
 pd.read_csv(r'C:\Users\mit.itsupport\Downloads\archive2024\Resu
 me2-23\rank_df_bobot_w2v_isc.csv')
+5
 
-# 5
 # result_df_tanpa_bobot_tfidf =
 pd.read_csv(r'C:\Users\mit.itsupport\Downloads\archive2024\Resu
 me2-23\rank_df_tanpa_bobot_tfidf.csv')
@@ -5966,8 +5876,8 @@ me2-23\rank_df_tanpa_bobot_w2v.csv')
 # result_df_tanpa_bobot_w2v_isc =
 pd.read_csv(r'C:\Users\mit.itsupport\Downloads\archive2024\Resu
 me2-23\rank_df_tanpa_bobot_w2v_isc.csv')
+9
 
-# 9
 # result_df_bobot_tfidf =
 result_df_bobot_tfidf.drop(columns=["Link_Gdrive"])
 
@@ -5976,12 +5886,11 @@ result_df_bobot_w2v.drop(columns=["Link_Gdrive"])
 
 # result_df_bobot_w2v_isc =
 result_df_bobot_w2v_isc.drop(columns=["Link_Gdrive"])
+13
 
-# 13
 # result_df_tanpa_bobot_tfidf =
 result_df_tanpa_bobot_tfidf.drop(columns=["Link_Gdrive"])
-
-# 139
+139
 Kode Program 5.12 Implementasi kode program perhitungan Spearman Rank
 Correlation Coefficient (lanjutan)
 
@@ -5990,33 +5899,36 @@ result_df_tanpa_bobot_w2v.drop(columns=["Link_Gdrive"])
 
 # result_df_tanpa_bobot_w2v_isc =
 result_df_tanpa_bobot_w2v_isc.drop(columns=["Link_Gdrive"])
+17
 
-# 17
 # # Korelasi Ranking SRCC
 # def calculate_srcc(df):
 # df['d_i'] = df['Rank'] - df['Rank_Expert'] # Selisih
 peringkat (d_i)
+21
 
-# 21
 # df['d_i_squared'] = df['d_i'] ** 2 # Kuadrat selisih
 peringkat (d_i^2)
+23
 
-# 23
 # sum_d_i_squared = df['d_i_squared'].sum() # Total kuadrat
 selisih peringkat (∑ d_i^2)
+25
 
-# 25
 # n = len(df)
-# 27
+27
+
 # # Hitung SRCC
 # if n < 2 or n * (n**2 - 1) == 0: # Mengatasi pembagian
 dengan 0
 
 # return None
 # srcc = 1 - ((6 * sum_d_i_squared) / (n * (n**2 - 1)))
-# 32
+32
+
 # return srcc
-# 34
+34
+
 # def calculate_srcc_per_position(df):
 # results = {}
 # for position, group in df.groupby('Position'): # Hitung
@@ -6026,7 +5938,8 @@ SRCC berdasarkan 'Position'
 # if srcc is not None:
 # results[position] = srcc
 # return results
-# 42
+42
+
 # # Implementasi Fungsi SRCC
 # srcc_bobot_tfidf =
 calculate_srcc_per_position(result_df_bobot_tfidf)
@@ -6036,8 +5949,8 @@ calculate_srcc_per_position(result_df_bobot_w2v)
 
 # srcc_bobot_w2v_isc =
 calculate_srcc_per_position(result_df_bobot_w2v_isc)
+47
 
-# 47
 # srcc_tanpa_bobot_tfidf =
 calculate_srcc_per_position(result_df_tanpa_bobot_tfidf)
 
@@ -6046,8 +5959,8 @@ calculate_srcc_per_position(result_df_tanpa_bobot_w2v)
 
 # srcc_tanpa_bobot_w2v_isc =
 calculate_srcc_per_position(result_df_tanpa_bobot_w2v_isc)
+51
 
-# 51
 # # Merge semua df ke satu df
 # df_bobot_tfidf = pd.DataFrame(list(srcc_bobot_tfidf.items()),
 columns=['Position', 'TFIDF_Bobot'])
@@ -6062,8 +5975,7 @@ columns=['Position', 'W2V_ISC_Bobot'])
 # df_tanpa_bobot_tfidf =
 pd.DataFrame(list(srcc_tanpa_bobot_tfidf.items()),
 columns=['Position', 'TFIDF_Tanpa_Bobot'])
-
-# 140
+140
 Kode Program 5.12 Implementasi kode program perhitungan Spearman Rank
 Correlation Coefficient (lanjutan)
 
@@ -6074,8 +5986,8 @@ columns=['Position', 'W2V_Tanpa_Bobot'])
 # df_tanpa_bobot_w2v_isc =
 pd.DataFrame(list(srcc_tanpa_bobot_w2v_isc.items()),
 columns=['Position', 'W2V_ISC_Tanpa_Bobot'])
+59
 
-# 59
 # # Jadikan 'Position' sebagai index
 # merged_df = df_bobot_tfidf.set_index('Position')
 # merged_df = merged_df.join(df_bobot_w2v.set_index('Position'),
@@ -6096,8 +6008,8 @@ how='outer')
 # merged_df =
 merged_df.join(df_tanpa_bobot_w2v_isc.set_index('Position'),
 how='outer')
+67
 
-# 67
 # # Pemberian warna untuk visualisasi
 # def color_srcc(val):
 # if pd.isna(val): # Jika ada NaN
@@ -6106,7 +6018,8 @@ how='outer')
 # return 'background-color: lightgreen'
 # else: # Lemah (merah)
 # return 'background-color: lightcoral'
-# 76
+76
+
 # styled_df =
 merged_df.style.format("{:.16f}").applymap(color_srcc)
 
@@ -6126,8 +6039,8 @@ menggunakan pd.read_csv().
 # Baris 4 merupakan proses untuk menginput file dengan format CSV
 rank_df_bobot_w2v_isc ke dalam DataFrame
 result_df_bobot_w2v_isc menggunakan pd.read_csv().
+141
 
-# 141
 # Baris 6 merupakan proses untuk menginput file dengan format CSV
 rank_df_tanpa_bobot_tfidf ke dalam DataFrame
 result_df_tanpa_bobot_tfidf menggunakan
@@ -6184,8 +6097,8 @@ Position, lalu menghitung SRCC untuk setiap kualifikasi lowongan kerja
 (Position) dengan memanggil fungsi calculate_srcc dan disimpan
 hasil-hasilnya ke dictionary results jika fungsi tersebut tidak
 mengembalikan None.
+142
 
-# 142
 # Baris 41 merupakan proses untuk mengembalikan isian dictionary
 results yang merupakan nilai-nilai SRCC per kualifikasi lowongan kerja
 sebagai hasil dari fungsi calculate_srcc_per_position.
@@ -6235,8 +6148,8 @@ yang memberikan warna pada isian nilai di DataFrame berdasarkan nilai
 SRCC, di mana jika kosong atau NaN, maka tidak diberi warna; jika lebih
 dari sama dengan 0,6, maka diberi warna hijau; dan jika kurang dari 0,6,
 maka diberi warna merah.
+143
 
-# 143
 # Baris 77 merupakan proses untuk memformat DataFrame merged_df
 menggunakan style.format("{:.16f}") dan menerapkan fungsi
 color_srcc untuk pemberian warna menggunakan applymap().
@@ -6266,11 +6179,13 @@ senioritas
 # results = {}
 # for position, group in df.groupby('Position'):
 # total_resumes = len(group)
-# 6
+6
+
 # # Hitung jumlah TRUE untuk Relevansi dan Senioritas
 # relevance_count = (group['Relevance'] == True).sum()
 # seniority_count = (group['Seniority'] == True).sum()
-# 10
+10
+
 # # Hitung persentase
 # relevance_percent = (relevance_count / total_resumes) *
 # 100
@@ -6280,10 +6195,11 @@ seniority_percent = (seniority_count / total_resumes) *
 # # Simpan hasil
 # results[position] = {'Relevance': relevance_percent,
 'Seniority': seniority_percent}
+17
 
-# 17
 # return results
-# 19
+19
+
 # # Implementasi Fungsi Relevansi dan Senioritas
 # relevance_seniority_bobot_tfidf =
 calculate_relevance_seniority_per_position(result_df_bobot_tfid
@@ -6291,8 +6207,7 @@ f)
 
 # relevance_seniority_bobot_w2v =
 calculate_relevance_seniority_per_position(result_df_bobot_w2v)
-
-# 144
+144
 Kode Program 5.13 Implementasi kode program perhitungan relevansi dan
 senioritas (lanjutan)
 
@@ -6311,65 +6226,66 @@ t_w2v)
 # relevance_seniority_tanpa_bobot_w2v_isc =
 calculate_relevance_seniority_per_position(result_df_tanpa_bobo
 t_w2v_isc)
+27
 
-# 27
 # # Membedakan DataFrames untuk Relevansi dan Senioritas
 # df_relevance_bobot_tfidf = pd.DataFrame(
 # [(pos, val['Relevance']) for pos, val in
 relevance_seniority_bobot_tfidf.items()],
 
 # columns=['Position', 'TFIDF_Bobot']
-# 32
+# )
 # df_relevance_bobot_w2v = pd.DataFrame(
 # [(pos, val['Relevance']) for pos, val in
 relevance_seniority_bobot_w2v.items()],
 
 # columns=['Position', 'W2V_Bobot']
-# 36
+# )
 # df_relevance_bobot_w2v_isc = pd.DataFrame(
 # [(pos, val['Relevance']) for pos, val in
 relevance_seniority_bobot_w2v_isc.items()],
 
 # columns=['Position', 'W2V_ISC_Bobot']
-# 40
+# )
 # df_relevance_tanpa_bobot_tfidf = pd.DataFrame(
 # [(pos, val['Relevance']) for pos, val in
 relevance_seniority_tanpa_bobot_tfidf.items()],
 
 # columns=['Position', 'TFIDF_Tanpa_Bobot']
-# 44
+# )
 # df_relevance_tanpa_bobot_w2v = pd.DataFrame(
 # [(pos, val['Relevance']) for pos, val in
 relevance_seniority_tanpa_bobot_w2v.items()],
 
 # columns=['Position', 'W2V_Tanpa_Bobot']
-# 48
+# )
 # df_relevance_tanpa_bobot_w2v_isc = pd.DataFrame(
 # [(pos, val['Relevance']) for pos, val in
 relevance_seniority_tanpa_bobot_w2v_isc.items()],
 
 # columns=['Position', 'W2V_ISC_Tanpa_Bobot']
-# 52
-# 53
+# )
+53
+
 # df_seniority_bobot_tfidf = pd.DataFrame(
 # [(pos, val['Seniority']) for pos, val in
 relevance_seniority_bobot_tfidf.items()],
 
 # columns=['Position', 'TFIDF_Bobot']
-# 57
+# )
 # df_seniority_bobot_w2v = pd.DataFrame(
 # [(pos, val['Seniority']) for pos, val in
 relevance_seniority_bobot_w2v.items()],
 
 # columns=['Position', 'W2V_Bobot']
-# 61
+# )
 # df_seniority_bobot_w2v_isc = pd.DataFrame(
 # [(pos, val['Seniority']) for pos, val in
 relevance_seniority_bobot_w2v_isc.items()],
 
 # columns=['Position', 'W2V_ISC_Bobot']
-# 65
-# 145
+# )
+145
 Kode Program 5.13 Implementasi kode program perhitungan relevansi dan
 senioritas (lanjutan)
 
@@ -6378,20 +6294,21 @@ senioritas (lanjutan)
 relevance_seniority_tanpa_bobot_tfidf.items()],
 
 # columns=['Position', 'TFIDF_Tanpa_Bobot']
-# 69
+# )
 # df_seniority_tanpa_bobot_w2v = pd.DataFrame(
 # [(pos, val['Seniority']) for pos, val in
 relevance_seniority_tanpa_bobot_w2v.items()],
 
 # columns=['Position', 'W2V_Tanpa_Bobot']
-# 73
+# )
 # df_seniority_tanpa_bobot_w2v_isc = pd.DataFrame(
 # [(pos, val['Seniority']) for pos, val in
 relevance_seniority_tanpa_bobot_w2v_isc.items()],
 
 # columns=['Position', 'W2V_ISC_Tanpa_Bobot']
-# 77
-# 78
+# )
+78
+
 # merged_relevance_df =
 df_relevance_bobot_tfidf.set_index('Position')
 
@@ -6414,8 +6331,8 @@ merged_relevance_df.join(df_relevance_tanpa_bobot_w2v.set_index
 # merged_relevance_df =
 merged_relevance_df.join(df_relevance_tanpa_bobot_w2v_isc.set_i
 ndex('Position'), how='outer')
+85
 
-# 85
 # merged_seniority_df =
 df_seniority_bobot_tfidf.set_index('Position')
 
@@ -6438,8 +6355,8 @@ merged_seniority_df.join(df_seniority_tanpa_bobot_w2v.set_index
 # merged_seniority_df =
 merged_seniority_df.join(df_seniority_tanpa_bobot_w2v_isc.set_i
 ndex('Position'), how='outer')
+92
 
-# 92
 # # Pemberian warna untuk visualisasi
 # def color_percentage(val):
 # if pd.isna(val): # Jika ada NaN
@@ -6448,8 +6365,8 @@ ndex('Position'), how='outer')
 # return 'background-color: lightgreen'
 # else: # Lemah (merah)
 # return 'background-color: lightcoral'
-# 101
-# 146
+101
+146
 Kode Program 5.13 Implementasi kode program perhitungan relevansi dan
 senioritas (lanjutan)
 
@@ -6460,10 +6377,11 @@ entage)
 # styled_seniority_df =
 merged_seniority_df.style.format("{:.2f}%").applymap(color_perc
 entage)
+104
 
-# 104
 # styled_relevance_df
-# 106
+106
+
 # styled_seniority_df
 Penjelasan dari Kode Program 5.13 mengenai implementasi kode program
 pengujian bagian perhitungan relevansi dan senioritas, yaitu:
@@ -6499,8 +6417,8 @@ seniority_count dengan total_resumes dan mengalikan dengan
 relevance_percent, dan seniority_percent ke dictionary
 results. Kemudian, dikonversi menjadi DataFrame menggunakan
 pd.DataFrame().
+147
 
-# 147
 # Baris 20-26 merupakan proses untuk menghitung persentase relevansi dan
 senioritas per kualifikasi lowongan kerja pada enam DataFrame, yaitu:
 a. Hasil perhitungan relevansi dan senioritas
@@ -6552,8 +6470,8 @@ relevance_df menggunakan style.format("{:.2f}%") dan
 menerapkan fungsi color_percentage untuk pemberian warna
 menggunakan applymap(). Kemudian, disimpan pada DataFrame baru
 dengan variabel styled_relevance_df.
+148
 
-# 148
 # Baris 103 merupakan proses untuk memformat DataFrame
 seniority_df menggunakan style.format("{:.2f}%") dan
 menerapkan fungsi color_percentage untuk pemberian warna
@@ -6565,8 +6483,8 @@ styled_relevance_df.
 
 # Baris 107 merupakan proses untuk menampilkan DataFrame
 styled_seniority_df.
+149
 
-# 149
 # BAB 6 PENGUJIAN DAN ANALISIS HASIL
 Pemaparan hasil dari pengujian akan dijelaskan di bab pengujian, serta
 pembahasan dan analisa dari hasil pengujian tersebut sebagai bahan evaluasi.
@@ -6598,14 +6516,12 @@ ke dalam spreadsheet saat disajikan kepada ahli untuk memudahkan proses
 evaluasi. Cuplikan template penyajian tersebut tertera pada Gambar 6.1 dan
 Gambar 6.2
 Gambar 6.1 Cuplikan template spreadsheet evaluasi ahli
-
-# 150
+150
 Gambar 6.2 Cuplikan template spreadsheet evaluasi ahli
 Hasil evaluasi dari ahli dihimpun dan dirapikan agar bisa dijadikan DataFrame
 untuk perhitungan ketiga parameter penilaian seperti pada Gambar 6.3
 Gambar 6.3 Cuplikan spreadsheet hasil evaluasi ahli
-
-# 151
+151
 Parameter peringkat (rank) dievaluasi hasil pengujiannya dengan menghitung
 Spearman Rank Correlation Coefficient (SRCC) untuk menunjukkan korelasi antara
 peringkat yang dihasilkan implementasi metode dengan peringkat yang
@@ -6622,16 +6538,14 @@ Sebagai parameter pendukung, relevansi dan senioritas pada penelitian ini
 dianggap baik jika setidaknya tiga dari lima resume memenuhi deskripsi kualifikasi
 lowongan kerja berdasarkan evaluasi ahli. Sehingga, nilai persentase ≥ 60%
 ditentukan sebagai ambang batas parameter relevansi dan senioritas.
-
-# 152
+152
 Dari 24 kualifikasi lowongan kerja pada penelitian ini, SRCC dengan nilai ≥ 0,6
 dianggap kuat (strong) yang ditandai dengan warna hijau. Sedangkan SRCC dengan
 nilai < 0,6 dianggap lemah (weak) yang ditandai dengan warna merah. Gambar 6.5
 merupakan visualisasi dari nilai korelasi setiap kombinasi pendekatan berdasarkan
 posisi kualifikasi lowongan kerja.
 Gambar 6.5 Visualisasi nilai korelasi
-
-# 153
+153
 Parameter relevansi (relevance) dievaluasi hasil pengujiannya dengan
 menghitung persentasenya untuk menunjukkan seberapa relevan resume-resume
 yang menjadi keluaran implementasi metode dengan kualifikasi lowongan kerja.
@@ -6644,8 +6558,7 @@ memiliki kesesuaian yang kurang (low) dan ditandai dengan warna merah. Gambar
 ## merupakan visualisasi dari nilai persentase relevansi setiap kombinasi
 pendekatan berdasarkan posisi kualifikasi lowongan kerja.
 Gambar 6.6 Visualisasi persentase relevansi
-
-# 154
+154
 Parameter senioritas (seniority) dievaluasi hasil pengujiannya dengan
 menghitung persentasenya untuk menunjukkan seberapa sesuai level posisi yang
 tercantum di resume-resume yang menjadi keluaran implementasi metode
@@ -6658,8 +6571,8 @@ kesesuaian level posisi yang rendah (low) dan ditandai dengan warna merah.
 Gambar 6.7 merupakan visualisasi dari nilai persentase senioritas setiap kombinasi
 pendekatan berdasarkan posisi kualifikasi lowongan kerja.
 Gambar 6.7 Visualisasi persentase senioritas
+155
 
-# 155
 ## Analisis Hasil
 Metode Improved Sqrt-Cosine (ISC) Similarity pada penelitian ini digunakan
 untuk memeringkat lima resume berdasarkan skor similaritas tertinggi untuk
@@ -6697,8 +6610,7 @@ Relevansi ≥ 60%
 ## Jumlah yang 14 10 16
 persentase
 Senioritas ≥ 60%
-
-# 156
+156
 Tabel 6.2 Hasil pengujian berwarna merah skenario tanpa bobot section
 Keterangan TF-IDF + ISC Word2Vec + Word2Vec + ISC
 
@@ -6720,8 +6632,7 @@ pemeringkatan yang dihasilkan implementasi metode Word2Vec dengan ISC lebih
 dekat dengan penilaian ahli.
 Pada parameter relevansi, pendekatan TF-IDF dengan ISC unggul dengan 15
 kualifikasi lowongan kerja, disusul pendekatan Word2Vec dengan ISC berjumlah
-
-# , dan Word2Vec dengan CosSim yang berada di urutan terakhir berjumlah 9. Ini
+11, dan Word2Vec dengan CosSim yang berada di urutan terakhir berjumlah 9. Ini
 menunjukkan isi dari lima resume keluaran implementasi metode TF-IDF dengan
 ISC lebih banyak yang sesuai dengan deskripsi kualifikasi lowongan kerja.
 Sementara itu, dalam hal senioritas, pendekatan Word2Vec dengan ISC kembali
@@ -6730,12 +6641,10 @@ pendekatan TF-IDF dengan ISC berjumlah 14, dan Word2Vec dengan CosSim
 berjumlah 10. Ini menunjukkan isi dari lima resume keluaran implementasi
 Word2Vec dengan ISC lebih banyak yang level senioritasnya atau level posisinya
 yang sesuai dengan deskripsi kualifikasi lowongan kerja.
-
-# 157
+157
 Berdasarkan hasil pengujian dengan skenario “Dengan Bobot”, jumlah
 kualifikasi lowongan kerja yang memenuhi ambang batas (SRCC ≥ 0,6; relevansi ≥
-
-# %; senioritas ≥ 60%; ditandai hijau pada visualisasi) dan yang tidak memenuhi
+60%; senioritas ≥ 60%; ditandai hijau pada visualisasi) dan yang tidak memenuhi
 ambang batas (ditandai merah).
 Tabel 6.3 Hasil pengujian berwarna hijau skenario dengan bobot section
 Keterangan TF-IDF + ISC Word2Vec + Word2Vec + ISC
@@ -6773,8 +6682,7 @@ jumlah 13 kualifikasi, disusul pendekatan Word2Vec dengan ISC berjumlah 11, dan
 Word2Vec dengan CosSim yang berada di urutan terakhir berjumlah 10. Ini
 menunjukkan isi dari lima resume keluaran implementasi metode TF-IDF dengan
 ISC lebih banyak yang sesuai dengan deskripsi kualifikasi lowongan kerja.
-
-# 158
+158
 Sementara itu, dalam hal senioritas, pendekatan Word2Vec dengan ISC unggul
 di urutan pertama dengan jumlah 16 kualifikasi, diikuti oleh pendekatan
 Word2Vec dengan CosSim berjumlah 14, dan TF-IDF dengan ISC berjumlah 10. Ini
@@ -6817,8 +6725,7 @@ Tabel 6.6 Urutan pendekatan berdasarkan weighted score tertinggi
 Word2Vec + ISC (33) Word2Vec + CosSim (27)
 TF-IDF + ISC (30) Word2Vec + ISC (21)
 Word2Vec + CosSim (6) TF-IDF + ISC (15)
-
-# 159
+159
 Secara rata-rata, dihitung untuk setiap parameter pada masing-masing
 kombinasi pendekatan dan skenario yang tertera hasilnya pada Tabel 6.7.
 Tabel 6.7 Perhitungan rata-rata parameter setiap pendekatan dan skenario
@@ -6857,8 +6764,7 @@ kualifikasi lowongan kerja. Keunggulan TF-IDF dengan ISC pada relevansi
 disebabkan oleh kemampuan TF-IDF dalam memberi bobot lebih tinggi pada kata-
 kata penting yang jarang muncul, tetapi relevan dengan kualifikasi lowongan kerja,
 seperti istilah-istilah teknis.
-
-# 160
+160
 Pendekatan Word2Vec dengan ISC menunjukkan keterbatasan akibat distorsi
 semantik dari penyesuaian nilai absolut, seperti terlihat dari visualisasi yang
 menunjukkan pergeseran posisi kata pada Gambar 6.8.
@@ -6888,14 +6794,12 @@ economy
 bake versus 0,2106 0,6603 0,4497
 diploma
 law versus style 0,0141 0,7308 0,7167
-
-# 161
+161
 Tabel 6.8 menunjukkan peningkatan atau penurunan nilai similaritas antar
 term, misalnya antara “technology” dengan “fashion” seharusnya kedua term ini
 secara semantik berjauhan dan dibuktikan dengan similaritasnya yang bernilai
-
-# ,2471. Namun, setelah nilai vektor dibuat absolut, nilai similaritasnya menjadi
-# ,7262 yang menyatakan kedua term ini berdekatan secara semantik,
+0,2471. Namun, setelah nilai vektor dibuat absolut, nilai similaritasnya menjadi
+0,7262 yang menyatakan kedua term ini berdekatan secara semantik,
 perubahannya cukup drastis sebanyak 0,4791. Kemudian, ada juga term yang
 sudah berdekatan secara semantik menjadi semakin dekat setelah nilainya dibuat
 absolut, seperti “design” dan “designer” dari similaritasnya bernilai 0,6348
@@ -6923,8 +6827,7 @@ diwarnai hijau, dan paremeter senioritas diwarnai merah. Sumbu Y menunjukkan
 nilai, sehingga nilai persentase relevansi dan senioritas dijadikan bilangan desimal.
 Sumbu X menunjukkan pendekatan dan skenario yang digunakan. Grafik untuk
 beberapa kualifikasi lowongan kerja tertera pada Gambar 6.10.
-
-# 162
+162
 Gambar 6.10 Grafik garis tiga parameter setiap kualifikasi lowongan kerja
 Nilai korelasi pada lowongan kerja posisi “Executive Chef” memiliki nilai
 tertinggi 0,5 dan terlihat jauh di bawah nilai relevansi dan senioritasnya. Nilai
@@ -6935,8 +6838,7 @@ lemah, keluaran resume yang dihasilkan untuk posisi ini tetap sesuai dengan
 deskripsi kualifikasi lowongan kerja berdasarkan kesesuaian kata kunci atau
 istilah-istilah tertentu yang dimiliki resume maupun pada kebutuhan posisi.
 Nilai korelasi pada posisi “Medical Doctor” cukup stabil dengan rata-rata
-
-# ,2833 di antara berbagai implementasi pendekatan dan skenario, meskipun
+0,2833 di antara berbagai implementasi pendekatan dan skenario, meskipun
 tergolong sebagai korelasi lemah. Namun, nilai relevansi menunjukkan 0 yang
 menandakan tidak ada resume yang isiannya sesuai dengan kebutuhan posisi
 tersebut. Hal ini menunjukkan perlu adanya penyesuaian dataset resume dengan
@@ -6952,8 +6854,7 @@ yang dibutuhkan pada posisi tersebut. Sehingga, perlu adanya penyesuaian
 dataset resume maupun kualifikasi lowongan kerja yang lebih beragam level
 senioritasnya atau pengelompokkan terpisah berdasarkan level senioritas
 berdasarkan years of experience di dalam resume.
-
-# 163
+163
 Nilai korelasi pada posisi “HR Specialist” tergolong korelasi sedang ke korelasi
 kuat berdasarkan nilai rata-rata 0,5333 dan nilai tertinggi 0,8. Namun, untuk nilai
 relevansinya memiliki rata-rata 0,3667 atau sekitar 36%. Hal ini menunjukkan
@@ -6962,8 +6863,8 @@ atau istilah dengan yang dibutuhkan pada posisi tersebut. Sehingga, perlu adanya
 penyesuaian dataset resume maupun kualifikasi lowongan kerja yang
 memperbanyak kata-kata penting seperti kata kunci atau istilah teknis sesuai
 industri atau bidang minat.
+164
 
-# 164
 # BAB 7 PENUTUP
 Pada bab penutup, bagian kesimpulan merangkum hasil penelitian untuk
 menjawab rumusan masalah. Sedangkan, bagian saran memberikan masukan
@@ -6996,16 +6897,15 @@ keunggulan yang bervariasi berdasarkan representasi teks dan skenario, di
 mana pada skenario “Tanpa Bobot”, Word2Vec dengan ISC lebih unggul
 menghasilkan pemeringkatan lima resume yang sesuai dengan hasil
 evaluasi pemeringkatan ahli terhadap deskripsi lowongan kerja (SRCC >
-
-# ,6). Kemudian, pada skenario “Dengan Bobot”, Word2Vec dengan CosSim
+0,6). Kemudian, pada skenario “Dengan Bobot”, Word2Vec dengan CosSim
 lebih unggul dalam menghasilkan pemeringkatan yang sesuai dengan
 evaluasi ahli. Walaupun begitu, Word2Vec dengan ISC pada skenario tanpa
 bobot section, memiliki nilai korelasi rata-rata 0,269565 yang
 dikategorikan sebagai korelasi lemah. Pada skenario dengan bobot
 section, Word2Vec dengan CosSim memiliki nilai korelasi rata-rata
+0,183333 yang dikategorikan sebagai korelasi sangat lemah.
+165
 
-# ,183333 yang dikategorikan sebagai korelasi sangat lemah.
-# 165
 ## Saran
 Berikut merupakan saran dari penelitian ini untuk penelitian berikutnya.
 
@@ -7053,14 +6953,13 @@ penyeragaman nama-nama section secara semantik.
 lowongan kerja dengan Bahasa Inggris. Untuk penelitian selanjutnya,
 disarankan mengembangkan dataset resume dan kualifikasi lowongan
 kerja dengan Bahasa Indonesia.
+166
 
-# 166
 # DAFTAR REFERENSI
 Abdusyukur, F., 2023. PENERAPAN ALGORITMA SUPPORT VECTOR MACHINE
 (SVM) UNTUK KLASIFIKASI PENCEMARAN NAMA BAIK DI MEDIA SOSIAL
 TWITTER. KOMPUTA : Jurnal Ilmiah Komputer dan Informatika, 12(1), pp. 73-
-
-# 82
+82.
 Alsharef, A., Sonia, Nassour, H. & Sharma, J., 2023. Exploring the Efficiency of Text-
 Similarity Measures in Automated Resume Screening for Recruitment. New
 Delhi, India, IEEE, pp. 36-42.
@@ -7096,8 +6995,7 @@ Pengangguran Terbuka Masih Jauh di Atas Target RPJMN. [Online]
 ## Tersedia di
 <https://www.dpr.go.id/berita/detail/id/47507/t/Tingkat%20Pengangguran
 %20Terbuka%20Masih%20Jauh%20di%20Atas%20Target%20RPJMN>
-
-# 167
+167
 Dwivedi, A. & Anand, S. K., 2023. Word Embedding using Skip Gram Approach.
 Interdisciplinary Journal of Contemporary Research, 10(3), pp. 1-5.
 Effendi, M. S., 2013. Desain Eksperimental dalam Penelitian Pendidikan. Jurnal
@@ -7112,8 +7010,7 @@ CHANGES IN THE GPA OF GRADUATES FROM THE 5TH BATCH OF THE
 
 # TEACHING CAMPUS PROGRAM AT UNIVERSITAS BAKTI INDONESIA.
 TRANSPUBLIKA INTERNATIONAL RESEARCH IN EXACT SCIENCES (TIRES), 30 8,
-
-# (3), pp. 18-27.
+3(3), pp. 18-27.
 International Monetary Fund, 2024. World Economic Outlook (April 2024) -
 Unemployment Rate. [Online]
 
@@ -7125,13 +7022,11 @@ Iskandar, D. & Kurniawan, A., 2025. ANALISIS PERBANDINGAN TEKNIK WORD2VEC
 
 # DAN DOC2VECDALAM MENGUKUR KEMIRIPAN DOKUMEN MENGGUNAKAN
 COSINE SIMILARITY. Jurnal Teknologi Informasi dan Ilmu Komputer (JTIIK),
-
-# (1), pp. 133-144.
+12(1), pp. 133-144.
 Jawale, D. S. et al., 2024. COSINE SIMILARITY: A KEY DRIVER FOR ENHANCED
 RECOMMENDATION SYSTEMS. International Research Journal of
 Modernization in Engineering Technology and Science, 06(04), pp. 1466-
-
-# 1470
+1470.
 Kementerian Ketenagakerjaan RI - Badan Perencanaan dan Pengembangan
 Ketenagakerjaan, 2021. REVIEW RENCANA TENAGA KERJA NASIONAL 2020-
 
@@ -7148,8 +7043,7 @@ Kumaladewi, A. K., 2018. EFEKTIVITAS REKRUTMEN DAN SELEKSI DALAM
 PARSIMONIA Jurnal Akuntansi, Manajemen, dan Bisnis, 11 4, 5(1), pp. 29-40.
 Lailasari, N. A. et al., 2024. Pengaruh Pengangguran Terhadap Pertumbuhan
 Ekonomi. IJM: Indonesian Journal of Multidisciplinary, 2(5), pp. 275-286.
-
-# 168
+168
 Musfiqon, 2016. Panduan Lengkap Metodologi Penelitian Pendidikan. PT. Prestasi
 Pustakaraya.
 Meyer, D., 2016. How exactly does word2vec work?
@@ -7161,8 +7055,7 @@ Informatics, 4(1), pp. 63-69.
 Prasetya, M. A., Wulandari, M. & Nikmah, S. A., 2024. Implementasi NLP(Natural
 Language Processing) Dasar pada Analisis Sentiment Review Spotify.
 PROSIDING SEMINAR NASIONAL TEKNOLOGI DAN SAINS TAHUN 2024, pp.
-
-# 153.
+145-153.
 Pundir, R. S. et al., 2024. Enhancing Resume Recommendation System through
 Skill-based Similarity using Deep Learning Models.
 Ramadhan, R. F., Wijoyo, S. H. & Saputra, M. C., 2023. Penerapan Metode K-Means
@@ -7191,8 +7084,7 @@ anfordphd_pmw_18-19.pdf>
 Stanford Career Education, 2024. Steps to Writing Your Resume. [Online]
 Tersedia di: <https://careered.stanford.edu/resources/resources-
 links#resume>
-
-# 169
+169
 Suningsih, S. et al., 2024. Pelatihan Pembuatan Curriculum Vitae dalam Bahasa
 Inggris yang Berbasis Application Tracking System. Jurnal Nusantara
 Mengabdi, 3(2), pp. 85-93.
@@ -7206,23 +7098,25 @@ Kewirausahaan), 6(3), pp. 11-27.
 Wujarso, R., 2022. PERAN HUMAN CAPITAL DALAM PERTUMBUHAN EKONOMI.
 Journal of Information System, Applied, Management, Accounting and
 Research, 6(2), pp. 430-438.
+170
 
-# 170
 # LAMPIRAN A SURAT PERNYATAAN VALIDITAS
-# 171
+171
+
 # LAMPIRAN B BOBOT PER SECTION BERDASARKAN
 # INDUSTRI
-# 172
-# 173
-# 174
-# 175
-# 176
-# 177
-# 178
-# 179
+172
+173
+174
+175
+176
+177
+178
+179
+
 # LAMPIRAN C HASIL PEMERINGKATAN LIMA RESUME PER
 # KUALIFIKASI LOWONGAN KERJA
-# 1 Tanpa Bobot - TF-IDF dan Improved Sqrt-Cosine Similarity
+C.1 Tanpa Bobot - TF-IDF dan Improved Sqrt-Cosine Similarity
 Rank Resume ID Position Similarity Rank Relevance Seniority
 
 ## Score Expert
@@ -7267,7 +7161,8 @@ ent
 # GENERAL 45
 # MANAGE
 # R
-# 180
+180
+
 # 25162378 CLUB 0,1561663 1 TRUE TRUE
 # GENERAL 095
 # MANAGE
@@ -7326,7 +7221,8 @@ and Social 084
 
 ## Media
 ## Executive
-# 181
+181
+
 # 16620172 Digital 0,1303300 1 TRUE TRUE
 and Social 184
 
@@ -7372,7 +7268,8 @@ and Social 437
 ## Chef 976
 # 16924102 Executive 0,2229271 3 TRUE TRUE
 ## Chef 471
-# 182
+182
+
 # 21338490 Finance 0,2365662 5 TRUE FALSE
 ## Executive 907
 /
@@ -7431,8 +7328,8 @@ Jr/Sr.)
 # 38946032 Financial 0,1817793 4 TRUE TRUE
 ## Consolida 037
 tion
+183
 
-# 183
 ## Consultan
 t
 
@@ -7484,7 +7381,8 @@ t
 ## Specialist 793
 # 53701275 HR 0,2189996 4 FALSE TRUE
 ## Specialist 296
-# 184
+184
+
 # 39413067 INFORMA 0,2356860 1 TRUE TRUE
 # TION & 514
 # TECHNOL
@@ -7530,7 +7428,8 @@ t
 for
 
 ## Apparel
-# 185
+185
+
 # 15746146 Junior 0,1627493 1 TRUE TRUE
 ## Designer 142
 for
@@ -7588,7 +7487,7 @@ and
 Safety,
 
 ## Quality
-# 186
+186
 and
 
 ## Security
@@ -7641,7 +7540,8 @@ ng
 # 28290448 Public 0,1736107 2 TRUE TRUE
 ## Relations 376
 ## Officer
-# 187
+187
+
 # 31220062 Public 0,1732900 4 FALSE TRUE
 ## Relations 471
 ## Officer
@@ -7697,7 +7597,8 @@ ty
 # 27080812 Regional 0,2029929 3 FALSE TRUE
 ## Sales 331
 ## Manager
-# 188
+188
+
 # 38688388 Regional 0,1964119 4 FALSE FALSE
 ## Sales 402
 ## Manager
@@ -7715,15 +7616,20 @@ ty
 # 24670867 Spare part 0,1369340 3 FALSE FALSE
 ## Admin 491
 # 15850434 Teachers 0,2201057 2 TRUE TRUE
-# 854
+854
+
 # 96547039 Teachers 0,1978795 1 TRUE TRUE
-# 776
+776
+
 # 28772892 Teachers 0,1889872 3 TRUE TRUE
-# 465
+465
+
 # 58105060 Teachers 0,1869135 5 TRUE TRUE
-# 69
+69
+
 # 37220856 Teachers 0,1804859 4 FALSE TRUE
-# 322
+322
+
 # 26932091 Unmanag 0,2280308 1 TRUE TRUE
 ed 996
 
@@ -7744,7 +7650,8 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 189
+189
+
 # 17818707 Unmanag 0,1783846 4 FALSE FALSE
 ed 929
 
@@ -7775,7 +7682,7 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 2 Tanpa Bobot - Word2Vec dan Cosine Similarity
+C.2 Tanpa Bobot - Word2Vec dan Cosine Similarity
 Rank Resume ID Position Similarity Rank Relevance Seniority
 
 ## Score Expert
@@ -7799,7 +7706,8 @@ ent
 ent
 
 ## Executive
-# 190
+190
+
 # 27715131 Business 0,8342830 2 TRUE FALSE
 ## Developm 539
 ent
@@ -7854,8 +7762,8 @@ ion 904
 
 ## Superviso
 r
+191
 
-# 191
 # 13115648 Creative 0,8481530 3 FALSE FALSE
 Director / 845
 
@@ -7906,7 +7814,8 @@ and Social 109
 # 98379112 Digital 0,8419138 1 FALSE FALSE
 ## Banking 193
 ## Officer
-# 192
+192
+
 # 26167298 Digital 0,8403331 3 FALSE FALSE
 ## Banking 637
 ## Officer
@@ -7957,8 +7866,8 @@ nt
 # 26695839 Finance 0,8448839 4 FALSE TRUE
 ## Executive 585
 /
+193
 
-# 193
 ## Accounta
 nt
 
@@ -8019,7 +7928,8 @@ t
 
 # 18354623 Graphics 0,8890629 3 TRUE FALSE
 ## Designer 709
-# 194
+194
+
 # 22754014 Graphics 0,8265473 2 TRUE TRUE
 ## Designer 545
 # 70750649 Graphics 0,8213165 4 FALSE FALSE
@@ -8063,7 +7973,8 @@ t
 # TECHNOL
 # OGY
 # STAFF
-# 195
+195
+
 # 81508860 Junior 0,8411479 5 FALSE FALSE
 ## Associate 443
 ## Lawyer
@@ -8115,8 +8026,8 @@ and
 # 11169163 Manager 0,8636670 2 TRUE TRUE
 ## Aviation 262
 Safety,
+196
 
-# 196
 ## Quality
 and
 
@@ -8172,8 +8083,8 @@ n 569
 
 ## Engineeri
 ng
+197
 
-# 197
 # 37751611 Productio 0,7888528 4 FALSE FALSE
 n 109
 
@@ -8229,8 +8140,8 @@ ty
 ## Control 449
 ## Superviso
 r - Corn
+198
 
-# 198
 ## Commodi
 ty
 
@@ -8268,16 +8179,21 @@ ty
 # 37764298 Spare part 0,8364215 2 FALSE TRUE
 ## Admin 493
 # 28772892 Teachers 0,9286252 4 TRUE TRUE
-# 558
+558
+
 # 15850434 Teachers 0,9054198 2 TRUE TRUE
-# 861
+861
+
 # 54100393 Teachers 0,9002476 5 TRUE TRUE
-# 335
+335
+
 # 37220856 Teachers 0,8955650 3 FALSE TRUE
-# 21
-# 199
+21
+199
+
 # 96547039 Teachers 0,8829045 1 TRUE TRUE
-# 147
+147
+
 # 26932091 Unmanag 0,9265301 1 TRUE TRUE
 ed 426
 
@@ -8328,8 +8244,8 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 200
-# 3 Tanpa Bobot - Word2Vec dan Improved Sqrt-Cosine Similarity
+200
+C.3 Tanpa Bobot - Word2Vec dan Improved Sqrt-Cosine Similarity
 Rank Resume ID Position Similarity Rank Relevance Seniority
 
 ## Score Expert
@@ -8378,7 +8294,8 @@ ent
 # GENERAL 126
 # MANAGE
 # R
-# 201
+201
+
 # 39027764 Construct 0,9464103 4 TRUE FALSE
 ion 571
 
@@ -8438,7 +8355,8 @@ and Social 214
 
 ## Media
 ## Executive
-# 202
+202
+
 # 18354623 Digital 0,9467136 2 TRUE FALSE
 and Social 247
 
@@ -8485,8 +8403,8 @@ and Social 663
 
 ## Accounta
 nt
+203
 
-# 203
 # 70541112 Finance 0,9456473 1 TRUE TRUE
 ## Executive 07
 /
@@ -8545,8 +8463,8 @@ t
 # 27330027 Financial 0,9386546 4 FALSE FALSE
 ## Consolida 765
 tion
+204
 
-# 204
 ## Consultan
 t
 
@@ -8596,7 +8514,8 @@ t
 # TECHNOL
 # OGY
 # STAFF
-# 205
+205
+
 # 11676151 INFORMA 0,9474958 1 TRUE TRUE
 # TION & 077
 # TECHNOL
@@ -8642,7 +8561,8 @@ for
 for
 
 ## Apparel
-# 206
+206
+
 # 23917826 Junior 0,9328362 4 FALSE FALSE
 ## Designer 478
 for
@@ -8700,7 +8620,8 @@ and
 ## Security
 # 96260484 Medical 0,9365936 1 FALSE TRUE
 ## Doctor 609
-# 207
+207
+
 # 37402097 Medical 0,9359483 3 FALSE TRUE
 ## Doctor 901
 # 25328428 Medical 0,9357925 5 FALSE TRUE
@@ -8754,7 +8675,8 @@ ng
 # 22732234 Public 0,9386659 3 TRUE TRUE
 ## Relations 303
 ## Officer
-# 208
+208
+
 # 26888302 Quality 0,9380053 2 FALSE FALSE
 ## Control 431
 ## Superviso
@@ -8810,7 +8732,8 @@ ty
 # 28051330 Regional 0,9363337 2 TRUE TRUE
 ## Sales 906
 ## Manager
-# 209
+209
+
 # 22861181 Spare part 0,9482737 1 FALSE FALSE
 ## Admin 396
 # 23917826 Spare part 0,9471226 3 FALSE TRUE
@@ -8822,15 +8745,20 @@ ty
 # 10464113 Spare part 0,9449295 5 FALSE TRUE
 ## Admin 182
 # 28772892 Teachers 0,9642666 5 TRUE TRUE
-# 724
+724
+
 # 15850434 Teachers 0,9575843 2 TRUE TRUE
-# 692
+692
+
 # 58105060 Teachers 0,9521600 4 TRUE FALSE
-# 9
+9
+
 # 37220856 Teachers 0,9496124 3 TRUE FALSE
-# 554
+554
+
 # 48547319 Teachers 0,9471607 1 TRUE FALSE
-# 207
+207
+
 # 26932091 Unmanag 0,9621574 1 TRUE TRUE
 ed 749
 
@@ -8858,8 +8786,8 @@ ed 051
 ## Engagem
 ent Senior
 Associate,
+210
 
-# 210
 ## BPO Field
 ## Sales
 # 13964744 Unmanag 0,9332395 2 FALSE FALSE
@@ -8882,7 +8810,7 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 4 Dengan Bobot - TF-IDF dan Improved Sqrt-Cosine Similarity
+C.4 Dengan Bobot - TF-IDF dan Improved Sqrt-Cosine Similarity
 Rank Resume ID Position Similarity Rank Relevance Seniority
 
 ## Score Expert
@@ -8911,7 +8839,8 @@ nt
 nt
 
 ## Executive
-# 211
+211
+
 # CLUB 0,204517 5 FALSE FALSE 26932091
 # GENERAL 8615
 # MANAGER
@@ -8963,7 +8892,8 @@ e Director / 695
 Director / 5056
 
 ## Manager
-# 212
+212
+
 # Creative 0,134054 1 TRUE TRUE 30864828
 Director / 7236
 
@@ -9007,7 +8937,8 @@ Director / 7236
 ## Chef 3156
 # Executive 0,260057 3 TRUE TRUE 20321582
 ## Chef 9128
-# 213
+213
+
 # Executive 0,249323 1 TRUE TRUE 34252537
 ## Chef 4669
 # Executive 0,246398 5 TRUE TRUE 25924968
@@ -9061,7 +8992,7 @@ on
 ## Consultant
 # Financial 0,194978 1 TRUE TRUE 95792386
 ## Consolidati 4098
-# 214
+214
 on
 
 ## Consultant
@@ -9108,7 +9039,8 @@ on
 # GY STAFF
 # INFORMATI 0,220545 1 TRUE TRUE 39413067
 # ON & 8455
-# 215
+215
+
 # TECHNOLO
 # GY STAFF
 # INFORMATI 0,215223 3 FALSE FALSE 17570634
@@ -9153,8 +9085,8 @@ for Apparel
 # Junior 0,144722 4 FALSE FALSE 26932091
 ## Designer 2826
 for Apparel
+216
 
-# 216
 # Junior 0,142571 3 FALSE FALSE 11722421
 ## Designer 9056
 for Apparel
@@ -9203,7 +9135,8 @@ Safety,
 ## Engineering 7571
 # Production 0,130751 4 FALSE FALSE 30288581
 ## Engineering 2078
-# 217
+217
+
 # Production 0,128543 1 TRUE TRUE 77828437
 ## Engineering 7933
 # Production 0,123889 3 TRUE FALSE 17103000
@@ -9252,8 +9185,8 @@ Supervisor -
 # Quality 0,121937 3 FALSE FALSE 20905088
 ## Control 0839
 Supervisor -
+218
 
-# 218
 ## Corn
 ## Commodity
 # Regional 0,243053 4 FALSE TRUE 26932091
@@ -9282,23 +9215,28 @@ Supervisor -
 # Spare part 0,146112 3 FALSE FALSE 24670867
 ## Admin 3257
 # Teachers 0,250745 4 TRUE TRUE 15850434
-# 2502
+2502
+
 # Teachers 0,213840 3 TRUE TRUE 20399718
-# 2469
+2469
+
 # Teachers 0,200342 5 TRUE TRUE 28772892
-# 6776
+6776
+
 # Teachers 0,196635 2 TRUE TRUE 22056333
-# 771
+771
+
 # Teachers 0,196100 1 TRUE TRUE 96547039
-# 2177
+2177
+
 # Unmanage 0,222177 1 TRUE TRUE 26932091
 d Merchant 0964
 
 ## Engagemen
 t Senior
 Associate,
+219
 
-# 219
 ## BPO Field
 ## Sales
 # Unmanage 0,192196 3 FALSE FALSE 24589765
@@ -9337,7 +9275,7 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 5 Dengan Bobot - Word2Vec dan Cosine Similarity
+C.5 Dengan Bobot - Word2Vec dan Cosine Similarity
 Rank Resume ID Position Similarity Rank Relevance Seniority
 
 ## Score Expert
@@ -9351,7 +9289,8 @@ ent
 ent
 
 ## Executive
-# 220
+220
+
 # 14790629 Business 0,8652020 4 TRUE TRUE
 ## Developm 196
 ent
@@ -9404,8 +9343,8 @@ ion 703
 
 ## Superviso
 r
+221
 
-# 221
 # 27246366 Construct 0,8220116 1 TRUE TRUE
 ion 446
 
@@ -9462,7 +9401,8 @@ and Social 066
 
 ## Media
 ## Executive
-# 222
+222
+
 # 26932091 Digital 0,8992728 4 FALSE TRUE
 ## Banking 761
 ## Officer
@@ -9512,8 +9452,8 @@ nt
 # 28522529 Finance 0,8708689 4 TRUE FALSE
 ## Executive 809
 /
+223
 
-# 223
 ## Accounta
 nt
 
@@ -9574,7 +9514,7 @@ t
 
 # 16877897 Financial 0,8222200 5 FALSE TRUE
 ## Consolida 423
-# 224
+224
 tion
 
 ## Consultan
@@ -9618,7 +9558,8 @@ t
 # 28672970 INFORMA 0,8508172 4 TRUE FALSE
 # TION & 572
 # TECHNOL
-# 225
+225
+
 # OGY
 # STAFF
 # 26341987 INFORMA 0,8465297 2 TRUE FALSE
@@ -9666,7 +9607,8 @@ for
 for
 
 ## Apparel
-# 226
+226
+
 # 13195436 Manager 0,8608590 1 TRUE TRUE
 ## Aviation 662
 Safety,
@@ -9722,8 +9664,8 @@ n 215
 
 ## Engineeri
 ng
+227
 
-# 227
 # 24544244 Productio 0,8070656 3 FALSE FALSE
 n 359
 
@@ -9778,8 +9720,8 @@ r - Corn
 
 ## Commodi
 ty
+228
 
-# 228
 # 26070334 Quality 0,8279247 1 FALSE TRUE
 ## Control 06
 ## Superviso
@@ -9829,17 +9771,23 @@ ty
 ## Admin 705
 # 37764298 Spare part 0,8442025 2 FALSE TRUE
 ## Admin 726
-# 229
+229
+
 # 28772892 Teachers 0,9297527 4 TRUE TRUE
-# 121
+121
+
 # 15850434 Teachers 0,9152821 2 TRUE TRUE
-# 211
+211
+
 # 54100393 Teachers 0,9012950 5 TRUE TRUE
-# 182
+182
+
 # 37220856 Teachers 0,8875992 3 FALSE TRUE
-# 112
+112
+
 # 20399718 Teachers 0,8841772 1 TRUE TRUE
-# 63
+63
+
 # 26932091 Unmanag 0,9252712 1 TRUE TRUE
 ed 045
 
@@ -9884,14 +9832,15 @@ Associate,
 ed 194
 
 ## Merchant
-# 230
+230
+
 ## Engagem
 ent Senior
 Associate,
 
 ## BPO Field
 ## Sales
-# 6 Dengan Bobot - Word2Vec dan Improved Sqrt-Cosine Similarity
+C.6 Dengan Bobot - Word2Vec dan Improved Sqrt-Cosine Similarity
 Rank Resume ID Position Similarity Rank Relevance Seniority
 
 ## Score Expert
@@ -9916,7 +9865,8 @@ ent
 
 ## Executive
 # 27715131 0,9436823 3 TRUE TRUE
-# 33
+33
+
 # 13411858 CLUB 0,9527268 4 FALSE TRUE
 # GENERAL 773
 # MANAGE
@@ -9931,7 +9881,8 @@ ent
 # R
 # 10464113 CLUB 0,9477072 5 FALSE FALSE
 # GENERAL 07
-# 231
+231
+
 # MANAGE
 # R
 # 24727739 CLUB 0,9474657 3 FALSE FALSE
@@ -9989,8 +9940,8 @@ Director / 609
 ## Manager
 # 18905648 Digital 0,9553223 2 TRUE TRUE
 and Social 582
+232
 
-# 232
 ## Media
 ## Executive
 # 18354623 Digital 0,9542773 3 TRUE TRUE
@@ -10036,7 +9987,8 @@ and Social 079
 ## Chef 364
 # 16924102 Executive 0,9497517 2 TRUE TRUE
 ## Chef 649
-# 233
+233
+
 # 10276858 Executive 0,9491744 3 TRUE FALSE
 ## Chef 926
 # 23636277 Finance 0,9531494 3 TRUE TRUE
@@ -10096,7 +10048,7 @@ Jr/Sr.)
 
 # 70541112 Financial 0,9419954 1 TRUE TRUE
 ## Consolida 621
-# 234
+234
 tion
 
 ## Consultan
@@ -10148,7 +10100,8 @@ t
 ## Specialist 406
 # 24508725 HR 0,9461360 1 TRUE TRUE
 ## Specialist 144
-# 235
+235
+
 # 11289482 HR 0,9453240 4 FALSE FALSE
 ## Specialist 462
 # 28471099 INFORMA 0,9529981 3 FALSE FALSE
@@ -10193,7 +10146,7 @@ t
 ## Lawyer
 # 26932091 Junior 0,9411121 2 FALSE FALSE
 ## Designer 762
-# 236
+236
 for
 
 ## Apparel
@@ -10252,8 +10205,8 @@ and
 # 35651876 Manager 0,9394215 4 FALSE FALSE
 ## Aviation 969
 Safety,
+237
 
-# 237
 ## Quality
 and
 
@@ -10307,7 +10260,8 @@ ng
 # 13115648 Public 0,9423968 5 FALSE FALSE
 ## Relations 156
 ## Officer
-# 238
+238
+
 # 27000192 Public 0,9418473 3 TRUE FALSE
 ## Relations 849
 ## Officer
@@ -10363,7 +10317,8 @@ ty
 # 14790629 Regional 0,9382742 4 FALSE FALSE
 ## Sales 131
 ## Manager
-# 239
+239
+
 # 23917826 Regional 0,9381668 5 FALSE TRUE
 ## Sales 276
 ## Manager
@@ -10381,15 +10336,20 @@ ty
 # 23917826 Spare part 0,9474161 4 FALSE TRUE
 ## Admin 594
 # 28772892 Teachers 0,9650821 5 TRUE TRUE
-# 12
+12
+
 # 15850434 Teachers 0,9614404 2 TRUE TRUE
-# 383
+383
+
 # 58105060 Teachers 0,9525103 4 TRUE FALSE
-# 733
+733
+
 # 20399718 Teachers 0,9482750 1 TRUE TRUE
-# 764
+764
+
 # 46055835 Teachers 0,9476272 3 FALSE FALSE
-# 471
+471
+
 # 26932091 Unmanag 0,9595202 1 TRUE TRUE
 ed 941
 
@@ -10410,7 +10370,8 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 240
+240
+
 # 11289482 Unmanag 0,9400499 4 TRUE TRUE
 ed 924
 
@@ -10441,18 +10402,19 @@ Associate,
 
 ## BPO Field
 ## Sales
-# 241
+241
+
 # LAMPIRAN D GRAFIK GARIS TIGA PARAMETER SETIAP
 # KUALIFIKASI LOWONGAN KERJA
-# 242
-# 243
-# 244
-# 245
-# 246
-# 247
-# 248
-# 249
-# 250
-# 251
-# 252
-# 253
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
